@@ -1,6 +1,7 @@
 import os
 import subprocess
 import sys
+import shutil
 
 def check_ffmpeg():
     """Checks if ffmpeg is accessible."""
@@ -225,11 +226,14 @@ def download_audio_segment(urls_file="urls.txt", output_dir="dataset_audio", dur
     print(f"Failed extractions or critical errors: {fail_count}")
     print(f"Check the '{output_dir}' directory for downloaded audio segments.")
 
-if __name__ == "__main__":
-    import shutil
-
+def pipeline():
+    """
+    Main function to run the script.
+    """
     print(">>> Starting Full Video Download Process <<<")
     download_videos_with_transcripts(urls_file="urls.txt", output_dir="dataset")
     print("\n--------------------------------------------\n")
     print(">>> Starting Background Noise Audio Segment Download Process <<<")
     download_audio_segment(urls_file="background_noise.txt", output_dir="dataset_background_noise", duration_minutes=10)
+if __name__ == "__main__":
+    pipeline()

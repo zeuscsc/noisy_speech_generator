@@ -1,234 +1,286 @@
 import os
-import shutil
 from pydub import AudioSegment
 import glob
 import multiprocessing
-from concurrent.futures import ThreadPoolExecutor
 from functools import partial
 import time
 
-# --- Worker function for audio processing ---
-def process_single_audio_file(audio_file_path, output_base_dir, chunk_sizes_seconds):
+def vtt_time_to_ms(vtt_time_str):
+    """Converts VTT timestamp (HH:MM:SS.mmm or MM:SS.mmm) to milliseconds."""
+    parts = vtt_time_str.split(':')
+    if len(parts) == 3: 
+        h, m, s_ms = parts
+    elif len(parts) == 2: 
+        h = 0 
+        m, s_ms = parts
+    else:
+        if '.' in vtt_time_str and len(parts) == 1:
+            h = 0
+            m = 0
+            s_ms = parts[0]
+        else:
+            raise ValueError(f"Invalid VTT time format: {vtt_time_str}")
+    
+    s_ms_parts = s_ms.split('.')
+    s = int(s_ms_parts[0])
+    ms = int(s_ms_parts[1]) if len(s_ms_parts) > 1 else 0 
+    
+    return (int(h) * 3600 + int(m) * 60 + s) * 1000 + ms
+
+def ms_to_vtt_time(ms_time):
+    """Converts milliseconds to VTT timestamp (HH:MM:SS.mmm)."""
+    if ms_time < 0:
+        ms_time = 0 
+    seconds_total = ms_time // 1000
+    milliseconds = ms_time % 1000
+    minutes_total = seconds_total // 60
+    seconds = seconds_total % 60
+    hours = minutes_total // 60
+    minutes = minutes_total % 60
+    return f"{int(hours):02d}:{int(minutes):02d}:{int(seconds):02d}.{int(milliseconds):03d}"
+
+def parse_vtt_content(vtt_content_str):
+    """
+    Parses VTT file content string into a list of cues.
+    Each cue is a dictionary: {'start_ms', 'end_ms', 'text_lines', 'raw_cue_lines'}
+    """
+    lines = vtt_content_str.strip().splitlines()
+    cues = []
+    idx = 0
+    
+    while idx < len(lines):
+        if "-->" in lines[idx] or lines[idx].strip() == "":
+            break
+        idx +=1
+
+    current_cue_lines = []
+    while idx < len(lines):
+        line = lines[idx].strip()
+        if not line: 
+            if current_cue_lines and "-->" in current_cue_lines[0]:
+                try:
+                    time_line = current_cue_lines[0]
+                    text_content_lines = current_cue_lines[1:]
+                    start_str, end_str = time_line.split("-->")
+                    end_str_cleaned = end_str.strip().split(' ')[0]
+
+                    start_ms = vtt_time_to_ms(start_str.strip())
+                    end_ms = vtt_time_to_ms(end_str_cleaned)
+                    
+                    cues.append({
+                        "start_ms": start_ms,
+                        "end_ms": end_ms,
+                        "text_lines": [l for l in text_content_lines if l], 
+                        "raw_cue_lines": list(current_cue_lines) 
+                    })
+                except ValueError as e:
+                    pass 
+                except IndexError:
+                    pass
+                current_cue_lines = []
+            idx += 1
+            continue
+        
+        current_cue_lines.append(line)
+        idx += 1
+
+    if current_cue_lines and "-->" in current_cue_lines[0]:
+        try:
+            time_line = current_cue_lines[0]
+            text_content_lines = current_cue_lines[1:]
+            start_str, end_str = time_line.split("-->")
+            end_str_cleaned = end_str.strip().split(' ')[0]
+            start_ms = vtt_time_to_ms(start_str.strip())
+            end_ms = vtt_time_to_ms(end_str_cleaned)
+            cues.append({
+                "start_ms": start_ms,
+                "end_ms": end_ms,
+                "text_lines": [l for l in text_content_lines if l],
+                "raw_cue_lines": list(current_cue_lines)
+            })
+        except ValueError as e:
+            pass
+        except IndexError:
+            pass
+            
+    return cues
+
+
+def create_vtt_chunk_from_cues(all_cues, chunk_start_ms, chunk_end_ms):
+    """
+    Creates VTT content for a specific time chunk from a list of parsed cues.
+    Keeps original timestamps for cues that overlap with the chunk window.
+    """
+    chunk_vtt_parts = ["WEBVTT", ""] 
+    found_entry_in_chunk = False
+    for cue in all_cues:
+        if cue["start_ms"] < chunk_end_ms and cue["end_ms"] > chunk_start_ms:
+            time_header = f"{ms_to_vtt_time(cue['start_ms'])} --> {ms_to_vtt_time(cue['end_ms'])}"
+            
+            original_time_line = ""
+            if cue.get("raw_cue_lines"):
+                original_time_line = cue["raw_cue_lines"][0]
+                if "-->" in original_time_line:
+                    original_parts = original_time_line.split("-->")
+                    original_end_part = original_parts[1].strip()
+                    if ' ' in original_end_part: 
+                        time_header = f"{ms_to_vtt_time(cue['start_ms'])} --> {original_end_part}"
+            chunk_vtt_parts.append(time_header)
+            chunk_vtt_parts.extend(cue["text_lines"])
+            chunk_vtt_parts.append("") 
+            found_entry_in_chunk = True
+    if not found_entry_in_chunk:
+        return None 
+    return "\n".join(chunk_vtt_parts)
+
+def process_single_audio_and_transcript_file(audio_file_path, output_base_dir, chunk_sizes_seconds, base_input_transcript_dir):
     """
     Processes a single audio file: loads, chunks, and saves it.
-    Skips if chunks already exist for all specified sizes for this audio's noisy level.
+    Also finds the corresponding transcript, chunks it, and saves parts next to audio chunks.
     """
+    pid = os.getpid()
+    processed_audio_chunks_count = 0
+    created_transcript_chunks_count = 0
+    
     try:
         audio_filename = os.path.basename(audio_file_path)
-        noisy_level_folder_name = os.path.splitext(audio_filename)[0]
+        noisy_level_folder_name = os.path.splitext(audio_filename)[0] 
         youtube_video_id = os.path.basename(os.path.dirname(audio_file_path))
 
         if not youtube_video_id:
-            print(f"Could not determine YouTube Video ID for: {audio_file_path} in PID {os.getpid()}. Skipping.")
-            return None
+            return None, 0, 0 
         if not noisy_level_folder_name:
-            print(f"Could not determine noisy level for: {audio_file_path} in PID {os.getpid()}. Skipping.")
-            return None
-
-        # --- Check if already chunked ---
-        all_chunks_exist_for_this_noisy_level = True
-        if not chunk_sizes_seconds: # Should not happen with current setup but good for robustness
-            all_chunks_exist_for_this_noisy_level = False
-        else:
-            for cs_s in chunk_sizes_seconds:
-                # Path: chunked_dataset/{youtube_video_id}/chunk_{chunk_size_s}/{noisy_level_folder_name}/
-                target_chunk_dir = os.path.join(output_base_dir, youtube_video_id, f"chunk_{cs_s}", noisy_level_folder_name)
-                if not (os.path.isdir(target_chunk_dir) and os.listdir(target_chunk_dir)):
-                    all_chunks_exist_for_this_noisy_level = False
+            return youtube_video_id, 0, 0
+        original_vtt_cues = None
+        transcript_dir_for_video_id = os.path.join(base_input_transcript_dir, youtube_video_id)
+        if os.path.isdir(transcript_dir_for_video_id):
+            found_transcript_filename = None
+            for f_name in sorted(os.listdir(transcript_dir_for_video_id)):
+                if f_name.endswith(".whisper.auto.vtt"):
+                    found_transcript_filename = f_name
                     break
-        
-        if all_chunks_exist_for_this_noisy_level:
-            # print(f"[PID {os.getpid()}] Audio for {youtube_video_id}/{noisy_level_folder_name} already chunked. Skipping audio processing.")
-            return youtube_video_id # Return ID for transcript check consistency
-
-        # --- If not all chunks exist, proceed with processing ---
-        # print(f"[PID {os.getpid()}] Processing: {audio_file_path} (ID: {youtube_video_id}, Noise: {noisy_level_folder_name})")
-
+            if not found_transcript_filename:
+                for f_name in sorted(os.listdir(transcript_dir_for_video_id)):
+                    if f_name.endswith(".vtt"):
+                        found_transcript_filename = f_name
+                        break
+            if found_transcript_filename:
+                original_transcript_path = os.path.join(transcript_dir_for_video_id, found_transcript_filename)
+                try:
+                    with open(original_transcript_path, 'r', encoding='utf-8') as f:
+                        vtt_content_str = f.read()
+                    original_vtt_cues = parse_vtt_content(vtt_content_str)
+                    if not original_vtt_cues:
+                        pass
+                except Exception as e:
+                    print(f"[PID {pid}] Error reading/parsing transcript {original_transcript_path} for {youtube_video_id}: {e}")
+                    original_vtt_cues = None 
         video_id_base_output_dir = os.path.join(output_base_dir, youtube_video_id)
-        os.makedirs(video_id_base_output_dir, exist_ok=True)
-
         try:
             audio = AudioSegment.from_mp3(audio_file_path)
         except Exception as e:
-            print(f"Error loading audio file {audio_file_path} in PID {os.getpid()}: {e}. Skipping.")
-            return youtube_video_id
+            print(f"[PID {pid}] Error loading audio file {audio_file_path}: {e}. Skipping audio and related transcript processing.")
+            return youtube_video_id, 0, 0
 
         for chunk_size_s in chunk_sizes_seconds:
-            # Output: chunked_dataset/{youtube_video_id}/chunk_{chunk_size_s}/
             chunk_size_specific_dir = os.path.join(video_id_base_output_dir, f"chunk_{chunk_size_s}")
-            # Output: chunked_dataset/{youtube_video_id}/chunk_{chunk_size_s}/{noisy_level}/
             noisy_level_specific_chunk_output_dir = os.path.join(chunk_size_specific_dir, noisy_level_folder_name)
             os.makedirs(noisy_level_specific_chunk_output_dir, exist_ok=True)
-
             chunk_length_ms = chunk_size_s * 1000
             for i, start_ms in enumerate(range(0, len(audio), chunk_length_ms)):
                 end_ms = start_ms + chunk_length_ms
                 chunk = audio[start_ms:end_ms]
-                chunk_filename = f"audio_{i}.mp3"
-                chunk_filepath = os.path.join(noisy_level_specific_chunk_output_dir, chunk_filename)
-                try:
-                    chunk.export(chunk_filepath, format="mp3")
-                except Exception as e:
-                    print(f"Error saving chunk {chunk_filepath} in PID {os.getpid()}: {e}")
-        return youtube_video_id
+                
+                audio_chunk_filename = f"audio_{i}.mp3"
+                audio_chunk_filepath = os.path.join(noisy_level_specific_chunk_output_dir, audio_chunk_filename)
+                
+                transcript_chunk_filename = f"audio_{i}.vtt" 
+                transcript_chunk_filepath = os.path.join(noisy_level_specific_chunk_output_dir, transcript_chunk_filename)
+
+                if not os.path.exists(audio_chunk_filepath) or os.path.getsize(audio_chunk_filepath) == 0:
+                    try:
+                        chunk.export(audio_chunk_filepath, format="mp3")
+                        processed_audio_chunks_count += 1
+                    except Exception as e:
+                        print(f"[PID {pid}] Error saving audio chunk {audio_chunk_filepath}: {e}")
+                if original_vtt_cues: 
+                    if not os.path.exists(transcript_chunk_filepath):
+                        chunk_vtt_str = create_vtt_chunk_from_cues(original_vtt_cues, start_ms, end_ms)
+                        if chunk_vtt_str:
+                            try:
+                                with open(transcript_chunk_filepath, 'w', encoding='utf-8') as f_chunk:
+                                    f_chunk.write(chunk_vtt_str)
+                                created_transcript_chunks_count += 1
+                            except Exception as e:
+                                print(f"[PID {pid}] Error writing transcript chunk {transcript_chunk_filepath}: {e}")
+                
+        return youtube_video_id, processed_audio_chunks_count, created_transcript_chunks_count
+
     except Exception as e:
-        print(f"Unhandled error processing {audio_file_path} in PID {os.getpid()}: {e}")
+        print(f"[PID {os.getpid()}] Unhandled error processing {audio_file_path} (or its transcript): {e}")
         try:
-            return os.path.basename(os.path.dirname(audio_file_path)) # Attempt to return ID if path known
+            return os.path.basename(os.path.dirname(audio_file_path)), processed_audio_chunks_count, created_transcript_chunks_count
         except: #pylint: disable=bare-except
-            return None
+            return None, processed_audio_chunks_count, created_transcript_chunks_count
 
-
-# --- Worker function for transcript copying ---
-def copy_single_transcript(video_id, base_input_transcript_dir, output_base_dir):
-    """
-    Copies a transcript file for the given video_id.
-    Searches for .whisper.auto.vtt, then any .vtt file.
-    """
-    try:
-        transcript_dir_for_video_id = os.path.join(base_input_transcript_dir, video_id)
-        if not os.path.isdir(transcript_dir_for_video_id):
-            # This specific message is fine, no need to print if it's a common case of no transcript
-            # print(f"Transcript directory not found for {video_id} at {transcript_dir_for_video_id}.")
-            return video_id, False # False indicates transcript not found/copied
-
-        found_transcript_filename = None
-        # Priority 1: Specific pattern
-        for f_name in sorted(os.listdir(transcript_dir_for_video_id)): # sorted for consistent choice if multiple
-            if f_name.endswith(".whisper.auto.vtt"):
-                found_transcript_filename = f_name
-                break
-        
-        # Priority 2: Any .vtt file
-        if not found_transcript_filename:
-            for f_name in sorted(os.listdir(transcript_dir_for_video_id)):
-                if f_name.endswith(".vtt"):
-                    found_transcript_filename = f_name
-                    break
-        
-        # Add more fallbacks here if needed (e.g., .srt, .txt)
-
-        if not found_transcript_filename:
-            # print(f"No suitable transcript file (.whisper.auto.vtt or .vtt) found for {video_id} in {transcript_dir_for_video_id}.")
-            return video_id, False
-
-        transcript_source_path = os.path.join(transcript_dir_for_video_id, found_transcript_filename)
-        
-        # Output path: chunked_dataset/{youtube_video_id}/{found_transcript_filename}
-        transcript_dest_dir = os.path.join(output_base_dir, video_id)
-        os.makedirs(transcript_dest_dir, exist_ok=True)
-        transcript_dest_path = os.path.join(transcript_dest_dir, found_transcript_filename)
-
-        # Avoid re-copying if already there (optional, shutil.copy2 might overwrite or error depending on OS and perms)
-        if os.path.exists(transcript_dest_path) and os.path.getsize(transcript_dest_path) == os.path.getsize(transcript_source_path):
-            # print(f"[Thread] Transcript {found_transcript_filename} already exists for {video_id}. Skipping copy.")
-            return video_id, True
-
-
-        shutil.copy2(transcript_source_path, transcript_dest_path)
-        # print(f"[Thread] Copied transcript {found_transcript_filename} for {video_id} to {transcript_dest_path}")
-        return video_id, True
-    except Exception as e:
-        print(f"Error copying transcript for {video_id}: {e}")
-        return video_id, False
-
-# --- Main processing function ---
-def create_chunked_dataset_parallel(base_input_audio_dir, base_input_transcript_dir, output_base_dir, num_audio_processes=None, num_transcript_threads=None):
+def create_chunked_dataset_parallel(base_input_audio_dir, base_input_transcript_dir, output_base_dir, num_processes=None):
     start_time = time.time()
 
     if not os.path.exists(output_base_dir):
         os.makedirs(output_base_dir, exist_ok=True)
         print(f"Created base output directory: {output_base_dir}")
 
-    chunk_sizes_seconds = [8, 30, 60]
+    chunk_sizes_seconds = [8, 30, 60] 
 
-    audio_files = glob.glob(os.path.join(base_input_audio_dir, "*", "*.mp3"))
+    audio_files = glob.glob(os.path.join(base_input_audio_dir, "*", "*.mp3")) 
     if not audio_files:
         print(f"No MP3 files found in subdirectories of {base_input_audio_dir}. Exiting.")
         return
 
     print(f"Found {len(audio_files)} audio files to potentially process.")
 
-    print(f"\n--- Starting Parallel Audio Chunking (using up to {num_audio_processes or os.cpu_count()} processes) ---")
-    audio_worker_func = partial(process_single_audio_file,
-                                output_base_dir=output_base_dir,
-                                chunk_sizes_seconds=chunk_sizes_seconds)
-
-    processed_video_ids_for_transcripts = set()
-    audio_processing_results = [] # To store (file_path, success_boolean_or_None)
+    actual_num_processes = num_processes or os.cpu_count()
+    print(f"\n--- Starting Parallel Audio and Transcript Chunking (using up to {actual_num_processes} processes) ---")
     
-    with multiprocessing.Pool(processes=num_audio_processes) as pool:
-        # Each call to audio_worker_func returns a youtube_video_id (str) or None
-        results_video_ids = pool.map(audio_worker_func, audio_files)
+    worker_func = partial(process_single_audio_and_transcript_file,
+                          output_base_dir=output_base_dir,
+                          chunk_sizes_seconds=chunk_sizes_seconds,
+                          base_input_transcript_dir=base_input_transcript_dir)
 
-    skipped_audio_count = 0
-    actually_processed_audio_count = 0 # Files for which chunking was attempted (not skipped)
+    processed_video_ids = set()
+    total_audio_chunks_processed = 0
+    total_transcript_chunks_created = 0
     
-    for i, video_id_result in enumerate(results_video_ids):
-        original_audio_file = audio_files[i]
-        if video_id_result:
-            processed_video_ids_for_transcripts.add(video_id_result)
-            # Check if it was skipped by checking original logic for skipping
-            # This is a bit of a re-check, ideally worker returns more info
-            # For now, assume if ID is returned, it was either processed or intended for transcript check
-            # Let's refine this logic. The worker returns ID even if skipped.
-            # We need a way to distinguish skipped from processed.
-            # The print log from worker is the main indicator now.
-            # A simple count: if an ID is returned, we consider it "handled" for audio part.
-        # The current logic doesn't easily distinguish skipped from processed from worker's return alone.
-        # The print "(already chunked)" from the worker indicates skipped files.
-        # We'll rely on the set `processed_video_ids_for_transcripts` for transcript step.
-        
-    # A more accurate count of processed vs skipped would involve changing worker return value
-    # or re-evaluating the skip condition here.
-    # For now, the number of unique IDs is `len(processed_video_ids_for_transcripts)`.
+    with multiprocessing.Pool(processes=actual_num_processes) as pool:
+        results = pool.map(worker_func, audio_files)
 
-    print(f"--- Finished Audio Chunking Phase ---")
-    print(f"Collected {len(processed_video_ids_for_transcripts)} unique video IDs for transcript processing based on audio file discovery.")
+    files_where_audio_chunks_were_made = 0
+    files_where_transcript_chunks_were_made = 0
 
-    if not processed_video_ids_for_transcripts:
-        print("No video IDs eligible for transcript processing. Skipping transcript copying.")
-    elif not os.path.exists(base_input_transcript_dir):
-        print(f"Transcript directory {base_input_transcript_dir} does not exist. Skipping transcript copying.")
-    else:
-        print(f"\n--- Starting Parallel Transcript Copying (using up to {num_transcript_threads or (os.cpu_count() * 2)} threads) for {len(processed_video_ids_for_transcripts)} unique video IDs ---")
-        transcript_worker_func = partial(copy_single_transcript,
-                                         base_input_transcript_dir=base_input_transcript_dir,
-                                         output_base_dir=output_base_dir)
-
-        successful_copies = 0
-        failed_or_missing_copies = 0
-        with ThreadPoolExecutor(max_workers=num_transcript_threads) as executor:
-            future_results = [executor.submit(transcript_worker_func, video_id) for video_id in processed_video_ids_for_transcripts]
-            for future in future_results:
-                _video_id, success = future.result() # result() will block until future is done
-                if success:
-                    successful_copies += 1
-                else:
-                    failed_or_missing_copies += 1
-        
-        print(f"--- Finished Transcript Copying ---")
-        print(f"Successfully copied {successful_copies} transcripts.")
-        if failed_or_missing_copies > 0:
-            print(f"Failed to copy or transcript not found for {failed_or_missing_copies} video IDs.")
-
+    for video_id_result, audio_chunks_count, transcript_chunks_count in results:
+        if video_id_result: 
+            processed_video_ids.add(video_id_result)
+            if audio_chunks_count > 0:
+                files_where_audio_chunks_were_made +=1
+            if transcript_chunks_count > 0:
+                files_where_transcript_chunks_were_made +=1
+            total_audio_chunks_processed += audio_chunks_count
+            total_transcript_chunks_created += transcript_chunks_count
+            
+    print(f"--- Finished Audio and Transcript Chunking Phase ---")
+    print(f"Checked/Processed {len(audio_files)} source audio files corresponding to {len(processed_video_ids)} unique video IDs.")
+    print(f"Audio chunking operations were performed for {files_where_audio_chunks_were_made} source audio files.")
+    print(f"Total individual audio chunks saved (new or overwritten): {total_audio_chunks_processed}.")
+    print(f"Transcript chunking operations were performed for {files_where_transcript_chunks_were_made} source audio files.")
+    print(f"Total individual transcript chunks created (new or overwritten): {total_transcript_chunks_created}.")
+    
     end_time = time.time()
     print(f"\n--- Total Processing Complete in {end_time - start_time:.2f} seconds ---")
 
+def pipeline():
+    multiprocessing.freeze_support() 
 
-# --- Configuration ---
-current_working_directory = os.getcwd()
-input_audio_directory = os.path.join(current_working_directory, "output_noisy_audio")
-input_transcript_directory = os.path.join(current_working_directory, "dataset")
-output_chunked_directory = os.path.join(current_working_directory, "chunked_dataset")
-
-
-# --- Run the process ---
-if __name__ == "__main__":
-    multiprocessing.freeze_support()
-
-    NUM_AUDIO_PROCESSES = None 
-    NUM_TRANSCRIPT_THREADS = None 
+    NUM_PROCESSES = None 
 
     print(f"Starting dataset processing at {time.strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"Input Audio Directory: {input_audio_directory}")
@@ -238,15 +290,22 @@ if __name__ == "__main__":
     if not os.path.isdir(input_audio_directory):
         print(f"ERROR: Input audio directory not found: {input_audio_directory}")
         exit()
-    if not os.path.isdir(input_transcript_directory): # Still check, as it's expected by the transcript copy part
-        print(f"WARNING: Input transcript directory not found: {input_transcript_directory}. Transcript copying will be skipped for all files.")
-        # Allow to continue for audio-only processing if desired, but current logic will just print "skipping"
-        # For full skip, the create_chunked_dataset_parallel would need modification or a flag.
+    if not os.path.isdir(input_transcript_directory):
+        print(f"WARNING: Base input transcript directory not found: {input_transcript_directory}. Transcript chunking will likely be skipped for most/all files unless video-specific transcript folders exist unexpectedly.")
 
     create_chunked_dataset_parallel(
         input_audio_directory,
         input_transcript_directory,
         output_chunked_directory,
-        num_audio_processes=NUM_AUDIO_PROCESSES,
-        num_transcript_threads=NUM_TRANSCRIPT_THREADS
+        num_processes=NUM_PROCESSES
     )
+
+
+current_working_directory = os.getcwd()
+input_audio_directory = os.path.join(current_working_directory, "output_noisy_audio")
+input_transcript_directory = os.path.join(current_working_directory, "dataset") 
+output_chunked_directory = os.path.join(current_working_directory, "chunked_dataset")
+
+
+if __name__ == "__main__":
+    pipeline()

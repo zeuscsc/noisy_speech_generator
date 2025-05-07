@@ -3,7 +3,6 @@ import os
 import glob
 import multiprocessing
 
-# get_media_duration function remains the same
 def get_media_duration(file_path):
     """Gets the duration of a media file in seconds using ffprobe."""
     try:
@@ -16,7 +15,6 @@ def get_media_duration(file_path):
         print(f"An unexpected error occurred while probing {file_path}: {e}")
         return None
 
-# combine_audio_with_noise function remains the same
 def combine_audio_with_noise(video_path, noise_path, output_path, noise_level_factor, video_duration_seconds):
     """
     Combines audio from a video with background noise from a single specified noise file
@@ -26,7 +24,6 @@ def combine_audio_with_noise(video_path, noise_path, output_path, noise_level_fa
     noise_filename_display = os.path.splitext(os.path.basename(noise_path))[0] if noise_path else "NoNoise"
     process_id = os.getpid()
 
-    # Ensure the directory for the output_path exists (it should be created in main, but good for robustness if function is called directly)
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
     if os.path.exists(output_path):
@@ -79,15 +76,12 @@ def combine_audio_with_noise(video_path, noise_path, output_path, noise_level_fa
         print(f"[PID:{process_id}] Unexpected error with video '{video_filename_base}', noise '{noise_filename_display}', level {noise_level_factor*100:.0f}%: {e}")
 
 
-def main():
+def pipeline():
     video_dataset_root = "dataset"
     single_master_noise_file = "final_mixed_audio_limited.mp3"
-    # This is the base directory. Subdirectories for each video_id will be created inside this.
     output_audio_dir_base = "output_noisy_audio"
     noise_levels_percentage = [0, 25, 50, 75, 100, 150, 200]
 
-    # This initial creation is for the base directory.
-    # Specific subdirectories will be created per video_id.
     os.makedirs(output_audio_dir_base, exist_ok=True)
 
     if any(level > 0 for level in noise_levels_percentage):
@@ -96,7 +90,6 @@ def main():
             print("Processing will only generate 0% noise files if 0% is in levels, or no files otherwise.")
 
     print("Discovering video files...")
-    # Assuming video files are in format: dataset/{youtube_video_id}/video.mp4
     video_files = glob.glob(os.path.join(video_dataset_root, "*", "*.mp4"))
 
     if not video_files:
@@ -104,14 +97,11 @@ def main():
         return
 
     print(f"Found {len(video_files)} video files.")
-    # master_noise_id is no longer needed for the new output path format
-    # master_noise_id = os.path.splitext(os.path.basename(single_master_noise_file))[0]
 
     tasks_to_process = []
     skipped_tasks_count = 0
     print("Preparing tasks for parallel execution...")
     for video_file_path in video_files:
-        # This assumes the parent directory of the video file is the {youtube_video_id}
         video_id = os.path.basename(os.path.dirname(video_file_path))
         video_duration = get_media_duration(video_file_path)
 
@@ -119,22 +109,14 @@ def main():
             print(f"Skipping video {video_file_path} (in main process) due to error in getting duration.")
             continue
 
-        # ---- MODIFICATION START ----
-        # Create the output directory specific to this video_id
-        # This will be output_noisy_audio/{youtube_video_id}/
         video_specific_output_dir = os.path.join(output_audio_dir_base, video_id)
         os.makedirs(video_specific_output_dir, exist_ok=True)
-        # ---- MODIFICATION END ----
 
         for level_percent in noise_levels_percentage:
             noise_factor = level_percent / 100.0
 
-            # ---- MODIFICATION START ----
-            # New output filename format: noisy_{percent}.mp3
             output_filename = f"noisy_{level_percent}.mp3"
-            # New full output path: output_noisy_audio/{youtube_video_id}/noisy_{percent}.mp3
             full_output_path = os.path.join(video_specific_output_dir, output_filename)
-            # ---- MODIFICATION END ----
 
             if os.path.exists(full_output_path):
                 print(f"Output file {full_output_path} already exists. Skipping task.")
@@ -172,4 +154,4 @@ def main():
     print("\nParallel processing complete.")
 
 if __name__ == "__main__":
-    main()
+    pipeline()

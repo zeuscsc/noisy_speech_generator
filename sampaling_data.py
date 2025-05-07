@@ -3,29 +3,15 @@ import random
 import shutil
 
 def find_transcript_file(video_id_level_path, video_id):
-    """
-    Searches for a transcript file associated with a video_id within its directory.
-    Prioritizes specific patterns and common transcript file extensions.
-
-    Args:
-        video_id_level_path (str): The path to the directory for the video_id
-                                   (e.g., chunked_dataset/0Ejp6yyU5bo/).
-        video_id (str): The video identifier.
-
-    Returns:
-        str: The full path to the found transcript file, or None if not found.
-    """
     if not os.path.isdir(video_id_level_path):
         return None
 
     files_in_dir = [f for f in os.listdir(video_id_level_path) if os.path.isfile(os.path.join(video_id_level_path, f))]
 
-    # 1. Exact match for "VIDEOID.whisper.auto.vtt"
     exact_match_pattern = f"{video_id}.whisper.auto.vtt"
     if exact_match_pattern in files_in_dir:
         return os.path.join(video_id_level_path, exact_match_pattern)
 
-    # 2. Starts with VIDEOID, contains ".whisper", ends with ".vtt"
     potential_files = []
     for fname in files_in_dir:
         if fname.startswith(video_id) and ".whisper" in fname and fname.endswith(".vtt"):
@@ -33,7 +19,6 @@ def find_transcript_file(video_id_level_path, video_id):
     if potential_files:
         return os.path.join(video_id_level_path, sorted(potential_files)[0])
 
-    # 3. Starts with VIDEOID, ends with ".vtt"
     potential_files = []
     for fname in files_in_dir:
         if fname.startswith(video_id) and fname.endswith(".vtt"):
@@ -41,21 +26,18 @@ def find_transcript_file(video_id_level_path, video_id):
     if potential_files:
         return os.path.join(video_id_level_path, sorted(potential_files)[0])
 
-    # 4. Starts with VIDEOID, contains ".whisper", and ends with common text extensions
     potential_files = []
     common_text_extensions = (".vtt", ".srt", ".txt")
     for fname in files_in_dir:
         if fname.startswith(video_id) and ".whisper" in fname and fname.endswith(common_text_extensions):
             potential_files.append(fname)
     if potential_files:
-        # Prioritize by specific extension order within this group if multiple types found
         for ext_priority in common_text_extensions:
             for pfname in sorted(potential_files):
                 if pfname.endswith(ext_priority):
                     return os.path.join(video_id_level_path, pfname)
-        return os.path.join(video_id_level_path, sorted(potential_files)[0]) # Fallback if specific ext order doesn't hit
+        return os.path.join(video_id_level_path, sorted(potential_files)[0]) 
 
-    # 5. Starts with VIDEOID, ends with ".srt"
     potential_files = []
     for fname in files_in_dir:
         if fname.startswith(video_id) and fname.endswith(".srt"):
@@ -63,7 +45,6 @@ def find_transcript_file(video_id_level_path, video_id):
     if potential_files:
         return os.path.join(video_id_level_path, sorted(potential_files)[0])
 
-    # 6. Starts with VIDEOID, ends with ".txt"
     potential_files = []
     for fname in files_in_dir:
         if fname.startswith(video_id) and fname.endswith(".txt"):
@@ -71,22 +52,12 @@ def find_transcript_file(video_id_level_path, video_id):
     if potential_files:
         return os.path.join(video_id_level_path, sorted(potential_files)[0])
         
-    return None # No suitable transcript file found by defined rules
+    return None
 
 def analyze_and_extract_audios(base_dataset_path, new_dataset_folder_path):
-    """
-    Analyzes a dataset to find chunk types, then randomly extracts audio files
-    and their transcripts for each chunk type into a new dataset folder.
-    Includes a robust search for transcript files.
-
-    Args:
-        base_dataset_path (str): The path to the source 'chunked_dataset'.
-        new_dataset_folder_path (str): The path where the new dataset will be created.
-    """
     source_dataset_dir = base_dataset_path
     output_dataset_dir = new_dataset_folder_path
 
-    # --- Step 1: Discover Chunk Categories and Collect Audio File Information ---
     chunk_categories = set()
     audio_files_by_category = {}
 
@@ -136,7 +107,6 @@ def analyze_and_extract_audios(base_dataset_path, new_dataset_folder_path):
         count = len(audio_files_by_category.get(category, []))
         print(f"- Type: {category} (Found {count} audio files)")
 
-    # --- Step 2: Create Output Directory Structure ---
     try:
         os.makedirs(output_dataset_dir, exist_ok=True)
         print(f"\nEnsured base output directory exists: '{output_dataset_dir}'")
@@ -151,7 +121,6 @@ def analyze_and_extract_audios(base_dataset_path, new_dataset_folder_path):
             print(f"Error: Could not create subdirectory for {category}: {e}")
             continue
 
-    # --- Step 3: Select and Copy Files ---
     print("\n--- Selecting and Copying Audio Files and Transcripts ---")
     files_to_select_per_category = 50
 
@@ -188,13 +157,25 @@ def analyze_and_extract_audios(base_dataset_path, new_dataset_folder_path):
             except Exception as e:
                 print(f"    Error copying audio {original_audio_path} to {target_audio_path}: {e}")
                 continue 
+            
+            original_audio_dir = os.path.dirname(original_audio_path)
+            audio_basename_no_ext = os.path.splitext(original_audio_filename)[0]
 
-            video_id_level_path = os.path.join(source_dataset_dir, video_id)
-            original_transcript_full_path = find_transcript_file(video_id_level_path, video_id)
+            original_transcript_full_path = None
+            transcript_extensions_to_check = (".vtt", ".srt", ".txt") 
 
+            for ext in transcript_extensions_to_check:
+                expected_transcript_filename = f"{audio_basename_no_ext}{ext}"
+                potential_transcript_path = os.path.join(original_audio_dir, expected_transcript_filename)
+                if os.path.isfile(potential_transcript_path):
+                    original_transcript_full_path = potential_transcript_path
+                    break 
+            
             if original_transcript_full_path:
-                original_transcript_filename = os.path.basename(original_transcript_full_path)
-                target_transcript_path = os.path.join(target_category_dir, original_transcript_filename)
+                dest_audio_basename_no_ext = os.path.splitext(dest_audio_filename)[0]
+                source_transcript_extension = os.path.splitext(os.path.basename(original_transcript_full_path))[1]
+                new_target_transcript_filename = f"{dest_audio_basename_no_ext}{source_transcript_extension}"
+                target_transcript_path = os.path.join(target_category_dir, new_target_transcript_filename)
 
                 if not os.path.exists(target_transcript_path):
                     try:
@@ -202,14 +183,22 @@ def analyze_and_extract_audios(base_dataset_path, new_dataset_folder_path):
                     except Exception as e:
                         print(f"    Error copying transcript {original_transcript_full_path} to {target_transcript_path}: {e}")
             else:
-                print(f"    Warning: Transcript not found for video_id '{video_id}' in '{video_id_level_path}' (for audio {original_audio_path}).")
+                expected_paths_tried_str_list = []
+                for ext_loop_var in transcript_extensions_to_check:
+                    expected_paths_tried_str_list.append(
+                        os.path.join(original_audio_dir, f"{audio_basename_no_ext}{ext_loop_var}")
+                    )
+                print(f"    Warning: Transcript not found for audio file '{original_audio_path}'. Expected at paths like: {', '.join(expected_paths_tried_str_list)}.")
         
-        print(f"  Finished processing for '{category}'. Copied {copied_audio_count} audios and their associated transcripts (if found).")
+        print(f"  Finished processing for '{category}'. Copied {copied_audio_count} audios and their associated transcripts (if found and copied).")
 
     print("\n--- Operation Complete ---")
     print(f"Selected audios and transcripts are saved in: '{output_dataset_dir}'")
 
-if __name__ == "__main__":
+def pipeline():
     chunked_dataset_path = "chunked_dataset" 
     new_dataset_path = "sampled_dataset" 
     analyze_and_extract_audios(chunked_dataset_path, new_dataset_path)
+
+if __name__ == "__main__":
+    pipeline()

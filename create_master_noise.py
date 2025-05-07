@@ -78,7 +78,7 @@ def overlay_audio_tracks(folder_path,
     except Exception as e:
         print(f"Error exporting combined audio: {e}")
 
-if __name__ == "__main__":
+def pipeline():
     dataset_folder = os.path.abspath(r"dataset_background_noise")
     output_file = "final_mixed_audio_limited.mp3"
     initial_load_duration = 30 * 60
@@ -92,3 +92,6 @@ if __name__ == "__main__":
         else:
             print("Attempting to load full duration of each file.")
         overlay_audio_tracks(dataset_folder, output_file, load_first_n_seconds=initial_load_duration)
+
+if __name__ == "__main__":
+    pipeline()
