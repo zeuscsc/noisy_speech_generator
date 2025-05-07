@@ -73,7 +73,7 @@ def analyze_and_extract_audios(base_dataset_path, new_dataset_folder_path):
         video_id_path = os.path.join(source_dataset_dir, video_id)
         
         potential_chunk_folders = [d for d in os.listdir(video_id_path) 
-                                   if os.path.isdir(os.path.join(video_id_path, d)) and d.startswith("chunk_")]
+                                     if os.path.isdir(os.path.join(video_id_path, d)) and d.startswith("chunk_")]
         
         for chunk_folder_name in potential_chunk_folders:
             chunk_categories.add(chunk_folder_name)
@@ -82,7 +82,7 @@ def analyze_and_extract_audios(base_dataset_path, new_dataset_folder_path):
             
             chunk_folder_path = os.path.join(video_id_path, chunk_folder_name)
             noisy_level_folders = [d for d in os.listdir(chunk_folder_path) 
-                                   if os.path.isdir(os.path.join(chunk_folder_path, d)) and d.startswith("noisy_")]
+                                     if os.path.isdir(os.path.join(chunk_folder_path, d)) and d.startswith("noisy_")] # Assuming your noisy folders also start with "noisy_"
             
             for noisy_folder_name in noisy_level_folders:
                 noisy_folder_path = os.path.join(chunk_folder_path, noisy_folder_name)
@@ -131,15 +131,15 @@ def analyze_and_extract_audios(base_dataset_path, new_dataset_folder_path):
         all_audios_for_category = audio_files_by_category.get(category, [])
         
         if not all_audios_for_category:
-            print(f"  No audio files were found for '{category}'. Skipping.")
+            print(f"   No audio files were found for '{category}'. Skipping.")
             continue
 
         if len(all_audios_for_category) >= files_to_select_per_category:
             selected_audios = random.sample(all_audios_for_category, files_to_select_per_category)
-            print(f"  Randomly selected {files_to_select_per_category} audio files for '{category}'.")
+            print(f"   Randomly selected {files_to_select_per_category} audio files for '{category}'.")
         else:
             selected_audios = all_audios_for_category
-            print(f"  Warning: Only {len(all_audios_for_category)} audio files available for '{category}'. Selecting all of them.")
+            print(f"   Warning: Only {len(all_audios_for_category)} audio files available for '{category}'. Selecting all of them.")
 
         copied_audio_count = 0
         for audio_info in selected_audios:
@@ -155,42 +155,39 @@ def analyze_and_extract_audios(base_dataset_path, new_dataset_folder_path):
                 shutil.copy2(original_audio_path, target_audio_path)
                 copied_audio_count += 1
             except Exception as e:
-                print(f"    Error copying audio {original_audio_path} to {target_audio_path}: {e}")
+                print(f"     Error copying audio {original_audio_path} to {target_audio_path}: {e}")
                 continue 
             
             original_audio_dir = os.path.dirname(original_audio_path)
-            audio_basename_no_ext = os.path.splitext(original_audio_filename)[0]
-
-            original_transcript_full_path = None
-            transcript_extensions_to_check = (".vtt", ".srt", ".txt") 
-
-            for ext in transcript_extensions_to_check:
-                expected_transcript_filename = f"{audio_basename_no_ext}{ext}"
-                potential_transcript_path = os.path.join(original_audio_dir, expected_transcript_filename)
-                if os.path.isfile(potential_transcript_path):
-                    original_transcript_full_path = potential_transcript_path
-                    break 
+            audio_basename_no_ext = os.path.splitext(original_audio_filename)[0] # e.g., "audio_0"
             
-            if original_transcript_full_path:
-                dest_audio_basename_no_ext = os.path.splitext(dest_audio_filename)[0]
-                source_transcript_extension = os.path.splitext(os.path.basename(original_transcript_full_path))[1]
-                new_target_transcript_filename = f"{dest_audio_basename_no_ext}{source_transcript_extension}"
-                target_transcript_path = os.path.join(target_category_dir, new_target_transcript_filename)
+            copied_transcripts_for_this_audio = 0
+            # Expected suffix for transcript files, e.g., "_audio_0.vtt"
+            expected_transcript_suffix = f"_{audio_basename_no_ext}.vtt" 
 
-                if not os.path.exists(target_transcript_path):
-                    try:
-                        shutil.copy2(original_transcript_full_path, target_transcript_path)
-                    except Exception as e:
-                        print(f"    Error copying transcript {original_transcript_full_path} to {target_transcript_path}: {e}")
-            else:
-                expected_paths_tried_str_list = []
-                for ext_loop_var in transcript_extensions_to_check:
-                    expected_paths_tried_str_list.append(
-                        os.path.join(original_audio_dir, f"{audio_basename_no_ext}{ext_loop_var}")
-                    )
-                print(f"    Warning: Transcript not found for audio file '{original_audio_path}'. Expected at paths like: {', '.join(expected_paths_tried_str_list)}.")
+            for potential_transcript_file in os.listdir(original_audio_dir):
+                if potential_transcript_file.endswith(expected_transcript_suffix) and \
+                   os.path.isfile(os.path.join(original_audio_dir, potential_transcript_file)):
+                    
+                    original_transcript_full_path = os.path.join(original_audio_dir, potential_transcript_file)
+                    
+                    # Construct new destination transcript filename
+                    # It will be: {video_id}_{noisy_folder}_{original_transcript_filename_from_chunk_dir}
+                    # e.g. {video_id}_{noisy_folder}_OriginalVTTBaseName_audio_0.vtt
+                    dest_transcript_filename = f"{video_id}_{noisy_folder}_{potential_transcript_file}"
+                    target_transcript_path = os.path.join(target_category_dir, dest_transcript_filename)
+
+                    if not os.path.exists(target_transcript_path):
+                        try:
+                            shutil.copy2(original_transcript_full_path, target_transcript_path)
+                            copied_transcripts_for_this_audio += 1
+                        except Exception as e:
+                            print(f"     Error copying transcript {original_transcript_full_path} to {target_transcript_path}: {e}")
+            
+            if copied_transcripts_for_this_audio == 0:
+                print(f"     Warning: No VTT transcripts found for audio file '{original_audio_path}' matching pattern *{expected_transcript_suffix}.")
         
-        print(f"  Finished processing for '{category}'. Copied {copied_audio_count} audios and their associated transcripts (if found and copied).")
+        print(f"   Finished processing for '{category}'. Copied {copied_audio_count} audios and their associated transcripts (if found and copied).")
 
     print("\n--- Operation Complete ---")
     print(f"Selected audios and transcripts are saved in: '{output_dataset_dir}'")

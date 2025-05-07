@@ -6,31 +6,29 @@ from functools import partial
 import time
 
 def vtt_time_to_ms(vtt_time_str):
-    """Converts VTT timestamp (HH:MM:SS.mmm or MM:SS.mmm) to milliseconds."""
     parts = vtt_time_str.split(':')
-    if len(parts) == 3: 
+    if len(parts) == 3:
         h, m, s_ms = parts
-    elif len(parts) == 2: 
-        h = 0 
+    elif len(parts) == 2:
+        h = 0
         m, s_ms = parts
+    elif len(parts) == 1 and '.' in vtt_time_str:
+        h = 0
+        m = 0
+        s_ms = parts[0]
     else:
-        if '.' in vtt_time_str and len(parts) == 1:
-            h = 0
-            m = 0
-            s_ms = parts[0]
-        else:
-            raise ValueError(f"Invalid VTT time format: {vtt_time_str}")
-    
+        raise ValueError(f"Invalid VTT time format: {vtt_time_str}")
+
     s_ms_parts = s_ms.split('.')
     s = int(s_ms_parts[0])
-    ms = int(s_ms_parts[1]) if len(s_ms_parts) > 1 else 0 
-    
+    ms_str = s_ms_parts[1] if len(s_ms_parts) > 1 else "0"
+    ms = int(ms_str.ljust(3, '0')[:3])
+
     return (int(h) * 3600 + int(m) * 60 + s) * 1000 + ms
 
 def ms_to_vtt_time(ms_time):
-    """Converts milliseconds to VTT timestamp (HH:MM:SS.mmm)."""
     if ms_time < 0:
-        ms_time = 0 
+        ms_time = 0
     seconds_total = ms_time // 1000
     milliseconds = ms_time % 1000
     minutes_total = seconds_total // 60
@@ -40,104 +38,147 @@ def ms_to_vtt_time(ms_time):
     return f"{int(hours):02d}:{int(minutes):02d}:{int(seconds):02d}.{int(milliseconds):03d}"
 
 def parse_vtt_content(vtt_content_str):
-    """
-    Parses VTT file content string into a list of cues.
-    Each cue is a dictionary: {'start_ms', 'end_ms', 'text_lines', 'raw_cue_lines'}
-    """
     lines = vtt_content_str.strip().splitlines()
     cues = []
     idx = 0
-    
-    while idx < len(lines):
-        if "-->" in lines[idx] or lines[idx].strip() == "":
-            break
-        idx +=1
 
+    while idx < len(lines):
+        line_strip = lines[idx].strip()
+        if "-->" in line_strip or line_strip == "":
+            break
+        idx += 1
+    
     current_cue_lines = []
     while idx < len(lines):
         line = lines[idx].strip()
-        if not line: 
-            if current_cue_lines and "-->" in current_cue_lines[0]:
-                try:
-                    time_line = current_cue_lines[0]
-                    text_content_lines = current_cue_lines[1:]
-                    start_str, end_str = time_line.split("-->")
-                    end_str_cleaned = end_str.strip().split(' ')[0]
+        
+        if not line:
+            if current_cue_lines:
+                time_line_str = None
+                time_line_idx_in_cue = -1
+                text_start_idx_in_cue = -1
 
-                    start_ms = vtt_time_to_ms(start_str.strip())
-                    end_ms = vtt_time_to_ms(end_str_cleaned)
-                    
-                    cues.append({
-                        "start_ms": start_ms,
-                        "end_ms": end_ms,
-                        "text_lines": [l for l in text_content_lines if l], 
-                        "raw_cue_lines": list(current_cue_lines) 
-                    })
-                except ValueError as e:
-                    pass 
-                except IndexError:
-                    pass
+                if "-->" in current_cue_lines[0]:
+                    time_line_str = current_cue_lines[0]
+                    time_line_idx_in_cue = 0
+                    text_start_idx_in_cue = 1
+                elif len(current_cue_lines) > 1 and "-->" in current_cue_lines[1]:
+                    time_line_str = current_cue_lines[1]
+                    time_line_idx_in_cue = 1
+                    text_start_idx_in_cue = 2
+                
+                if time_line_str:
+                    try:
+                        text_content_lines = current_cue_lines[text_start_idx_in_cue:]
+                        start_str, end_str_full = time_line_str.split("-->")
+                        end_str_cleaned = end_str_full.strip().split(' ')[0]
+
+                        start_ms = vtt_time_to_ms(start_str.strip())
+                        end_ms = vtt_time_to_ms(end_str_cleaned)
+                        
+                        cues.append({
+                            "start_ms": start_ms,
+                            "end_ms": end_ms,
+                            "text_lines": [l for l in text_content_lines if l.strip()],
+                            "raw_cue_lines": list(current_cue_lines)
+                        })
+                    except ValueError:
+                        pass
+                    except IndexError:
+                        pass
                 current_cue_lines = []
             idx += 1
             continue
         
-        current_cue_lines.append(line)
+        current_cue_lines.append(lines[idx])
         idx += 1
 
-    if current_cue_lines and "-->" in current_cue_lines[0]:
-        try:
-            time_line = current_cue_lines[0]
-            text_content_lines = current_cue_lines[1:]
-            start_str, end_str = time_line.split("-->")
-            end_str_cleaned = end_str.strip().split(' ')[0]
-            start_ms = vtt_time_to_ms(start_str.strip())
-            end_ms = vtt_time_to_ms(end_str_cleaned)
-            cues.append({
-                "start_ms": start_ms,
-                "end_ms": end_ms,
-                "text_lines": [l for l in text_content_lines if l],
-                "raw_cue_lines": list(current_cue_lines)
-            })
-        except ValueError as e:
-            pass
-        except IndexError:
-            pass
+    if current_cue_lines:
+        time_line_str = None
+        time_line_idx_in_cue = -1
+        text_start_idx_in_cue = -1
+
+        if "-->" in current_cue_lines[0]:
+            time_line_str = current_cue_lines[0]
+            time_line_idx_in_cue = 0
+            text_start_idx_in_cue = 1
+        elif len(current_cue_lines) > 1 and "-->" in current_cue_lines[1]:
+            time_line_str = current_cue_lines[1]
+            time_line_idx_in_cue = 1
+            text_start_idx_in_cue = 2
+
+        if time_line_str:
+            try:
+                text_content_lines = current_cue_lines[text_start_idx_in_cue:]
+                start_str, end_str_full = time_line_str.split("-->")
+                end_str_cleaned = end_str_full.strip().split(' ')[0]
+                start_ms = vtt_time_to_ms(start_str.strip())
+                end_ms = vtt_time_to_ms(end_str_cleaned)
+                cues.append({
+                    "start_ms": start_ms,
+                    "end_ms": end_ms,
+                    "text_lines": [l for l in text_content_lines if l.strip()],
+                    "raw_cue_lines": list(current_cue_lines)
+                })
+            except ValueError:
+                pass
+            except IndexError:
+                pass
             
     return cues
 
-
 def create_vtt_chunk_from_cues(all_cues, chunk_start_ms, chunk_end_ms):
-    """
-    Creates VTT content for a specific time chunk from a list of parsed cues.
-    Keeps original timestamps for cues that overlap with the chunk window.
-    """
-    chunk_vtt_parts = ["WEBVTT", ""] 
+    chunk_vtt_parts = ["WEBVTT", ""]
     found_entry_in_chunk = False
+
     for cue in all_cues:
         if cue["start_ms"] < chunk_end_ms and cue["end_ms"] > chunk_start_ms:
-            time_header = f"{ms_to_vtt_time(cue['start_ms'])} --> {ms_to_vtt_time(cue['end_ms'])}"
-            
             original_time_line = ""
             if cue.get("raw_cue_lines"):
-                original_time_line = cue["raw_cue_lines"][0]
-                if "-->" in original_time_line:
-                    original_parts = original_time_line.split("-->")
-                    original_end_part = original_parts[1].strip()
-                    if ' ' in original_end_part: 
-                        time_header = f"{ms_to_vtt_time(cue['start_ms'])} --> {original_end_part}"
+                for raw_line in cue["raw_cue_lines"]:
+                    if "-->" in raw_line:
+                        original_time_line = raw_line
+                        break
+            
+            if not original_time_line:
+                time_header = f"{ms_to_vtt_time(cue['start_ms'])} --> {ms_to_vtt_time(cue['end_ms'])}"
+            else:
+                try:
+                    parsed_start_vtt = ms_to_vtt_time(cue['start_ms'])
+                    parsed_end_vtt = ms_to_vtt_time(cue['end_ms'])
+                    
+                    original_start_str, original_end_str_full = original_time_line.split("-->")
+                    original_end_parts = original_end_str_full.strip().split(' ', 1)
+                    
+                    styling_suffix = ""
+                    if len(original_end_parts) > 1:
+                        styling_suffix = " " + original_end_parts[1]
+                    
+                    time_header = f"{parsed_start_vtt} --> {parsed_end_vtt}{styling_suffix}"
+
+                except Exception:
+                    time_header = f"{ms_to_vtt_time(cue['start_ms'])} --> {ms_to_vtt_time(cue['end_ms'])}"
+
             chunk_vtt_parts.append(time_header)
-            chunk_vtt_parts.extend(cue["text_lines"])
-            chunk_vtt_parts.append("") 
+            cleaned_text_lines = [text_line for text_line in cue["text_lines"] if text_line.strip()]
+            if not cleaned_text_lines and cue["text_lines"]:
+                chunk_vtt_parts.append("")
+            else:
+                chunk_vtt_parts.extend(cleaned_text_lines)
+            chunk_vtt_parts.append("")
             found_entry_in_chunk = True
+
     if not found_entry_in_chunk:
-        return None 
-    return "\n".join(chunk_vtt_parts)
+        return None
+    
+    if len(chunk_vtt_parts) > 2 and chunk_vtt_parts[-1] == "": 
+        return "\n".join(chunk_vtt_parts)
+    elif len(chunk_vtt_parts) > 2 :
+        return "\n".join(chunk_vtt_parts) + "\n" 
+    
+    return None
 
 def process_single_audio_and_transcript_file(audio_file_path, output_base_dir, chunk_sizes_seconds, base_input_transcript_dir):
-    """
-    Processes a single audio file: loads, chunks, and saves it.
-    Also finds the corresponding transcript, chunks it, and saves parts next to audio chunks.
-    """
     pid = os.getpid()
     processed_audio_chunks_count = 0
     created_transcript_chunks_count = 0
@@ -151,30 +192,28 @@ def process_single_audio_and_transcript_file(audio_file_path, output_base_dir, c
             return None, 0, 0 
         if not noisy_level_folder_name:
             return youtube_video_id, 0, 0
-        original_vtt_cues = None
+
+        all_parsed_vtt_data = [] 
         transcript_dir_for_video_id = os.path.join(base_input_transcript_dir, youtube_video_id)
+        
         if os.path.isdir(transcript_dir_for_video_id):
-            found_transcript_filename = None
-            for f_name in sorted(os.listdir(transcript_dir_for_video_id)):
-                if f_name.endswith(".whisper.auto.vtt"):
-                    found_transcript_filename = f_name
-                    break
-            if not found_transcript_filename:
-                for f_name in sorted(os.listdir(transcript_dir_for_video_id)):
-                    if f_name.endswith(".vtt"):
-                        found_transcript_filename = f_name
-                        break
-            if found_transcript_filename:
-                original_transcript_path = os.path.join(transcript_dir_for_video_id, found_transcript_filename)
+            vtt_file_names_to_process = [
+                fn for fn in sorted(os.listdir(transcript_dir_for_video_id))
+                if fn.endswith(".vtt") and not fn.startswith("audio_")
+            ]
+
+            for vtt_filename in vtt_file_names_to_process:
+                original_transcript_path = os.path.join(transcript_dir_for_video_id, vtt_filename)
                 try:
                     with open(original_transcript_path, 'r', encoding='utf-8') as f:
                         vtt_content_str = f.read()
-                    original_vtt_cues = parse_vtt_content(vtt_content_str)
-                    if not original_vtt_cues:
-                        pass
+                    cues = parse_vtt_content(vtt_content_str)
+                    if cues:
+                        vtt_basename = os.path.splitext(vtt_filename)[0]
+                        all_parsed_vtt_data.append((vtt_basename, cues))
                 except Exception as e:
                     print(f"[PID {pid}] Error reading/parsing transcript {original_transcript_path} for {youtube_video_id}: {e}")
-                    original_vtt_cues = None 
+        
         video_id_base_output_dir = os.path.join(output_base_dir, youtube_video_id)
         try:
             audio = AudioSegment.from_mp3(audio_file_path)
@@ -187,6 +226,7 @@ def process_single_audio_and_transcript_file(audio_file_path, output_base_dir, c
             noisy_level_specific_chunk_output_dir = os.path.join(chunk_size_specific_dir, noisy_level_folder_name)
             os.makedirs(noisy_level_specific_chunk_output_dir, exist_ok=True)
             chunk_length_ms = chunk_size_s * 1000
+            
             for i, start_ms in enumerate(range(0, len(audio), chunk_length_ms)):
                 end_ms = start_ms + chunk_length_ms
                 chunk = audio[start_ms:end_ms]
@@ -194,33 +234,35 @@ def process_single_audio_and_transcript_file(audio_file_path, output_base_dir, c
                 audio_chunk_filename = f"audio_{i}.mp3"
                 audio_chunk_filepath = os.path.join(noisy_level_specific_chunk_output_dir, audio_chunk_filename)
                 
-                transcript_chunk_filename = f"audio_{i}.vtt" 
-                transcript_chunk_filepath = os.path.join(noisy_level_specific_chunk_output_dir, transcript_chunk_filename)
-
                 if not os.path.exists(audio_chunk_filepath) or os.path.getsize(audio_chunk_filepath) == 0:
                     try:
                         chunk.export(audio_chunk_filepath, format="mp3")
                         processed_audio_chunks_count += 1
                     except Exception as e:
                         print(f"[PID {pid}] Error saving audio chunk {audio_chunk_filepath}: {e}")
-                if original_vtt_cues: 
-                    if not os.path.exists(transcript_chunk_filepath):
-                        chunk_vtt_str = create_vtt_chunk_from_cues(original_vtt_cues, start_ms, end_ms)
-                        if chunk_vtt_str:
-                            try:
-                                with open(transcript_chunk_filepath, 'w', encoding='utf-8') as f_chunk:
-                                    f_chunk.write(chunk_vtt_str)
-                                created_transcript_chunks_count += 1
-                            except Exception as e:
-                                print(f"[PID {pid}] Error writing transcript chunk {transcript_chunk_filepath}: {e}")
                 
+                if all_parsed_vtt_data: 
+                    for vtt_basename, original_vtt_cues in all_parsed_vtt_data:
+                        transcript_chunk_filename = f"{vtt_basename}_audio_{i}.vtt" 
+                        transcript_chunk_filepath = os.path.join(noisy_level_specific_chunk_output_dir, transcript_chunk_filename)
+
+                        if not os.path.exists(transcript_chunk_filepath):
+                            chunk_vtt_str = create_vtt_chunk_from_cues(original_vtt_cues, start_ms, end_ms)
+                            if chunk_vtt_str:
+                                try:
+                                    with open(transcript_chunk_filepath, 'w', encoding='utf-8') as f_chunk:
+                                        f_chunk.write(chunk_vtt_str)
+                                    created_transcript_chunks_count += 1
+                                except Exception as e:
+                                    print(f"[PID {pid}] Error writing transcript chunk {transcript_chunk_filepath}: {e}")
+                                    
         return youtube_video_id, processed_audio_chunks_count, created_transcript_chunks_count
 
     except Exception as e:
         print(f"[PID {os.getpid()}] Unhandled error processing {audio_file_path} (or its transcript): {e}")
         try:
             return os.path.basename(os.path.dirname(audio_file_path)), processed_audio_chunks_count, created_transcript_chunks_count
-        except: #pylint: disable=bare-except
+        except: 
             return None, processed_audio_chunks_count, created_transcript_chunks_count
 
 def create_chunked_dataset_parallel(base_input_audio_dir, base_input_transcript_dir, output_base_dir, num_processes=None):
@@ -300,12 +342,10 @@ def pipeline():
         num_processes=NUM_PROCESSES
     )
 
-
 current_working_directory = os.getcwd()
 input_audio_directory = os.path.join(current_working_directory, "output_noisy_audio")
 input_transcript_directory = os.path.join(current_working_directory, "dataset") 
 output_chunked_directory = os.path.join(current_working_directory, "chunked_dataset")
-
 
 if __name__ == "__main__":
     pipeline()
