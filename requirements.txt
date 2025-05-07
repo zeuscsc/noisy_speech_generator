@@ -1,0 +1,14 @@
+cffi==1.17.1
+google-api-core==2.24.2
+google-cloud-speech==2.32.0
+grpcio==1.72.0rc1
+grpcio==status==1.71.0
+jiwer==3.1.0
+proto==plus==1.26.1
+pycparser==2.22
+rapidfuzz==3.13.0
+soundfile==0.13.1
+librosa==0.11.0
+yt-dlp==2025.4.30
+openai-whisper==20240930
+ffmpeg_python==0.2.0
