@@ -1,4 +1,5 @@
-dataset*
+*.mp4
+dataset_background_noise
 output*
 streamed_*
 final_mixed_audio_limited.mp3
@@ -7,3 +8,5 @@ final_mixed_audio_limited.mp3
 *.csv
 chunked_dataset*
 __pycache__
+!*.vtt
+dataset.zip

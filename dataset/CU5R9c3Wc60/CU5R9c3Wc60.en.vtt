@@ -1,0 +1,3304 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.040 --> 00:00:02.430 align:start position:0%
+ 
+hi<00:00:00.199><c> I'm</c><00:00:00.320><c> SVA</c><00:00:00.680><c> prakaran</c><00:00:01.520><c> in</c><00:00:01.680><c> this</c><00:00:01.800><c> one</c><00:00:01.959><c> let's</c>
+
+00:00:02.430 --> 00:00:02.440 align:start position:0%
+hi I'm SVA prakaran in this one let's
+ 
+
+00:00:02.440 --> 00:00:04.470 align:start position:0%
+hi I'm SVA prakaran in this one let's
+understand<00:00:02.639><c> clearly</c><00:00:03.520><c> the</c><00:00:03.800><c> bayian</c>
+
+00:00:04.470 --> 00:00:04.480 align:start position:0%
+understand clearly the bayian
+ 
+
+00:00:04.480 --> 00:00:06.710 align:start position:0%
+understand clearly the bayian
+optimization<00:00:05.319><c> method</c><00:00:05.680><c> for</c><00:00:05.960><c> hyperparameter</c>
+
+00:00:06.710 --> 00:00:06.720 align:start position:0%
+optimization method for hyperparameter
+ 
+
+00:00:06.720 --> 00:00:08.669 align:start position:0%
+optimization method for hyperparameter
+tuning<00:00:07.319><c> now</c><00:00:07.480><c> you</c><00:00:07.640><c> know</c><00:00:07.879><c> hyper</c><00:00:08.280><c> parameter</c>
+
+00:00:08.669 --> 00:00:08.679 align:start position:0%
+tuning now you know hyper parameter
+ 
+
+00:00:08.679 --> 00:00:10.549 align:start position:0%
+tuning now you know hyper parameter
+tuning<00:00:08.960><c> is</c><00:00:09.080><c> a</c><00:00:09.240><c> key</c><00:00:09.440><c> step</c><00:00:09.719><c> in</c><00:00:09.880><c> machine</c><00:00:10.200><c> learning</c>
+
+00:00:10.549 --> 00:00:10.559 align:start position:0%
+tuning is a key step in machine learning
+ 
+
+00:00:10.559 --> 00:00:12.509 align:start position:0%
+tuning is a key step in machine learning
+model<00:00:10.840><c> building</c><00:00:11.440><c> but</c><00:00:11.639><c> it</c><00:00:11.759><c> can</c><00:00:11.960><c> be</c><00:00:12.240><c> quite</c>
+
+00:00:12.509 --> 00:00:12.519 align:start position:0%
+model building but it can be quite
+ 
+
+00:00:12.519 --> 00:00:13.910 align:start position:0%
+model building but it can be quite
+time-taking<00:00:12.920><c> so</c><00:00:13.240><c> we</c><00:00:13.360><c> will</c><00:00:13.719><c> understand</c>
+
+00:00:13.910 --> 00:00:13.920 align:start position:0%
+time-taking so we will understand
+ 
+
+00:00:13.920 --> 00:00:16.189 align:start position:0%
+time-taking so we will understand
+everything<00:00:14.320><c> about</c><00:00:15.000><c> ban</c><00:00:15.519><c> optimization</c>
+
+00:00:16.189 --> 00:00:16.199 align:start position:0%
+everything about ban optimization
+ 
+
+00:00:16.199 --> 00:00:18.630 align:start position:0%
+everything about ban optimization
+specifically<00:00:17.160><c> okay</c><00:00:17.640><c> but</c><00:00:17.760><c> to</c><00:00:17.880><c> be</c><00:00:18.039><c> clear</c><00:00:18.359><c> let's</c>
+
+00:00:18.630 --> 00:00:18.640 align:start position:0%
+specifically okay but to be clear let's
+ 
+
+00:00:18.640 --> 00:00:21.230 align:start position:0%
+specifically okay but to be clear let's
+quickly<00:00:19.279><c> revise</c><00:00:19.960><c> what</c><00:00:20.119><c> is</c><00:00:20.400><c> hyper</c><00:00:20.800><c> parameter</c>
+
+00:00:21.230 --> 00:00:21.240 align:start position:0%
+quickly revise what is hyper parameter
+ 
+
+00:00:21.240 --> 00:00:22.470 align:start position:0%
+quickly revise what is hyper parameter
+tuning<00:00:21.560><c> in</c><00:00:21.640><c> the</c><00:00:21.800><c> first</c><00:00:22.000><c> place</c><00:00:22.160><c> so</c><00:00:22.320><c> that</c>
+
+00:00:22.470 --> 00:00:22.480 align:start position:0%
+tuning in the first place so that
+ 
+
+00:00:22.480 --> 00:00:23.790 align:start position:0%
+tuning in the first place so that
+everything<00:00:22.760><c> will</c><00:00:22.920><c> make</c><00:00:23.119><c> sense</c><00:00:23.320><c> and</c><00:00:23.480><c> fall</c><00:00:23.680><c> in</c>
+
+00:00:23.790 --> 00:00:23.800 align:start position:0%
+everything will make sense and fall in
+ 
+
+00:00:23.800 --> 00:00:25.630 align:start position:0%
+everything will make sense and fall in
+place<00:00:24.320><c> this</c><00:00:24.400><c> is</c><00:00:24.599><c> how</c><00:00:24.840><c> a</c><00:00:25.039><c> machine</c><00:00:25.320><c> learning</c>
+
+00:00:25.630 --> 00:00:25.640 align:start position:0%
+place this is how a machine learning
+ 
+
+00:00:25.640 --> 00:00:27.950 align:start position:0%
+place this is how a machine learning
+model<00:00:25.880><c> building</c><00:00:26.240><c> happens</c><00:00:26.560><c> say</c><00:00:26.760><c> you</c><00:00:26.960><c> have</c><00:00:27.519><c> the</c>
+
+00:00:27.950 --> 00:00:27.960 align:start position:0%
+model building happens say you have the
+ 
+
+00:00:27.960 --> 00:00:29.589 align:start position:0%
+model building happens say you have the
+features<00:00:28.640><c> and</c><00:00:28.800><c> the</c><00:00:28.920><c> variable</c><00:00:29.279><c> that</c><00:00:29.400><c> you</c><00:00:29.480><c> want</c>
+
+00:00:29.589 --> 00:00:29.599 align:start position:0%
+features and the variable that you want
+ 
+
+00:00:29.599 --> 00:00:32.229 align:start position:0%
+features and the variable that you want
+to<00:00:29.759><c> pred</c><00:00:30.240><c> X</c><00:00:30.400><c> and</c><00:00:30.599><c> Y</c><00:00:30.960><c> respectively</c><00:00:31.800><c> this</c><00:00:31.960><c> you</c>
+
+00:00:32.229 --> 00:00:32.239 align:start position:0%
+to pred X and Y respectively this you
+ 
+
+00:00:32.239 --> 00:00:34.229 align:start position:0%
+to pred X and Y respectively this you
+have<00:00:32.480><c> in</c><00:00:32.640><c> your</c><00:00:32.880><c> data</c><00:00:33.280><c> the</c><00:00:33.399><c> data</c><00:00:33.640><c> is</c><00:00:33.719><c> split</c><00:00:34.000><c> into</c>
+
+00:00:34.229 --> 00:00:34.239 align:start position:0%
+have in your data the data is split into
+ 
+
+00:00:34.239 --> 00:00:35.790 align:start position:0%
+have in your data the data is split into
+training<00:00:34.640><c> data</c><00:00:34.920><c> set</c><00:00:35.120><c> on</c><00:00:35.280><c> which</c><00:00:35.440><c> the</c><00:00:35.520><c> model</c>
+
+00:00:35.790 --> 00:00:35.800 align:start position:0%
+training data set on which the model
+ 
+
+00:00:35.800 --> 00:00:38.229 align:start position:0%
+training data set on which the model
+will<00:00:35.960><c> be</c><00:00:36.160><c> actually</c><00:00:36.520><c> trained</c><00:00:37.320><c> then</c><00:00:37.559><c> you</c><00:00:37.680><c> will</c>
+
+00:00:38.229 --> 00:00:38.239 align:start position:0%
+will be actually trained then you will
+ 
+
+00:00:38.239 --> 00:00:40.790 align:start position:0%
+will be actually trained then you will
+do<00:00:38.440><c> the</c><00:00:38.640><c> prediction</c><00:00:39.040><c> on</c><00:00:39.280><c> validation</c><00:00:39.840><c> data</c><00:00:40.160><c> set</c>
+
+00:00:40.790 --> 00:00:40.800 align:start position:0%
+do the prediction on validation data set
+ 
+
+00:00:40.800 --> 00:00:42.229 align:start position:0%
+do the prediction on validation data set
+which<00:00:41.079><c> has</c><00:00:41.239><c> not</c><00:00:41.399><c> been</c><00:00:41.559><c> shown</c><00:00:41.760><c> to</c><00:00:41.879><c> the</c><00:00:42.000><c> model</c>
+
+00:00:42.229 --> 00:00:42.239 align:start position:0%
+which has not been shown to the model
+ 
+
+00:00:42.239 --> 00:00:44.470 align:start position:0%
+which has not been shown to the model
+during<00:00:42.520><c> training</c><00:00:43.200><c> right</c><00:00:43.600><c> so</c><00:00:43.760><c> you</c><00:00:43.879><c> will</c><00:00:44.079><c> do</c><00:00:44.239><c> the</c>
+
+00:00:44.470 --> 00:00:44.480 align:start position:0%
+during training right so you will do the
+ 
+
+00:00:44.480 --> 00:00:47.110 align:start position:0%
+during training right so you will do the
+prediction<00:00:44.960><c> so</c><00:00:45.440><c> X</c><00:00:45.640><c> and</c><00:00:45.879><c> Y</c><00:00:46.239><c> from</c><00:00:46.440><c> the</c><00:00:46.600><c> train</c><00:00:46.920><c> is</c>
+
+00:00:47.110 --> 00:00:47.120 align:start position:0%
+prediction so X and Y from the train is
+ 
+
+00:00:47.120 --> 00:00:49.630 align:start position:0%
+prediction so X and Y from the train is
+passed<00:00:47.760><c> to</c><00:00:47.960><c> the</c><00:00:48.120><c> ml</c><00:00:48.480><c> model</c><00:00:49.199><c> this</c><00:00:49.280><c> is</c><00:00:49.480><c> the</c>
+
+00:00:49.630 --> 00:00:49.640 align:start position:0%
+passed to the ml model this is the
+ 
+
+00:00:49.640 --> 00:00:51.790 align:start position:0%
+passed to the ml model this is the
+training<00:00:50.160><c> process</c><00:00:51.160><c> okay</c><00:00:51.320><c> you</c><00:00:51.480><c> get</c><00:00:51.640><c> the</c>
+
+00:00:51.790 --> 00:00:51.800 align:start position:0%
+training process okay you get the
+ 
+
+00:00:51.800 --> 00:00:54.349 align:start position:0%
+training process okay you get the
+predictions<00:00:52.680><c> on</c><00:00:52.960><c> the</c><00:00:53.199><c> validation</c><00:00:53.680><c> data</c><00:00:54.039><c> set</c>
+
+00:00:54.349 --> 00:00:54.359 align:start position:0%
+predictions on the validation data set
+ 
+
+00:00:54.359 --> 00:00:56.590 align:start position:0%
+predictions on the validation data set
+the<00:00:54.520><c> Y</c><00:00:54.800><c> hat</c><00:00:55.280><c> then</c><00:00:55.440><c> you</c><00:00:55.600><c> compare</c><00:00:55.960><c> the</c><00:00:56.120><c> Y</c><00:00:56.399><c> hat</c>
+
+00:00:56.590 --> 00:00:56.600 align:start position:0%
+the Y hat then you compare the Y hat
+ 
+
+00:00:56.600 --> 00:00:58.590 align:start position:0%
+the Y hat then you compare the Y hat
+against<00:00:56.879><c> the</c><00:00:57.079><c> actual</c><00:00:57.520><c> y</c><00:00:57.879><c> from</c><00:00:58.039><c> the</c><00:00:58.160><c> validation</c>
+
+00:00:58.590 --> 00:00:58.600 align:start position:0%
+against the actual y from the validation
+ 
+
+00:00:58.600 --> 00:01:01.150 align:start position:0%
+against the actual y from the validation
+data<00:00:58.879><c> set</c><00:00:59.480><c> from</c><00:00:59.680><c> that</c><00:01:00.000><c> to</c><00:01:00.120><c> compute</c><00:01:00.480><c> the</c><00:01:00.600><c> error</c>
+
+00:01:01.150 --> 00:01:01.160 align:start position:0%
+data set from that to compute the error
+ 
+
+00:01:01.160 --> 00:01:02.990 align:start position:0%
+data set from that to compute the error
+which<00:01:01.320><c> is</c><00:01:01.440><c> called</c><00:01:01.640><c> the</c><00:01:01.800><c> validation</c><00:01:02.280><c> error</c>
+
+00:01:02.990 --> 00:01:03.000 align:start position:0%
+which is called the validation error
+ 
+
+00:01:03.000 --> 00:01:05.350 align:start position:0%
+which is called the validation error
+right<00:01:03.440><c> we</c><00:01:03.600><c> want</c><00:01:03.920><c> this</c><00:01:04.080><c> error</c><00:01:04.360><c> to</c><00:01:04.479><c> be</c><00:01:04.680><c> as</c><00:01:04.879><c> low</c><00:01:05.159><c> as</c>
+
+00:01:05.350 --> 00:01:05.360 align:start position:0%
+right we want this error to be as low as
+ 
+
+00:01:05.360 --> 00:01:07.310 align:start position:0%
+right we want this error to be as low as
+possible<00:01:05.880><c> in</c><00:01:06.000><c> order</c><00:01:06.280><c> to</c><00:01:06.520><c> achieve</c><00:01:06.880><c> that</c><00:01:07.080><c> one</c><00:01:07.200><c> of</c>
+
+00:01:07.310 --> 00:01:07.320 align:start position:0%
+possible in order to achieve that one of
+ 
+
+00:01:07.320 --> 00:01:10.670 align:start position:0%
+possible in order to achieve that one of
+the<00:01:07.439><c> techniques</c><00:01:07.840><c> is</c><00:01:08.320><c> we</c><00:01:09.159><c> try</c><00:01:09.479><c> to</c><00:01:09.799><c> see</c><00:01:10.280><c> how</c><00:01:10.479><c> the</c>
+
+00:01:10.670 --> 00:01:10.680 align:start position:0%
+the techniques is we try to see how the
+ 
+
+00:01:10.680 --> 00:01:13.190 align:start position:0%
+the techniques is we try to see how the
+model<00:01:11.080><c> is</c><00:01:11.360><c> performing</c><00:01:12.040><c> that</c><00:01:12.159><c> is</c><00:01:12.280><c> the</c><00:01:12.400><c> error</c>
+
+00:01:13.190 --> 00:01:13.200 align:start position:0%
+model is performing that is the error
+ 
+
+00:01:13.200 --> 00:01:14.870 align:start position:0%
+model is performing that is the error
+performances<00:01:13.840><c> lower</c><00:01:14.159><c> the</c><00:01:14.240><c> error</c><00:01:14.520><c> better</c><00:01:14.759><c> the</c>
+
+00:01:14.870 --> 00:01:14.880 align:start position:0%
+performances lower the error better the
+ 
+
+00:01:14.880 --> 00:01:18.710 align:start position:0%
+performances lower the error better the
+performances<00:01:15.640><c> now</c><00:01:16.360><c> we</c><00:01:17.000><c> try</c><00:01:17.280><c> to</c><00:01:18.040><c> adjust</c>
+
+00:01:18.710 --> 00:01:18.720 align:start position:0%
+performances now we try to adjust
+ 
+
+00:01:18.720 --> 00:01:19.830 align:start position:0%
+performances now we try to adjust
+various
+
+00:01:19.830 --> 00:01:19.840 align:start position:0%
+various
+ 
+
+00:01:19.840 --> 00:01:22.870 align:start position:0%
+various
+combinations<00:01:20.840><c> of</c><00:01:21.320><c> the</c><00:01:21.560><c> hyper</c><00:01:22.079><c> parameters</c><00:01:22.680><c> of</c>
+
+00:01:22.870 --> 00:01:22.880 align:start position:0%
+combinations of the hyper parameters of
+ 
+
+00:01:22.880 --> 00:01:24.469 align:start position:0%
+combinations of the hyper parameters of
+whichever<00:01:23.240><c> ml</c><00:01:23.600><c> model</c><00:01:23.840><c> that</c><00:01:24.000><c> we</c><00:01:24.079><c> are</c><00:01:24.200><c> dealing</c>
+
+00:01:24.469 --> 00:01:24.479 align:start position:0%
+whichever ml model that we are dealing
+ 
+
+00:01:24.479 --> 00:01:26.510 align:start position:0%
+whichever ml model that we are dealing
+with<00:01:24.680><c> for</c><00:01:24.880><c> example</c><00:01:25.240><c> if</c><00:01:25.320><c> we</c><00:01:25.520><c> dealing</c><00:01:25.840><c> with</c><00:01:26.280><c> say</c>
+
+00:01:26.510 --> 00:01:26.520 align:start position:0%
+with for example if we dealing with say
+ 
+
+00:01:26.520 --> 00:01:28.910 align:start position:0%
+with for example if we dealing with say
+a<00:01:26.640><c> random</c><00:01:26.960><c> Forest</c><00:01:27.400><c> algorithm</c><00:01:28.400><c> the</c><00:01:28.560><c> hyper</c>
+
+00:01:28.910 --> 00:01:28.920 align:start position:0%
+a random Forest algorithm the hyper
+ 
+
+00:01:28.920 --> 00:01:30.190 align:start position:0%
+a random Forest algorithm the hyper
+parameter<00:01:29.320><c> could</c><00:01:29.439><c> be</c><00:01:29.560><c> something</c><00:01:29.960><c> like</c><00:01:30.119><c> the</c>
+
+00:01:30.190 --> 00:01:30.200 align:start position:0%
+parameter could be something like the
+ 
+
+00:01:30.200 --> 00:01:31.310 align:start position:0%
+parameter could be something like the
+number<00:01:30.439><c> of</c>
+
+00:01:31.310 --> 00:01:31.320 align:start position:0%
+number of
+ 
+
+00:01:31.320 --> 00:01:34.950 align:start position:0%
+number of
+estimators<00:01:32.320><c> and</c><00:01:32.640><c> say</c><00:01:32.960><c> the</c><00:01:33.119><c> max</c><00:01:33.640><c> depth</c><00:01:34.640><c> right</c>
+
+00:01:34.950 --> 00:01:34.960 align:start position:0%
+estimators and say the max depth right
+ 
+
+00:01:34.960 --> 00:01:37.469 align:start position:0%
+estimators and say the max depth right
+there<00:01:35.119><c> could</c><00:01:35.280><c> be</c><00:01:35.479><c> other</c><00:01:35.880><c> parameters</c><00:01:36.479><c> also</c>
+
+00:01:37.469 --> 00:01:37.479 align:start position:0%
+there could be other parameters also
+ 
+
+00:01:37.479 --> 00:01:39.950 align:start position:0%
+there could be other parameters also
+likewise<00:01:37.920><c> if</c><00:01:38.079><c> you</c><00:01:38.399><c> use</c><00:01:38.960><c> say</c><00:01:39.280><c> support</c><00:01:39.640><c> Vector</c>
+
+00:01:39.950 --> 00:01:39.960 align:start position:0%
+likewise if you use say support Vector
+ 
+
+00:01:39.960 --> 00:01:41.910 align:start position:0%
+likewise if you use say support Vector
+missions<00:01:40.560><c> it</c><00:01:40.640><c> could</c><00:01:40.840><c> be</c><00:01:41.079><c> what</c><00:01:41.280><c> kernel</c><00:01:41.680><c> you</c><00:01:41.759><c> are</c>
+
+00:01:41.910 --> 00:01:41.920 align:start position:0%
+missions it could be what kernel you are
+ 
+
+00:01:41.920 --> 00:01:45.429 align:start position:0%
+missions it could be what kernel you are
+using<00:01:42.720><c> what</c><00:01:43.399><c> kernel</c><00:01:44.399><c> you</c><00:01:44.560><c> are</c><00:01:44.719><c> using</c><00:01:45.119><c> what</c><00:01:45.280><c> the</c>
+
+00:01:45.429 --> 00:01:45.439 align:start position:0%
+using what kernel you are using what the
+ 
+
+00:01:45.439 --> 00:01:47.389 align:start position:0%
+using what kernel you are using what the
+value<00:01:45.680><c> of</c><00:01:45.799><c> the</c><00:01:45.920><c> C</c><00:01:46.159><c> parameters</c><00:01:46.960><c> things</c><00:01:47.200><c> like</c>
+
+00:01:47.389 --> 00:01:47.399 align:start position:0%
+value of the C parameters things like
+ 
+
+00:01:47.399 --> 00:01:49.870 align:start position:0%
+value of the C parameters things like
+that<00:01:47.799><c> right</c><00:01:48.079><c> so</c><00:01:48.320><c> for</c><00:01:48.560><c> a</c><00:01:48.799><c> specific</c><00:01:49.320><c> value</c><00:01:49.640><c> of</c>
+
+00:01:49.870 --> 00:01:49.880 align:start position:0%
+that right so for a specific value of
+ 
+
+00:01:49.880 --> 00:01:52.510 align:start position:0%
+that right so for a specific value of
+these<00:01:50.079><c> hyper</c><00:01:50.640><c> parameters</c><00:01:51.640><c> the</c><00:01:51.840><c> error</c><00:01:52.280><c> might</c>
+
+00:01:52.510 --> 00:01:52.520 align:start position:0%
+these hyper parameters the error might
+ 
+
+00:01:52.520 --> 00:01:54.749 align:start position:0%
+these hyper parameters the error might
+be<00:01:52.759><c> lowest</c><00:01:53.399><c> this</c><00:01:53.520><c> is</c><00:01:53.719><c> what</c><00:01:54.040><c> hyperparameter</c>
+
+00:01:54.749 --> 00:01:54.759 align:start position:0%
+be lowest this is what hyperparameter
+ 
+
+00:01:54.759 --> 00:01:56.590 align:start position:0%
+be lowest this is what hyperparameter
+tuning<00:01:55.119><c> is</c><00:01:55.240><c> all</c><00:01:55.399><c> about</c><00:01:55.799><c> now</c><00:01:55.960><c> the</c><00:01:56.159><c> process</c><00:01:56.439><c> of</c>
+
+00:01:56.590 --> 00:01:56.600 align:start position:0%
+tuning is all about now the process of
+ 
+
+00:01:56.600 --> 00:01:58.590 align:start position:0%
+tuning is all about now the process of
+hyperparameter<00:01:57.320><c> tuning</c><00:01:57.719><c> itself</c><00:01:58.079><c> is</c><00:01:58.280><c> done</c>
+
+00:01:58.590 --> 00:01:58.600 align:start position:0%
+hyperparameter tuning itself is done
+ 
+
+00:01:58.600 --> 00:02:00.630 align:start position:0%
+hyperparameter tuning itself is done
+using<00:01:59.119><c> the</c><00:01:59.240><c> most</c><00:01:59.439><c> common</c><00:01:59.920><c> method</c><00:02:00.159><c> is</c><00:02:00.240><c> using</c>
+
+00:02:00.630 --> 00:02:00.640 align:start position:0%
+using the most common method is using
+ 
+
+00:02:00.640 --> 00:02:02.069 align:start position:0%
+using the most common method is using
+what<00:02:00.759><c> is</c><00:02:00.920><c> called</c><00:02:01.240><c> the</c><00:02:01.360><c> grid</c><00:02:01.600><c> search</c><00:02:01.920><c> for</c>
+
+00:02:02.069 --> 00:02:02.079 align:start position:0%
+what is called the grid search for
+ 
+
+00:02:02.079 --> 00:02:04.069 align:start position:0%
+what is called the grid search for
+example<00:02:02.399><c> you</c><00:02:02.520><c> have</c><00:02:02.680><c> two</c><00:02:02.880><c> hyper</c><00:02:03.200><c> parameters</c>
+
+00:02:04.069 --> 00:02:04.079 align:start position:0%
+example you have two hyper parameters
+ 
+
+00:02:04.079 --> 00:02:06.270 align:start position:0%
+example you have two hyper parameters
+hyper<00:02:04.360><c> parameter</c><00:02:04.799><c> 1</c><00:02:05.000><c> and</c><00:02:05.200><c> two</c><00:02:05.840><c> and</c><00:02:06.000><c> these</c><00:02:06.159><c> are</c>
+
+00:02:06.270 --> 00:02:06.280 align:start position:0%
+hyper parameter 1 and two and these are
+ 
+
+00:02:06.280 --> 00:02:08.109 align:start position:0%
+hyper parameter 1 and two and these are
+the<00:02:06.479><c> possible</c><00:02:06.920><c> values</c><00:02:07.240><c> of</c><00:02:07.399><c> hyper</c><00:02:07.640><c> parameters</c>
+
+00:02:08.109 --> 00:02:08.119 align:start position:0%
+the possible values of hyper parameters
+ 
+
+00:02:08.119 --> 00:02:11.110 align:start position:0%
+the possible values of hyper parameters
+1<00:02:08.479><c> and</c><00:02:08.679><c> two</c><00:02:08.920><c> on</c><00:02:09.080><c> the</c><00:02:09.239><c> y</c><00:02:09.440><c> axis</c><00:02:10.200><c> right</c><00:02:10.679><c> now</c><00:02:10.959><c> we</c>
+
+00:02:11.110 --> 00:02:11.120 align:start position:0%
+1 and two on the y axis right now we
+ 
+
+00:02:11.120 --> 00:02:13.390 align:start position:0%
+1 and two on the y axis right now we
+want<00:02:11.319><c> to</c><00:02:11.520><c> see</c><00:02:11.879><c> for</c><00:02:12.200><c> various</c><00:02:12.640><c> combinations</c><00:02:13.239><c> of</c>
+
+00:02:13.390 --> 00:02:13.400 align:start position:0%
+want to see for various combinations of
+ 
+
+00:02:13.400 --> 00:02:15.990 align:start position:0%
+want to see for various combinations of
+these<00:02:13.599><c> hyper</c><00:02:13.920><c> parameters</c><00:02:14.800><c> what</c><00:02:14.959><c> is</c><00:02:15.200><c> the</c><00:02:15.480><c> model</c>
+
+00:02:15.990 --> 00:02:16.000 align:start position:0%
+these hyper parameters what is the model
+ 
+
+00:02:16.000 --> 00:02:17.910 align:start position:0%
+these hyper parameters what is the model
+error<00:02:16.360><c> is</c><00:02:16.800><c> either</c><00:02:17.040><c> the</c><00:02:17.160><c> error</c><00:02:17.480><c> can</c><00:02:17.640><c> be</c><00:02:17.800><c> the</c>
+
+00:02:17.910 --> 00:02:17.920 align:start position:0%
+error is either the error can be the
+ 
+
+00:02:17.920 --> 00:02:20.070 align:start position:0%
+error is either the error can be the
+lowest<00:02:18.400><c> or</c><00:02:18.599><c> you</c><00:02:18.800><c> compute</c><00:02:19.200><c> the</c><00:02:19.440><c> accuracy</c><00:02:19.920><c> of</c>
+
+00:02:20.070 --> 00:02:20.080 align:start position:0%
+lowest or you compute the accuracy of
+ 
+
+00:02:20.080 --> 00:02:22.229 align:start position:0%
+lowest or you compute the accuracy of
+the<00:02:20.200><c> model</c><00:02:21.040><c> and</c><00:02:21.200><c> try</c><00:02:21.400><c> to</c><00:02:21.519><c> reach</c><00:02:21.720><c> the</c><00:02:21.840><c> maximum</c>
+
+00:02:22.229 --> 00:02:22.239 align:start position:0%
+the model and try to reach the maximum
+ 
+
+00:02:22.239 --> 00:02:23.869 align:start position:0%
+the model and try to reach the maximum
+accuracy<00:02:22.640><c> whichever</c><00:02:23.200><c> whichever</c><00:02:23.560><c> way</c><00:02:23.720><c> that</c>
+
+00:02:23.869 --> 00:02:23.879 align:start position:0%
+accuracy whichever whichever way that
+ 
+
+00:02:23.879 --> 00:02:26.350 align:start position:0%
+accuracy whichever whichever way that
+you<00:02:24.000><c> want</c><00:02:24.120><c> to</c><00:02:24.239><c> do</c><00:02:24.440><c> it</c><00:02:24.720><c> so</c><00:02:24.920><c> we</c><00:02:25.319><c> train</c><00:02:25.760><c> the</c><00:02:25.920><c> models</c>
+
+00:02:26.350 --> 00:02:26.360 align:start position:0%
+you want to do it so we train the models
+ 
+
+00:02:26.360 --> 00:02:28.790 align:start position:0%
+you want to do it so we train the models
+for<00:02:26.640><c> all</c><00:02:26.879><c> these</c><00:02:27.160><c> combinations</c><00:02:28.040><c> of</c><00:02:28.400><c> both</c><00:02:28.599><c> of</c>
+
+00:02:28.790 --> 00:02:28.800 align:start position:0%
+for all these combinations of both of
+ 
+
+00:02:28.800 --> 00:02:30.670 align:start position:0%
+for all these combinations of both of
+these<00:02:29.040><c> parameters</c><00:02:29.920><c> and</c><00:02:30.080><c> see</c><00:02:30.319><c> which</c><00:02:30.440><c> is</c><00:02:30.560><c> the</c>
+
+00:02:30.670 --> 00:02:30.680 align:start position:0%
+these parameters and see which is the
+ 
+
+00:02:30.680 --> 00:02:33.589 align:start position:0%
+these parameters and see which is the
+lowest<00:02:31.120><c> error</c><00:02:31.440><c> let's</c><00:02:31.640><c> say</c><00:02:32.239><c> okay</c><00:02:32.720><c> this</c><00:02:32.879><c> is</c><00:02:33.280><c> grid</c>
+
+00:02:33.589 --> 00:02:33.599 align:start position:0%
+lowest error let's say okay this is grid
+ 
+
+00:02:33.599 --> 00:02:36.630 align:start position:0%
+lowest error let's say okay this is grid
+search<00:02:34.200><c> approach</c><00:02:35.200><c> whereas</c><00:02:35.840><c> random</c><00:02:36.239><c> search</c>
+
+00:02:36.630 --> 00:02:36.640 align:start position:0%
+search approach whereas random search
+ 
+
+00:02:36.640 --> 00:02:38.790 align:start position:0%
+search approach whereas random search
+approaches<00:02:37.640><c> slightly</c><00:02:38.160><c> better</c><00:02:38.400><c> than</c><00:02:38.599><c> what</c>
+
+00:02:38.790 --> 00:02:38.800 align:start position:0%
+approaches slightly better than what
+ 
+
+00:02:38.800 --> 00:02:41.710 align:start position:0%
+approaches slightly better than what
+grid<00:02:39.080><c> search</c><00:02:39.319><c> approach</c><00:02:39.680><c> is</c><00:02:40.120><c> that</c><00:02:40.280><c> is</c><00:02:41.000><c> we</c><00:02:41.239><c> take</c>
+
+00:02:41.710 --> 00:02:41.720 align:start position:0%
+grid search approach is that is we take
+ 
+
+00:02:41.720 --> 00:02:44.149 align:start position:0%
+grid search approach is that is we take
+random<00:02:42.239><c> values</c><00:02:42.560><c> of</c><00:02:42.800><c> hyper</c><00:02:43.159><c> parameters</c><00:02:43.920><c> both</c>
+
+00:02:44.149 --> 00:02:44.159 align:start position:0%
+random values of hyper parameters both
+ 
+
+00:02:44.159 --> 00:02:46.070 align:start position:0%
+random values of hyper parameters both
+one<00:02:44.280><c> and</c><00:02:44.440><c> two</c><00:02:44.640><c> randomly</c><00:02:45.040><c> we</c><00:02:45.200><c> pick</c><00:02:45.680><c> here</c><00:02:45.959><c> they</c>
+
+00:02:46.070 --> 00:02:46.080 align:start position:0%
+one and two randomly we pick here they
+ 
+
+00:02:46.080 --> 00:02:47.589 align:start position:0%
+one and two randomly we pick here they
+are<00:02:46.200><c> equally</c><00:02:46.519><c> spaced</c><00:02:46.879><c> usually</c><00:02:47.239><c> typically</c>
+
+00:02:47.589 --> 00:02:47.599 align:start position:0%
+are equally spaced usually typically
+ 
+
+00:02:47.599 --> 00:02:49.390 align:start position:0%
+are equally spaced usually typically
+equally<00:02:48.200><c> equally</c><00:02:48.519><c> spaced</c><00:02:48.800><c> or</c><00:02:49.040><c> discrete</c>
+
+00:02:49.390 --> 00:02:49.400 align:start position:0%
+equally equally spaced or discrete
+ 
+
+00:02:49.400 --> 00:02:51.670 align:start position:0%
+equally equally spaced or discrete
+values<00:02:49.680><c> of</c><00:02:49.840><c> hyper</c><00:02:50.159><c> parameters</c><00:02:50.920><c> we</c><00:02:51.319><c> choose</c>
+
+00:02:51.670 --> 00:02:51.680 align:start position:0%
+values of hyper parameters we choose
+ 
+
+00:02:51.680 --> 00:02:53.470 align:start position:0%
+values of hyper parameters we choose
+specific<00:02:52.080><c> values</c><00:02:52.360><c> of</c><00:02:52.519><c> hyper</c><00:02:52.840><c> parameter</c><00:02:53.200><c> 2</c>
+
+00:02:53.470 --> 00:02:53.480 align:start position:0%
+specific values of hyper parameter 2
+ 
+
+00:02:53.480 --> 00:02:55.550 align:start position:0%
+specific values of hyper parameter 2
+also<00:02:53.720><c> so</c><00:02:54.040><c> it</c><00:02:54.120><c> is</c><00:02:54.280><c> always</c><00:02:54.519><c> a</c><00:02:54.720><c> combination</c><00:02:55.319><c> of</c>
+
+00:02:55.550 --> 00:02:55.560 align:start position:0%
+also so it is always a combination of
+ 
+
+00:02:55.560 --> 00:02:57.750 align:start position:0%
+also so it is always a combination of
+this<00:02:55.720><c> and</c><00:02:55.920><c> this</c><00:02:56.519><c> whereas</c><00:02:56.920><c> here</c><00:02:57.239><c> since</c><00:02:57.480><c> we</c><00:02:57.560><c> are</c>
+
+00:02:57.750 --> 00:02:57.760 align:start position:0%
+this and this whereas here since we are
+ 
+
+00:02:57.760 --> 00:03:00.309 align:start position:0%
+this and this whereas here since we are
+randomly<00:02:58.239><c> picking</c><00:02:58.599><c> it</c><00:02:59.319><c> these</c><00:02:59.560><c> point</c><00:02:59.840><c> points</c>
+
+00:03:00.309 --> 00:03:00.319 align:start position:0%
+randomly picking it these point points
+ 
+
+00:03:00.319 --> 00:03:02.750 align:start position:0%
+randomly picking it these point points
+can<00:03:00.519><c> be</c><00:03:00.800><c> anywhere</c><00:03:01.800><c> this</c><00:03:01.959><c> may</c><00:03:02.159><c> not</c><00:03:02.319><c> be</c><00:03:02.440><c> in</c><00:03:02.560><c> a</c>
+
+00:03:02.750 --> 00:03:02.760 align:start position:0%
+can be anywhere this may not be in a
+ 
+
+00:03:02.760 --> 00:03:05.710 align:start position:0%
+can be anywhere this may not be in a
+grid<00:03:03.680><c> because</c><00:03:04.080><c> these</c><00:03:04.319><c> points</c><00:03:04.560><c> are</c><00:03:05.120><c> is</c><00:03:05.519><c> is</c>
+
+00:03:05.710 --> 00:03:05.720 align:start position:0%
+grid because these points are is is
+ 
+
+00:03:05.720 --> 00:03:08.030 align:start position:0%
+grid because these points are is is
+randomly<00:03:06.159><c> chosen</c><00:03:06.599><c> between</c><00:03:07.159><c> hyper</c><00:03:07.480><c> parameters</c>
+
+00:03:08.030 --> 00:03:08.040 align:start position:0%
+randomly chosen between hyper parameters
+ 
+
+00:03:08.040 --> 00:03:11.430 align:start position:0%
+randomly chosen between hyper parameters
+one<00:03:08.239><c> and</c><00:03:08.480><c> two</c><00:03:09.480><c> we</c><00:03:09.720><c> get</c><00:03:10.239><c> the</c><00:03:10.400><c> model</c><00:03:10.879><c> here</c><00:03:11.200><c> gets</c>
+
+00:03:11.430 --> 00:03:11.440 align:start position:0%
+one and two we get the model here gets
+ 
+
+00:03:11.440 --> 00:03:13.910 align:start position:0%
+one and two we get the model here gets
+to<00:03:11.599><c> see</c><00:03:12.280><c> various</c><00:03:12.720><c> different</c><00:03:13.159><c> values</c><00:03:13.560><c> of</c><00:03:13.760><c> the</c>
+
+00:03:13.910 --> 00:03:13.920 align:start position:0%
+to see various different values of the
+ 
+
+00:03:13.920 --> 00:03:16.550 align:start position:0%
+to see various different values of the
+hyper<00:03:14.280><c> parameters</c><00:03:15.080><c> right</c><00:03:15.400><c> so</c><00:03:15.640><c> here</c><00:03:16.000><c> let's</c><00:03:16.200><c> say</c>
+
+00:03:16.550 --> 00:03:16.560 align:start position:0%
+hyper parameters right so here let's say
+ 
+
+00:03:16.560 --> 00:03:18.589 align:start position:0%
+hyper parameters right so here let's say
+the<00:03:16.680><c> model</c><00:03:17.000><c> got</c><00:03:17.239><c> to</c><00:03:17.360><c> see</c><00:03:17.680><c> the</c><00:03:17.840><c> hyper</c><00:03:18.159><c> parameter</c>
+
+00:03:18.589 --> 00:03:18.599 align:start position:0%
+the model got to see the hyper parameter
+ 
+
+00:03:18.599 --> 00:03:20.830 align:start position:0%
+the model got to see the hyper parameter
+value<00:03:18.879><c> to</c><00:03:19.400><c> only</c><00:03:19.680><c> four</c><00:03:19.959><c> different</c><00:03:20.519><c> unique</c>
+
+00:03:20.830 --> 00:03:20.840 align:start position:0%
+value to only four different unique
+ 
+
+00:03:20.840 --> 00:03:22.670 align:start position:0%
+value to only four different unique
+values<00:03:21.319><c> but</c><00:03:21.440><c> see</c><00:03:21.720><c> here</c><00:03:21.879><c> you</c><00:03:22.000><c> can</c><00:03:22.159><c> see</c><00:03:22.560><c> the</c>
+
+00:03:22.670 --> 00:03:22.680 align:start position:0%
+values but see here you can see the
+ 
+
+00:03:22.680 --> 00:03:24.830 align:start position:0%
+values but see here you can see the
+model<00:03:22.920><c> has</c><00:03:23.040><c> seen</c><00:03:23.319><c> this</c><00:03:23.480><c> value</c><00:03:23.879><c> here</c><00:03:24.640><c> this</c>
+
+00:03:24.830 --> 00:03:24.840 align:start position:0%
+model has seen this value here this
+ 
+
+00:03:24.840 --> 00:03:27.149 align:start position:0%
+model has seen this value here this
+value<00:03:25.200><c> here</c><00:03:25.840><c> for</c><00:03:26.080><c> this</c><00:03:26.239><c> parameter</c><00:03:26.720><c> this</c><00:03:26.840><c> value</c>
+
+00:03:27.149 --> 00:03:27.159 align:start position:0%
+value here for this parameter this value
+ 
+
+00:03:27.159 --> 00:03:29.470 align:start position:0%
+value here for this parameter this value
+here<00:03:27.480><c> for</c><00:03:27.720><c> this</c><00:03:27.879><c> parameter</c><00:03:28.319><c> this</c><00:03:28.519><c> value</c><00:03:29.159><c> so</c><00:03:29.360><c> on</c>
+
+00:03:29.470 --> 00:03:29.480 align:start position:0%
+here for this parameter this value so on
+ 
+
+00:03:29.480 --> 00:03:31.149 align:start position:0%
+here for this parameter this value so on
+and<00:03:29.560><c> so</c><00:03:29.840><c> for</c><00:03:30.080><c> right</c><00:03:30.200><c> so</c><00:03:30.400><c> the</c><00:03:30.519><c> model</c><00:03:30.840><c> gets</c><00:03:31.040><c> to</c>
+
+00:03:31.149 --> 00:03:31.159 align:start position:0%
+and so for right so the model gets to
+ 
+
+00:03:31.159 --> 00:03:32.830 align:start position:0%
+and so for right so the model gets to
+see<00:03:31.360><c> multiple</c><00:03:31.799><c> different</c><00:03:32.080><c> values</c><00:03:32.360><c> of</c><00:03:32.480><c> hyper</c>
+
+00:03:32.830 --> 00:03:32.840 align:start position:0%
+see multiple different values of hyper
+ 
+
+00:03:32.840 --> 00:03:35.149 align:start position:0%
+see multiple different values of hyper
+parameter<00:03:33.799><c> both</c><00:03:34.040><c> one</c><00:03:34.200><c> and</c><00:03:34.360><c> two</c><00:03:34.640><c> both</c><00:03:34.799><c> two</c><00:03:35.000><c> and</c>
+
+00:03:35.149 --> 00:03:35.159 align:start position:0%
+parameter both one and two both two and
+ 
+
+00:03:35.159 --> 00:03:37.789 align:start position:0%
+parameter both one and two both two and
+one<00:03:35.439><c> here</c><00:03:36.000><c> all</c><00:03:36.200><c> right</c><00:03:36.640><c> so</c><00:03:36.920><c> that</c><00:03:37.080><c> is</c><00:03:37.319><c> the</c>
+
+00:03:37.789 --> 00:03:37.799 align:start position:0%
+one here all right so that is the
+ 
+
+00:03:37.799 --> 00:03:39.910 align:start position:0%
+one here all right so that is the
+advantage<00:03:38.400><c> of</c><00:03:38.680><c> random</c><00:03:39.040><c> search</c><00:03:39.640><c> okay</c><00:03:39.799><c> the</c>
+
+00:03:39.910 --> 00:03:39.920 align:start position:0%
+advantage of random search okay the
+ 
+
+00:03:39.920 --> 00:03:42.910 align:start position:0%
+advantage of random search okay the
+search<00:03:40.239><c> is</c><00:03:40.959><c> more</c><00:03:41.480><c> more</c><00:03:42.040><c> variety</c><00:03:42.560><c> will</c><00:03:42.680><c> be</c>
+
+00:03:42.910 --> 00:03:42.920 align:start position:0%
+search is more more variety will be
+ 
+
+00:03:42.920 --> 00:03:44.949 align:start position:0%
+search is more more variety will be
+there<00:03:43.400><c> however</c><00:03:43.680><c> the</c><00:03:43.879><c> problem</c><00:03:44.200><c> is</c><00:03:44.519><c> both</c><00:03:44.760><c> of</c>
+
+00:03:44.949 --> 00:03:44.959 align:start position:0%
+there however the problem is both of
+ 
+
+00:03:44.959 --> 00:03:46.990 align:start position:0%
+there however the problem is both of
+these<00:03:45.159><c> approaches</c><00:03:45.599><c> are</c><00:03:45.840><c> time</c><00:03:46.080><c> consuming</c><00:03:46.760><c> in</c>
+
+00:03:46.990 --> 00:03:47.000 align:start position:0%
+these approaches are time consuming in
+ 
+
+00:03:47.000 --> 00:03:49.030 align:start position:0%
+these approaches are time consuming in
+random<00:03:47.319><c> search</c><00:03:47.640><c> we</c><00:03:47.720><c> will</c><00:03:47.920><c> never</c><00:03:48.319><c> ever</c><00:03:48.599><c> get</c><00:03:48.799><c> to</c>
+
+00:03:49.030 --> 00:03:49.040 align:start position:0%
+random search we will never ever get to
+ 
+
+00:03:49.040 --> 00:03:52.110 align:start position:0%
+random search we will never ever get to
+probably<00:03:49.400><c> know</c><00:03:49.680><c> the</c><00:03:50.200><c> lowest</c><00:03:50.760><c> value</c><00:03:51.120><c> of</c><00:03:51.799><c> your</c>
+
+00:03:52.110 --> 00:03:52.120 align:start position:0%
+probably know the lowest value of your
+ 
+
+00:03:52.120 --> 00:03:54.350 align:start position:0%
+probably know the lowest value of your
+hyper<00:03:52.560><c> parameters</c><00:03:53.560><c> mean</c><00:03:53.920><c> they</c><00:03:54.000><c> have</c><00:03:54.159><c> the</c>
+
+00:03:54.350 --> 00:03:54.360 align:start position:0%
+hyper parameters mean they have the
+ 
+
+00:03:54.360 --> 00:03:55.830 align:start position:0%
+hyper parameters mean they have the
+combination<00:03:54.799><c> of</c><00:03:54.920><c> hyper</c><00:03:55.239><c> parameters</c><00:03:55.640><c> that</c><00:03:55.760><c> is</c>
+
+00:03:55.830 --> 00:03:55.840 align:start position:0%
+combination of hyper parameters that is
+ 
+
+00:03:55.840 --> 00:03:57.069 align:start position:0%
+combination of hyper parameters that is
+going<00:03:56.000><c> to</c><00:03:56.079><c> give</c><00:03:56.200><c> you</c><00:03:56.319><c> the</c><00:03:56.400><c> lowest</c><00:03:56.760><c> value</c><00:03:57.000><c> of</c>
+
+00:03:57.069 --> 00:03:57.079 align:start position:0%
+going to give you the lowest value of
+ 
+
+00:03:57.079 --> 00:04:00.069 align:start position:0%
+going to give you the lowest value of
+the<00:03:57.159><c> errors</c><00:03:57.680><c> also</c><00:03:58.280><c> the</c><00:03:58.480><c> search</c><00:03:58.959><c> space</c><00:03:59.319><c> when</c><00:03:59.439><c> we</c>
+
+00:04:00.069 --> 00:04:00.079 align:start position:0%
+the errors also the search space when we
+ 
+
+00:04:00.079 --> 00:04:01.789 align:start position:0%
+the errors also the search space when we
+especially<00:04:00.599><c> with</c><00:04:00.879><c> grid</c><00:04:01.159><c> search</c><00:04:01.480><c> might</c><00:04:01.680><c> be</c>
+
+00:04:01.789 --> 00:04:01.799 align:start position:0%
+especially with grid search might be
+ 
+
+00:04:01.799 --> 00:04:03.949 align:start position:0%
+especially with grid search might be
+limited<00:04:02.200><c> for</c><00:04:02.360><c> example</c><00:04:02.680><c> we</c><00:04:02.760><c> are</c><00:04:02.879><c> searching</c><00:04:03.280><c> for</c>
+
+00:04:03.949 --> 00:04:03.959 align:start position:0%
+limited for example we are searching for
+ 
+
+00:04:03.959 --> 00:04:05.390 align:start position:0%
+limited for example we are searching for
+these<00:04:04.159><c> three</c><00:04:04.360><c> values</c><00:04:04.599><c> of</c><00:04:04.760><c> hyper</c><00:04:05.000><c> parameter</c>
+
+00:04:05.390 --> 00:04:05.400 align:start position:0%
+these three values of hyper parameter
+ 
+
+00:04:05.400 --> 00:04:07.270 align:start position:0%
+these three values of hyper parameter
+one<00:04:05.760><c> what</c><00:04:05.920><c> of</c><00:04:06.120><c> the</c><00:04:06.280><c> optimal</c><00:04:06.680><c> value</c><00:04:06.959><c> lies</c>
+
+00:04:07.270 --> 00:04:07.280 align:start position:0%
+one what of the optimal value lies
+ 
+
+00:04:07.280 --> 00:04:09.309 align:start position:0%
+one what of the optimal value lies
+outside<00:04:07.799><c> these</c><00:04:08.040><c> values</c><00:04:08.599><c> right</c><00:04:08.760><c> that</c><00:04:08.879><c> is</c><00:04:09.079><c> also</c>
+
+00:04:09.309 --> 00:04:09.319 align:start position:0%
+outside these values right that is also
+ 
+
+00:04:09.319 --> 00:04:11.270 align:start position:0%
+outside these values right that is also
+a<00:04:09.480><c> limitation</c><00:04:09.920><c> when</c><00:04:10.040><c> we</c><00:04:10.159><c> deal</c><00:04:10.439><c> with</c><00:04:10.920><c> both</c><00:04:11.120><c> of</c>
+
+00:04:11.270 --> 00:04:11.280 align:start position:0%
+a limitation when we deal with both of
+ 
+
+00:04:11.280 --> 00:04:13.390 align:start position:0%
+a limitation when we deal with both of
+these<00:04:11.439><c> approaches</c><00:04:12.000><c> so</c><00:04:12.360><c> these</c><00:04:12.519><c> are</c><00:04:12.760><c> dropbacks</c>
+
+00:04:13.390 --> 00:04:13.400 align:start position:0%
+these approaches so these are dropbacks
+ 
+
+00:04:13.400 --> 00:04:15.390 align:start position:0%
+these approaches so these are dropbacks
+but<00:04:13.599><c> the</c><00:04:13.760><c> biggest</c><00:04:14.319><c> dropback</c><00:04:14.879><c> with</c><00:04:15.079><c> both</c><00:04:15.239><c> of</c>
+
+00:04:15.390 --> 00:04:15.400 align:start position:0%
+but the biggest dropback with both of
+ 
+
+00:04:15.400 --> 00:04:18.229 align:start position:0%
+but the biggest dropback with both of
+these<00:04:15.560><c> approaches</c><00:04:16.320><c> is</c><00:04:16.560><c> this</c><00:04:17.239><c> now</c><00:04:17.519><c> let's</c><00:04:17.759><c> say</c>
+
+00:04:18.229 --> 00:04:18.239 align:start position:0%
+these approaches is this now let's say
+ 
+
+00:04:18.239 --> 00:04:20.349 align:start position:0%
+these approaches is this now let's say
+here<00:04:18.479><c> the</c><00:04:18.680><c> red</c><00:04:18.959><c> points</c><00:04:19.400><c> and</c><00:04:19.560><c> the</c><00:04:19.720><c> green</c><00:04:20.079><c> points</c>
+
+00:04:20.349 --> 00:04:20.359 align:start position:0%
+here the red points and the green points
+ 
+
+00:04:20.359 --> 00:04:22.189 align:start position:0%
+here the red points and the green points
+are<00:04:20.560><c> the</c><00:04:20.759><c> points</c><00:04:21.199><c> that</c><00:04:21.479><c> you</c><00:04:21.639><c> have</c><00:04:21.840><c> hyper</c>
+
+00:04:22.189 --> 00:04:22.199 align:start position:0%
+are the points that you have hyper
+ 
+
+00:04:22.199 --> 00:04:25.390 align:start position:0%
+are the points that you have hyper
+parameter<00:04:22.960><c> one</c><00:04:23.240><c> and</c><00:04:23.440><c> Hyper</c><00:04:23.840><c> parameter</c><00:04:24.639><c> yp2</c>
+
+00:04:25.390 --> 00:04:25.400 align:start position:0%
+parameter one and Hyper parameter yp2
+ 
+
+00:04:25.400 --> 00:04:28.350 align:start position:0%
+parameter one and Hyper parameter yp2
+hyper<00:04:25.680><c> parameter</c><00:04:26.040><c> 2</c><00:04:26.560><c> now</c><00:04:26.840><c> these</c><00:04:27.120><c> points</c><00:04:28.080><c> these</c>
+
+00:04:28.350 --> 00:04:28.360 align:start position:0%
+hyper parameter 2 now these points these
+ 
+
+00:04:28.360 --> 00:04:31.390 align:start position:0%
+hyper parameter 2 now these points these
+Reds<00:04:29.240><c> and</c><00:04:29.440><c> these</c><00:04:29.800><c> greens</c><00:04:30.720><c> are</c><00:04:30.919><c> the</c><00:04:31.080><c> points</c>
+
+00:04:31.390 --> 00:04:31.400 align:start position:0%
+Reds and these greens are the points
+ 
+
+00:04:31.400 --> 00:04:32.749 align:start position:0%
+Reds and these greens are the points
+that<00:04:31.520><c> the</c><00:04:31.639><c> model</c><00:04:31.880><c> has</c><00:04:32.039><c> already</c><00:04:32.280><c> trained</c><00:04:32.600><c> on</c>
+
+00:04:32.749 --> 00:04:32.759 align:start position:0%
+that the model has already trained on
+ 
+
+00:04:32.759 --> 00:04:34.430 align:start position:0%
+that the model has already trained on
+the<00:04:32.919><c> whites</c><00:04:33.160><c> are</c><00:04:33.320><c> yet</c><00:04:33.479><c> to</c><00:04:33.600><c> be</c><00:04:33.720><c> trained</c><00:04:34.120><c> now</c><00:04:34.280><c> we</c>
+
+00:04:34.430 --> 00:04:34.440 align:start position:0%
+the whites are yet to be trained now we
+ 
+
+00:04:34.440 --> 00:04:36.469 align:start position:0%
+the whites are yet to be trained now we
+know<00:04:34.759><c> that</c><00:04:35.199><c> the</c><00:04:35.320><c> model</c><00:04:35.639><c> is</c><00:04:35.800><c> performing</c><00:04:36.280><c> good</c>
+
+00:04:36.469 --> 00:04:36.479 align:start position:0%
+know that the model is performing good
+ 
+
+00:04:36.479 --> 00:04:38.390 align:start position:0%
+know that the model is performing good
+in<00:04:36.680><c> this</c><00:04:36.840><c> region</c><00:04:37.320><c> and</c><00:04:37.440><c> it's</c><00:04:37.680><c> not</c><00:04:37.840><c> so</c><00:04:38.039><c> good</c><00:04:38.199><c> in</c>
+
+00:04:38.390 --> 00:04:38.400 align:start position:0%
+in this region and it's not so good in
+ 
+
+00:04:38.400 --> 00:04:40.710 align:start position:0%
+in this region and it's not so good in
+this<00:04:38.560><c> region</c><00:04:39.080><c> now</c><00:04:39.440><c> with</c><00:04:39.639><c> this</c><00:04:39.919><c> information</c>
+
+00:04:40.710 --> 00:04:40.720 align:start position:0%
+this region now with this information
+ 
+
+00:04:40.720 --> 00:04:43.350 align:start position:0%
+this region now with this information
+this<00:04:40.880><c> information</c><00:04:41.320><c> is</c><00:04:41.520><c> not</c><00:04:41.759><c> used</c><00:04:42.479><c> both</c><00:04:42.759><c> of</c><00:04:43.160><c> in</c>
+
+00:04:43.350 --> 00:04:43.360 align:start position:0%
+this information is not used both of in
+ 
+
+00:04:43.360 --> 00:04:45.110 align:start position:0%
+this information is not used both of in
+both<00:04:43.600><c> of</c><00:04:43.800><c> grid</c><00:04:44.080><c> search</c><00:04:44.440><c> as</c><00:04:44.560><c> well</c><00:04:44.680><c> as</c><00:04:44.840><c> random</c>
+
+00:04:45.110 --> 00:04:45.120 align:start position:0%
+both of grid search as well as random
+ 
+
+00:04:45.120 --> 00:04:46.870 align:start position:0%
+both of grid search as well as random
+search<00:04:45.680><c> but</c><00:04:45.880><c> if</c><00:04:46.039><c> this</c><00:04:46.160><c> is</c><00:04:46.280><c> the</c><00:04:46.440><c> information</c>
+
+00:04:46.870 --> 00:04:46.880 align:start position:0%
+search but if this is the information
+ 
+
+00:04:46.880 --> 00:04:50.189 align:start position:0%
+search but if this is the information
+given<00:04:47.120><c> to</c><00:04:47.280><c> you</c><00:04:47.800><c> what</c><00:04:48.039><c> would</c><00:04:48.320><c> be</c><00:04:48.600><c> the</c><00:04:49.199><c> value</c><00:04:49.759><c> or</c>
+
+00:04:50.189 --> 00:04:50.199 align:start position:0%
+given to you what would be the value or
+ 
+
+00:04:50.199 --> 00:04:51.909 align:start position:0%
+given to you what would be the value or
+what<00:04:50.400><c> would</c><00:04:50.639><c> be</c><00:04:50.800><c> the</c><00:04:50.960><c> values</c><00:04:51.320><c> that</c><00:04:51.520><c> you</c><00:04:51.639><c> would</c>
+
+00:04:51.909 --> 00:04:51.919 align:start position:0%
+what would be the values that you would
+ 
+
+00:04:51.919 --> 00:04:53.990 align:start position:0%
+what would be the values that you would
+try<00:04:52.360><c> for</c><00:04:52.520><c> your</c><00:04:52.680><c> next</c><00:04:52.960><c> iteration</c><00:04:53.560><c> they</c><00:04:53.800><c> more</c>
+
+00:04:53.990 --> 00:04:54.000 align:start position:0%
+try for your next iteration they more
+ 
+
+00:04:54.000 --> 00:04:56.270 align:start position:0%
+try for your next iteration they more
+likely<00:04:54.320><c> to</c><00:04:54.520><c> try</c><00:04:54.840><c> around</c><00:04:55.199><c> this</c><00:04:55.400><c> area</c><00:04:55.720><c> isn't</c><00:04:55.960><c> it</c>
+
+00:04:56.270 --> 00:04:56.280 align:start position:0%
+likely to try around this area isn't it
+ 
+
+00:04:56.280 --> 00:04:58.150 align:start position:0%
+likely to try around this area isn't it
+because<00:04:56.759><c> this</c><00:04:56.880><c> is</c><00:04:57.000><c> green</c><00:04:57.280><c> this</c><00:04:57.360><c> is</c><00:04:57.520><c> doing</c><00:04:57.759><c> well</c>
+
+00:04:58.150 --> 00:04:58.160 align:start position:0%
+because this is green this is doing well
+ 
+
+00:04:58.160 --> 00:04:59.870 align:start position:0%
+because this is green this is doing well
+right<00:04:58.400><c> because</c><00:04:58.720><c> this</c><00:04:58.880><c> area</c><00:04:59.120><c> is</c><00:04:59.199><c> doing</c><00:04:59.440><c> well</c><00:04:59.759><c> we</c>
+
+00:04:59.870 --> 00:04:59.880 align:start position:0%
+right because this area is doing well we
+ 
+
+00:04:59.880 --> 00:05:01.710 align:start position:0%
+right because this area is doing well we
+will<00:05:00.440><c> try</c><00:05:00.680><c> and</c><00:05:00.880><c> find</c><00:05:01.120><c> out</c><00:05:01.280><c> for</c><00:05:01.520><c> this</c>
+
+00:05:01.710 --> 00:05:01.720 align:start position:0%
+will try and find out for this
+ 
+
+00:05:01.720 --> 00:05:03.790 align:start position:0%
+will try and find out for this
+particular<00:05:02.120><c> region</c><00:05:02.520><c> for</c><00:05:02.680><c> the</c><00:05:02.840><c> best</c><00:05:03.440><c> possible</c>
+
+00:05:03.790 --> 00:05:03.800 align:start position:0%
+particular region for the best possible
+ 
+
+00:05:03.800 --> 00:05:06.110 align:start position:0%
+particular region for the best possible
+parameter<00:05:04.240><c> combination</c><00:05:04.759><c> but</c><00:05:05.000><c> we</c><00:05:05.160><c> don't</c><00:05:05.720><c> take</c>
+
+00:05:06.110 --> 00:05:06.120 align:start position:0%
+parameter combination but we don't take
+ 
+
+00:05:06.120 --> 00:05:07.950 align:start position:0%
+parameter combination but we don't take
+that<00:05:06.400><c> information</c><00:05:06.960><c> account</c><00:05:07.320><c> when</c><00:05:07.680><c> into</c>
+
+00:05:07.950 --> 00:05:07.960 align:start position:0%
+that information account when into
+ 
+
+00:05:07.960 --> 00:05:09.590 align:start position:0%
+that information account when into
+account<00:05:08.280><c> when</c><00:05:08.440><c> we</c><00:05:08.520><c> are</c><00:05:08.639><c> using</c><00:05:08.960><c> grid</c><00:05:09.199><c> search</c><00:05:09.479><c> as</c>
+
+00:05:09.590 --> 00:05:09.600 align:start position:0%
+account when we are using grid search as
+ 
+
+00:05:09.600 --> 00:05:11.670 align:start position:0%
+account when we are using grid search as
+well<00:05:09.720><c> as</c><00:05:09.880><c> random</c><00:05:10.160><c> search</c><00:05:10.560><c> so</c><00:05:10.759><c> this</c><00:05:10.880><c> is</c><00:05:11.080><c> exactly</c>
+
+00:05:11.670 --> 00:05:11.680 align:start position:0%
+well as random search so this is exactly
+ 
+
+00:05:11.680 --> 00:05:15.510 align:start position:0%
+well as random search so this is exactly
+what<00:05:12.440><c> bayian</c><00:05:13.440><c> bayian</c><00:05:14.240><c> optimization</c><00:05:15.160><c> is</c><00:05:15.320><c> all</c>
+
+00:05:15.510 --> 00:05:15.520 align:start position:0%
+what bayian bayian optimization is all
+ 
+
+00:05:15.520 --> 00:05:17.909 align:start position:0%
+what bayian bayian optimization is all
+about<00:05:16.080><c> it</c><00:05:16.240><c> tries</c><00:05:16.479><c> to</c><00:05:16.639><c> make</c><00:05:16.840><c> use</c><00:05:17.000><c> of</c><00:05:17.160><c> the</c><00:05:17.360><c> prior</c>
+
+00:05:17.909 --> 00:05:17.919 align:start position:0%
+about it tries to make use of the prior
+ 
+
+00:05:17.919 --> 00:05:20.309 align:start position:0%
+about it tries to make use of the prior
+information<00:05:18.919><c> to</c><00:05:19.400><c> make</c><00:05:19.639><c> the</c><00:05:19.840><c> subsequent</c>
+
+00:05:20.309 --> 00:05:20.319 align:start position:0%
+information to make the subsequent
+ 
+
+00:05:20.319 --> 00:05:22.150 align:start position:0%
+information to make the subsequent
+searches<00:05:20.759><c> so</c><00:05:20.919><c> that</c><00:05:21.080><c> we</c><00:05:21.160><c> will</c><00:05:21.319><c> be</c><00:05:21.479><c> able</c><00:05:21.680><c> to</c><00:05:21.880><c> find</c>
+
+00:05:22.150 --> 00:05:22.160 align:start position:0%
+searches so that we will be able to find
+ 
+
+00:05:22.160 --> 00:05:25.629 align:start position:0%
+searches so that we will be able to find
+the<00:05:22.319><c> optimal</c><00:05:22.880><c> Point</c><00:05:23.840><c> quite</c><00:05:24.240><c> fast</c><00:05:25.160><c> so</c><00:05:25.400><c> this</c><00:05:25.479><c> is</c>
+
+00:05:25.629 --> 00:05:25.639 align:start position:0%
+the optimal Point quite fast so this is
+ 
+
+00:05:25.639 --> 00:05:27.870 align:start position:0%
+the optimal Point quite fast so this is
+the<00:05:25.800><c> fundamental</c><00:05:26.479><c> idea</c><00:05:26.840><c> behind</c><00:05:27.319><c> byian</c>
+
+00:05:27.870 --> 00:05:27.880 align:start position:0%
+the fundamental idea behind byian
+ 
+
+00:05:27.880 --> 00:05:30.110 align:start position:0%
+the fundamental idea behind byian
+optimization<00:05:28.759><c> but</c><00:05:29.039><c> how</c><00:05:29.199><c> does</c><00:05:29.360><c> this</c><00:05:29.479><c> work</c><00:05:29.759><c> work</c>
+
+00:05:30.110 --> 00:05:30.120 align:start position:0%
+optimization but how does this work work
+ 
+
+00:05:30.120 --> 00:05:31.950 align:start position:0%
+optimization but how does this work work
+so<00:05:30.479><c> what</c><00:05:30.639><c> we</c><00:05:30.720><c> are</c><00:05:30.880><c> concerned</c><00:05:31.360><c> is</c><00:05:31.560><c> about</c>
+
+00:05:31.950 --> 00:05:31.960 align:start position:0%
+so what we are concerned is about
+ 
+
+00:05:31.960 --> 00:05:35.950 align:start position:0%
+so what we are concerned is about
+finding<00:05:32.440><c> the</c><00:05:33.800><c> probability</c><00:05:34.800><c> of</c><00:05:35.440><c> getting</c><00:05:35.720><c> a</c>
+
+00:05:35.950 --> 00:05:35.960 align:start position:0%
+finding the probability of getting a
+ 
+
+00:05:35.960 --> 00:05:38.390 align:start position:0%
+finding the probability of getting a
+specific<00:05:36.680><c> model</c><00:05:37.120><c> score</c><00:05:37.680><c> getting</c><00:05:37.880><c> a</c><00:05:38.039><c> specific</c>
+
+00:05:38.390 --> 00:05:38.400 align:start position:0%
+specific model score getting a specific
+ 
+
+00:05:38.400 --> 00:05:40.749 align:start position:0%
+specific model score getting a specific
+model<00:05:38.759><c> score</c><00:05:39.199><c> this</c><00:05:39.360><c> could</c><00:05:39.560><c> be</c><00:05:40.000><c> model</c><00:05:40.360><c> score</c>
+
+00:05:40.749 --> 00:05:40.759 align:start position:0%
+model score this could be model score
+ 
+
+00:05:40.759 --> 00:05:43.309 align:start position:0%
+model score this could be model score
+this<00:05:40.919><c> could</c><00:05:41.120><c> be</c><00:05:41.440><c> a</c><00:05:42.000><c> cost</c><00:05:42.360><c> function</c><00:05:43.039><c> cost</c>
+
+00:05:43.309 --> 00:05:43.319 align:start position:0%
+this could be a cost function cost
+ 
+
+00:05:43.319 --> 00:05:45.830 align:start position:0%
+this could be a cost function cost
+function<00:05:43.840><c> or</c><00:05:44.039><c> sorry</c><00:05:44.400><c> the</c><00:05:44.560><c> loss</c><00:05:44.880><c> function</c><00:05:45.440><c> loss</c>
+
+00:05:45.830 --> 00:05:45.840 align:start position:0%
+function or sorry the loss function loss
+ 
+
+00:05:45.840 --> 00:05:47.950 align:start position:0%
+function or sorry the loss function loss
+function<00:05:46.240><c> like</c><00:05:46.639><c> error</c><00:05:47.280><c> some</c><00:05:47.520><c> type</c><00:05:47.720><c> of</c><00:05:47.800><c> an</c>
+
+00:05:47.950 --> 00:05:47.960 align:start position:0%
+function like error some type of an
+ 
+
+00:05:47.960 --> 00:05:50.230 align:start position:0%
+function like error some type of an
+error<00:05:48.280><c> or</c><00:05:48.680><c> it</c><00:05:48.840><c> could</c><00:05:49.000><c> be</c><00:05:49.240><c> accuracy</c><00:05:50.000><c> right</c>
+
+00:05:50.230 --> 00:05:50.240 align:start position:0%
+error or it could be accuracy right
+ 
+
+00:05:50.240 --> 00:05:52.150 align:start position:0%
+error or it could be accuracy right
+accuracy<00:05:50.600><c> means</c><00:05:50.800><c> we</c><00:05:50.919><c> want</c><00:05:51.039><c> to</c><00:05:51.240><c> maximize</c><00:05:51.800><c> it</c>
+
+00:05:52.150 --> 00:05:52.160 align:start position:0%
+accuracy means we want to maximize it
+ 
+
+00:05:52.160 --> 00:05:54.029 align:start position:0%
+accuracy means we want to maximize it
+loss<00:05:52.440><c> function</c><00:05:52.759><c> means</c><00:05:53.039><c> we</c><00:05:53.160><c> want</c><00:05:53.319><c> to</c><00:05:53.680><c> minimize</c>
+
+00:05:54.029 --> 00:05:54.039 align:start position:0%
+loss function means we want to minimize
+ 
+
+00:05:54.039 --> 00:05:55.710 align:start position:0%
+loss function means we want to minimize
+it<00:05:54.160><c> error</c><00:05:54.400><c> means</c><00:05:54.600><c> we</c><00:05:54.680><c> want</c><00:05:54.800><c> to</c><00:05:54.919><c> minimize</c><00:05:55.319><c> it</c>
+
+00:05:55.710 --> 00:05:55.720 align:start position:0%
+it error means we want to minimize it
+ 
+
+00:05:55.720 --> 00:05:56.830 align:start position:0%
+it error means we want to minimize it
+right<00:05:56.000><c> so</c><00:05:56.120><c> what's</c><00:05:56.280><c> the</c><00:05:56.400><c> probability</c><00:05:56.720><c> of</c>
+
+00:05:56.830 --> 00:05:56.840 align:start position:0%
+right so what's the probability of
+ 
+
+00:05:56.840 --> 00:06:00.150 align:start position:0%
+right so what's the probability of
+getting<00:05:57.000><c> a</c><00:05:57.120><c> particular</c><00:05:57.639><c> model</c><00:05:58.000><c> score</c><00:05:59.000><c> given</c><00:06:00.000><c> a</c>
+
+00:06:00.150 --> 00:06:00.160 align:start position:0%
+getting a particular model score given a
+ 
+
+00:06:00.160 --> 00:06:02.270 align:start position:0%
+getting a particular model score given a
+particular<00:06:00.680><c> configuration</c><00:06:01.600><c> of</c><00:06:01.800><c> the</c><00:06:01.960><c> hyper</c>
+
+00:06:02.270 --> 00:06:02.280 align:start position:0%
+particular configuration of the hyper
+ 
+
+00:06:02.280 --> 00:06:04.270 align:start position:0%
+particular configuration of the hyper
+parameters<00:06:03.000><c> so</c><00:06:03.199><c> this</c><00:06:03.319><c> is</c><00:06:03.440><c> ultimately</c><00:06:04.000><c> what</c><00:06:04.120><c> we</c>
+
+00:06:04.270 --> 00:06:04.280 align:start position:0%
+parameters so this is ultimately what we
+ 
+
+00:06:04.280 --> 00:06:07.270 align:start position:0%
+parameters so this is ultimately what we
+want<00:06:04.440><c> to</c><00:06:04.600><c> find</c><00:06:04.800><c> out</c><00:06:05.440><c> but</c><00:06:06.080><c> we</c><00:06:06.280><c> want</c><00:06:06.479><c> to</c><00:06:06.800><c> find</c>
+
+00:06:07.270 --> 00:06:07.280 align:start position:0%
+want to find out but we want to find
+ 
+
+00:06:07.280 --> 00:06:09.710 align:start position:0%
+want to find out but we want to find
+this<00:06:07.599><c> we</c><00:06:07.759><c> want</c><00:06:07.919><c> to</c><00:06:08.080><c> find</c><00:06:08.520><c> the</c><00:06:08.720><c> configuration</c>
+
+00:06:09.710 --> 00:06:09.720 align:start position:0%
+this we want to find the configuration
+ 
+
+00:06:09.720 --> 00:06:13.029 align:start position:0%
+this we want to find the configuration
+that<00:06:09.960><c> gives</c><00:06:10.680><c> the</c><00:06:10.919><c> maximum</c><00:06:11.840><c> or</c><00:06:12.080><c> minimum</c>
+
+00:06:13.029 --> 00:06:13.039 align:start position:0%
+that gives the maximum or minimum
+ 
+
+00:06:13.039 --> 00:06:15.189 align:start position:0%
+that gives the maximum or minimum
+depending<00:06:13.400><c> on</c><00:06:13.560><c> the</c><00:06:13.680><c> objective</c><00:06:14.560><c> giving</c><00:06:14.919><c> the</c>
+
+00:06:15.189 --> 00:06:15.199 align:start position:0%
+depending on the objective giving the
+ 
+
+00:06:15.199 --> 00:06:16.550 align:start position:0%
+depending on the objective giving the
+what<00:06:15.319><c> is</c><00:06:15.440><c> the</c><00:06:15.599><c> configuration</c><00:06:16.080><c> that</c><00:06:16.199><c> gives</c><00:06:16.360><c> the</c>
+
+00:06:16.550 --> 00:06:16.560 align:start position:0%
+what is the configuration that gives the
+ 
+
+00:06:16.560 --> 00:06:19.029 align:start position:0%
+what is the configuration that gives the
+maximum<00:06:17.240><c> model</c><00:06:17.599><c> score</c><00:06:18.120><c> but</c><00:06:18.280><c> at</c><00:06:18.440><c> the</c><00:06:18.560><c> same</c><00:06:18.840><c> time</c>
+
+00:06:19.029 --> 00:06:19.039 align:start position:0%
+maximum model score but at the same time
+ 
+
+00:06:19.039 --> 00:06:22.230 align:start position:0%
+maximum model score but at the same time
+we<00:06:19.160><c> don't</c><00:06:19.479><c> have</c><00:06:19.639><c> the</c><00:06:19.840><c> liberty</c><00:06:20.319><c> of</c><00:06:20.599><c> trying</c><00:06:21.240><c> out</c>
+
+00:06:22.230 --> 00:06:22.240 align:start position:0%
+we don't have the liberty of trying out
+ 
+
+00:06:22.240 --> 00:06:24.110 align:start position:0%
+we don't have the liberty of trying out
+all<00:06:22.520><c> of</c><00:06:22.800><c> these</c><00:06:23.039><c> iterations</c><00:06:23.599><c> all</c><00:06:23.759><c> of</c><00:06:23.919><c> these</c>
+
+00:06:24.110 --> 00:06:24.120 align:start position:0%
+all of these iterations all of these
+ 
+
+00:06:24.120 --> 00:06:27.029 align:start position:0%
+all of these iterations all of these
+configurations<00:06:25.000><c> possible</c><00:06:25.880><c> Right</c><00:06:26.639><c> the</c><00:06:26.759><c> number</c>
+
+00:06:27.029 --> 00:06:27.039 align:start position:0%
+configurations possible Right the number
+ 
+
+00:06:27.039 --> 00:06:28.670 align:start position:0%
+configurations possible Right the number
+of<00:06:27.280><c> iterations</c><00:06:27.919><c> or</c><00:06:28.080><c> the</c><00:06:28.199><c> number</c><00:06:28.400><c> of</c>
+
+00:06:28.670 --> 00:06:28.680 align:start position:0%
+of iterations or the number of
+ 
+
+00:06:28.680 --> 00:06:30.589 align:start position:0%
+of iterations or the number of
+iterations<00:06:29.199><c> means</c><00:06:29.599><c> training</c><00:06:30.080><c> here</c><00:06:30.360><c> each</c>
+
+00:06:30.589 --> 00:06:30.599 align:start position:0%
+iterations means training here each
+ 
+
+00:06:30.599 --> 00:06:32.270 align:start position:0%
+iterations means training here each
+training<00:06:31.039><c> process</c><00:06:31.360><c> is</c><00:06:31.520><c> what</c><00:06:31.639><c> we</c><00:06:31.800><c> refer</c><00:06:32.039><c> to</c><00:06:32.160><c> as</c>
+
+00:06:32.270 --> 00:06:32.280 align:start position:0%
+training process is what we refer to as
+ 
+
+00:06:32.280 --> 00:06:34.230 align:start position:0%
+training process is what we refer to as
+iteration<00:06:32.919><c> the</c><00:06:33.039><c> number</c><00:06:33.280><c> of</c><00:06:33.479><c> iterations</c><00:06:34.080><c> is</c>
+
+00:06:34.230 --> 00:06:34.240 align:start position:0%
+iteration the number of iterations is
+ 
+
+00:06:34.240 --> 00:06:35.749 align:start position:0%
+iteration the number of iterations is
+something<00:06:34.479><c> that</c><00:06:34.639><c> we</c><00:06:34.720><c> want</c><00:06:34.880><c> to</c><00:06:35.039><c> reduce</c><00:06:35.520><c> so</c><00:06:35.680><c> we</c>
+
+00:06:35.749 --> 00:06:35.759 align:start position:0%
+something that we want to reduce so we
+ 
+
+00:06:35.759 --> 00:06:38.909 align:start position:0%
+something that we want to reduce so we
+want<00:06:35.919><c> to</c><00:06:36.199><c> achieve</c><00:06:36.720><c> this</c><00:06:37.160><c> objective</c><00:06:38.160><c> with</c>
+
+00:06:38.909 --> 00:06:38.919 align:start position:0%
+want to achieve this objective with
+ 
+
+00:06:38.919 --> 00:06:43.110 align:start position:0%
+want to achieve this objective with
+minimum<00:06:39.759><c> number</c><00:06:40.280><c> of</c><00:06:41.720><c> iterations</c><00:06:42.720><c> how</c><00:06:42.840><c> do</c><00:06:43.000><c> we</c>
+
+00:06:43.110 --> 00:06:43.120 align:start position:0%
+minimum number of iterations how do we
+ 
+
+00:06:43.120 --> 00:06:45.909 align:start position:0%
+minimum number of iterations how do we
+do<00:06:43.360><c> this</c><00:06:44.280><c> this</c><00:06:44.520><c> essentially</c><00:06:45.000><c> boils</c><00:06:45.400><c> down</c><00:06:45.680><c> into</c>
+
+00:06:45.909 --> 00:06:45.919 align:start position:0%
+do this this essentially boils down into
+ 
+
+00:06:45.919 --> 00:06:48.589 align:start position:0%
+do this this essentially boils down into
+four<00:06:46.199><c> steps</c><00:06:46.800><c> first</c><00:06:47.120><c> we</c><00:06:47.520><c> need</c><00:06:47.840><c> a</c><00:06:48.080><c> surrogate</c>
+
+00:06:48.589 --> 00:06:48.599 align:start position:0%
+four steps first we need a surrogate
+ 
+
+00:06:48.599 --> 00:06:50.430 align:start position:0%
+four steps first we need a surrogate
+model<00:06:48.840><c> surrogate</c><00:06:49.280><c> model</c><00:06:49.479><c> is</c><00:06:49.639><c> nothing</c><00:06:49.880><c> but</c><00:06:50.199><c> the</c>
+
+00:06:50.430 --> 00:06:50.440 align:start position:0%
+model surrogate model is nothing but the
+ 
+
+00:06:50.440 --> 00:06:52.510 align:start position:0%
+model surrogate model is nothing but the
+model<00:06:50.800><c> where</c><00:06:50.960><c> we</c><00:06:51.160><c> predict</c><00:06:51.520><c> the</c><00:06:51.680><c> model</c><00:06:52.039><c> score</c>
+
+00:06:52.510 --> 00:06:52.520 align:start position:0%
+model where we predict the model score
+ 
+
+00:06:52.520 --> 00:06:54.469 align:start position:0%
+model where we predict the model score
+or<00:06:52.720><c> the</c><00:06:52.880><c> objective</c><00:06:53.319><c> function</c><00:06:53.960><c> whatever</c><00:06:54.319><c> we</c>
+
+00:06:54.469 --> 00:06:54.479 align:start position:0%
+or the objective function whatever we
+ 
+
+00:06:54.479 --> 00:06:56.589 align:start position:0%
+or the objective function whatever we
+want<00:06:54.639><c> to</c><00:06:54.800><c> call</c><00:06:54.919><c> it</c><00:06:55.160><c> so</c><00:06:55.599><c> predict</c><00:06:56.000><c> the</c><00:06:56.160><c> objective</c>
+
+00:06:56.589 --> 00:06:56.599 align:start position:0%
+want to call it so predict the objective
+ 
+
+00:06:56.599 --> 00:06:58.469 align:start position:0%
+want to call it so predict the objective
+function<00:06:57.000><c> given</c><00:06:57.759><c> a</c><00:06:57.960><c> particular</c>
+
+00:06:58.469 --> 00:06:58.479 align:start position:0%
+function given a particular
+ 
+
+00:06:58.479 --> 00:07:01.469 align:start position:0%
+function given a particular
+configuration<00:06:59.160><c> of</c><00:06:59.639><c> hyper</c><00:07:00.319><c> parameters</c><00:07:01.319><c> right</c>
+
+00:07:01.469 --> 00:07:01.479 align:start position:0%
+configuration of hyper parameters right
+ 
+
+00:07:01.479 --> 00:07:03.510 align:start position:0%
+configuration of hyper parameters right
+so<00:07:01.639><c> we</c><00:07:01.759><c> will</c><00:07:01.960><c> have</c><00:07:02.080><c> a</c><00:07:02.199><c> surate</c><00:07:02.720><c> model</c><00:07:03.240><c> at</c><00:07:03.400><c> the</c>
+
+00:07:03.510 --> 00:07:03.520 align:start position:0%
+so we will have a surate model at the
+ 
+
+00:07:03.520 --> 00:07:06.230 align:start position:0%
+so we will have a surate model at the
+same<00:07:03.800><c> time</c><00:07:04.160><c> we</c><00:07:04.319><c> cannot</c><00:07:05.120><c> estimate</c><00:07:05.720><c> this</c><00:07:05.919><c> for</c>
+
+00:07:06.230 --> 00:07:06.240 align:start position:0%
+same time we cannot estimate this for
+ 
+
+00:07:06.240 --> 00:07:08.029 align:start position:0%
+same time we cannot estimate this for
+all<00:07:06.560><c> possible</c><00:07:06.960><c> combinations</c><00:07:07.639><c> or</c><00:07:07.800><c> all</c>
+
+00:07:08.029 --> 00:07:08.039 align:start position:0%
+all possible combinations or all
+ 
+
+00:07:08.039 --> 00:07:10.070 align:start position:0%
+all possible combinations or all
+possible<00:07:08.440><c> configurations</c><00:07:09.440><c> right</c><00:07:09.599><c> we</c><00:07:09.720><c> want</c><00:07:09.879><c> to</c>
+
+00:07:10.070 --> 00:07:10.080 align:start position:0%
+possible configurations right we want to
+ 
+
+00:07:10.080 --> 00:07:12.510 align:start position:0%
+possible configurations right we want to
+minimize<00:07:10.680><c> the</c><00:07:10.919><c> number</c><00:07:11.120><c> of</c><00:07:11.319><c> iterations</c><00:07:12.039><c> so</c><00:07:12.360><c> we</c>
+
+00:07:12.510 --> 00:07:12.520 align:start position:0%
+minimize the number of iterations so we
+ 
+
+00:07:12.520 --> 00:07:15.029 align:start position:0%
+minimize the number of iterations so we
+need<00:07:12.800><c> an</c><00:07:13.160><c> acquisition</c><00:07:13.800><c> function</c><00:07:14.240><c> also</c><00:07:14.800><c> so</c>
+
+00:07:15.029 --> 00:07:15.039 align:start position:0%
+need an acquisition function also so
+ 
+
+00:07:15.039 --> 00:07:17.469 align:start position:0%
+need an acquisition function also so
+this<00:07:15.240><c> acquisition</c><00:07:15.840><c> function</c><00:07:16.440><c> will</c><00:07:16.919><c> guide</c><00:07:17.319><c> the</c>
+
+00:07:17.469 --> 00:07:17.479 align:start position:0%
+this acquisition function will guide the
+ 
+
+00:07:17.479 --> 00:07:19.110 align:start position:0%
+this acquisition function will guide the
+search<00:07:18.000><c> guide</c><00:07:18.280><c> the</c><00:07:18.400><c> search</c><00:07:18.599><c> means</c><00:07:18.840><c> if</c><00:07:18.919><c> you</c><00:07:19.000><c> are</c>
+
+00:07:19.110 --> 00:07:19.120 align:start position:0%
+search guide the search means if you are
+ 
+
+00:07:19.120 --> 00:07:20.710 align:start position:0%
+search guide the search means if you are
+familiar<00:07:19.479><c> with</c><00:07:19.599><c> the</c><00:07:19.800><c> concept</c><00:07:20.199><c> of</c>
+
+00:07:20.710 --> 00:07:20.720 align:start position:0%
+familiar with the concept of
+ 
+
+00:07:20.720 --> 00:07:22.390 align:start position:0%
+familiar with the concept of
+reinforcement<00:07:21.479><c> learning</c><00:07:22.080><c> if</c><00:07:22.199><c> you're</c>
+
+00:07:22.390 --> 00:07:22.400 align:start position:0%
+reinforcement learning if you're
+ 
+
+00:07:22.400 --> 00:07:23.390 align:start position:0%
+reinforcement learning if you're
+familiar<00:07:22.720><c> with</c>
+
+00:07:23.390 --> 00:07:23.400 align:start position:0%
+familiar with
+ 
+
+00:07:23.400 --> 00:07:25.430 align:start position:0%
+familiar with
+reinforcement<00:07:24.400><c> learning</c><00:07:24.840><c> with</c><00:07:24.960><c> the</c><00:07:25.080><c> idea</c>
+
+00:07:25.430 --> 00:07:25.440 align:start position:0%
+reinforcement learning with the idea
+ 
+
+00:07:25.440 --> 00:07:27.510 align:start position:0%
+reinforcement learning with the idea
+behind<00:07:25.840><c> say</c><00:07:26.199><c> multi-m</c><00:07:26.759><c> Bandits</c><00:07:27.120><c> and</c><00:07:27.280><c> all</c><00:07:27.400><c> this</c>
+
+00:07:27.510 --> 00:07:27.520 align:start position:0%
+behind say multi-m Bandits and all this
+ 
+
+00:07:27.520 --> 00:07:29.950 align:start position:0%
+behind say multi-m Bandits and all this
+is<00:07:27.639><c> quite</c><00:07:27.879><c> similar</c><00:07:28.280><c> to</c><00:07:28.479><c> that</c><00:07:29.199><c> where</c><00:07:29.759><c> this</c>
+
+00:07:29.950 --> 00:07:29.960 align:start position:0%
+is quite similar to that where this
+ 
+
+00:07:29.960 --> 00:07:31.990 align:start position:0%
+is quite similar to that where this
+acquisition<00:07:30.560><c> function</c><00:07:31.400><c> will</c><00:07:31.639><c> have</c><00:07:31.840><c> the</c>
+
+00:07:31.990 --> 00:07:32.000 align:start position:0%
+acquisition function will have the
+ 
+
+00:07:32.000 --> 00:07:34.830 align:start position:0%
+acquisition function will have the
+opportunity<00:07:32.560><c> to</c><00:07:33.039><c> explore</c><00:07:33.639><c> either</c><00:07:34.000><c> explore</c><00:07:34.599><c> or</c>
+
+00:07:34.830 --> 00:07:34.840 align:start position:0%
+opportunity to explore either explore or
+ 
+
+00:07:34.840 --> 00:07:36.950 align:start position:0%
+opportunity to explore either explore or
+exploit<00:07:35.360><c> exploit</c><00:07:35.800><c> means</c><00:07:36.360><c> what</c><00:07:36.479><c> it</c><00:07:36.599><c> means</c><00:07:36.800><c> is</c>
+
+00:07:36.950 --> 00:07:36.960 align:start position:0%
+exploit exploit means what it means is
+ 
+
+00:07:36.960 --> 00:07:38.710 align:start position:0%
+exploit exploit means what it means is
+basically<00:07:37.280><c> we</c><00:07:37.479><c> know</c><00:07:37.680><c> that</c><00:07:38.000><c> these</c><00:07:38.160><c> regions</c><00:07:38.560><c> are</c>
+
+00:07:38.710 --> 00:07:38.720 align:start position:0%
+basically we know that these regions are
+ 
+
+00:07:38.720 --> 00:07:40.510 align:start position:0%
+basically we know that these regions are
+doing<00:07:39.080><c> well</c><00:07:39.479><c> if</c><00:07:39.599><c> we</c><00:07:39.720><c> know</c><00:07:39.919><c> that</c><00:07:40.080><c> these</c><00:07:40.199><c> regions</c>
+
+00:07:40.510 --> 00:07:40.520 align:start position:0%
+doing well if we know that these regions
+ 
+
+00:07:40.520 --> 00:07:42.110 align:start position:0%
+doing well if we know that these regions
+are<00:07:40.639><c> doing</c><00:07:40.879><c> well</c><00:07:41.080><c> we</c><00:07:41.199><c> will</c><00:07:41.440><c> try</c><00:07:41.639><c> to</c><00:07:41.840><c> for</c><00:07:42.000><c> the</c>
+
+00:07:42.110 --> 00:07:42.120 align:start position:0%
+are doing well we will try to for the
+ 
+
+00:07:42.120 --> 00:07:44.670 align:start position:0%
+are doing well we will try to for the
+next<00:07:42.440><c> iteration</c><00:07:43.440><c> when</c><00:07:43.680><c> it</c><00:07:43.800><c> goes</c><00:07:44.000><c> for</c><00:07:44.159><c> an</c>
+
+00:07:44.670 --> 00:07:44.680 align:start position:0%
+next iteration when it goes for an
+ 
+
+00:07:44.680 --> 00:07:46.189 align:start position:0%
+next iteration when it goes for an
+exploit<00:07:45.080><c> option</c><00:07:45.400><c> it</c><00:07:45.520><c> will</c><00:07:45.639><c> try</c><00:07:45.800><c> to</c><00:07:45.919><c> choose</c>
+
+00:07:46.189 --> 00:07:46.199 align:start position:0%
+exploit option it will try to choose
+ 
+
+00:07:46.199 --> 00:07:48.430 align:start position:0%
+exploit option it will try to choose
+data<00:07:46.440><c> points</c><00:07:46.800><c> around</c><00:07:47.199><c> this</c><00:07:47.360><c> region</c><00:07:48.159><c> okay</c><00:07:48.319><c> so</c>
+
+00:07:48.430 --> 00:07:48.440 align:start position:0%
+data points around this region okay so
+ 
+
+00:07:48.440 --> 00:07:50.070 align:start position:0%
+data points around this region okay so
+it<00:07:48.560><c> will</c><00:07:48.680><c> go</c><00:07:48.800><c> for</c><00:07:49.039><c> data</c><00:07:49.280><c> points</c><00:07:49.560><c> in</c><00:07:49.720><c> this</c><00:07:49.960><c> in</c>
+
+00:07:50.070 --> 00:07:50.080 align:start position:0%
+it will go for data points in this in
+ 
+
+00:07:50.080 --> 00:07:52.070 align:start position:0%
+it will go for data points in this in
+this<00:07:50.240><c> particular</c><00:07:50.599><c> Zone</c><00:07:51.599><c> that</c><00:07:51.720><c> would</c><00:07:51.879><c> be</c>
+
+00:07:52.070 --> 00:07:52.080 align:start position:0%
+this particular Zone that would be
+ 
+
+00:07:52.080 --> 00:07:54.390 align:start position:0%
+this particular Zone that would be
+exploit<00:07:52.720><c> explor</c><00:07:53.240><c> would</c><00:07:53.440><c> be</c><00:07:53.720><c> it</c><00:07:53.800><c> will</c><00:07:54.039><c> try</c><00:07:54.199><c> to</c>
+
+00:07:54.390 --> 00:07:54.400 align:start position:0%
+exploit explor would be it will try to
+ 
+
+00:07:54.400 --> 00:07:56.869 align:start position:0%
+exploit explor would be it will try to
+find<00:07:54.639><c> out</c><00:07:55.360><c> or</c><00:07:55.599><c> try</c><00:07:55.759><c> to</c><00:07:55.960><c> test</c><00:07:56.159><c> out</c><00:07:56.360><c> data</c><00:07:56.639><c> points</c>
+
+00:07:56.869 --> 00:07:56.879 align:start position:0%
+find out or try to test out data points
+ 
+
+00:07:56.879 --> 00:07:58.629 align:start position:0%
+find out or try to test out data points
+that<00:07:57.000><c> is</c><00:07:57.159><c> farther</c><00:07:57.560><c> away</c><00:07:58.039><c> right</c><00:07:58.199><c> randomly</c><00:07:58.560><c> it</c>
+
+00:07:58.629 --> 00:07:58.639 align:start position:0%
+that is farther away right randomly it
+ 
+
+00:07:58.639 --> 00:07:59.909 align:start position:0%
+that is farther away right randomly it
+will<00:07:58.720><c> show</c><00:07:58.919><c> some</c><00:07:59.039><c> other</c><00:07:59.199><c> points</c><00:07:59.520><c> somewhere</c><00:07:59.800><c> in</c>
+
+00:07:59.909 --> 00:07:59.919 align:start position:0%
+will show some other points somewhere in
+ 
+
+00:07:59.919 --> 00:08:02.029 align:start position:0%
+will show some other points somewhere in
+the<00:08:00.000><c> board</c><00:08:00.680><c> and</c><00:08:00.800><c> it</c><00:08:00.840><c> will</c><00:08:01.000><c> try</c><00:08:01.159><c> to</c><00:08:01.400><c> explore</c><00:08:01.840><c> how</c>
+
+00:08:02.029 --> 00:08:02.039 align:start position:0%
+the board and it will try to explore how
+ 
+
+00:08:02.039 --> 00:08:04.469 align:start position:0%
+the board and it will try to explore how
+the<00:08:02.879><c> model</c><00:08:03.240><c> score</c><00:08:03.560><c> turns</c><00:08:03.800><c> out</c><00:08:03.960><c> to</c><00:08:04.080><c> be</c><00:08:04.240><c> for</c><00:08:04.360><c> a</c>
+
+00:08:04.469 --> 00:08:04.479 align:start position:0%
+the model score turns out to be for a
+ 
+
+00:08:04.479 --> 00:08:06.390 align:start position:0%
+the model score turns out to be for a
+different<00:08:05.199><c> configuration</c><00:08:05.879><c> so</c><00:08:06.039><c> that's</c><00:08:06.240><c> what</c>
+
+00:08:06.390 --> 00:08:06.400 align:start position:0%
+different configuration so that's what
+ 
+
+00:08:06.400 --> 00:08:08.469 align:start position:0%
+different configuration so that's what
+explore<00:08:06.840><c> is</c><00:08:07.120><c> so</c><00:08:07.400><c> to</c><00:08:07.599><c> do</c><00:08:07.919><c> this</c><00:08:08.199><c> there</c><00:08:08.319><c> are</c>
+
+00:08:08.469 --> 00:08:08.479 align:start position:0%
+explore is so to do this there are
+ 
+
+00:08:08.479 --> 00:08:10.749 align:start position:0%
+explore is so to do this there are
+various<00:08:08.800><c> techniques</c><00:08:09.199><c> such</c><00:08:09.400><c> as</c><00:08:09.599><c> the</c><00:08:09.960><c> expected</c>
+
+00:08:10.749 --> 00:08:10.759 align:start position:0%
+various techniques such as the expected
+ 
+
+00:08:10.759 --> 00:08:12.909 align:start position:0%
+various techniques such as the expected
+Improvement<00:08:11.440><c> method</c><00:08:11.919><c> or</c><00:08:12.080><c> the</c><00:08:12.319><c> upper</c>
+
+00:08:12.909 --> 00:08:12.919 align:start position:0%
+Improvement method or the upper
+ 
+
+00:08:12.919 --> 00:08:17.189 align:start position:0%
+Improvement method or the upper
+confidence<00:08:13.639><c> bound</c><00:08:14.240><c> method</c><00:08:15.240><c> you</c><00:08:15.479><c> can</c><00:08:15.800><c> use</c><00:08:16.479><c> to</c>
+
+00:08:17.189 --> 00:08:17.199 align:start position:0%
+confidence bound method you can use to
+ 
+
+00:08:17.199 --> 00:08:19.350 align:start position:0%
+confidence bound method you can use to
+use<00:08:17.599><c> as</c><00:08:17.800><c> the</c><00:08:18.080><c> acquisition</c><00:08:18.639><c> function</c><00:08:19.039><c> so</c><00:08:19.240><c> this</c>
+
+00:08:19.350 --> 00:08:19.360 align:start position:0%
+use as the acquisition function so this
+ 
+
+00:08:19.360 --> 00:08:22.510 align:start position:0%
+use as the acquisition function so this
+will<00:08:19.520><c> essentially</c><00:08:20.120><c> guide</c><00:08:21.120><c> how</c><00:08:21.319><c> the</c><00:08:21.520><c> model</c><00:08:22.199><c> or</c>
+
+00:08:22.510 --> 00:08:22.520 align:start position:0%
+will essentially guide how the model or
+ 
+
+00:08:22.520 --> 00:08:24.869 align:start position:0%
+will essentially guide how the model or
+how<00:08:22.720><c> the</c><00:08:22.919><c> algorithm</c><00:08:23.639><c> is</c><00:08:23.800><c> searching</c><00:08:24.319><c> for</c><00:08:24.680><c> the</c>
+
+00:08:24.869 --> 00:08:24.879 align:start position:0%
+how the algorithm is searching for the
+ 
+
+00:08:24.879 --> 00:08:27.189 align:start position:0%
+how the algorithm is searching for the
+next<00:08:25.240><c> iterate</c><00:08:26.159><c> next</c><00:08:26.440><c> configuration</c><00:08:27.000><c> of</c><00:08:27.080><c> the</c>
+
+00:08:27.189 --> 00:08:27.199 align:start position:0%
+next iterate next configuration of the
+ 
+
+00:08:27.199 --> 00:08:28.990 align:start position:0%
+next iterate next configuration of the
+hyperparameter<00:08:27.960><c> so</c><00:08:28.120><c> once</c><00:08:28.400><c> the</c><00:08:28.680><c> next</c>
+
+00:08:28.990 --> 00:08:29.000 align:start position:0%
+hyperparameter so once the next
+ 
+
+00:08:29.000 --> 00:08:31.350 align:start position:0%
+hyperparameter so once the next
+iteration<00:08:29.599><c> or</c><00:08:29.759><c> configuration</c><00:08:30.280><c> is</c><00:08:30.440><c> chosen</c><00:08:31.199><c> we</c>
+
+00:08:31.350 --> 00:08:31.360 align:start position:0%
+iteration or configuration is chosen we
+ 
+
+00:08:31.360 --> 00:08:33.829 align:start position:0%
+iteration or configuration is chosen we
+will<00:08:31.599><c> use</c><00:08:31.960><c> again</c><00:08:32.279><c> the</c><00:08:32.479><c> surrogate</c><00:08:33.080><c> model</c><00:08:33.599><c> in</c>
+
+00:08:33.829 --> 00:08:33.839 align:start position:0%
+will use again the surrogate model in
+ 
+
+00:08:33.839 --> 00:08:37.110 align:start position:0%
+will use again the surrogate model in
+this<00:08:34.080><c> step</c><00:08:34.839><c> to</c><00:08:35.159><c> evaluate</c><00:08:35.760><c> the</c><00:08:35.919><c> newly</c><00:08:36.320><c> chosen</c>
+
+00:08:37.110 --> 00:08:37.120 align:start position:0%
+this step to evaluate the newly chosen
+ 
+
+00:08:37.120 --> 00:08:39.509 align:start position:0%
+this step to evaluate the newly chosen
+configuration<00:08:38.120><c> right</c><00:08:38.479><c> so</c><00:08:38.640><c> we</c><00:08:38.760><c> will</c><00:08:39.000><c> evaluate</c>
+
+00:08:39.509 --> 00:08:39.519 align:start position:0%
+configuration right so we will evaluate
+ 
+
+00:08:39.519 --> 00:08:41.870 align:start position:0%
+configuration right so we will evaluate
+it<00:08:40.039><c> find</c><00:08:40.320><c> the</c><00:08:40.479><c> score</c><00:08:40.880><c> again</c><00:08:41.240><c> score</c><00:08:41.560><c> or</c><00:08:41.760><c> the</c>
+
+00:08:41.870 --> 00:08:41.880 align:start position:0%
+it find the score again score or the
+ 
+
+00:08:41.880 --> 00:08:44.670 align:start position:0%
+it find the score again score or the
+objective<00:08:42.360><c> function</c><00:08:42.800><c> again</c><00:08:43.680><c> and</c><00:08:43.880><c> then</c><00:08:44.240><c> use</c>
+
+00:08:44.670 --> 00:08:44.680 align:start position:0%
+objective function again and then use
+ 
+
+00:08:44.680 --> 00:08:47.350 align:start position:0%
+objective function again and then use
+that<00:08:44.959><c> newly</c><00:08:45.480><c> found</c><00:08:45.800><c> information</c><00:08:46.760><c> and</c><00:08:46.959><c> store</c>
+
+00:08:47.350 --> 00:08:47.360 align:start position:0%
+that newly found information and store
+ 
+
+00:08:47.360 --> 00:08:50.190 align:start position:0%
+that newly found information and store
+it<00:08:47.720><c> back</c><00:08:48.240><c> into</c><00:08:48.560><c> the</c><00:08:48.880><c> surrogate</c><00:08:49.440><c> model</c><00:08:49.839><c> again</c>
+
+00:08:50.190 --> 00:08:50.200 align:start position:0%
+it back into the surrogate model again
+ 
+
+00:08:50.200 --> 00:08:53.150 align:start position:0%
+it back into the surrogate model again
+so<00:08:50.519><c> this</c><00:08:50.800><c> process</c><00:08:51.720><c> that</c><00:08:51.880><c> is</c><00:08:52.040><c> steps</c><00:08:52.480><c> two</c><00:08:52.920><c> and</c>
+
+00:08:53.150 --> 00:08:53.160 align:start position:0%
+so this process that is steps two and
+ 
+
+00:08:53.160 --> 00:08:56.070 align:start position:0%
+so this process that is steps two and
+three<00:08:53.959><c> these</c><00:08:54.200><c> will</c><00:08:54.480><c> go</c><00:08:54.720><c> on</c><00:08:55.200><c> until</c><00:08:55.839><c> the</c>
+
+00:08:56.070 --> 00:08:56.080 align:start position:0%
+three these will go on until the
+ 
+
+00:08:56.080 --> 00:08:57.870 align:start position:0%
+three these will go on until the
+optimization<00:08:56.760><c> or</c><00:08:56.959><c> objective</c><00:08:57.360><c> function</c><00:08:57.640><c> does</c>
+
+00:08:57.870 --> 00:08:57.880 align:start position:0%
+optimization or objective function does
+ 
+
+00:08:57.880 --> 00:08:59.949 align:start position:0%
+optimization or objective function does
+not<00:08:58.160><c> improve</c><00:08:58.600><c> anymore</c><00:08:59.040><c> or</c><00:08:59.440><c> the</c><00:08:59.560><c> number</c><00:08:59.800><c> of</c>
+
+00:08:59.949 --> 00:08:59.959 align:start position:0%
+not improve anymore or the number of
+ 
+
+00:08:59.959 --> 00:09:02.230 align:start position:0%
+not improve anymore or the number of
+iterations<00:09:00.600><c> that</c><00:09:00.720><c> the</c><00:09:00.839><c> user</c><00:09:01.160><c> has</c><00:09:01.320><c> set</c><00:09:02.079><c> has</c>
+
+00:09:02.230 --> 00:09:02.240 align:start position:0%
+iterations that the user has set has
+ 
+
+00:09:02.240 --> 00:09:04.069 align:start position:0%
+iterations that the user has set has
+been<00:09:02.440><c> achieved</c><00:09:02.920><c> so</c><00:09:03.120><c> this</c><00:09:03.200><c> is</c><00:09:03.360><c> the</c><00:09:03.519><c> whole</c><00:09:03.760><c> idea</c>
+
+00:09:04.069 --> 00:09:04.079 align:start position:0%
+been achieved so this is the whole idea
+ 
+
+00:09:04.079 --> 00:09:05.990 align:start position:0%
+been achieved so this is the whole idea
+behind<00:09:04.360><c> it</c><00:09:04.920><c> if</c><00:09:05.000><c> you</c><00:09:05.120><c> want</c><00:09:05.240><c> to</c><00:09:05.760><c> understand</c>
+
+00:09:05.990 --> 00:09:06.000 align:start position:0%
+behind it if you want to understand
+ 
+
+00:09:06.000 --> 00:09:07.590 align:start position:0%
+behind it if you want to understand
+simply<00:09:06.519><c> right</c><00:09:06.800><c> if</c><00:09:06.880><c> you</c><00:09:06.959><c> want</c><00:09:07.079><c> to</c><00:09:07.440><c> understand</c>
+
+00:09:07.590 --> 00:09:07.600 align:start position:0%
+simply right if you want to understand
+ 
+
+00:09:07.600 --> 00:09:10.670 align:start position:0%
+simply right if you want to understand
+simply<00:09:08.000><c> what</c><00:09:08.279><c> uh</c><00:09:08.800><c> sgate</c><00:09:09.440><c> function</c><00:09:09.839><c> versus</c>
+
+00:09:10.670 --> 00:09:10.680 align:start position:0%
+simply what uh sgate function versus
+ 
+
+00:09:10.680 --> 00:09:13.350 align:start position:0%
+simply what uh sgate function versus
+surate<00:09:11.240><c> function</c><00:09:11.760><c> versus</c><00:09:12.760><c> acquisition</c>
+
+00:09:13.350 --> 00:09:13.360 align:start position:0%
+surate function versus acquisition
+ 
+
+00:09:13.360 --> 00:09:15.790 align:start position:0%
+surate function versus acquisition
+function<00:09:13.720><c> does</c><00:09:13.920><c> is</c><00:09:14.160><c> simply</c><00:09:14.560><c> say</c><00:09:15.399><c> this</c><00:09:15.480><c> is</c><00:09:15.600><c> your</c>
+
+00:09:15.790 --> 00:09:15.800 align:start position:0%
+function does is simply say this is your
+ 
+
+00:09:15.800 --> 00:09:18.870 align:start position:0%
+function does is simply say this is your
+grid<00:09:16.399><c> this</c><00:09:16.519><c> is</c><00:09:16.680><c> your</c><00:09:16.839><c> hyper</c><00:09:17.519><c> parameter</c><00:09:18.519><c> hyper</c>
+
+00:09:18.870 --> 00:09:18.880 align:start position:0%
+grid this is your hyper parameter hyper
+ 
+
+00:09:18.880 --> 00:09:20.430 align:start position:0%
+grid this is your hyper parameter hyper
+parameter<00:09:19.279><c> grid</c><00:09:19.560><c> say</c><00:09:19.720><c> you</c><00:09:19.839><c> have</c><00:09:20.000><c> the</c><00:09:20.120><c> hyper</c>
+
+00:09:20.430 --> 00:09:20.440 align:start position:0%
+parameter grid say you have the hyper
+ 
+
+00:09:20.440 --> 00:09:23.150 align:start position:0%
+parameter grid say you have the hyper
+parameter<00:09:21.440><c> one</c><00:09:21.800><c> and</c><00:09:22.000><c> Hyper</c><00:09:22.360><c> parameter</c><00:09:22.800><c> 2</c><00:09:23.040><c> on</c>
+
+00:09:23.150 --> 00:09:23.160 align:start position:0%
+parameter one and Hyper parameter 2 on
+ 
+
+00:09:23.160 --> 00:09:25.910 align:start position:0%
+parameter one and Hyper parameter 2 on
+the<00:09:23.320><c> y-axis</c><00:09:24.279><c> all</c><00:09:24.480><c> right</c><00:09:25.040><c> now</c><00:09:25.240><c> you</c><00:09:25.480><c> have</c><00:09:25.760><c> this</c>
+
+00:09:25.910 --> 00:09:25.920 align:start position:0%
+the y-axis all right now you have this
+ 
+
+00:09:25.920 --> 00:09:28.829 align:start position:0%
+the y-axis all right now you have this
+grid<00:09:26.680><c> think</c><00:09:26.920><c> of</c><00:09:27.120><c> this</c><00:09:27.240><c> grid</c><00:09:27.480><c> as</c><00:09:27.600><c> a</c><00:09:27.760><c> map</c><00:09:28.640><c> okay</c>
+
+00:09:28.829 --> 00:09:28.839 align:start position:0%
+grid think of this grid as a map okay
+ 
+
+00:09:28.839 --> 00:09:31.350 align:start position:0%
+grid think of this grid as a map okay
+this<00:09:29.040><c> think</c><00:09:29.200><c> of</c><00:09:29.519><c> this</c><00:09:29.600><c> grid</c><00:09:29.839><c> as</c><00:09:29.959><c> a</c><00:09:30.079><c> map</c><00:09:30.440><c> where</c>
+
+00:09:31.350 --> 00:09:31.360 align:start position:0%
+this think of this grid as a map where
+ 
+
+00:09:31.360 --> 00:09:33.990 align:start position:0%
+this think of this grid as a map where
+only<00:09:31.760><c> few</c><00:09:32.120><c> data</c><00:09:32.440><c> points</c><00:09:32.760><c> we</c><00:09:32.880><c> have</c><00:09:33.040><c> sampled</c>
+
+00:09:33.990 --> 00:09:34.000 align:start position:0%
+only few data points we have sampled
+ 
+
+00:09:34.000 --> 00:09:35.710 align:start position:0%
+only few data points we have sampled
+okay<00:09:34.160><c> we</c><00:09:34.279><c> want</c><00:09:34.399><c> to</c><00:09:34.600><c> trace</c><00:09:34.880><c> the</c><00:09:35.000><c> lines</c><00:09:35.320><c> in</c><00:09:35.519><c> this</c>
+
+00:09:35.710 --> 00:09:35.720 align:start position:0%
+okay we want to trace the lines in this
+ 
+
+00:09:35.720 --> 00:09:37.030 align:start position:0%
+okay we want to trace the lines in this
+map<00:09:35.959><c> say</c><00:09:36.200><c> you</c><00:09:36.360><c> you</c><00:09:36.480><c> have</c><00:09:36.600><c> a</c><00:09:36.680><c> particular</c>
+
+00:09:37.030 --> 00:09:37.040 align:start position:0%
+map say you you have a particular
+ 
+
+00:09:37.040 --> 00:09:39.630 align:start position:0%
+map say you you have a particular
+country<00:09:37.279><c> and</c><00:09:37.399><c> you</c><00:09:37.480><c> want</c><00:09:37.640><c> to</c><00:09:38.160><c> trace</c><00:09:38.480><c> the</c><00:09:38.640><c> lines</c>
+
+00:09:39.630 --> 00:09:39.640 align:start position:0%
+country and you want to trace the lines
+ 
+
+00:09:39.640 --> 00:09:42.590 align:start position:0%
+country and you want to trace the lines
+and<00:09:39.920><c> the</c><00:09:40.120><c> lines</c><00:09:40.720><c> where</c><00:09:41.640><c> the</c><00:09:41.800><c> lines</c><00:09:42.079><c> are</c><00:09:42.480><c> the</c>
+
+00:09:42.590 --> 00:09:42.600 align:start position:0%
+and the lines where the lines are the
+ 
+
+00:09:42.600 --> 00:09:44.870 align:start position:0%
+and the lines where the lines are the
+lines<00:09:42.839><c> are</c><00:09:43.040><c> the</c><00:09:43.240><c> points</c><00:09:43.720><c> where</c><00:09:44.200><c> your</c>
+
+00:09:44.870 --> 00:09:44.880 align:start position:0%
+lines are the points where your
+ 
+
+00:09:44.880 --> 00:09:47.069 align:start position:0%
+lines are the points where your
+objective<00:09:45.560><c> function</c><00:09:46.440><c> the</c><00:09:46.600><c> objective</c>
+
+00:09:47.069 --> 00:09:47.079 align:start position:0%
+objective function the objective
+ 
+
+00:09:47.079 --> 00:09:49.190 align:start position:0%
+objective function the objective
+function<00:09:47.640><c> is</c><00:09:47.920><c> highest</c><00:09:48.320><c> so</c><00:09:48.760><c> higher</c><00:09:49.079><c> the</c>
+
+00:09:49.190 --> 00:09:49.200 align:start position:0%
+function is highest so higher the
+ 
+
+00:09:49.200 --> 00:09:50.350 align:start position:0%
+function is highest so higher the
+objective<00:09:49.600><c> function</c><00:09:49.839><c> suppose</c><00:09:50.120><c> if</c><00:09:50.200><c> it's</c>
+
+00:09:50.350 --> 00:09:50.360 align:start position:0%
+objective function suppose if it's
+ 
+
+00:09:50.360 --> 00:09:51.910 align:start position:0%
+objective function suppose if it's
+accuracy<00:09:50.800><c> we</c><00:09:50.880><c> want</c><00:09:51.000><c> to</c><00:09:51.120><c> maximize</c><00:09:51.560><c> it</c><00:09:51.760><c> right</c>
+
+00:09:51.910 --> 00:09:51.920 align:start position:0%
+accuracy we want to maximize it right
+ 
+
+00:09:51.920 --> 00:09:53.710 align:start position:0%
+accuracy we want to maximize it right
+suppose<00:09:52.200><c> your</c><00:09:52.360><c> objective</c><00:09:52.720><c> is</c><00:09:52.959><c> increasing</c><00:09:53.440><c> the</c>
+
+00:09:53.710 --> 00:09:53.720 align:start position:0%
+suppose your objective is increasing the
+ 
+
+00:09:53.720 --> 00:09:57.630 align:start position:0%
+suppose your objective is increasing the
+accuracy<00:09:54.680><c> we</c><00:09:54.839><c> want</c><00:09:55.040><c> to</c><00:09:55.600><c> go</c><00:09:56.040><c> in</c><00:09:56.279><c> a</c><00:09:56.720><c> in</c><00:09:56.880><c> a</c>
+
+00:09:57.630 --> 00:09:57.640 align:start position:0%
+accuracy we want to go in a in a
+ 
+
+00:09:57.640 --> 00:10:00.310 align:start position:0%
+accuracy we want to go in a in a
+particular<00:09:58.200><c> route</c><00:09:59.160><c> that</c><00:09:59.519><c> will</c><00:09:59.720><c> reach</c><00:10:00.000><c> us</c><00:10:00.160><c> to</c>
+
+00:10:00.310 --> 00:10:00.320 align:start position:0%
+particular route that will reach us to
+ 
+
+00:10:00.320 --> 00:10:02.069 align:start position:0%
+particular route that will reach us to
+the<00:10:00.560><c> maximum</c><00:10:01.000><c> suppose</c><00:10:01.320><c> this</c><00:10:01.399><c> is</c><00:10:01.519><c> the</c><00:10:01.720><c> point</c>
+
+00:10:02.069 --> 00:10:02.079 align:start position:0%
+the maximum suppose this is the point
+ 
+
+00:10:02.079 --> 00:10:03.790 align:start position:0%
+the maximum suppose this is the point
+where<00:10:02.360><c> it</c><00:10:02.519><c> has</c><00:10:02.680><c> the</c><00:10:02.880><c> maximum</c><00:10:03.360><c> highest</c>
+
+00:10:03.790 --> 00:10:03.800 align:start position:0%
+where it has the maximum highest
+ 
+
+00:10:03.800 --> 00:10:05.949 align:start position:0%
+where it has the maximum highest
+accuracy<00:10:04.399><c> starting</c><00:10:04.800><c> somewhere</c><00:10:05.240><c> randomly</c><00:10:05.839><c> we</c>
+
+00:10:05.949 --> 00:10:05.959 align:start position:0%
+accuracy starting somewhere randomly we
+ 
+
+00:10:05.959 --> 00:10:08.509 align:start position:0%
+accuracy starting somewhere randomly we
+want<00:10:06.120><c> to</c><00:10:06.240><c> reach</c><00:10:06.560><c> this</c><00:10:06.800><c> point</c><00:10:07.519><c> at</c><00:10:07.720><c> the</c><00:10:07.959><c> fastest</c>
+
+00:10:08.509 --> 00:10:08.519 align:start position:0%
+want to reach this point at the fastest
+ 
+
+00:10:08.519 --> 00:10:11.350 align:start position:0%
+want to reach this point at the fastest
+rate<00:10:09.040><c> right</c><00:10:09.399><c> the</c><00:10:09.880><c> acquisition</c><00:10:10.519><c> function</c><00:10:11.160><c> the</c>
+
+00:10:11.350 --> 00:10:11.360 align:start position:0%
+rate right the acquisition function the
+ 
+
+00:10:11.360 --> 00:10:13.310 align:start position:0%
+rate right the acquisition function the
+acquisition<00:10:11.920><c> function</c><00:10:12.279><c> is</c><00:10:12.839><c> something</c><00:10:13.200><c> that</c>
+
+00:10:13.310 --> 00:10:13.320 align:start position:0%
+acquisition function is something that
+ 
+
+00:10:13.320 --> 00:10:15.110 align:start position:0%
+acquisition function is something that
+will<00:10:13.760><c> that</c><00:10:13.880><c> will</c><00:10:14.040><c> estimate</c><00:10:14.480><c> the</c><00:10:14.640><c> height</c><00:10:14.920><c> of</c>
+
+00:10:15.110 --> 00:10:15.120 align:start position:0%
+will that will estimate the height of
+ 
+
+00:10:15.120 --> 00:10:16.750 align:start position:0%
+will that will estimate the height of
+these<00:10:15.399><c> points</c><00:10:15.839><c> okay</c><00:10:16.000><c> think</c><00:10:16.160><c> of</c><00:10:16.320><c> this</c><00:10:16.480><c> as</c><00:10:16.600><c> a</c>
+
+00:10:16.750 --> 00:10:16.760 align:start position:0%
+these points okay think of this as a
+ 
+
+00:10:16.760 --> 00:10:18.990 align:start position:0%
+these points okay think of this as a
+contour<00:10:17.760><c> you</c><00:10:17.839><c> might</c><00:10:18.040><c> have</c><00:10:18.160><c> seen</c><00:10:18.519><c> Contour</c>
+
+00:10:18.990 --> 00:10:19.000 align:start position:0%
+contour you might have seen Contour
+ 
+
+00:10:19.000 --> 00:10:21.470 align:start position:0%
+contour you might have seen Contour
+graphs<00:10:19.279><c> and</c><00:10:19.440><c> all</c><00:10:20.200><c> where</c><00:10:20.480><c> you</c><00:10:20.680><c> have</c><00:10:20.880><c> say</c><00:10:21.200><c> red</c>
+
+00:10:21.470 --> 00:10:21.480 align:start position:0%
+graphs and all where you have say red
+ 
+
+00:10:21.480 --> 00:10:23.350 align:start position:0%
+graphs and all where you have say red
+colors<00:10:21.959><c> dark</c><00:10:22.240><c> red</c><00:10:22.440><c> colors</c><00:10:22.800><c> wherever</c><00:10:23.160><c> the</c>
+
+00:10:23.350 --> 00:10:23.360 align:start position:0%
+colors dark red colors wherever the
+ 
+
+00:10:23.360 --> 00:10:25.269 align:start position:0%
+colors dark red colors wherever the
+point<00:10:23.560><c> is</c><00:10:23.760><c> very</c><00:10:23.959><c> high</c><00:10:24.399><c> the</c><00:10:24.600><c> the</c><00:10:24.720><c> value</c><00:10:24.959><c> is</c><00:10:25.079><c> very</c>
+
+00:10:25.269 --> 00:10:25.279 align:start position:0%
+point is very high the the value is very
+ 
+
+00:10:25.279 --> 00:10:27.790 align:start position:0%
+point is very high the the value is very
+high<00:10:25.440><c> heat</c><00:10:25.640><c> Maps</c><00:10:25.959><c> kind</c><00:10:26.079><c> of</c><00:10:26.279><c> thing</c><00:10:27.120><c> right</c><00:10:27.440><c> and</c>
+
+00:10:27.790 --> 00:10:27.800 align:start position:0%
+high heat Maps kind of thing right and
+ 
+
+00:10:27.800 --> 00:10:29.910 align:start position:0%
+high heat Maps kind of thing right and
+the<00:10:28.079><c> milder</c><00:10:28.480><c> the</c><00:10:28.640><c> color</c><00:10:28.880><c> becomes</c><00:10:29.160><c> the</c><00:10:29.760><c> the</c>
+
+00:10:29.910 --> 00:10:29.920 align:start position:0%
+the milder the color becomes the the
+ 
+
+00:10:29.920 --> 00:10:31.949 align:start position:0%
+the milder the color becomes the the
+lower<00:10:30.240><c> the</c><00:10:30.399><c> values</c><00:10:30.720><c> are</c><00:10:31.279><c> can</c><00:10:31.480><c> think</c><00:10:31.640><c> of</c><00:10:31.760><c> it</c>
+
+00:10:31.949 --> 00:10:31.959 align:start position:0%
+lower the values are can think of it
+ 
+
+00:10:31.959 --> 00:10:33.829 align:start position:0%
+lower the values are can think of it
+like<00:10:32.160><c> this</c><00:10:32.519><c> so</c><00:10:32.680><c> the</c><00:10:32.839><c> acquisition</c><00:10:33.399><c> Point</c>
+
+00:10:33.829 --> 00:10:33.839 align:start position:0%
+like this so the acquisition Point
+ 
+
+00:10:33.839 --> 00:10:35.350 align:start position:0%
+like this so the acquisition Point
+acquisition<00:10:34.360><c> function</c><00:10:34.640><c> will</c><00:10:34.839><c> help</c><00:10:35.079><c> you</c>
+
+00:10:35.350 --> 00:10:35.360 align:start position:0%
+acquisition function will help you
+ 
+
+00:10:35.360 --> 00:10:37.990 align:start position:0%
+acquisition function will help you
+estimate<00:10:36.240><c> the</c><00:10:36.680><c> value</c><00:10:37.000><c> of</c><00:10:37.160><c> the</c><00:10:37.440><c> objective</c>
+
+00:10:37.990 --> 00:10:38.000 align:start position:0%
+estimate the value of the objective
+ 
+
+00:10:38.000 --> 00:10:40.910 align:start position:0%
+estimate the value of the objective
+function<00:10:39.000><c> at</c><00:10:39.320><c> any</c><00:10:39.600><c> given</c><00:10:39.880><c> point</c><00:10:40.480><c> right</c>
+
+00:10:40.910 --> 00:10:40.920 align:start position:0%
+function at any given point right
+ 
+
+00:10:40.920 --> 00:10:43.430 align:start position:0%
+function at any given point right
+likewise<00:10:41.480><c> The</c><00:10:41.880><c> Sur</c><00:10:42.440><c> okay</c><00:10:42.800><c> sorry</c><00:10:43.320><c> the</c>
+
+00:10:43.430 --> 00:10:43.440 align:start position:0%
+likewise The Sur okay sorry the
+ 
+
+00:10:43.440 --> 00:10:44.829 align:start position:0%
+likewise The Sur okay sorry the
+surrogate<00:10:43.959><c> function</c><00:10:44.240><c> I'm</c><00:10:44.399><c> talking</c><00:10:44.639><c> about</c>
+
+00:10:44.829 --> 00:10:44.839 align:start position:0%
+surrogate function I'm talking about
+ 
+
+00:10:44.839 --> 00:10:46.949 align:start position:0%
+surrogate function I'm talking about
+surrogate<00:10:45.320><c> function</c><00:10:45.720><c> here</c><00:10:46.160><c> surate</c><00:10:46.680><c> function</c>
+
+00:10:46.949 --> 00:10:46.959 align:start position:0%
+surrogate function here surate function
+ 
+
+00:10:46.959 --> 00:10:49.590 align:start position:0%
+surrogate function here surate function
+will<00:10:47.200><c> estimate</c><00:10:47.600><c> this</c><00:10:47.720><c> objective</c><00:10:48.160><c> value</c><00:10:49.160><c> and</c>
+
+00:10:49.590 --> 00:10:49.600 align:start position:0%
+will estimate this objective value and
+ 
+
+00:10:49.600 --> 00:10:52.150 align:start position:0%
+will estimate this objective value and
+the<00:10:50.079><c> and</c><00:10:50.320><c> the</c><00:10:50.639><c> acquisition</c><00:10:51.320><c> function</c>
+
+00:10:52.150 --> 00:10:52.160 align:start position:0%
+the and the acquisition function
+ 
+
+00:10:52.160 --> 00:10:54.430 align:start position:0%
+the and the acquisition function
+acquisition<00:10:52.680><c> function</c><00:10:53.000><c> will</c><00:10:53.480><c> decide</c><00:10:54.040><c> what</c>
+
+00:10:54.430 --> 00:10:54.440 align:start position:0%
+acquisition function will decide what
+ 
+
+00:10:54.440 --> 00:10:56.550 align:start position:0%
+acquisition function will decide what
+route<00:10:54.839><c> to</c><00:10:55.120><c> take</c><00:10:55.680><c> in</c><00:10:55.800><c> order</c><00:10:56.040><c> to</c><00:10:56.160><c> reach</c><00:10:56.399><c> the</c>
+
+00:10:56.550 --> 00:10:56.560 align:start position:0%
+route to take in order to reach the
+ 
+
+00:10:56.560 --> 00:10:58.590 align:start position:0%
+route to take in order to reach the
+optimal<00:10:57.000><c> point</c><00:10:57.480><c> so</c><00:10:57.720><c> this</c><00:10:57.800><c> is</c><00:10:57.959><c> the</c><00:10:58.079><c> fundamental</c>
+
+00:10:58.590 --> 00:10:58.600 align:start position:0%
+optimal point so this is the fundamental
+ 
+
+00:10:58.600 --> 00:11:01.069 align:start position:0%
+optimal point so this is the fundamental
+idea<00:10:58.880><c> behind</c><00:10:59.360><c> bin</c><00:10:59.800><c> optimization</c><00:11:00.800><c> let's</c>
+
+00:11:01.069 --> 00:11:01.079 align:start position:0%
+idea behind bin optimization let's
+ 
+
+00:11:01.079 --> 00:11:03.110 align:start position:0%
+idea behind bin optimization let's
+implement<00:11:01.680><c> this</c><00:11:01.880><c> in</c><00:11:02.079><c> code</c><00:11:02.560><c> okay</c><00:11:02.720><c> so</c><00:11:02.880><c> we</c><00:11:02.959><c> will</c>
+
+00:11:03.110 --> 00:11:03.120 align:start position:0%
+implement this in code okay so we will
+ 
+
+00:11:03.120 --> 00:11:05.230 align:start position:0%
+implement this in code okay so we will
+see<00:11:03.360><c> couple</c><00:11:03.600><c> of</c><00:11:03.760><c> implementations</c><00:11:04.560><c> of</c>
+
+00:11:05.230 --> 00:11:05.240 align:start position:0%
+see couple of implementations of
+ 
+
+00:11:05.240 --> 00:11:08.509 align:start position:0%
+see couple of implementations of
+hyperparameter<00:11:06.480><c> optimization</c><00:11:07.480><c> One</c><00:11:07.880><c> is</c><00:11:08.079><c> using</c>
+
+00:11:08.509 --> 00:11:08.519 align:start position:0%
+hyperparameter optimization One is using
+ 
+
+00:11:08.519 --> 00:11:12.150 align:start position:0%
+hyperparameter optimization One is using
+the<00:11:08.839><c> optuna</c><00:11:09.480><c> package</c><00:11:10.279><c> the</c><00:11:10.440><c> other</c><00:11:10.720><c> is</c><00:11:10.880><c> using</c>
+
+00:11:12.150 --> 00:11:12.160 align:start position:0%
+the optuna package the other is using
+ 
+
+00:11:12.160 --> 00:11:15.870 align:start position:0%
+the optuna package the other is using
+GP<00:11:13.160><c> opt</c><00:11:13.839><c> so</c><00:11:14.079><c> both</c><00:11:14.279><c> are</c><00:11:14.560><c> good</c><00:11:15.279><c> we</c><00:11:15.360><c> will</c><00:11:15.519><c> see</c><00:11:15.680><c> both</c>
+
+00:11:15.870 --> 00:11:15.880 align:start position:0%
+GP opt so both are good we will see both
+ 
+
+00:11:15.880 --> 00:11:17.910 align:start position:0%
+GP opt so both are good we will see both
+in<00:11:16.040><c> this</c><00:11:16.160><c> one</c><00:11:16.680><c> so</c><00:11:16.839><c> for</c><00:11:17.040><c> optuna</c><00:11:17.519><c> you</c><00:11:17.600><c> need</c><00:11:17.760><c> to</c>
+
+00:11:17.910 --> 00:11:17.920 align:start position:0%
+in this one so for optuna you need to
+ 
+
+00:11:17.920 --> 00:11:19.870 align:start position:0%
+in this one so for optuna you need to
+First<00:11:18.160><c> install</c><00:11:18.600><c> pip</c><00:11:18.880><c> install</c><00:11:19.200><c> optuna</c><00:11:19.720><c> and</c>
+
+00:11:19.870 --> 00:11:19.880 align:start position:0%
+First install pip install optuna and
+ 
+
+00:11:19.880 --> 00:11:22.350 align:start position:0%
+First install pip install optuna and
+psychic<00:11:20.279><c> learn</c><00:11:21.279><c> all</c><00:11:21.399><c> right</c><00:11:21.560><c> so</c><00:11:21.760><c> once</c><00:11:22.040><c> that</c><00:11:22.200><c> is</c>
+
+00:11:22.350 --> 00:11:22.360 align:start position:0%
+psychic learn all right so once that is
+ 
+
+00:11:22.360 --> 00:11:25.110 align:start position:0%
+psychic learn all right so once that is
+done<00:11:22.800><c> I'll</c><00:11:23.000><c> give</c><00:11:23.120><c> you</c><00:11:23.399><c> the</c><00:11:23.839><c> link</c><00:11:24.200><c> to</c><00:11:24.440><c> the</c><00:11:24.959><c> this</c>
+
+00:11:25.110 --> 00:11:25.120 align:start position:0%
+done I'll give you the link to the this
+ 
+
+00:11:25.120 --> 00:11:26.910 align:start position:0%
+done I'll give you the link to the this
+particular<00:11:25.560><c> data</c><00:11:25.839><c> set</c><00:11:26.279><c> or</c><00:11:26.480><c> this</c><00:11:26.600><c> particular</c>
+
+00:11:26.910 --> 00:11:26.920 align:start position:0%
+particular data set or this particular
+ 
+
+00:11:26.920 --> 00:11:29.030 align:start position:0%
+particular data set or this particular
+notebook<00:11:27.320><c> in</c><00:11:27.519><c> the</c><00:11:27.880><c> description</c><00:11:28.440><c> please</c><00:11:28.760><c> use</c>
+
+00:11:29.030 --> 00:11:29.040 align:start position:0%
+notebook in the description please use
+ 
+
+00:11:29.040 --> 00:11:31.949 align:start position:0%
+notebook in the description please use
+that<00:11:29.360><c> link</c><00:11:29.600><c> to</c><00:11:30.440><c> try</c><00:11:30.800><c> to</c><00:11:31.079><c> get</c><00:11:31.320><c> this</c><00:11:31.480><c> and</c><00:11:31.639><c> try</c><00:11:31.839><c> it</c>
+
+00:11:31.949 --> 00:11:31.959 align:start position:0%
+that link to try to get this and try it
+ 
+
+00:11:31.959 --> 00:11:34.150 align:start position:0%
+that link to try to get this and try it
+out<00:11:32.480><c> first</c><00:11:32.760><c> we</c><00:11:32.839><c> will</c><00:11:33.200><c> import</c><00:11:33.560><c> the</c><00:11:33.760><c> packages</c>
+
+00:11:34.150 --> 00:11:34.160 align:start position:0%
+out first we will import the packages
+ 
+
+00:11:34.160 --> 00:11:36.990 align:start position:0%
+out first we will import the packages
+optin<00:11:34.959><c> by</c><00:11:35.200><c> pandas</c><00:11:36.040><c> and</c><00:11:36.200><c> from</c><00:11:36.360><c> psyit</c><00:11:36.760><c> learn</c><00:11:36.959><c> we</c>
+
+00:11:36.990 --> 00:11:37.000 align:start position:0%
+optin by pandas and from psyit learn we
+ 
+
+00:11:37.000 --> 00:11:38.750 align:start position:0%
+optin by pandas and from psyit learn we
+are<00:11:37.079><c> going</c><00:11:37.200><c> to</c><00:11:37.320><c> be</c><00:11:37.440><c> using</c><00:11:37.800><c> the</c><00:11:37.959><c> breast</c><00:11:38.320><c> cancer</c>
+
+00:11:38.750 --> 00:11:38.760 align:start position:0%
+are going to be using the breast cancer
+ 
+
+00:11:38.760 --> 00:11:41.590 align:start position:0%
+are going to be using the breast cancer
+data<00:11:39.000><c> set</c><00:11:39.839><c> and</c><00:11:39.959><c> we</c><00:11:40.079><c> will</c><00:11:40.519><c> also</c><00:11:40.760><c> use</c><00:11:41.040><c> these</c><00:11:41.279><c> also</c>
+
+00:11:41.590 --> 00:11:41.600 align:start position:0%
+data set and we will also use these also
+ 
+
+00:11:41.600 --> 00:11:44.269 align:start position:0%
+data set and we will also use these also
+all<00:11:41.760><c> right</c><00:11:41.920><c> so</c><00:11:42.200><c> basic</c><00:11:42.519><c> steps</c><00:11:43.360><c> first</c><00:11:43.680><c> we</c><00:11:43.760><c> will</c>
+
+00:11:44.269 --> 00:11:44.279 align:start position:0%
+all right so basic steps first we will
+ 
+
+00:11:44.279 --> 00:11:46.069 align:start position:0%
+all right so basic steps first we will
+download<00:11:44.760><c> the</c><00:11:44.920><c> data</c><00:11:45.279><c> load</c><00:11:45.440><c> the</c><00:11:45.560><c> data</c><00:11:45.800><c> set</c>
+
+00:11:46.069 --> 00:11:46.079 align:start position:0%
+download the data load the data set
+ 
+
+00:11:46.079 --> 00:11:47.790 align:start position:0%
+download the data load the data set
+which<00:11:46.200><c> is</c><00:11:46.320><c> the</c><00:11:46.480><c> breast</c><00:11:46.800><c> cancer</c><00:11:47.120><c> data</c><00:11:47.399><c> set</c><00:11:47.639><c> we</c>
+
+00:11:47.790 --> 00:11:47.800 align:start position:0%
+which is the breast cancer data set we
+ 
+
+00:11:47.800 --> 00:11:50.829 align:start position:0%
+which is the breast cancer data set we
+get<00:11:48.079><c> the</c><00:11:48.360><c> X</c><00:11:48.839><c> the</c><00:11:48.959><c> features</c><00:11:49.480><c> and</c><00:11:49.639><c> the</c><00:11:49.800><c> Y</c><00:11:50.480><c> form</c>
+
+00:11:50.829 --> 00:11:50.839 align:start position:0%
+get the X the features and the Y form
+ 
+
+00:11:50.839 --> 00:11:52.590 align:start position:0%
+get the X the features and the Y form
+the<00:11:50.959><c> use</c><00:11:51.200><c> Trin</c><00:11:51.519><c> test</c><00:11:51.760><c> plate</c><00:11:52.040><c> to</c><00:11:52.160><c> form</c><00:11:52.399><c> your</c>
+
+00:11:52.590 --> 00:11:52.600 align:start position:0%
+the use Trin test plate to form your
+ 
+
+00:11:52.600 --> 00:11:55.030 align:start position:0%
+the use Trin test plate to form your
+xtrain<00:11:53.399><c> X</c><00:11:53.600><c> validation</c><00:11:54.200><c> y</c><00:11:54.399><c> train</c><00:11:54.680><c> and</c><00:11:54.839><c> Y</c>
+
+00:11:55.030 --> 00:11:55.040 align:start position:0%
+xtrain X validation y train and Y
+ 
+
+00:11:55.040 --> 00:11:57.590 align:start position:0%
+xtrain X validation y train and Y
+validation<00:11:55.959><c> basic</c><00:11:56.279><c> steps</c><00:11:56.839><c> now</c><00:11:57.040><c> in</c><00:11:57.160><c> order</c><00:11:57.440><c> to</c>
+
+00:11:57.590 --> 00:11:57.600 align:start position:0%
+validation basic steps now in order to
+ 
+
+00:11:57.600 --> 00:12:00.110 align:start position:0%
+validation basic steps now in order to
+do<00:11:57.800><c> the</c><00:11:57.959><c> hyper</c><00:11:58.279><c> parameter</c><00:11:58.680><c> optimization</c><00:11:59.600><c> we</c>
+
+00:12:00.110 --> 00:12:00.120 align:start position:0%
+do the hyper parameter optimization we
+ 
+
+00:12:00.120 --> 00:12:01.710 align:start position:0%
+do the hyper parameter optimization we
+Define<00:12:00.560><c> the</c><00:12:00.760><c> objective</c><00:12:01.200><c> function</c><00:12:01.519><c> this</c><00:12:01.600><c> is</c>
+
+00:12:01.710 --> 00:12:01.720 align:start position:0%
+Define the objective function this is
+ 
+
+00:12:01.720 --> 00:12:04.030 align:start position:0%
+Define the objective function this is
+the<00:12:01.920><c> key</c><00:12:02.360><c> this</c><00:12:02.480><c> is</c><00:12:02.600><c> the</c><00:12:02.760><c> main</c><00:12:03.040><c> part</c><00:12:03.680><c> where</c><00:12:03.839><c> you</c>
+
+00:12:04.030 --> 00:12:04.040 align:start position:0%
+the key this is the main part where you
+ 
+
+00:12:04.040 --> 00:12:06.470 align:start position:0%
+the key this is the main part where you
+define<00:12:04.399><c> what</c><00:12:04.560><c> the</c><00:12:04.720><c> hyper</c><00:12:05.079><c> parameters</c><00:12:05.639><c> are</c><00:12:06.320><c> so</c>
+
+00:12:06.470 --> 00:12:06.480 align:start position:0%
+define what the hyper parameters are so
+ 
+
+00:12:06.480 --> 00:12:07.870 align:start position:0%
+define what the hyper parameters are so
+you<00:12:06.560><c> are</c><00:12:06.720><c> passing</c><00:12:06.959><c> it</c><00:12:07.079><c> into</c><00:12:07.279><c> a</c><00:12:07.399><c> dictionary</c>
+
+00:12:07.870 --> 00:12:07.880 align:start position:0%
+you are passing it into a dictionary
+ 
+
+00:12:07.880 --> 00:12:10.150 align:start position:0%
+you are passing it into a dictionary
+okay<00:12:08.079><c> hyper</c><00:12:08.399><c> parameters</c><00:12:09.320><c> and</c><00:12:09.560><c> what</c><00:12:09.760><c> could</c><00:12:09.959><c> be</c>
+
+00:12:10.150 --> 00:12:10.160 align:start position:0%
+okay hyper parameters and what could be
+ 
+
+00:12:10.160 --> 00:12:12.110 align:start position:0%
+okay hyper parameters and what could be
+the<00:12:10.399><c> potential</c><00:12:11.120><c> values</c><00:12:11.600><c> each</c><00:12:11.760><c> of</c><00:12:11.920><c> these</c>
+
+00:12:12.110 --> 00:12:12.120 align:start position:0%
+the potential values each of these
+ 
+
+00:12:12.120 --> 00:12:14.269 align:start position:0%
+the potential values each of these
+parameters<00:12:12.560><c> could</c><00:12:12.760><c> take</c><00:12:13.399><c> okay</c><00:12:13.639><c> depending</c><00:12:14.000><c> on</c>
+
+00:12:14.269 --> 00:12:14.279 align:start position:0%
+parameters could take okay depending on
+ 
+
+00:12:14.279 --> 00:12:16.150 align:start position:0%
+parameters could take okay depending on
+what<00:12:14.480><c> the</c><00:12:14.680><c> nature</c><00:12:15.000><c> of</c><00:12:15.079><c> the</c><00:12:15.240><c> values</c><00:12:15.519><c> are</c><00:12:15.959><c> here</c>
+
+00:12:16.150 --> 00:12:16.160 align:start position:0%
+what the nature of the values are here
+ 
+
+00:12:16.160 --> 00:12:18.670 align:start position:0%
+what the nature of the values are here
+these<00:12:16.279><c> are</c><00:12:16.440><c> integers</c><00:12:16.959><c> so</c><00:12:17.279><c> trial</c><00:12:17.760><c> do</c><00:12:17.959><c> suggest</c>
+
+00:12:18.670 --> 00:12:18.680 align:start position:0%
+these are integers so trial do suggest
+ 
+
+00:12:18.680 --> 00:12:20.069 align:start position:0%
+these are integers so trial do suggest
+okay<00:12:18.880><c> this</c><00:12:19.000><c> trial</c><00:12:19.320><c> is</c><00:12:19.480><c> the</c><00:12:19.600><c> object</c><00:12:19.880><c> that</c><00:12:19.959><c> we</c>
+
+00:12:20.069 --> 00:12:20.079 align:start position:0%
+okay this trial is the object that we
+ 
+
+00:12:20.079 --> 00:12:21.829 align:start position:0%
+okay this trial is the object that we
+are<00:12:20.199><c> passing</c><00:12:20.440><c> to</c><00:12:20.560><c> the</c><00:12:20.720><c> objective</c><00:12:21.120><c> itself</c><00:12:21.680><c> then</c>
+
+00:12:21.829 --> 00:12:21.839 align:start position:0%
+are passing to the objective itself then
+ 
+
+00:12:21.839 --> 00:12:23.590 align:start position:0%
+are passing to the objective itself then
+we<00:12:21.959><c> will</c><00:12:22.160><c> train</c><00:12:22.519><c> the</c><00:12:22.839><c> Train</c><00:12:23.120><c> the</c><00:12:23.279><c> random</c>
+
+00:12:23.590 --> 00:12:23.600 align:start position:0%
+we will train the Train the random
+ 
+
+00:12:23.600 --> 00:12:26.310 align:start position:0%
+we will train the Train the random
+Forest<00:12:24.120><c> classifier</c><00:12:25.040><c> fit</c><00:12:25.360><c> it</c><00:12:25.800><c> that</c><00:12:25.920><c> is</c><00:12:26.120><c> this</c><00:12:26.199><c> is</c>
+
+00:12:26.310 --> 00:12:26.320 align:start position:0%
+Forest classifier fit it that is this is
+ 
+
+00:12:26.320 --> 00:12:28.470 align:start position:0%
+Forest classifier fit it that is this is
+the<00:12:26.480><c> training</c><00:12:26.839><c> part</c><00:12:27.079><c> itself</c><00:12:27.959><c> then</c><00:12:28.160><c> get</c><00:12:28.320><c> the</c>
+
+00:12:28.470 --> 00:12:28.480 align:start position:0%
+the training part itself then get the
+ 
+
+00:12:28.480 --> 00:12:29.990 align:start position:0%
+the training part itself then get the
+predicted<00:12:28.880><c> value</c>
+
+00:12:29.990 --> 00:12:30.000 align:start position:0%
+predicted value
+ 
+
+00:12:30.000 --> 00:12:31.670 align:start position:0%
+predicted value
+and<00:12:30.279><c> compute</c><00:12:30.639><c> the</c><00:12:30.800><c> accuracy</c><00:12:31.199><c> score</c><00:12:31.480><c> and</c><00:12:31.600><c> we</c>
+
+00:12:31.670 --> 00:12:31.680 align:start position:0%
+and compute the accuracy score and we
+ 
+
+00:12:31.680 --> 00:12:33.509 align:start position:0%
+and compute the accuracy score and we
+are<00:12:31.760><c> returning</c><00:12:32.199><c> the</c><00:12:32.360><c> accuracy</c><00:12:32.760><c> score</c><00:12:33.279><c> this</c><00:12:33.399><c> is</c>
+
+00:12:33.509 --> 00:12:33.519 align:start position:0%
+are returning the accuracy score this is
+ 
+
+00:12:33.519 --> 00:12:35.430 align:start position:0%
+are returning the accuracy score this is
+the<00:12:33.680><c> objective</c><00:12:34.079><c> function</c><00:12:34.600><c> now</c><00:12:34.760><c> once</c><00:12:35.079><c> that</c><00:12:35.240><c> is</c>
+
+00:12:35.430 --> 00:12:35.440 align:start position:0%
+the objective function now once that is
+ 
+
+00:12:35.440 --> 00:12:39.269 align:start position:0%
+the objective function now once that is
+done<00:12:35.760><c> we</c><00:12:35.880><c> are</c><00:12:36.040><c> ready</c><00:12:36.320><c> to</c><00:12:37.160><c> create</c><00:12:37.639><c> a</c><00:12:38.000><c> study</c><00:12:39.000><c> that</c>
+
+00:12:39.269 --> 00:12:39.279 align:start position:0%
+done we are ready to create a study that
+ 
+
+00:12:39.279 --> 00:12:41.829 align:start position:0%
+done we are ready to create a study that
+we<00:12:39.399><c> are</c><00:12:39.639><c> using</c><00:12:40.480><c> the</c><00:12:40.760><c> optuna</c><00:12:41.360><c> this</c><00:12:41.440><c> is</c><00:12:41.560><c> present</c>
+
+00:12:41.829 --> 00:12:41.839 align:start position:0%
+we are using the optuna this is present
+ 
+
+00:12:41.839 --> 00:12:43.990 align:start position:0%
+we are using the optuna this is present
+as<00:12:41.920><c> a</c><00:12:42.040><c> method</c><00:12:42.320><c> inside</c><00:12:42.639><c> optuna</c><00:12:43.240><c> object</c><00:12:43.600><c> itself</c>
+
+00:12:43.990 --> 00:12:44.000 align:start position:0%
+as a method inside optuna object itself
+ 
+
+00:12:44.000 --> 00:12:45.509 align:start position:0%
+as a method inside optuna object itself
+and<00:12:44.160><c> since</c><00:12:44.360><c> we</c><00:12:44.440><c> are</c><00:12:44.560><c> using</c><00:12:44.839><c> accuracy</c><00:12:45.320><c> we</c><00:12:45.399><c> are</c>
+
+00:12:45.509 --> 00:12:45.519 align:start position:0%
+and since we are using accuracy we are
+ 
+
+00:12:45.519 --> 00:12:47.870 align:start position:0%
+and since we are using accuracy we are
+setting<00:12:45.760><c> the</c><00:12:45.920><c> direction</c><00:12:46.240><c> as</c><00:12:46.760><c> maximize</c><00:12:47.760><c> okay</c>
+
+00:12:47.870 --> 00:12:47.880 align:start position:0%
+setting the direction as maximize okay
+ 
+
+00:12:47.880 --> 00:12:50.069 align:start position:0%
+setting the direction as maximize okay
+so<00:12:48.240><c> the</c><00:12:48.360><c> study</c><00:12:48.639><c> is</c><00:12:48.839><c> created</c><00:12:49.600><c> then</c><00:12:49.839><c> called</c>
+
+00:12:50.069 --> 00:12:50.079 align:start position:0%
+so the study is created then called
+ 
+
+00:12:50.079 --> 00:12:52.550 align:start position:0%
+so the study is created then called
+study.<00:12:50.600><c> optimize</c><00:12:51.519><c> the</c><00:12:51.639><c> number</c><00:12:51.839><c> of</c><00:12:51.959><c> TRS</c><00:12:52.320><c> we</c><00:12:52.399><c> are</c>
+
+00:12:52.550 --> 00:12:52.560 align:start position:0%
+study. optimize the number of TRS we are
+ 
+
+00:12:52.560 --> 00:12:54.350 align:start position:0%
+study. optimize the number of TRS we are
+setting<00:12:52.880><c> as</c><00:12:53.199><c> 100</c><00:12:53.519><c> you</c><00:12:53.600><c> can</c><00:12:53.760><c> increase</c><00:12:54.160><c> this</c>
+
+00:12:54.350 --> 00:12:54.360 align:start position:0%
+setting as 100 you can increase this
+ 
+
+00:12:54.360 --> 00:12:56.269 align:start position:0%
+setting as 100 you can increase this
+number<00:12:54.600><c> if</c><00:12:54.720><c> you</c><00:12:54.839><c> have</c><00:12:55.040><c> more</c><00:12:55.680><c> computation</c>
+
+00:12:56.269 --> 00:12:56.279 align:start position:0%
+number if you have more computation
+ 
+
+00:12:56.279 --> 00:12:58.310 align:start position:0%
+number if you have more computation
+power<00:12:56.560><c> and</c><00:12:56.760><c> patience</c><00:12:57.320><c> all</c><00:12:57.440><c> right</c><00:12:57.639><c> so</c><00:12:58.000><c> this</c><00:12:58.120><c> is</c>
+
+00:12:58.310 --> 00:12:58.320 align:start position:0%
+power and patience all right so this is
+ 
+
+00:12:58.320 --> 00:13:01.030 align:start position:0%
+power and patience all right so this is
+the<00:12:58.720><c> we</c><00:12:58.880><c> app</c><00:12:59.160><c> printing</c><00:12:59.440><c> out</c><00:12:59.760><c> the</c><00:13:00.760><c> uh</c><00:13:00.920><c> the</c>
+
+00:13:01.030 --> 00:13:01.040 align:start position:0%
+the we app printing out the uh the
+ 
+
+00:13:01.040 --> 00:13:02.750 align:start position:0%
+the we app printing out the uh the
+number<00:13:01.240><c> of</c><00:13:01.399><c> Trials</c><00:13:01.760><c> it</c><00:13:01.959><c> took</c><00:13:02.320><c> the</c><00:13:02.480><c> Bas</c>
+
+00:13:02.750 --> 00:13:02.760 align:start position:0%
+number of Trials it took the Bas
+ 
+
+00:13:02.760 --> 00:13:04.829 align:start position:0%
+number of Trials it took the Bas
+parameters<00:13:03.240><c> and</c><00:13:03.399><c> the</c><00:13:03.519><c> trial</c><00:13:03.800><c> value</c><00:13:04.120><c> itself</c><00:13:04.639><c> so</c>
+
+00:13:04.829 --> 00:13:04.839 align:start position:0%
+parameters and the trial value itself so
+ 
+
+00:13:04.839 --> 00:13:07.430 align:start position:0%
+parameters and the trial value itself so
+I<00:13:04.959><c> have</c><00:13:05.160><c> already</c><00:13:05.440><c> run</c><00:13:05.760><c> this</c><00:13:05.959><c> code</c><00:13:06.839><c> and</c><00:13:07.000><c> you</c><00:13:07.240><c> can</c>
+
+00:13:07.430 --> 00:13:07.440 align:start position:0%
+I have already run this code and you can
+ 
+
+00:13:07.440 --> 00:13:11.150 align:start position:0%
+I have already run this code and you can
+see<00:13:07.800><c> it</c><00:13:07.959><c> has</c><00:13:08.160><c> run</c><00:13:08.560><c> for</c><00:13:09.560><c> about</c><00:13:10.160><c> 100</c><00:13:10.519><c> different</c>
+
+00:13:11.150 --> 00:13:11.160 align:start position:0%
+see it has run for about 100 different
+ 
+
+00:13:11.160 --> 00:13:13.470 align:start position:0%
+see it has run for about 100 different
+iterations<00:13:12.160><c> and</c><00:13:12.360><c> at</c><00:13:12.480><c> the</c><00:13:12.560><c> end</c><00:13:12.760><c> you</c><00:13:12.920><c> get</c><00:13:13.160><c> an</c>
+
+00:13:13.470 --> 00:13:13.480 align:start position:0%
+iterations and at the end you get an
+ 
+
+00:13:13.480 --> 00:13:15.069 align:start position:0%
+iterations and at the end you get an
+accuracy<00:13:14.040><c> of</c>
+
+00:13:15.069 --> 00:13:15.079 align:start position:0%
+accuracy of
+ 
+
+00:13:15.079 --> 00:13:16.949 align:start position:0%
+accuracy of
+9649<00:13:16.079><c> okay</c><00:13:16.199><c> so</c><00:13:16.360><c> this</c><00:13:16.440><c> is</c><00:13:16.600><c> the</c><00:13:16.760><c> best</c>
+
+00:13:16.949 --> 00:13:16.959 align:start position:0%
+9649 okay so this is the best
+ 
+
+00:13:16.959 --> 00:13:19.269 align:start position:0%
+9649 okay so this is the best
+performance<00:13:17.720><c> so</c><00:13:17.959><c> once</c><00:13:18.240><c> the</c><00:13:18.440><c> model</c><00:13:18.800><c> is</c><00:13:19.079><c> once</c>
+
+00:13:19.269 --> 00:13:19.279 align:start position:0%
+performance so once the model is once
+ 
+
+00:13:19.279 --> 00:13:21.189 align:start position:0%
+performance so once the model is once
+the<00:13:19.399><c> training</c><00:13:19.760><c> is</c><00:13:19.920><c> done</c><00:13:20.199><c> the</c><00:13:20.320><c> search</c><00:13:20.600><c> is</c><00:13:20.760><c> done</c>
+
+00:13:21.189 --> 00:13:21.199 align:start position:0%
+the training is done the search is done
+ 
+
+00:13:21.199 --> 00:13:23.870 align:start position:0%
+the training is done the search is done
+we<00:13:21.360><c> use</c><00:13:21.720><c> the</c><00:13:22.279><c> best</c><00:13:22.600><c> parameter</c><00:13:23.160><c> so</c><00:13:23.279><c> from</c><00:13:23.480><c> study</c>
+
+00:13:23.870 --> 00:13:23.880 align:start position:0%
+we use the best parameter so from study
+ 
+
+00:13:23.880 --> 00:13:25.670 align:start position:0%
+we use the best parameter so from study
+get<00:13:24.079><c> the</c><00:13:24.240><c> best</c><00:13:24.480><c> trial</c><00:13:25.000><c> and</c><00:13:25.120><c> the</c><00:13:25.240><c> parameters</c>
+
+00:13:25.670 --> 00:13:25.680 align:start position:0%
+get the best trial and the parameters
+ 
+
+00:13:25.680 --> 00:13:28.350 align:start position:0%
+get the best trial and the parameters
+from<00:13:25.880><c> that</c><00:13:26.040><c> trial</c><00:13:26.399><c> and</c><00:13:26.639><c> rebuild</c><00:13:27.240><c> this</c><00:13:27.440><c> model</c>
+
+00:13:28.350 --> 00:13:28.360 align:start position:0%
+from that trial and rebuild this model
+ 
+
+00:13:28.360 --> 00:13:29.670 align:start position:0%
+from that trial and rebuild this model
+okay<00:13:28.519><c> we</c><00:13:28.639><c> have</c><00:13:28.720><c> to</c><00:13:28.839><c> retra</c><00:13:29.120><c> train</c><00:13:29.360><c> this</c><00:13:29.480><c> model</c>
+
+00:13:29.670 --> 00:13:29.680 align:start position:0%
+okay we have to retra train this model
+ 
+
+00:13:29.680 --> 00:13:31.629 align:start position:0%
+okay we have to retra train this model
+using<00:13:29.880><c> the</c><00:13:30.000><c> best</c><00:13:30.279><c> parameters</c><00:13:31.279><c> and</c><00:13:31.440><c> then</c><00:13:31.560><c> you</c>
+
+00:13:31.629 --> 00:13:31.639 align:start position:0%
+using the best parameters and then you
+ 
+
+00:13:31.639 --> 00:13:33.509 align:start position:0%
+using the best parameters and then you
+can<00:13:31.800><c> do</c><00:13:32.000><c> the</c><00:13:32.160><c> prediction</c><00:13:32.600><c> also</c><00:13:33.079><c> so</c><00:13:33.279><c> this</c><00:13:33.360><c> is</c>
+
+00:13:33.509 --> 00:13:33.519 align:start position:0%
+can do the prediction also so this is
+ 
+
+00:13:33.519 --> 00:13:35.629 align:start position:0%
+can do the prediction also so this is
+based<00:13:33.800><c> on</c><00:13:33.920><c> the</c><00:13:34.079><c> optuna</c><00:13:34.639><c> packaging</c><00:13:35.399><c> now</c>
+
+00:13:35.629 --> 00:13:35.639 align:start position:0%
+based on the optuna packaging now
+ 
+
+00:13:35.639 --> 00:13:38.389 align:start position:0%
+based on the optuna packaging now
+similarly<00:13:36.639><c> if</c><00:13:36.800><c> you</c><00:13:37.120><c> slightly</c><00:13:37.600><c> go</c><00:13:37.880><c> down</c><00:13:38.279><c> in</c>
+
+00:13:38.389 --> 00:13:38.399 align:start position:0%
+similarly if you slightly go down in
+ 
+
+00:13:38.399 --> 00:13:40.230 align:start position:0%
+similarly if you slightly go down in
+this<00:13:38.560><c> notebook</c><00:13:38.920><c> we</c><00:13:39.040><c> have</c><00:13:39.160><c> the</c><00:13:39.320><c> grid</c><00:13:39.560><c> search</c><00:13:39.800><c> CV</c>
+
+00:13:40.230 --> 00:13:40.240 align:start position:0%
+this notebook we have the grid search CV
+ 
+
+00:13:40.240 --> 00:13:42.590 align:start position:0%
+this notebook we have the grid search CV
+as<00:13:40.360><c> well</c><00:13:40.480><c> as</c><00:13:40.600><c> the</c><00:13:40.720><c> random</c><00:13:41.079><c> search</c><00:13:42.079><c> after</c><00:13:42.360><c> this</c>
+
+00:13:42.590 --> 00:13:42.600 align:start position:0%
+as well as the random search after this
+ 
+
+00:13:42.600 --> 00:13:46.750 align:start position:0%
+as well as the random search after this
+we<00:13:42.720><c> will</c><00:13:43.279><c> Implement</c><00:13:44.079><c> using</c><00:13:45.079><c> gpy</c><00:13:45.720><c> opt</c><00:13:46.440><c> so</c><00:13:46.680><c> this</c>
+
+00:13:46.750 --> 00:13:46.760 align:start position:0%
+we will Implement using gpy opt so this
+ 
+
+00:13:46.760 --> 00:13:48.550 align:start position:0%
+we will Implement using gpy opt so this
+is<00:13:46.959><c> another</c><00:13:47.399><c> package</c><00:13:47.760><c> where</c><00:13:47.920><c> you</c><00:13:48.040><c> can</c><00:13:48.199><c> use</c>
+
+00:13:48.550 --> 00:13:48.560 align:start position:0%
+is another package where you can use
+ 
+
+00:13:48.560 --> 00:13:50.870 align:start position:0%
+is another package where you can use
+Implement<00:13:49.079><c> bation</c><00:13:49.440><c> optimization</c><00:13:50.399><c> we</c><00:13:50.600><c> first</c>
+
+00:13:50.870 --> 00:13:50.880 align:start position:0%
+Implement bation optimization we first
+ 
+
+00:13:50.880 --> 00:13:54.470 align:start position:0%
+Implement bation optimization we first
+installing<00:13:51.440><c> this</c><00:13:51.959><c> now</c><00:13:52.639><c> import</c><00:13:53.240><c> gpy</c><00:13:53.759><c> OPD</c><00:13:54.320><c> and</c>
+
+00:13:54.470 --> 00:13:54.480 align:start position:0%
+installing this now import gpy OPD and
+ 
+
+00:13:54.480 --> 00:13:57.150 align:start position:0%
+installing this now import gpy OPD and
+this<00:13:54.600><c> is</c><00:13:55.160><c> implemented</c><00:13:55.759><c> on</c><00:13:56.079><c> the</c><00:13:56.240><c> iris</c><00:13:56.680><c> data</c><00:13:56.920><c> set</c>
+
+00:13:57.150 --> 00:13:57.160 align:start position:0%
+this is implemented on the iris data set
+ 
+
+00:13:57.160 --> 00:13:59.310 align:start position:0%
+this is implemented on the iris data set
+same<00:13:57.399><c> random</c><00:13:57.720><c> Forest</c><00:13:58.079><c> classifier</c><00:13:58.800><c> now</c><00:13:59.160><c> we</c>
+
+00:13:59.310 --> 00:13:59.320 align:start position:0%
+same random Forest classifier now we
+ 
+
+00:13:59.320 --> 00:14:02.150 align:start position:0%
+same random Forest classifier now we
+load<00:13:59.800><c> the</c><00:13:59.959><c> same</c><00:14:00.199><c> steps</c><00:14:00.600><c> we</c><00:14:00.800><c> load</c><00:14:01.120><c> the</c><00:14:01.320><c> iris</c><00:14:02.000><c> the</c>
+
+00:14:02.150 --> 00:14:02.160 align:start position:0%
+load the same steps we load the iris the
+ 
+
+00:14:02.160 --> 00:14:04.829 align:start position:0%
+load the same steps we load the iris the
+X<00:14:02.440><c> and</c><00:14:02.600><c> the</c><00:14:02.800><c> Y</c><00:14:03.600><c> then</c><00:14:03.800><c> Define</c><00:14:04.199><c> the</c><00:14:04.360><c> objective</c>
+
+00:14:04.829 --> 00:14:04.839 align:start position:0%
+X and the Y then Define the objective
+ 
+
+00:14:04.839 --> 00:14:07.710 align:start position:0%
+X and the Y then Define the objective
+function<00:14:05.240><c> again</c><00:14:05.600><c> again</c><00:14:06.040><c> same</c><00:14:06.440><c> same</c><00:14:06.680><c> stuff</c><00:14:07.199><c> so</c>
+
+00:14:07.710 --> 00:14:07.720 align:start position:0%
+function again again same same stuff so
+ 
+
+00:14:07.720 --> 00:14:09.629 align:start position:0%
+function again again same same stuff so
+we<00:14:07.839><c> are</c><00:14:08.040><c> defining</c><00:14:08.399><c> the</c><00:14:08.639><c> parameters</c><00:14:09.440><c> these</c>
+
+00:14:09.629 --> 00:14:09.639 align:start position:0%
+we are defining the parameters these
+ 
+
+00:14:09.639 --> 00:14:11.350 align:start position:0%
+we are defining the parameters these
+parameters<00:14:10.160><c> instead</c><00:14:10.440><c> of</c><00:14:10.800><c> having</c><00:14:11.040><c> it</c><00:14:11.160><c> as</c><00:14:11.240><c> a</c>
+
+00:14:11.350 --> 00:14:11.360 align:start position:0%
+parameters instead of having it as a
+ 
+
+00:14:11.360 --> 00:14:12.710 align:start position:0%
+parameters instead of having it as a
+dictionary<00:14:11.800><c> we</c><00:14:11.880><c> are</c><00:14:12.079><c> estimating</c><00:14:12.560><c> we</c><00:14:12.639><c> are</c>
+
+00:14:12.710 --> 00:14:12.720 align:start position:0%
+dictionary we are estimating we are
+ 
+
+00:14:12.720 --> 00:14:13.910 align:start position:0%
+dictionary we are estimating we are
+creating<00:14:13.040><c> separate</c><00:14:13.360><c> objects</c><00:14:13.680><c> for</c><00:14:13.800><c> the</c>
+
+00:14:13.910 --> 00:14:13.920 align:start position:0%
+creating separate objects for the
+ 
+
+00:14:13.920 --> 00:14:16.030 align:start position:0%
+creating separate objects for the
+parameters<00:14:14.600><c> then</c><00:14:14.839><c> pass</c><00:14:15.240><c> them</c><00:14:15.560><c> into</c><00:14:15.839><c> the</c>
+
+00:14:16.030 --> 00:14:16.040 align:start position:0%
+parameters then pass them into the
+ 
+
+00:14:16.040 --> 00:14:18.389 align:start position:0%
+parameters then pass them into the
+random<00:14:16.440><c> Forest</c><00:14:16.959><c> pacifier</c><00:14:17.639><c> so</c><00:14:17.920><c> these</c><00:14:18.120><c> values</c>
+
+00:14:18.389 --> 00:14:18.399 align:start position:0%
+random Forest pacifier so these values
+ 
+
+00:14:18.399 --> 00:14:20.670 align:start position:0%
+random Forest pacifier so these values
+are<00:14:18.519><c> going</c><00:14:18.839><c> directly</c><00:14:19.240><c> inside</c><00:14:19.920><c> all</c><00:14:20.079><c> right</c><00:14:20.519><c> then</c>
+
+00:14:20.670 --> 00:14:20.680 align:start position:0%
+are going directly inside all right then
+ 
+
+00:14:20.680 --> 00:14:22.670 align:start position:0%
+are going directly inside all right then
+we<00:14:20.759><c> are</c><00:14:20.920><c> Computing</c><00:14:21.360><c> the</c><00:14:21.519><c> score</c><00:14:22.120><c> and</c><00:14:22.279><c> since</c><00:14:22.560><c> we</c>
+
+00:14:22.670 --> 00:14:22.680 align:start position:0%
+we are Computing the score and since we
+ 
+
+00:14:22.680 --> 00:14:24.550 align:start position:0%
+we are Computing the score and since we
+want<00:14:22.880><c> to</c><00:14:23.279><c> minimize</c><00:14:23.759><c> it</c><00:14:23.959><c> is</c><00:14:24.120><c> always</c><00:14:24.320><c> going</c><00:14:24.480><c> to</c>
+
+00:14:24.550 --> 00:14:24.560 align:start position:0%
+want to minimize it is always going to
+ 
+
+00:14:24.560 --> 00:14:27.069 align:start position:0%
+want to minimize it is always going to
+be<00:14:24.680><c> minimized</c><00:14:25.240><c> here</c><00:14:25.800><c> we</c><00:14:25.920><c> are</c><00:14:26.560><c> getting</c><00:14:26.880><c> the</c>
+
+00:14:27.069 --> 00:14:27.079 align:start position:0%
+be minimized here we are getting the
+ 
+
+00:14:27.079 --> 00:14:29.269 align:start position:0%
+be minimized here we are getting the
+score<00:14:27.480><c> and</c><00:14:27.639><c> adding</c><00:14:27.880><c> a</c><00:14:28.079><c> negative</c><00:14:28.480><c> to</c><00:14:28.639><c> it</c><00:14:28.759><c> so</c><00:14:29.120><c> now</c>
+
+00:14:29.269 --> 00:14:29.279 align:start position:0%
+score and adding a negative to it so now
+ 
+
+00:14:29.279 --> 00:14:31.030 align:start position:0%
+score and adding a negative to it so now
+it's<00:14:29.440><c> going</c><00:14:29.639><c> to</c><00:14:29.759><c> be</c><00:14:29.959><c> even</c><00:14:30.199><c> though</c><00:14:30.360><c> this</c><00:14:30.440><c> is</c><00:14:30.560><c> an</c>
+
+00:14:31.030 --> 00:14:31.040 align:start position:0%
+it's going to be even though this is an
+ 
+
+00:14:31.040 --> 00:14:33.430 align:start position:0%
+it's going to be even though this is an
+accuracy<00:14:32.040><c> we</c><00:14:32.120><c> are</c><00:14:32.240><c> going</c><00:14:32.399><c> to</c><00:14:32.600><c> minimize</c><00:14:33.199><c> here</c>
+
+00:14:33.430 --> 00:14:33.440 align:start position:0%
+accuracy we are going to minimize here
+ 
+
+00:14:33.440 --> 00:14:35.110 align:start position:0%
+accuracy we are going to minimize here
+because<00:14:33.680><c> this</c><00:14:33.759><c> is</c><00:14:33.880><c> having</c><00:14:34.079><c> a</c><00:14:34.199><c> negative</c><00:14:34.600><c> sign</c>
+
+00:14:35.110 --> 00:14:35.120 align:start position:0%
+because this is having a negative sign
+ 
+
+00:14:35.120 --> 00:14:37.470 align:start position:0%
+because this is having a negative sign
+so<00:14:35.560><c> that</c><00:14:35.759><c> is</c><00:14:35.920><c> done</c><00:14:36.279><c> we</c><00:14:36.440><c> set</c><00:14:36.680><c> the</c><00:14:36.839><c> bounce</c><00:14:37.279><c> for</c>
+
+00:14:37.470 --> 00:14:37.480 align:start position:0%
+so that is done we set the bounce for
+ 
+
+00:14:37.480 --> 00:14:39.509 align:start position:0%
+so that is done we set the bounce for
+the<00:14:37.639><c> various</c><00:14:38.399><c> various</c><00:14:38.680><c> hyper</c><00:14:39.000><c> parameters</c><00:14:39.440><c> we</c>
+
+00:14:39.509 --> 00:14:39.519 align:start position:0%
+the various various hyper parameters we
+ 
+
+00:14:39.519 --> 00:14:43.150 align:start position:0%
+the various various hyper parameters we
+are<00:14:39.600><c> defining</c><00:14:39.959><c> the</c><00:14:40.120><c> bounds</c><00:14:41.040><c> and</c><00:14:41.320><c> call</c><00:14:41.920><c> gpy</c><00:14:42.399><c> op.</c>
+
+00:14:43.150 --> 00:14:43.160 align:start position:0%
+are defining the bounds and call gpy op.
+ 
+
+00:14:43.160 --> 00:14:46.509 align:start position:0%
+are defining the bounds and call gpy op.
+methods<00:14:44.160><c> ban</c><00:14:44.800><c> optimization</c><00:14:45.800><c> we</c><00:14:46.000><c> pass</c><00:14:46.279><c> the</c>
+
+00:14:46.509 --> 00:14:46.519 align:start position:0%
+methods ban optimization we pass the
+ 
+
+00:14:46.519 --> 00:14:48.710 align:start position:0%
+methods ban optimization we pass the
+objective<00:14:46.959><c> function</c><00:14:47.399><c> bounce</c><00:14:48.360><c> and</c>
+
+00:14:48.710 --> 00:14:48.720 align:start position:0%
+objective function bounce and
+ 
+
+00:14:48.720 --> 00:14:51.629 align:start position:0%
+objective function bounce and
+acquisition<00:14:49.360><c> function</c><00:14:49.839><c> type</c><00:14:50.199><c> equal</c><00:14:50.519><c> to</c><00:14:50.800><c> EI</c>
+
+00:14:51.629 --> 00:14:51.639 align:start position:0%
+acquisition function type equal to EI
+ 
+
+00:14:51.639 --> 00:14:53.550 align:start position:0%
+acquisition function type equal to EI
+expected<00:14:52.160><c> Improvement</c><00:14:52.800><c> you</c><00:14:52.920><c> could</c><00:14:53.120><c> also</c><00:14:53.360><c> try</c>
+
+00:14:53.550 --> 00:14:53.560 align:start position:0%
+expected Improvement you could also try
+ 
+
+00:14:53.560 --> 00:14:55.350 align:start position:0%
+expected Improvement you could also try
+the<00:14:53.720><c> other</c><00:14:53.920><c> options</c><00:14:54.320><c> especially</c><00:14:54.720><c> the</c><00:14:54.839><c> UCB</c>
+
+00:14:55.350 --> 00:14:55.360 align:start position:0%
+the other options especially the UCB
+ 
+
+00:14:55.360 --> 00:14:57.470 align:start position:0%
+the other options especially the UCB
+option<00:14:56.120><c> which</c><00:14:56.279><c> could</c><00:14:56.440><c> also</c><00:14:56.680><c> work</c><00:14:56.920><c> well</c><00:14:57.279><c> now</c>
+
+00:14:57.470 --> 00:14:57.480 align:start position:0%
+option which could also work well now
+ 
+
+00:14:57.480 --> 00:14:58.990 align:start position:0%
+option which could also work well now
+once<00:14:57.720><c> that</c><00:14:57.839><c> is</c><00:14:58.000><c> done</c><00:14:58.320><c> we</c><00:14:58.440><c> run</c><00:14:58.639><c> the</c><00:14:58.759><c> optim</c>
+
+00:14:58.990 --> 00:14:59.000 align:start position:0%
+once that is done we run the optim
+ 
+
+00:14:59.000 --> 00:15:01.910 align:start position:0%
+once that is done we run the optim
+mization<00:14:59.880><c> then</c><00:15:00.079><c> get</c><00:15:00.240><c> the</c><00:15:00.440><c> best</c><00:15:00.920><c> parameters</c>
+
+00:15:01.910 --> 00:15:01.920 align:start position:0%
+mization then get the best parameters
+ 
+
+00:15:01.920 --> 00:15:03.509 align:start position:0%
+mization then get the best parameters
+convert<00:15:02.240><c> to</c><00:15:02.440><c> integer</c><00:15:02.839><c> values</c><00:15:03.160><c> and</c><00:15:03.320><c> then</c><00:15:03.440><c> you</c>
+
+00:15:03.509 --> 00:15:03.519 align:start position:0%
+convert to integer values and then you
+ 
+
+00:15:03.519 --> 00:15:06.069 align:start position:0%
+convert to integer values and then you
+can<00:15:03.720><c> get</c><00:15:03.920><c> the</c><00:15:04.279><c> best</c><00:15:04.519><c> parameter</c><00:15:05.000><c> values</c><00:15:05.880><c> now</c>
+
+00:15:06.069 --> 00:15:06.079 align:start position:0%
+can get the best parameter values now
+ 
+
+00:15:06.079 --> 00:15:07.990 align:start position:0%
+can get the best parameter values now
+once<00:15:06.279><c> the</c><00:15:06.480><c> best</c><00:15:06.680><c> parameters</c><00:15:07.160><c> values</c><00:15:07.440><c> are</c>
+
+00:15:07.990 --> 00:15:08.000 align:start position:0%
+once the best parameters values are
+ 
+
+00:15:08.000 --> 00:15:10.790 align:start position:0%
+once the best parameters values are
+estimated<00:15:09.000><c> we</c><00:15:09.160><c> need</c><00:15:09.360><c> to</c><00:15:09.519><c> sort</c><00:15:09.759><c> of</c><00:15:10.079><c> rebuild</c><00:15:10.639><c> the</c>
+
+00:15:10.790 --> 00:15:10.800 align:start position:0%
+estimated we need to sort of rebuild the
+ 
+
+00:15:10.800 --> 00:15:13.069 align:start position:0%
+estimated we need to sort of rebuild the
+model<00:15:11.320><c> again</c><00:15:11.839><c> that</c><00:15:11.959><c> is</c><00:15:12.079><c> the</c><00:15:12.240><c> random</c><00:15:12.600><c> forest</c>
+
+00:15:13.069 --> 00:15:13.079 align:start position:0%
+model again that is the random forest
+ 
+
+00:15:13.079 --> 00:15:15.069 align:start position:0%
+model again that is the random forest
+classifier<00:15:14.079><c> with</c><00:15:14.240><c> the</c><00:15:14.360><c> best</c><00:15:14.560><c> parameter</c><00:15:15.000><c> that</c>
+
+00:15:15.069 --> 00:15:15.079 align:start position:0%
+classifier with the best parameter that
+ 
+
+00:15:15.079 --> 00:15:16.749 align:start position:0%
+classifier with the best parameter that
+we<00:15:15.199><c> have</c><00:15:15.360><c> found</c><00:15:15.600><c> out</c><00:15:16.040><c> after</c><00:15:16.240><c> building</c><00:15:16.600><c> that</c>
+
+00:15:16.749 --> 00:15:16.759 align:start position:0%
+we have found out after building that
+ 
+
+00:15:16.759 --> 00:15:19.350 align:start position:0%
+we have found out after building that
+you<00:15:16.880><c> can</c><00:15:17.079><c> do</c><00:15:17.279><c> the</c><00:15:17.560><c> train</c><00:15:17.880><c> test</c><00:15:18.120><c> split</c><00:15:18.880><c> fit</c><00:15:19.240><c> the</c>
+
+00:15:19.350 --> 00:15:19.360 align:start position:0%
+you can do the train test split fit the
+ 
+
+00:15:19.360 --> 00:15:21.470 align:start position:0%
+you can do the train test split fit the
+model<00:15:19.880><c> and</c><00:15:20.040><c> get</c><00:15:20.199><c> the</c><00:15:20.360><c> best</c><00:15:20.600><c> predictions</c><00:15:21.279><c> so</c>
+
+00:15:21.470 --> 00:15:21.480 align:start position:0%
+model and get the best predictions so
+ 
+
+00:15:21.480 --> 00:15:23.710 align:start position:0%
+model and get the best predictions so
+this<00:15:21.600><c> is</c><00:15:21.720><c> the</c><00:15:21.880><c> code</c><00:15:22.440><c> quite</c><00:15:22.680><c> straight</c><00:15:23.000><c> forward</c>
+
+00:15:23.710 --> 00:15:23.720 align:start position:0%
+this is the code quite straight forward
+ 
+
+00:15:23.720 --> 00:15:25.670 align:start position:0%
+this is the code quite straight forward
+use<00:15:24.000><c> the</c><00:15:24.199><c> link</c><00:15:24.480><c> in</c><00:15:24.600><c> the</c><00:15:24.759><c> description</c><00:15:25.199><c> to</c><00:15:25.440><c> try</c>
+
+00:15:25.670 --> 00:15:25.680 align:start position:0%
+use the link in the description to try
+ 
+
+00:15:25.680 --> 00:15:28.920 align:start position:0%
+use the link in the description to try
+this<00:15:25.839><c> out</c><00:15:26.079><c> on</c><00:15:26.240><c> your</c><00:15:26.440><c> own</c>
+
