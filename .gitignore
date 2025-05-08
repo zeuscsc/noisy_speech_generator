@@ -6,3 +6,4 @@ final_mixed_audio_limited.mp3
 .vscode
 *.csv
 chunked_dataset*
+__pycache__

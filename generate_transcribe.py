@@ -5,7 +5,7 @@ import sys
 import shutil
 
 DATASET_DIR = "dataset"
-WHISPER_MODEL = "base"
+WHISPER_MODEL = "turbo"
 TARGET_LANG = None
 OUTPUT_FORMAT = "vtt"
 AUTO_DETECT_SUFFIX = "auto"

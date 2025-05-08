@@ -1,0 +1,10 @@
+WEBVTT
+
+00:00:05.020 --> 00:00:09.920
+method for hyper parameter tuning. Now, you know, hyper parameter tuning is a key step in
+
+00:00:09.920 --> 00:00:13.800
+machine learning model building, but it can be quite time taking. So we will understand
+
+00:00:13.800 --> 00:00:19.760
+everything about Bayesian optimization specifically. Okay. But to be clear, let's quickly revise

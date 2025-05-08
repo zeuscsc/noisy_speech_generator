@@ -1,0 +1,7 @@
+WEBVTT
+
+00:06:46.160 --> 00:06:51.680
+steps. First, we need a surrogate model. Surrogate model is nothing but the model where we predict the
+
+00:06:51.680 --> 00:06:56.960
+model score or the objective function, whatever we want to call it. So predict the objective function
