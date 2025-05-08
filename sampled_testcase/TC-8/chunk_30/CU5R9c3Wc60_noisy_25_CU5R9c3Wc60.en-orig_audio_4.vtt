@@ -1,0 +1,103 @@
+WEBVTT
+
+00:01:58.600 --> 00:02:00.630 align:start position:0%
+hyperparameter tuning itself is done
+using<00:01:59.119><c> the</c><00:01:59.240><c> most</c><00:01:59.439><c> common</c><00:01:59.920><c> method</c><00:02:00.159><c> is</c><00:02:00.240><c> using</c>
+
+00:02:00.630 --> 00:02:00.640 align:start position:0%
+using the most common method is using
+
+00:02:00.640 --> 00:02:02.069 align:start position:0%
+using the most common method is using
+what<00:02:00.759><c> is</c><00:02:00.920><c> called</c><00:02:01.240><c> the</c><00:02:01.360><c> grid</c><00:02:01.600><c> search</c><00:02:01.920><c> for</c>
+
+00:02:02.069 --> 00:02:02.079 align:start position:0%
+what is called the grid search for
+
+00:02:02.079 --> 00:02:04.069 align:start position:0%
+what is called the grid search for
+example<00:02:02.399><c> you</c><00:02:02.520><c> have</c><00:02:02.680><c> two</c><00:02:02.880><c> hyper</c><00:02:03.200><c> parameters</c>
+
+00:02:04.069 --> 00:02:04.079 align:start position:0%
+example you have two hyper parameters
+
+00:02:04.079 --> 00:02:06.270 align:start position:0%
+example you have two hyper parameters
+hyper<00:02:04.360><c> parameter</c><00:02:04.799><c> 1</c><00:02:05.000><c> and</c><00:02:05.200><c> two</c><00:02:05.840><c> and</c><00:02:06.000><c> these</c><00:02:06.159><c> are</c>
+
+00:02:06.270 --> 00:02:06.280 align:start position:0%
+hyper parameter 1 and two and these are
+
+00:02:06.280 --> 00:02:08.109 align:start position:0%
+hyper parameter 1 and two and these are
+the<00:02:06.479><c> possible</c><00:02:06.920><c> values</c><00:02:07.240><c> of</c><00:02:07.399><c> hyper</c><00:02:07.640><c> parameters</c>
+
+00:02:08.109 --> 00:02:08.119 align:start position:0%
+the possible values of hyper parameters
+
+00:02:08.119 --> 00:02:11.110 align:start position:0%
+the possible values of hyper parameters
+1<00:02:08.479><c> and</c><00:02:08.679><c> two</c><00:02:08.920><c> on</c><00:02:09.080><c> the</c><00:02:09.239><c> y</c><00:02:09.440><c> axis</c><00:02:10.200><c> right</c><00:02:10.679><c> now</c><00:02:10.959><c> we</c>
+
+00:02:11.110 --> 00:02:11.120 align:start position:0%
+1 and two on the y axis right now we
+
+00:02:11.120 --> 00:02:13.390 align:start position:0%
+1 and two on the y axis right now we
+want<00:02:11.319><c> to</c><00:02:11.520><c> see</c><00:02:11.879><c> for</c><00:02:12.200><c> various</c><00:02:12.640><c> combinations</c><00:02:13.239><c> of</c>
+
+00:02:13.390 --> 00:02:13.400 align:start position:0%
+want to see for various combinations of
+
+00:02:13.400 --> 00:02:15.990 align:start position:0%
+want to see for various combinations of
+these<00:02:13.599><c> hyper</c><00:02:13.920><c> parameters</c><00:02:14.800><c> what</c><00:02:14.959><c> is</c><00:02:15.200><c> the</c><00:02:15.480><c> model</c>
+
+00:02:15.990 --> 00:02:16.000 align:start position:0%
+these hyper parameters what is the model
+
+00:02:16.000 --> 00:02:17.910 align:start position:0%
+these hyper parameters what is the model
+error<00:02:16.360><c> is</c><00:02:16.800><c> either</c><00:02:17.040><c> the</c><00:02:17.160><c> error</c><00:02:17.480><c> can</c><00:02:17.640><c> be</c><00:02:17.800><c> the</c>
+
+00:02:17.910 --> 00:02:17.920 align:start position:0%
+error is either the error can be the
+
+00:02:17.920 --> 00:02:20.070 align:start position:0%
+error is either the error can be the
+lowest<00:02:18.400><c> or</c><00:02:18.599><c> you</c><00:02:18.800><c> compute</c><00:02:19.200><c> the</c><00:02:19.440><c> accuracy</c><00:02:19.920><c> of</c>
+
+00:02:20.070 --> 00:02:20.080 align:start position:0%
+lowest or you compute the accuracy of
+
+00:02:20.080 --> 00:02:22.229 align:start position:0%
+lowest or you compute the accuracy of
+the<00:02:20.200><c> model</c><00:02:21.040><c> and</c><00:02:21.200><c> try</c><00:02:21.400><c> to</c><00:02:21.519><c> reach</c><00:02:21.720><c> the</c><00:02:21.840><c> maximum</c>
+
+00:02:22.229 --> 00:02:22.239 align:start position:0%
+the model and try to reach the maximum
+
+00:02:22.239 --> 00:02:23.869 align:start position:0%
+the model and try to reach the maximum
+accuracy<00:02:22.640><c> whichever</c><00:02:23.200><c> whichever</c><00:02:23.560><c> way</c><00:02:23.720><c> that</c>
+
+00:02:23.869 --> 00:02:23.879 align:start position:0%
+accuracy whichever whichever way that
+
+00:02:23.879 --> 00:02:26.350 align:start position:0%
+accuracy whichever whichever way that
+you<00:02:24.000><c> want</c><00:02:24.120><c> to</c><00:02:24.239><c> do</c><00:02:24.440><c> it</c><00:02:24.720><c> so</c><00:02:24.920><c> we</c><00:02:25.319><c> train</c><00:02:25.760><c> the</c><00:02:25.920><c> models</c>
+
+00:02:26.350 --> 00:02:26.360 align:start position:0%
+you want to do it so we train the models
+
+00:02:26.360 --> 00:02:28.790 align:start position:0%
+you want to do it so we train the models
+for<00:02:26.640><c> all</c><00:02:26.879><c> these</c><00:02:27.160><c> combinations</c><00:02:28.040><c> of</c><00:02:28.400><c> both</c><00:02:28.599><c> of</c>
+
+00:02:28.790 --> 00:02:28.800 align:start position:0%
+for all these combinations of both of
+
+00:02:28.800 --> 00:02:30.670 align:start position:0%
+for all these combinations of both of
+these<00:02:29.040><c> parameters</c><00:02:29.920><c> and</c><00:02:30.080><c> see</c><00:02:30.319><c> which</c><00:02:30.440><c> is</c><00:02:30.560><c> the</c>
