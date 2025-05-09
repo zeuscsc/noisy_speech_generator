@@ -4,59 +4,6 @@ import shutil
 import json
 import re
 
-def find_transcript_file(video_id_level_path, video_id):
-    if not os.path.isdir(video_id_level_path):
-        return None
-
-    files_in_dir = [f for f in os.listdir(video_id_level_path) if os.path.isfile(os.path.join(video_id_level_path, f))]
-
-    exact_match_pattern = f"{video_id}.whisper.auto.vtt"
-    if exact_match_pattern in files_in_dir:
-        return os.path.join(video_id_level_path, exact_match_pattern)
-
-    potential_files = []
-    for fname in files_in_dir:
-        if fname.startswith(video_id) and ".whisper" in fname and fname.endswith(".vtt"):
-            potential_files.append(fname)
-    if potential_files:
-        return os.path.join(video_id_level_path, sorted(potential_files)[0])
-
-    potential_files = []
-    for fname in files_in_dir:
-        if fname.startswith(video_id) and fname.endswith(".vtt"):
-            potential_files.append(fname)
-    if potential_files:
-        return os.path.join(video_id_level_path, sorted(potential_files)[0])
-
-    potential_files = []
-    common_text_extensions = (".vtt", ".srt", ".txt")
-    for fname in files_in_dir:
-        if fname.startswith(video_id) and ".whisper" in fname and fname.endswith(common_text_extensions):
-            potential_files.append(fname)
-    if potential_files:
-        for ext_priority in common_text_extensions:
-            for pfname in sorted(potential_files):
-                if pfname.endswith(ext_priority):
-                    return os.path.join(video_id_level_path, pfname)
-        return os.path.join(video_id_level_path, sorted(potential_files)[0]) 
-
-    potential_files = []
-    for fname in files_in_dir:
-        if fname.startswith(video_id) and fname.endswith(".srt"):
-            potential_files.append(fname)
-    if potential_files:
-        return os.path.join(video_id_level_path, sorted(potential_files)[0])
-
-    potential_files = []
-    for fname in files_in_dir:
-        if fname.startswith(video_id) and fname.endswith(".txt"):
-            potential_files.append(fname)
-    if potential_files:
-        return os.path.join(video_id_level_path, sorted(potential_files)[0])
-
-    return None
-
-
 def extract_youtube_id_from_url(url_string):
     if not url_string or not isinstance(url_string, str):
         return None
@@ -274,7 +221,6 @@ def analyze_and_extract_audios(base_dataset_path, new_dataset_folder_path, metad
                         pass 
 
                     original_audio_dir = os.path.dirname(original_audio_path)
-                    audio_basename_no_ext = os.path.splitext(audio_info['filename'])[0]
                     
                     transcript_copied_for_this_audio = False
                     if os.path.isdir(original_audio_dir):
