@@ -1,0 +1,31 @@
+WEBVTT
+
+00:08:59.840 --> 00:09:05.200
+iterations that the user has set has been achieved. So this is the whole idea behind it. If you want
+
+00:09:05.200 --> 00:09:11.120
+to understand simply rights, if you want to understand simply what surrogate function versus surrogate
+
+00:09:11.120 --> 00:09:17.040
+function versus a acquisition function does is simply say this is your grid. This is your hyper
+
+00:09:17.040 --> 00:09:23.440
+parameter, hyper parameter grid. Say you have the hyper parameter one and hyper parameter two on the y
+
+00:09:23.440 --> 00:09:30.320
+axis, all right? Now you have this grid. Think of this grid as a map, okay? This think of this grid as a map
+
+00:09:30.320 --> 00:09:36.560
+where only few data points we have sampled, okay? We want to trace the lines in this map. Say you, you have
+
+00:09:36.560 --> 00:09:42.880
+a particular country and you want to trace the lines and the lines where the lines are the lines
+
+00:09:42.880 --> 00:09:49.120
+are the points where your objective function, the objective function is highest. So higher the
+
+00:09:49.120 --> 00:09:52.960
+objective function, suppose if it's accuracy, we want to maximize it, right? Suppose your objective is
+
+00:09:52.960 --> 00:10:00.960
+increasing the accuracy. We want to go in a in a particular route that will reach us to the maximum.

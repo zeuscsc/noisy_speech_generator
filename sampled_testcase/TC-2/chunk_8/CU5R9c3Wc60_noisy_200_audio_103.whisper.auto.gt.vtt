@@ -1,0 +1,7 @@
+WEBVTT
+
+00:13:40.480 --> 00:13:48.000
+as the random search. After this, we will implement using GPyOpt. So this is another package where you
+
+00:13:48.000 --> 00:13:55.120
+can use implement Bayesian optimization. We're first installing this now import GPyOpt and this is

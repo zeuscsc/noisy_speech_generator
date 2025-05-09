@@ -1,0 +1,89 @@
+WEBVTT
+
+00:11:29.040 --> 00:11:31.949 align:start position:0%
+notebook in the description please use
+that<00:11:29.360><c> link</c><00:11:29.600><c> to</c><00:11:30.440><c> try</c><00:11:30.800><c> to</c><00:11:31.079><c> get</c><00:11:31.320><c> this</c><00:11:31.480><c> and</c><00:11:31.639><c> try</c><00:11:31.839><c> it</c>
+
+00:11:31.949 --> 00:11:31.959 align:start position:0%
+that link to try to get this and try it
+
+00:11:31.959 --> 00:11:34.150 align:start position:0%
+that link to try to get this and try it
+out<00:11:32.480><c> first</c><00:11:32.760><c> we</c><00:11:32.839><c> will</c><00:11:33.200><c> import</c><00:11:33.560><c> the</c><00:11:33.760><c> packages</c>
+
+00:11:34.150 --> 00:11:34.160 align:start position:0%
+out first we will import the packages
+
+00:11:34.160 --> 00:11:36.990 align:start position:0%
+out first we will import the packages
+optin<00:11:34.959><c> by</c><00:11:35.200><c> pandas</c><00:11:36.040><c> and</c><00:11:36.200><c> from</c><00:11:36.360><c> psyit</c><00:11:36.760><c> learn</c><00:11:36.959><c> we</c>
+
+00:11:36.990 --> 00:11:37.000 align:start position:0%
+optin by pandas and from psyit learn we
+
+00:11:37.000 --> 00:11:38.750 align:start position:0%
+optin by pandas and from psyit learn we
+are<00:11:37.079><c> going</c><00:11:37.200><c> to</c><00:11:37.320><c> be</c><00:11:37.440><c> using</c><00:11:37.800><c> the</c><00:11:37.959><c> breast</c><00:11:38.320><c> cancer</c>
+
+00:11:38.750 --> 00:11:38.760 align:start position:0%
+are going to be using the breast cancer
+
+00:11:38.760 --> 00:11:41.590 align:start position:0%
+are going to be using the breast cancer
+data<00:11:39.000><c> set</c><00:11:39.839><c> and</c><00:11:39.959><c> we</c><00:11:40.079><c> will</c><00:11:40.519><c> also</c><00:11:40.760><c> use</c><00:11:41.040><c> these</c><00:11:41.279><c> also</c>
+
+00:11:41.590 --> 00:11:41.600 align:start position:0%
+data set and we will also use these also
+
+00:11:41.600 --> 00:11:44.269 align:start position:0%
+data set and we will also use these also
+all<00:11:41.760><c> right</c><00:11:41.920><c> so</c><00:11:42.200><c> basic</c><00:11:42.519><c> steps</c><00:11:43.360><c> first</c><00:11:43.680><c> we</c><00:11:43.760><c> will</c>
+
+00:11:44.269 --> 00:11:44.279 align:start position:0%
+all right so basic steps first we will
+
+00:11:44.279 --> 00:11:46.069 align:start position:0%
+all right so basic steps first we will
+download<00:11:44.760><c> the</c><00:11:44.920><c> data</c><00:11:45.279><c> load</c><00:11:45.440><c> the</c><00:11:45.560><c> data</c><00:11:45.800><c> set</c>
+
+00:11:46.069 --> 00:11:46.079 align:start position:0%
+download the data load the data set
+
+00:11:46.079 --> 00:11:47.790 align:start position:0%
+download the data load the data set
+which<00:11:46.200><c> is</c><00:11:46.320><c> the</c><00:11:46.480><c> breast</c><00:11:46.800><c> cancer</c><00:11:47.120><c> data</c><00:11:47.399><c> set</c><00:11:47.639><c> we</c>
+
+00:11:47.790 --> 00:11:47.800 align:start position:0%
+which is the breast cancer data set we
+
+00:11:47.800 --> 00:11:50.829 align:start position:0%
+which is the breast cancer data set we
+get<00:11:48.079><c> the</c><00:11:48.360><c> X</c><00:11:48.839><c> the</c><00:11:48.959><c> features</c><00:11:49.480><c> and</c><00:11:49.639><c> the</c><00:11:49.800><c> Y</c><00:11:50.480><c> form</c>
+
+00:11:50.829 --> 00:11:50.839 align:start position:0%
+get the X the features and the Y form
+
+00:11:50.839 --> 00:11:52.590 align:start position:0%
+get the X the features and the Y form
+the<00:11:50.959><c> use</c><00:11:51.200><c> Trin</c><00:11:51.519><c> test</c><00:11:51.760><c> plate</c><00:11:52.040><c> to</c><00:11:52.160><c> form</c><00:11:52.399><c> your</c>
+
+00:11:52.590 --> 00:11:52.600 align:start position:0%
+the use Trin test plate to form your
+
+00:11:52.600 --> 00:11:55.030 align:start position:0%
+the use Trin test plate to form your
+xtrain<00:11:53.399><c> X</c><00:11:53.600><c> validation</c><00:11:54.200><c> y</c><00:11:54.399><c> train</c><00:11:54.680><c> and</c><00:11:54.839><c> Y</c>
+
+00:11:55.030 --> 00:11:55.040 align:start position:0%
+xtrain X validation y train and Y
+
+00:11:55.040 --> 00:11:57.590 align:start position:0%
+xtrain X validation y train and Y
+validation<00:11:55.959><c> basic</c><00:11:56.279><c> steps</c><00:11:56.839><c> now</c><00:11:57.040><c> in</c><00:11:57.160><c> order</c><00:11:57.440><c> to</c>
+
+00:11:57.590 --> 00:11:57.600 align:start position:0%
+validation basic steps now in order to
+
+00:11:57.600 --> 00:12:00.110 align:start position:0%
+validation basic steps now in order to
+do<00:11:57.800><c> the</c><00:11:57.959><c> hyper</c><00:11:58.279><c> parameter</c><00:11:58.680><c> optimization</c><00:11:59.600><c> we</c>

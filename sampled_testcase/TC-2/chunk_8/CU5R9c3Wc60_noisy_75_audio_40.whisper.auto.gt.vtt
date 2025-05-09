@@ -1,0 +1,7 @@
+WEBVTT
+
+00:05:16.960 --> 00:05:23.120
+of the prior information to make the subsequent searches so that we will be able to find the optimal point
+
+00:05:23.760 --> 00:05:30.080
+quite fast. So this is the fundamental idea behind Bayesian optimization. But how does this work?

@@ -1,0 +1,37 @@
+WEBVTT
+
+00:13:55.120 --> 00:14:01.040
+implemented on the iris data set, same random forest classifier. Now we load the same steps. We load
+
+00:14:01.040 --> 00:14:07.920
+the iris, the x and the y, then define the objective function again, again, same, same stuff. So we are
+
+00:14:07.920 --> 00:14:12.480
+defining the parameters. These parameters, instead of having it as a dictionary, we are estimating,
+
+00:14:12.480 --> 00:14:17.520
+we are creating separate objects for the parameters, then pass them into the random forest classifier.
+
+00:14:17.520 --> 00:14:22.640
+So these values are going directly inside. All right. Then we are computing the score. And since we
+
+00:14:22.640 --> 00:14:28.400
+want to minimize, it is always going to be minimized here. We are getting the score and adding a negative
+
+00:14:28.400 --> 00:14:33.600
+to it. So now it's going to be, even though this is an accuracy, we are going to minimize here because
+
+00:14:33.600 --> 00:14:38.880
+this is having a negative sign. So that is done. We set the bounds for the various, various hyper
+
+00:14:38.880 --> 00:14:46.400
+parameters. We are defining the bounds and call GPyOpt dot methods Bayesian optimization. We pass the
+
+00:14:46.400 --> 00:14:53.280
+objective function bounds and acquisition function type equal to ei expected improvement. You could also
+
+00:14:53.280 --> 00:14:58.160
+try the other options, especially the UCB option, which could also work well. Now, once that is done,
+
+00:14:58.400 --> 00:15:03.360
+we run the optimization, then get the best parameters, convert to integer values, and then

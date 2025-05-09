@@ -1,0 +1,187 @@
+WEBVTT
+
+00:00:58.600 --> 00:01:01.150 align:start position:0%
+against the actual y from the validation
+data<00:00:58.879><c> set</c><00:00:59.480><c> from</c><00:00:59.680><c> that</c><00:01:00.000><c> to</c><00:01:00.120><c> compute</c><00:01:00.480><c> the</c><00:01:00.600><c> error</c>
+
+00:01:01.150 --> 00:01:01.160 align:start position:0%
+data set from that to compute the error
+
+00:01:01.160 --> 00:01:02.990 align:start position:0%
+data set from that to compute the error
+which<00:01:01.320><c> is</c><00:01:01.440><c> called</c><00:01:01.640><c> the</c><00:01:01.800><c> validation</c><00:01:02.280><c> error</c>
+
+00:01:02.990 --> 00:01:03.000 align:start position:0%
+which is called the validation error
+
+00:01:03.000 --> 00:01:05.350 align:start position:0%
+which is called the validation error
+right<00:01:03.440><c> we</c><00:01:03.600><c> want</c><00:01:03.920><c> this</c><00:01:04.080><c> error</c><00:01:04.360><c> to</c><00:01:04.479><c> be</c><00:01:04.680><c> as</c><00:01:04.879><c> low</c><00:01:05.159><c> as</c>
+
+00:01:05.350 --> 00:01:05.360 align:start position:0%
+right we want this error to be as low as
+
+00:01:05.360 --> 00:01:07.310 align:start position:0%
+right we want this error to be as low as
+possible<00:01:05.880><c> in</c><00:01:06.000><c> order</c><00:01:06.280><c> to</c><00:01:06.520><c> achieve</c><00:01:06.880><c> that</c><00:01:07.080><c> one</c><00:01:07.200><c> of</c>
+
+00:01:07.310 --> 00:01:07.320 align:start position:0%
+possible in order to achieve that one of
+
+00:01:07.320 --> 00:01:10.670 align:start position:0%
+possible in order to achieve that one of
+the<00:01:07.439><c> techniques</c><00:01:07.840><c> is</c><00:01:08.320><c> we</c><00:01:09.159><c> try</c><00:01:09.479><c> to</c><00:01:09.799><c> see</c><00:01:10.280><c> how</c><00:01:10.479><c> the</c>
+
+00:01:10.670 --> 00:01:10.680 align:start position:0%
+the techniques is we try to see how the
+
+00:01:10.680 --> 00:01:13.190 align:start position:0%
+the techniques is we try to see how the
+model<00:01:11.080><c> is</c><00:01:11.360><c> performing</c><00:01:12.040><c> that</c><00:01:12.159><c> is</c><00:01:12.280><c> the</c><00:01:12.400><c> error</c>
+
+00:01:13.190 --> 00:01:13.200 align:start position:0%
+model is performing that is the error
+
+00:01:13.200 --> 00:01:14.870 align:start position:0%
+model is performing that is the error
+performances<00:01:13.840><c> lower</c><00:01:14.159><c> the</c><00:01:14.240><c> error</c><00:01:14.520><c> better</c><00:01:14.759><c> the</c>
+
+00:01:14.870 --> 00:01:14.880 align:start position:0%
+performances lower the error better the
+
+00:01:14.880 --> 00:01:18.710 align:start position:0%
+performances lower the error better the
+performances<00:01:15.640><c> now</c><00:01:16.360><c> we</c><00:01:17.000><c> try</c><00:01:17.280><c> to</c><00:01:18.040><c> adjust</c>
+
+00:01:18.710 --> 00:01:18.720 align:start position:0%
+performances now we try to adjust
+
+00:01:18.720 --> 00:01:19.830 align:start position:0%
+performances now we try to adjust
+various
+
+00:01:19.830 --> 00:01:19.840 align:start position:0%
+various
+
+00:01:19.840 --> 00:01:22.870 align:start position:0%
+various
+combinations<00:01:20.840><c> of</c><00:01:21.320><c> the</c><00:01:21.560><c> hyper</c><00:01:22.079><c> parameters</c><00:01:22.680><c> of</c>
+
+00:01:22.870 --> 00:01:22.880 align:start position:0%
+combinations of the hyper parameters of
+
+00:01:22.880 --> 00:01:24.469 align:start position:0%
+combinations of the hyper parameters of
+whichever<00:01:23.240><c> ml</c><00:01:23.600><c> model</c><00:01:23.840><c> that</c><00:01:24.000><c> we</c><00:01:24.079><c> are</c><00:01:24.200><c> dealing</c>
+
+00:01:24.469 --> 00:01:24.479 align:start position:0%
+whichever ml model that we are dealing
+
+00:01:24.479 --> 00:01:26.510 align:start position:0%
+whichever ml model that we are dealing
+with<00:01:24.680><c> for</c><00:01:24.880><c> example</c><00:01:25.240><c> if</c><00:01:25.320><c> we</c><00:01:25.520><c> dealing</c><00:01:25.840><c> with</c><00:01:26.280><c> say</c>
+
+00:01:26.510 --> 00:01:26.520 align:start position:0%
+with for example if we dealing with say
+
+00:01:26.520 --> 00:01:28.910 align:start position:0%
+with for example if we dealing with say
+a<00:01:26.640><c> random</c><00:01:26.960><c> Forest</c><00:01:27.400><c> algorithm</c><00:01:28.400><c> the</c><00:01:28.560><c> hyper</c>
+
+00:01:28.910 --> 00:01:28.920 align:start position:0%
+a random Forest algorithm the hyper
+
+00:01:28.920 --> 00:01:30.190 align:start position:0%
+a random Forest algorithm the hyper
+parameter<00:01:29.320><c> could</c><00:01:29.439><c> be</c><00:01:29.560><c> something</c><00:01:29.960><c> like</c><00:01:30.119><c> the</c>
+
+00:01:30.190 --> 00:01:30.200 align:start position:0%
+parameter could be something like the
+
+00:01:30.200 --> 00:01:31.310 align:start position:0%
+parameter could be something like the
+number<00:01:30.439><c> of</c>
+
+00:01:31.310 --> 00:01:31.320 align:start position:0%
+number of
+
+00:01:31.320 --> 00:01:34.950 align:start position:0%
+number of
+estimators<00:01:32.320><c> and</c><00:01:32.640><c> say</c><00:01:32.960><c> the</c><00:01:33.119><c> max</c><00:01:33.640><c> depth</c><00:01:34.640><c> right</c>
+
+00:01:34.950 --> 00:01:34.960 align:start position:0%
+estimators and say the max depth right
+
+00:01:34.960 --> 00:01:37.469 align:start position:0%
+estimators and say the max depth right
+there<00:01:35.119><c> could</c><00:01:35.280><c> be</c><00:01:35.479><c> other</c><00:01:35.880><c> parameters</c><00:01:36.479><c> also</c>
+
+00:01:37.469 --> 00:01:37.479 align:start position:0%
+there could be other parameters also
+
+00:01:37.479 --> 00:01:39.950 align:start position:0%
+there could be other parameters also
+likewise<00:01:37.920><c> if</c><00:01:38.079><c> you</c><00:01:38.399><c> use</c><00:01:38.960><c> say</c><00:01:39.280><c> support</c><00:01:39.640><c> Vector</c>
+
+00:01:39.950 --> 00:01:39.960 align:start position:0%
+likewise if you use say support Vector
+
+00:01:39.960 --> 00:01:41.910 align:start position:0%
+likewise if you use say support Vector
+missions<00:01:40.560><c> it</c><00:01:40.640><c> could</c><00:01:40.840><c> be</c><00:01:41.079><c> what</c><00:01:41.280><c> kernel</c><00:01:41.680><c> you</c><00:01:41.759><c> are</c>
+
+00:01:41.910 --> 00:01:41.920 align:start position:0%
+missions it could be what kernel you are
+
+00:01:41.920 --> 00:01:45.429 align:start position:0%
+missions it could be what kernel you are
+using<00:01:42.720><c> what</c><00:01:43.399><c> kernel</c><00:01:44.399><c> you</c><00:01:44.560><c> are</c><00:01:44.719><c> using</c><00:01:45.119><c> what</c><00:01:45.280><c> the</c>
+
+00:01:45.429 --> 00:01:45.439 align:start position:0%
+using what kernel you are using what the
+
+00:01:45.439 --> 00:01:47.389 align:start position:0%
+using what kernel you are using what the
+value<00:01:45.680><c> of</c><00:01:45.799><c> the</c><00:01:45.920><c> C</c><00:01:46.159><c> parameters</c><00:01:46.960><c> things</c><00:01:47.200><c> like</c>
+
+00:01:47.389 --> 00:01:47.399 align:start position:0%
+value of the C parameters things like
+
+00:01:47.399 --> 00:01:49.870 align:start position:0%
+value of the C parameters things like
+that<00:01:47.799><c> right</c><00:01:48.079><c> so</c><00:01:48.320><c> for</c><00:01:48.560><c> a</c><00:01:48.799><c> specific</c><00:01:49.320><c> value</c><00:01:49.640><c> of</c>
+
+00:01:49.870 --> 00:01:49.880 align:start position:0%
+that right so for a specific value of
+
+00:01:49.880 --> 00:01:52.510 align:start position:0%
+that right so for a specific value of
+these<00:01:50.079><c> hyper</c><00:01:50.640><c> parameters</c><00:01:51.640><c> the</c><00:01:51.840><c> error</c><00:01:52.280><c> might</c>
+
+00:01:52.510 --> 00:01:52.520 align:start position:0%
+these hyper parameters the error might
+
+00:01:52.520 --> 00:01:54.749 align:start position:0%
+these hyper parameters the error might
+be<00:01:52.759><c> lowest</c><00:01:53.399><c> this</c><00:01:53.520><c> is</c><00:01:53.719><c> what</c><00:01:54.040><c> hyperparameter</c>
+
+00:01:54.749 --> 00:01:54.759 align:start position:0%
+be lowest this is what hyperparameter
+
+00:01:54.759 --> 00:01:56.590 align:start position:0%
+be lowest this is what hyperparameter
+tuning<00:01:55.119><c> is</c><00:01:55.240><c> all</c><00:01:55.399><c> about</c><00:01:55.799><c> now</c><00:01:55.960><c> the</c><00:01:56.159><c> process</c><00:01:56.439><c> of</c>
+
+00:01:56.590 --> 00:01:56.600 align:start position:0%
+tuning is all about now the process of
+
+00:01:56.600 --> 00:01:58.590 align:start position:0%
+tuning is all about now the process of
+hyperparameter<00:01:57.320><c> tuning</c><00:01:57.719><c> itself</c><00:01:58.079><c> is</c><00:01:58.280><c> done</c>
+
+00:01:58.590 --> 00:01:58.600 align:start position:0%
+hyperparameter tuning itself is done
+
+00:01:58.600 --> 00:02:00.630 align:start position:0%
+hyperparameter tuning itself is done
+using<00:01:59.119><c> the</c><00:01:59.240><c> most</c><00:01:59.439><c> common</c><00:01:59.920><c> method</c><00:02:00.159><c> is</c><00:02:00.240><c> using</c>

@@ -1,0 +1,19 @@
+WEBVTT
+
+00:14:28.400 --> 00:14:33.600
+to it. So now it's going to be, even though this is an accuracy, we are going to minimize here because
+
+00:14:33.600 --> 00:14:38.880
+this is having a negative sign. So that is done. We set the bounds for the various, various hyper
+
+00:14:38.880 --> 00:14:46.400
+parameters. We are defining the bounds and call gpy opt.methods Bayesian optimization. We pass the
+
+00:14:46.400 --> 00:14:53.280
+objective function bounds and acquisition function type equal to ei expected improvement. You could also
+
+00:14:53.280 --> 00:14:58.160
+try the other options, especially the UCB option, which could also work well. Now, once that is done,
+
+00:14:58.400 --> 00:15:03.360
+we run the optimization, then get the best parameters, convert to integer values, and then

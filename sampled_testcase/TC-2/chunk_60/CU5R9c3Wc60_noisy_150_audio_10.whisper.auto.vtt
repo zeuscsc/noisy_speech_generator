@@ -1,0 +1,37 @@
+WEBVTT
+
+00:09:52.960 --> 00:10:00.960
+increasing the accuracy. We want to go in a in a particular route that will reach us to the maximum.
+
+00:10:00.960 --> 00:10:05.760
+Suppose this is the point where it has the maximum highest accuracy starting somewhere randomly.
+
+00:10:05.760 --> 00:10:11.840
+We want to reach this point at the fastest rate, right? The acquisition function, the acquisition
+
+00:10:11.840 --> 00:10:15.920
+function is something that will, that will estimate the height of these points, okay?
+
+00:10:15.920 --> 00:10:21.840
+Think of this as a contour. You might have seen contour graphs and all where you have say red colors,
+
+00:10:21.840 --> 00:10:26.320
+dark red colors, wherever the point is very high. The, the value is very high heat maps kind of thing,
+
+00:10:26.960 --> 00:10:32.400
+right? And the milder the color becomes the, the lower the values are, okay? Think of it like this.
+
+00:10:32.400 --> 00:10:37.920
+So the acquisition point acquisition function will help you estimate the value of the objective
+
+00:10:37.920 --> 00:10:44.800
+function at any given point, right? Likewise, the, okay, sorry, the surrogate function. I'm talking about
+
+00:10:44.800 --> 00:10:51.200
+surrogate function here. Surrogate function will estimate this objective value and the, and the acquisition
+
+00:10:51.200 --> 00:10:58.000
+function acquisition function will decide what route to take in order to reach the optimal point. So this is the
+
+00:10:58.000 --> 00:11:03.520
+fundamental idea behind Bayesian optimization. Let's implement this in code. Okay. So we will see a couple
