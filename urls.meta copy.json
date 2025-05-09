@@ -91,6 +91,13 @@
         "tags": ["TC-2","TC-4","TC-6","TC-7","TC-8"]
     },
     {
+        "url": "https://www.youtube.com/watch?v=Kcye8Ypi7no",
+        "language": "Cantonese",
+        "accent": "English",
+        "content_tags": ["General"],
+        "tags": ["TC-2","TC-4","TC-6","TC-7","TC-8"]
+    },
+    {
         "url": "https://www.youtube.com/watch?v=XwOemRiuO5A",
         "language": "Mandarin",
         "accent": "Cantonese",
@@ -116,6 +123,13 @@
         "language": "English",
         "accent": "Indian",
         "content_tags": ["General", "Data Science"],
+        "tags": ["TC-2","TC-4","TC-6","TC-7","TC-8"]
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=VN4E6Mp_ljs",
+        "language": "English",
+        "accent": "Indian",
+        "content_tags": ["General", "Algorithm"],
         "tags": ["TC-2","TC-4","TC-6","TC-7","TC-8"]
     }
 ]

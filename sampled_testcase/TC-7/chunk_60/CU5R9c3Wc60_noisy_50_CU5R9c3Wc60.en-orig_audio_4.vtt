@@ -1,0 +1,208 @@
+WEBVTT
+
+00:03:57.079 --> 00:04:00.069 align:start position:0%
+going to give you the lowest value of
+the<00:03:57.159><c> errors</c><00:03:57.680><c> also</c><00:03:58.280><c> the</c><00:03:58.480><c> search</c><00:03:58.959><c> space</c><00:03:59.319><c> when</c><00:03:59.439><c> we</c>
+
+00:04:00.069 --> 00:04:00.079 align:start position:0%
+the errors also the search space when we
+
+00:04:00.079 --> 00:04:01.789 align:start position:0%
+the errors also the search space when we
+especially<00:04:00.599><c> with</c><00:04:00.879><c> grid</c><00:04:01.159><c> search</c><00:04:01.480><c> might</c><00:04:01.680><c> be</c>
+
+00:04:01.789 --> 00:04:01.799 align:start position:0%
+especially with grid search might be
+
+00:04:01.799 --> 00:04:03.949 align:start position:0%
+especially with grid search might be
+limited<00:04:02.200><c> for</c><00:04:02.360><c> example</c><00:04:02.680><c> we</c><00:04:02.760><c> are</c><00:04:02.879><c> searching</c><00:04:03.280><c> for</c>
+
+00:04:03.949 --> 00:04:03.959 align:start position:0%
+limited for example we are searching for
+
+00:04:03.959 --> 00:04:05.390 align:start position:0%
+limited for example we are searching for
+these<00:04:04.159><c> three</c><00:04:04.360><c> values</c><00:04:04.599><c> of</c><00:04:04.760><c> hyper</c><00:04:05.000><c> parameter</c>
+
+00:04:05.390 --> 00:04:05.400 align:start position:0%
+these three values of hyper parameter
+
+00:04:05.400 --> 00:04:07.270 align:start position:0%
+these three values of hyper parameter
+one<00:04:05.760><c> what</c><00:04:05.920><c> of</c><00:04:06.120><c> the</c><00:04:06.280><c> optimal</c><00:04:06.680><c> value</c><00:04:06.959><c> lies</c>
+
+00:04:07.270 --> 00:04:07.280 align:start position:0%
+one what of the optimal value lies
+
+00:04:07.280 --> 00:04:09.309 align:start position:0%
+one what of the optimal value lies
+outside<00:04:07.799><c> these</c><00:04:08.040><c> values</c><00:04:08.599><c> right</c><00:04:08.760><c> that</c><00:04:08.879><c> is</c><00:04:09.079><c> also</c>
+
+00:04:09.309 --> 00:04:09.319 align:start position:0%
+outside these values right that is also
+
+00:04:09.319 --> 00:04:11.270 align:start position:0%
+outside these values right that is also
+a<00:04:09.480><c> limitation</c><00:04:09.920><c> when</c><00:04:10.040><c> we</c><00:04:10.159><c> deal</c><00:04:10.439><c> with</c><00:04:10.920><c> both</c><00:04:11.120><c> of</c>
+
+00:04:11.270 --> 00:04:11.280 align:start position:0%
+a limitation when we deal with both of
+
+00:04:11.280 --> 00:04:13.390 align:start position:0%
+a limitation when we deal with both of
+these<00:04:11.439><c> approaches</c><00:04:12.000><c> so</c><00:04:12.360><c> these</c><00:04:12.519><c> are</c><00:04:12.760><c> dropbacks</c>
+
+00:04:13.390 --> 00:04:13.400 align:start position:0%
+these approaches so these are dropbacks
+
+00:04:13.400 --> 00:04:15.390 align:start position:0%
+these approaches so these are dropbacks
+but<00:04:13.599><c> the</c><00:04:13.760><c> biggest</c><00:04:14.319><c> dropback</c><00:04:14.879><c> with</c><00:04:15.079><c> both</c><00:04:15.239><c> of</c>
+
+00:04:15.390 --> 00:04:15.400 align:start position:0%
+but the biggest dropback with both of
+
+00:04:15.400 --> 00:04:18.229 align:start position:0%
+but the biggest dropback with both of
+these<00:04:15.560><c> approaches</c><00:04:16.320><c> is</c><00:04:16.560><c> this</c><00:04:17.239><c> now</c><00:04:17.519><c> let's</c><00:04:17.759><c> say</c>
+
+00:04:18.229 --> 00:04:18.239 align:start position:0%
+these approaches is this now let's say
+
+00:04:18.239 --> 00:04:20.349 align:start position:0%
+these approaches is this now let's say
+here<00:04:18.479><c> the</c><00:04:18.680><c> red</c><00:04:18.959><c> points</c><00:04:19.400><c> and</c><00:04:19.560><c> the</c><00:04:19.720><c> green</c><00:04:20.079><c> points</c>
+
+00:04:20.349 --> 00:04:20.359 align:start position:0%
+here the red points and the green points
+
+00:04:20.359 --> 00:04:22.189 align:start position:0%
+here the red points and the green points
+are<00:04:20.560><c> the</c><00:04:20.759><c> points</c><00:04:21.199><c> that</c><00:04:21.479><c> you</c><00:04:21.639><c> have</c><00:04:21.840><c> hyper</c>
+
+00:04:22.189 --> 00:04:22.199 align:start position:0%
+are the points that you have hyper
+
+00:04:22.199 --> 00:04:25.390 align:start position:0%
+are the points that you have hyper
+parameter<00:04:22.960><c> one</c><00:04:23.240><c> and</c><00:04:23.440><c> Hyper</c><00:04:23.840><c> parameter</c><00:04:24.639><c> yp2</c>
+
+00:04:25.390 --> 00:04:25.400 align:start position:0%
+parameter one and Hyper parameter yp2
+
+00:04:25.400 --> 00:04:28.350 align:start position:0%
+parameter one and Hyper parameter yp2
+hyper<00:04:25.680><c> parameter</c><00:04:26.040><c> 2</c><00:04:26.560><c> now</c><00:04:26.840><c> these</c><00:04:27.120><c> points</c><00:04:28.080><c> these</c>
+
+00:04:28.350 --> 00:04:28.360 align:start position:0%
+hyper parameter 2 now these points these
+
+00:04:28.360 --> 00:04:31.390 align:start position:0%
+hyper parameter 2 now these points these
+Reds<00:04:29.240><c> and</c><00:04:29.440><c> these</c><00:04:29.800><c> greens</c><00:04:30.720><c> are</c><00:04:30.919><c> the</c><00:04:31.080><c> points</c>
+
+00:04:31.390 --> 00:04:31.400 align:start position:0%
+Reds and these greens are the points
+
+00:04:31.400 --> 00:04:32.749 align:start position:0%
+Reds and these greens are the points
+that<00:04:31.520><c> the</c><00:04:31.639><c> model</c><00:04:31.880><c> has</c><00:04:32.039><c> already</c><00:04:32.280><c> trained</c><00:04:32.600><c> on</c>
+
+00:04:32.749 --> 00:04:32.759 align:start position:0%
+that the model has already trained on
+
+00:04:32.759 --> 00:04:34.430 align:start position:0%
+that the model has already trained on
+the<00:04:32.919><c> whites</c><00:04:33.160><c> are</c><00:04:33.320><c> yet</c><00:04:33.479><c> to</c><00:04:33.600><c> be</c><00:04:33.720><c> trained</c><00:04:34.120><c> now</c><00:04:34.280><c> we</c>
+
+00:04:34.430 --> 00:04:34.440 align:start position:0%
+the whites are yet to be trained now we
+
+00:04:34.440 --> 00:04:36.469 align:start position:0%
+the whites are yet to be trained now we
+know<00:04:34.759><c> that</c><00:04:35.199><c> the</c><00:04:35.320><c> model</c><00:04:35.639><c> is</c><00:04:35.800><c> performing</c><00:04:36.280><c> good</c>
+
+00:04:36.469 --> 00:04:36.479 align:start position:0%
+know that the model is performing good
+
+00:04:36.479 --> 00:04:38.390 align:start position:0%
+know that the model is performing good
+in<00:04:36.680><c> this</c><00:04:36.840><c> region</c><00:04:37.320><c> and</c><00:04:37.440><c> it's</c><00:04:37.680><c> not</c><00:04:37.840><c> so</c><00:04:38.039><c> good</c><00:04:38.199><c> in</c>
+
+00:04:38.390 --> 00:04:38.400 align:start position:0%
+in this region and it's not so good in
+
+00:04:38.400 --> 00:04:40.710 align:start position:0%
+in this region and it's not so good in
+this<00:04:38.560><c> region</c><00:04:39.080><c> now</c><00:04:39.440><c> with</c><00:04:39.639><c> this</c><00:04:39.919><c> information</c>
+
+00:04:40.710 --> 00:04:40.720 align:start position:0%
+this region now with this information
+
+00:04:40.720 --> 00:04:43.350 align:start position:0%
+this region now with this information
+this<00:04:40.880><c> information</c><00:04:41.320><c> is</c><00:04:41.520><c> not</c><00:04:41.759><c> used</c><00:04:42.479><c> both</c><00:04:42.759><c> of</c><00:04:43.160><c> in</c>
+
+00:04:43.350 --> 00:04:43.360 align:start position:0%
+this information is not used both of in
+
+00:04:43.360 --> 00:04:45.110 align:start position:0%
+this information is not used both of in
+both<00:04:43.600><c> of</c><00:04:43.800><c> grid</c><00:04:44.080><c> search</c><00:04:44.440><c> as</c><00:04:44.560><c> well</c><00:04:44.680><c> as</c><00:04:44.840><c> random</c>
+
+00:04:45.110 --> 00:04:45.120 align:start position:0%
+both of grid search as well as random
+
+00:04:45.120 --> 00:04:46.870 align:start position:0%
+both of grid search as well as random
+search<00:04:45.680><c> but</c><00:04:45.880><c> if</c><00:04:46.039><c> this</c><00:04:46.160><c> is</c><00:04:46.280><c> the</c><00:04:46.440><c> information</c>
+
+00:04:46.870 --> 00:04:46.880 align:start position:0%
+search but if this is the information
+
+00:04:46.880 --> 00:04:50.189 align:start position:0%
+search but if this is the information
+given<00:04:47.120><c> to</c><00:04:47.280><c> you</c><00:04:47.800><c> what</c><00:04:48.039><c> would</c><00:04:48.320><c> be</c><00:04:48.600><c> the</c><00:04:49.199><c> value</c><00:04:49.759><c> or</c>
+
+00:04:50.189 --> 00:04:50.199 align:start position:0%
+given to you what would be the value or
+
+00:04:50.199 --> 00:04:51.909 align:start position:0%
+given to you what would be the value or
+what<00:04:50.400><c> would</c><00:04:50.639><c> be</c><00:04:50.800><c> the</c><00:04:50.960><c> values</c><00:04:51.320><c> that</c><00:04:51.520><c> you</c><00:04:51.639><c> would</c>
+
+00:04:51.909 --> 00:04:51.919 align:start position:0%
+what would be the values that you would
+
+00:04:51.919 --> 00:04:53.990 align:start position:0%
+what would be the values that you would
+try<00:04:52.360><c> for</c><00:04:52.520><c> your</c><00:04:52.680><c> next</c><00:04:52.960><c> iteration</c><00:04:53.560><c> they</c><00:04:53.800><c> more</c>
+
+00:04:53.990 --> 00:04:54.000 align:start position:0%
+try for your next iteration they more
+
+00:04:54.000 --> 00:04:56.270 align:start position:0%
+try for your next iteration they more
+likely<00:04:54.320><c> to</c><00:04:54.520><c> try</c><00:04:54.840><c> around</c><00:04:55.199><c> this</c><00:04:55.400><c> area</c><00:04:55.720><c> isn't</c><00:04:55.960><c> it</c>
+
+00:04:56.270 --> 00:04:56.280 align:start position:0%
+likely to try around this area isn't it
+
+00:04:56.280 --> 00:04:58.150 align:start position:0%
+likely to try around this area isn't it
+because<00:04:56.759><c> this</c><00:04:56.880><c> is</c><00:04:57.000><c> green</c><00:04:57.280><c> this</c><00:04:57.360><c> is</c><00:04:57.520><c> doing</c><00:04:57.759><c> well</c>
+
+00:04:58.150 --> 00:04:58.160 align:start position:0%
+because this is green this is doing well
+
+00:04:58.160 --> 00:04:59.870 align:start position:0%
+because this is green this is doing well
+right<00:04:58.400><c> because</c><00:04:58.720><c> this</c><00:04:58.880><c> area</c><00:04:59.120><c> is</c><00:04:59.199><c> doing</c><00:04:59.440><c> well</c><00:04:59.759><c> we</c>
+
+00:04:59.870 --> 00:04:59.880 align:start position:0%
+right because this area is doing well we
+
+00:04:59.880 --> 00:05:01.710 align:start position:0%
+right because this area is doing well we
+will<00:05:00.440><c> try</c><00:05:00.680><c> and</c><00:05:00.880><c> find</c><00:05:01.120><c> out</c><00:05:01.280><c> for</c><00:05:01.520><c> this</c>

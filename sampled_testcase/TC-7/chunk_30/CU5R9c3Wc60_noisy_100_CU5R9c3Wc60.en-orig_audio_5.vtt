@@ -1,0 +1,96 @@
+WEBVTT
+
+00:02:28.800 --> 00:02:30.670 align:start position:0%
+for all these combinations of both of
+these<00:02:29.040><c> parameters</c><00:02:29.920><c> and</c><00:02:30.080><c> see</c><00:02:30.319><c> which</c><00:02:30.440><c> is</c><00:02:30.560><c> the</c>
+
+00:02:30.670 --> 00:02:30.680 align:start position:0%
+these parameters and see which is the
+
+00:02:30.680 --> 00:02:33.589 align:start position:0%
+these parameters and see which is the
+lowest<00:02:31.120><c> error</c><00:02:31.440><c> let's</c><00:02:31.640><c> say</c><00:02:32.239><c> okay</c><00:02:32.720><c> this</c><00:02:32.879><c> is</c><00:02:33.280><c> grid</c>
+
+00:02:33.589 --> 00:02:33.599 align:start position:0%
+lowest error let's say okay this is grid
+
+00:02:33.599 --> 00:02:36.630 align:start position:0%
+lowest error let's say okay this is grid
+search<00:02:34.200><c> approach</c><00:02:35.200><c> whereas</c><00:02:35.840><c> random</c><00:02:36.239><c> search</c>
+
+00:02:36.630 --> 00:02:36.640 align:start position:0%
+search approach whereas random search
+
+00:02:36.640 --> 00:02:38.790 align:start position:0%
+search approach whereas random search
+approaches<00:02:37.640><c> slightly</c><00:02:38.160><c> better</c><00:02:38.400><c> than</c><00:02:38.599><c> what</c>
+
+00:02:38.790 --> 00:02:38.800 align:start position:0%
+approaches slightly better than what
+
+00:02:38.800 --> 00:02:41.710 align:start position:0%
+approaches slightly better than what
+grid<00:02:39.080><c> search</c><00:02:39.319><c> approach</c><00:02:39.680><c> is</c><00:02:40.120><c> that</c><00:02:40.280><c> is</c><00:02:41.000><c> we</c><00:02:41.239><c> take</c>
+
+00:02:41.710 --> 00:02:41.720 align:start position:0%
+grid search approach is that is we take
+
+00:02:41.720 --> 00:02:44.149 align:start position:0%
+grid search approach is that is we take
+random<00:02:42.239><c> values</c><00:02:42.560><c> of</c><00:02:42.800><c> hyper</c><00:02:43.159><c> parameters</c><00:02:43.920><c> both</c>
+
+00:02:44.149 --> 00:02:44.159 align:start position:0%
+random values of hyper parameters both
+
+00:02:44.159 --> 00:02:46.070 align:start position:0%
+random values of hyper parameters both
+one<00:02:44.280><c> and</c><00:02:44.440><c> two</c><00:02:44.640><c> randomly</c><00:02:45.040><c> we</c><00:02:45.200><c> pick</c><00:02:45.680><c> here</c><00:02:45.959><c> they</c>
+
+00:02:46.070 --> 00:02:46.080 align:start position:0%
+one and two randomly we pick here they
+
+00:02:46.080 --> 00:02:47.589 align:start position:0%
+one and two randomly we pick here they
+are<00:02:46.200><c> equally</c><00:02:46.519><c> spaced</c><00:02:46.879><c> usually</c><00:02:47.239><c> typically</c>
+
+00:02:47.589 --> 00:02:47.599 align:start position:0%
+are equally spaced usually typically
+
+00:02:47.599 --> 00:02:49.390 align:start position:0%
+are equally spaced usually typically
+equally<00:02:48.200><c> equally</c><00:02:48.519><c> spaced</c><00:02:48.800><c> or</c><00:02:49.040><c> discrete</c>
+
+00:02:49.390 --> 00:02:49.400 align:start position:0%
+equally equally spaced or discrete
+
+00:02:49.400 --> 00:02:51.670 align:start position:0%
+equally equally spaced or discrete
+values<00:02:49.680><c> of</c><00:02:49.840><c> hyper</c><00:02:50.159><c> parameters</c><00:02:50.920><c> we</c><00:02:51.319><c> choose</c>
+
+00:02:51.670 --> 00:02:51.680 align:start position:0%
+values of hyper parameters we choose
+
+00:02:51.680 --> 00:02:53.470 align:start position:0%
+values of hyper parameters we choose
+specific<00:02:52.080><c> values</c><00:02:52.360><c> of</c><00:02:52.519><c> hyper</c><00:02:52.840><c> parameter</c><00:02:53.200><c> 2</c>
+
+00:02:53.470 --> 00:02:53.480 align:start position:0%
+specific values of hyper parameter 2
+
+00:02:53.480 --> 00:02:55.550 align:start position:0%
+specific values of hyper parameter 2
+also<00:02:53.720><c> so</c><00:02:54.040><c> it</c><00:02:54.120><c> is</c><00:02:54.280><c> always</c><00:02:54.519><c> a</c><00:02:54.720><c> combination</c><00:02:55.319><c> of</c>
+
+00:02:55.550 --> 00:02:55.560 align:start position:0%
+also so it is always a combination of
+
+00:02:55.560 --> 00:02:57.750 align:start position:0%
+also so it is always a combination of
+this<00:02:55.720><c> and</c><00:02:55.920><c> this</c><00:02:56.519><c> whereas</c><00:02:56.920><c> here</c><00:02:57.239><c> since</c><00:02:57.480><c> we</c><00:02:57.560><c> are</c>
+
+00:02:57.750 --> 00:02:57.760 align:start position:0%
+this and this whereas here since we are
+
+00:02:57.760 --> 00:03:00.309 align:start position:0%
+this and this whereas here since we are
+randomly<00:02:58.239><c> picking</c><00:02:58.599><c> it</c><00:02:59.319><c> these</c><00:02:59.560><c> point</c><00:02:59.840><c> points</c>
