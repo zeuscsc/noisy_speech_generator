@@ -1,0 +1,2 @@
+Detected language (best guess for first segment): cmn-hans-cn
+大家好，我是金融学，有个伙伴跟我说他的汇丰是之前在香港。

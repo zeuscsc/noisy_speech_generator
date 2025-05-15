@@ -1,0 +1,28 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.520
+parameters. We are defining the bounds and call GPyOpt dot methods Bayesian optimization. We pass the
+
+00:00:07.520 --> 00:00:14.400
+objective function bounds and acquisition function type equal to ei expected improvement. You could also
+
+00:00:14.400 --> 00:00:19.280
+try the other options, especially the UCB option, which could also work well. Now, once that is done,
+
+00:00:19.520 --> 00:00:24.480
+we run the optimization, then get the best parameters, convert to integer values, and then
+
+00:00:24.480 --> 00:00:29.360
+you can get the best parameter values. Now, once the best parameters values are estimated,
+
+00:00:30.080 --> 00:00:35.600
+we need to sort of rebuild the model again. That is the random forest classifier with the best
+
+00:00:35.600 --> 00:00:40.960
+parameters that we have found out. After building that, you can do the train test split, fit the model
+
+00:00:40.960 --> 00:00:45.760
+and get the best predictions. So this is the code quite straightforward. Use the link in the
+
+00:00:45.760 --> 00:00:47.760
+description to try this out on your own.

@@ -1,0 +1,34 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.160
+the accuracy score. This is the objective function. Now, once that is done, we are ready to create a study
+
+00:00:06.720 --> 00:00:12.240
+that we are using the optuna. This is present as a method inside optuna object itself. And since we
+
+00:00:12.240 --> 00:00:17.360
+are using accuracy, we are setting the direction as maximize. Okay. So the study is created.
+
+00:00:17.360 --> 00:00:21.920
+They've called study dot optimize. The number of trials we are setting as 100. You can increase
+
+00:00:21.920 --> 00:00:27.200
+this number if you have more computation power and patience. All right. So this is the, we are printing
+
+00:00:27.200 --> 00:00:32.960
+out the, the number of trials it took, the best parameters and the trial value itself. So I have
+
+00:00:32.960 --> 00:00:40.560
+already run this code and you can see it has run for about 100 different iterations. And at the end,
+
+00:00:40.560 --> 00:00:47.280
+you get an accuracy of 0.9649. Okay. So this is the best performance. So once the model is, once the
+
+00:00:47.280 --> 00:00:52.720
+training is done, the search is done, we use the best parameters. So from study, get the best trial
+
+00:00:52.720 --> 00:00:57.760
+and the parameters from that trail and rebuild this model. Okay. We have to retrain this model using the
+
+00:00:57.760 --> 00:01:03.120
+best parameters and then you can do the prediction also. So this is based on the optuna packaging.

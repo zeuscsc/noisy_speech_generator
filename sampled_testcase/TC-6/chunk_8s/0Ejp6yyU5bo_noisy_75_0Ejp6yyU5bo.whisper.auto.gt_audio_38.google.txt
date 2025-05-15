@@ -1,0 +1,2 @@
+Detected language (best guess for first segment): cmn-hans-cn
+是可以绑定的微信，香港这个包子之前是不可以用，这个可以绑定，也就是这两天的事。

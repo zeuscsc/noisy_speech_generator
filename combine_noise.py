@@ -80,7 +80,7 @@ def pipeline():
     video_dataset_root = "dataset"
     single_master_noise_file = "final_mixed_audio_limited.mp3"
     output_audio_dir_base = "output_noisy_audio"
-    noise_levels_percentage = [0, 25, 50, 75, 100, 150, 200]
+    noise_levels_percentage = [0, 25, 50, 75, 100]
 
     os.makedirs(output_audio_dir_base, exist_ok=True)
 

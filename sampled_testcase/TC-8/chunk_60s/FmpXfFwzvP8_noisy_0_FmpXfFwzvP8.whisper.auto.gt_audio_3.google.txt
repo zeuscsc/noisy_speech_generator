@@ -1,0 +1,2 @@
+Detected language (best guess for first segment): cmn-hans-cn
+你够了吗，咱们还不敢在？

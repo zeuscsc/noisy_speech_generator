@@ -1,0 +1,2 @@
+Detected language (best guess for first segment): en-us
+What's a standard English would say? It is going to rain today. I think it would be best for you to bring an umbrella.

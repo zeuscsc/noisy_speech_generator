@@ -1,0 +1,7 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.360
+configurations, right? We want to minimize the number of iterations. So we need an acquisition
+
+00:00:05.360 --> 00:00:10.560
+function also. So this acquisition function will guide the search. Guide the search means if you

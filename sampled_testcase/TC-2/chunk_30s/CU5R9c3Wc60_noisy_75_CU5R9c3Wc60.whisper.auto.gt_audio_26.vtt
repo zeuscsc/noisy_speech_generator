@@ -1,0 +1,16 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.760
+want to minimize, it is always going to be minimized here. We are getting the score and adding a negative
+
+00:00:05.760 --> 00:00:10.960
+to it. So now it's going to be, even though this is an accuracy, we are going to minimize here because
+
+00:00:10.960 --> 00:00:16.240
+this is having a negative sign. So that is done. We set the bounds for the various, various hyper
+
+00:00:16.240 --> 00:00:23.760
+parameters. We are defining the bounds and call GPyOpt dot methods Bayesian optimization. We pass the
+
+00:00:23.760 --> 00:00:30.640
+objective function bounds and acquisition function type equal to ei expected improvement. You could also

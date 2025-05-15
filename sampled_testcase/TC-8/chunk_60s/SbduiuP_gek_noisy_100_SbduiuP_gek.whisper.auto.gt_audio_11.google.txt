@@ -1,0 +1,2 @@
+Detected language (best guess for first segment): cmn-hans-cn
+正东与正方形的长是多少？

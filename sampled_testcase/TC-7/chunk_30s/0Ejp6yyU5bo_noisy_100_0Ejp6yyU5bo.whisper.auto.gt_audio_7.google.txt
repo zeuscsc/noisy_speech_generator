@@ -1,0 +1,2 @@
+Detected language (best guess for first segment): cmn-hans-cn
+现象是什么意思？

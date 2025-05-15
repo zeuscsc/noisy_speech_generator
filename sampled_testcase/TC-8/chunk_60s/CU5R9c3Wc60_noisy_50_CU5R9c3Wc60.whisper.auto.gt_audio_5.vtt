@@ -1,0 +1,31 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.160
+of the prior information to make the subsequent searches so that we will be able to find the optimal point
+
+00:00:06.800 --> 00:00:13.120
+quite fast. So this is the fundamental idea behind Bayesian optimization. But how does this work?
+
+00:00:13.120 --> 00:00:20.640
+So what we are concerned is about finding the probability of getting a specific model score,
+
+00:00:20.640 --> 00:00:26.000
+getting a specific model score. This could be model score. This could be a cost function,
+
+00:00:26.000 --> 00:00:31.680
+cost function or sorry, the loss function, loss function like error, some type of an error or
+
+00:00:31.680 --> 00:00:36.560
+it could be accuracy, right? Accuracy means we want to maximize it. Loss function means we want to
+
+00:00:36.560 --> 00:00:40.640
+minimize it. Error means we want to minimize it, right? So what is the probability of getting a particular
+
+00:00:40.640 --> 00:00:47.440
+model score given a particular configuration of the hyper parameters? So this is ultimately what we want
+
+00:00:47.440 --> 00:00:55.440
+to find out. But we want to find this. We want to find the configuration that gives the maximum or minimum
+
+00:00:56.000 --> 00:01:01.040
+depending on the objective, giving the what is the configuration that gives the maximum model score.

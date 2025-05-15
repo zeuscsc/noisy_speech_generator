@@ -1,0 +1,16 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.960
+of hyper parameters, both one and two randomly we pick. Here they are equally spaced usually typically
+
+00:00:04.960 --> 00:00:10.160
+equally play equally spaced or discrete values of hyper parameters. We choose specific values of hyper
+
+00:00:10.160 --> 00:00:15.600
+parameter two also. So it is always a combination of this and this. Whereas here, since we are randomly
+
+00:00:15.600 --> 00:00:22.640
+picking it, these points can be anywhere. This may not be in a grid. Because these points are can is
+
+00:00:22.640 --> 00:00:30.080
+randomly chosen between hyper parameters one and two. We get the model here gets to see various

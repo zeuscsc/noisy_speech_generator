@@ -1,0 +1,19 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.400
+to try to get this and try it out. First, we will import the packages optuna numpy pandas.
+
+00:00:06.400 --> 00:00:11.440
+And from scikit-learn, we are going to be using the breast cancer data set. And we will also use
+
+00:00:11.440 --> 00:00:16.720
+these also. All right. So basic steps. First, we will download the data, load the data set, which is
+
+00:00:16.720 --> 00:00:22.800
+the breast cancer data set. We get the X, the features and the Y form the use strain test split to form
+
+00:00:22.800 --> 00:00:28.400
+your X-train, X-validation, Y-train and Y-validation. Basic steps. Now, in order to do the
+
+00:00:28.400 --> 00:00:33.040
+hyper parameter optimization, we define the objective function. This is the key. This is
