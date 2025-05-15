@@ -1,0 +1,19 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.240
+this area, isn't it? Because this is green, this is doing well, right? Because this area is doing
+
+00:00:04.240 --> 00:00:09.520
+well, we will try and find out for this particular region for the best possible parameter combination.
+
+00:00:09.520 --> 00:00:14.560
+But we don't take that information account when into account when we are using grid search as well
+
+00:00:14.560 --> 00:00:21.840
+as random search. So this is exactly what Bayesian optimization is all about. It tries to make use
+
+00:00:21.840 --> 00:00:28.000
+of the prior information to make the subsequent searches so that we will be able to find the optimal point
+
+00:00:28.640 --> 00:00:34.960
+quite fast. So this is the fundamental idea behind Bayesian optimization. But how does this work?

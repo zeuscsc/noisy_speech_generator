@@ -1,0 +1,2 @@
+Detected language (best guess for first segment): en-us
+Find the score against core of the object to function again and then use that newly found information.

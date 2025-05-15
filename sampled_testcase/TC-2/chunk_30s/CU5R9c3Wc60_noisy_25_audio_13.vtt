@@ -1,0 +1,19 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.360
+configurations, right? We want to minimize the number of iterations. So we need an acquisition
+
+00:00:05.360 --> 00:00:10.560
+function also. So this acquisition function will guide the search. Guide the search means if you
+
+00:00:10.560 --> 00:00:15.280
+are familiar with the concept of reinforcement learning, if you are familiar with reinforcement
+
+00:00:16.080 --> 00:00:20.160
+learning with the idea behind say multi-arm bandits and all this is quite similar to that
+
+00:00:20.800 --> 00:00:26.880
+where this acquisition function will have the opportunity to explore either explore or exploit.
+
+00:00:26.880 --> 00:00:31.600
+Exploit means what it means is basically we know that these regions are doing well. If we know that

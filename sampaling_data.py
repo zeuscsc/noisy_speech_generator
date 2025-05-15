@@ -94,13 +94,16 @@ def analyze_and_extract_audios(base_dataset_path, new_dataset_folder_path, metad
         return
 
     all_discovered_audio_details = []
-    print(f"Scanning '{source_dataset_dir}' to identify audio files and their associated tags...")
+    print(f"Scanning '{source_dataset_dir}' (absolute: '{os.path.abspath(source_dataset_dir)}') to identify audio files and their associated tags...")
 
     if not os.path.isdir(source_dataset_dir):
-        print(f"Error: Source directory '{source_dataset_dir}' not found.")
+        print(f"Error: Source directory '{source_dataset_dir}' (absolute: '{os.path.abspath(source_dataset_dir)}') not found.")
         return
 
     video_id_folders = [d for d in os.listdir(source_dataset_dir) if os.path.isdir(os.path.join(source_dataset_dir, d))]
+    if not video_id_folders:
+        print(f"INFO: No subdirectories (potential video_id_folders) found directly under '{source_dataset_dir}'.")
+
     for video_id_from_folder in video_id_folders:
         video_id_path = os.path.join(source_dataset_dir, video_id_from_folder)
         video_id_key = video_id_from_folder.strip()
@@ -109,26 +112,41 @@ def analyze_and_extract_audios(base_dataset_path, new_dataset_folder_path, metad
 
         potential_chunk_folders = [d for d in os.listdir(video_id_path)
                                      if os.path.isdir(os.path.join(video_id_path, d)) and d.startswith("chunk_")]
+        
         for chunk_folder_name in potential_chunk_folders:
             chunk_folder_path = os.path.join(video_id_path, chunk_folder_name)
             noisy_level_folders = [d for d in os.listdir(chunk_folder_path)
                                      if os.path.isdir(os.path.join(chunk_folder_path, d)) and d.startswith("noisy_")]
+            
             for noisy_folder_name in noisy_level_folders:
                 noisy_folder_path = os.path.join(chunk_folder_path, noisy_folder_name)
-                for filename in os.listdir(noisy_folder_path):
-                    if filename.startswith("audio_") and filename.endswith(".mp3"):
-                        audio_full_path = os.path.join(noisy_folder_path, filename)
-                        all_discovered_audio_details.append({
-                            'path': audio_full_path,
-                            'video_id': video_id_key,
-                            'noisy_folder': noisy_folder_name,
-                            'filename': filename,
-                            'chunk_type': chunk_folder_name,
-                            'tags': current_file_tags 
-                        })
+                try:
+                    files_in_noisy_folder = os.listdir(noisy_folder_path)
+                except OSError as e:
+                    print(f"Warning: Could not list contents of '{noisy_folder_path}': {e}")
+                    continue
+                
+                for original_filename in files_in_noisy_folder:
+                    if original_filename.endswith(".mp3"):
+                        match = re.search(r'(audio_\d+\.mp3)$', original_filename, re.IGNORECASE) 
+                        
+                        if match:
+                            conceptual_filename = match.group(1) 
+                            audio_full_path = os.path.join(noisy_folder_path, original_filename)
+                            
+                            all_discovered_audio_details.append({
+                                'path': audio_full_path,
+                                'video_id': video_id_key,
+                                'noisy_folder': noisy_folder_name,
+                                'filename': conceptual_filename,       
+                                'original_filename': original_filename, 
+                                'chunk_type': chunk_folder_name,
+                                'tags': current_file_tags 
+                            })
 
     if not all_discovered_audio_details:
-        print(f"No audio files were found in '{source_dataset_dir}'.")
+        print(f"No audio files matching the pattern '...audio_DIGITS.mp3' were found in '{source_dataset_dir}'.")
+        print("Please double-check directory structure (video_id/chunk_*/noisy_*/), naming conventions, and permissions.")
         return
 
     unique_tags_overall = set()
@@ -151,7 +169,7 @@ def analyze_and_extract_audios(base_dataset_path, new_dataset_folder_path, metad
                 noise_detail = ", ".join([f"{nl}: {count}" for nl, count in sorted(noise_counts.items())])
                 print(f"   Chunk Type: {chunk_type} (Total source files for this tag/chunk: {len(files_list)}. Noise levels: {noise_detail if noise_detail else 'N/A'})")
         else:
-                 print(f"   No audio files found for this tag.")
+            print(f"   No audio files found for this tag.")
 
 
     try:
@@ -205,72 +223,63 @@ def analyze_and_extract_audios(base_dataset_path, new_dataset_folder_path, metad
 
             copied_in_this_group_pass = 0
             for audio_info in selected_audios_for_copying:
-                original_audio_path = audio_info['path']
+                original_audio_full_path = audio_info['path']
+                conceptual_audio_filename = audio_info['filename'] 
+                original_audio_source_filename = audio_info['original_filename'] 
+                
                 target_file_directory = os.path.join(output_dataset_dir, tag_name, chunk_category)
                 os.makedirs(target_file_directory, exist_ok=True)
 
-                dest_audio_filename = f"{audio_info['video_id']}_{audio_info['noisy_folder']}_{audio_info['filename']}"
+                dest_audio_filename = f"{audio_info['video_id']}_{audio_info['noisy_folder']}_{conceptual_audio_filename}"
                 target_audio_path = os.path.join(target_file_directory, dest_audio_filename)
 
                 try:
-                    if not os.path.exists(target_audio_path): 
-                        shutil.copy2(original_audio_path, target_audio_path)
-                        total_copy_operations += 1
-                        copied_in_this_group_pass += 1
-                    original_audio_dir = os.path.dirname(original_audio_path)
-                    audio_filename_root = os.path.splitext(audio_info['filename'])[0] 
+                    shutil.copy2(original_audio_full_path, target_audio_path)
+                    total_copy_operations += 1
+                    copied_in_this_group_pass += 1
+                    
+                    original_audio_dir = os.path.dirname(original_audio_full_path)
                     vtts_copied_this_run_for_audio = 0
 
-                    if os.path.isdir(original_audio_dir):
-                        expected_vtt_prefix = audio_info['video_id']
-                        expected_vtt_suffix = f"_{audio_filename_root}.vtt"
-
-                        for vtt_filename_in_source_dir in os.listdir(original_audio_dir):
-                            if vtt_filename_in_source_dir.startswith(expected_vtt_prefix) and \
-                               vtt_filename_in_source_dir.endswith(expected_vtt_suffix) and \
-                               os.path.isfile(os.path.join(original_audio_dir, vtt_filename_in_source_dir)):
-                                original_transcript_full_path = os.path.join(original_audio_dir, vtt_filename_in_source_dir)
-                                variant_part = vtt_filename_in_source_dir[len(expected_vtt_prefix):-len(expected_vtt_suffix)]
-                                dest_transcript_base = f"{audio_info['video_id']}_{audio_info['noisy_folder']}_{audio_filename_root}"
-                                dest_transcript_filename = f"{dest_transcript_base}{variant_part}.vtt"
-                                target_transcript_path = os.path.join(target_file_directory, dest_transcript_filename)
-
-                                if not os.path.exists(target_transcript_path):
-                                    try:
-                                        shutil.copy2(original_transcript_full_path, target_transcript_path)
-                                        vtts_copied_this_run_for_audio += 1
-                                    except Exception as e:
-                                        print(f"         Error copying transcript {original_transcript_full_path} to {target_transcript_path}: {e}")
-                    if os.path.exists(target_audio_path): 
-                        target_audio_basename_for_vtt_search = f"{audio_info['video_id']}_{audio_info['noisy_folder']}_{audio_filename_root}"
-                        found_any_vtt_in_target_for_this_audio = False
-                        if os.path.isdir(target_file_directory): 
-                            for f_in_target_dir in os.listdir(target_file_directory):
-                                if f_in_target_dir.startswith(target_audio_basename_for_vtt_search) and \
-                                   f_in_target_dir.endswith(".vtt"):
-                                    found_any_vtt_in_target_for_this_audio = True
-                                    break
+                    expected_source_vtt_filename = os.path.splitext(original_audio_source_filename)[0] + ".vtt"
+                    original_transcript_full_path = os.path.join(original_audio_dir, expected_source_vtt_filename)
+                    
+                    source_vtt_found = False
+                    if os.path.isfile(original_transcript_full_path):
+                        source_vtt_found = True
                         
-                        if not found_any_vtt_in_target_for_this_audio:
-                            print(f"         Warning: For audio '{target_audio_path}', no VTTs (e.g., '{target_audio_basename_for_vtt_search}*.vtt') "
-                                  f"were found in source matching pattern '{expected_vtt_prefix}*{expected_vtt_suffix}' nor are any already present in target.")
+                        target_transcript_path = os.path.splitext(target_audio_path)[0] + ".vtt"
+
+                        try:
+                            shutil.copy2(original_transcript_full_path, target_transcript_path)
+                            vtts_copied_this_run_for_audio += 1
+                        except Exception as e:
+                            print(f"         Error copying transcript {original_transcript_full_path} to {target_transcript_path}: {e}")
+                    
+                    if not source_vtt_found:
+                        print(f"         Warning: For audio file '{original_audio_source_filename}' (processed as '{conceptual_audio_filename}'), "
+                              f"the corresponding VTT file '{expected_source_vtt_filename}' was not found in source directory '{original_audio_dir}'. "
+                              f"If this audio had associated VTTs in the target from a previous run, they will not be modified by this update pass for VTTs.")
 
                 except Exception as e:
-                    print(f"         Error during copy operation for {original_audio_path} or its VTTs: {e}")
+                    print(f"         Error during copy operation for {original_audio_full_path} or its VTTs: {e}")
             
-            print(f"     Finished processing for '{chunk_category}' under Tag '{tag_name}'. Performed {copied_in_this_group_pass} new audio copy operations in this pass.")
+            print(f"     Finished processing for '{chunk_category}' under Tag '{tag_name}'. Copied/Updated {copied_in_this_group_pass} audio files in this pass.")
 
-    if not found_any_tags_for_copying:
-        print("\nWARNING: No specific tags were found associated with any audio files from the metadata after initial scan.")
-        print("This means no files were copied because the process relies on tags for directory creation.")
-        print("Please ensure that: \n1. The 'urls.meta.json' file contains a 'tags' field (as a list of non-empty strings) for relevant items. \n2. Video IDs in the filesystem match those in the metadata that have tags.")
+    if not found_any_tags_for_copying and len(all_discovered_audio_details) > 0:
+        print("\nWARNING: Audio files were discovered, but no specific tags were found associated with them from the metadata.")
+        print("This means no files were copied because the process relies on tags for directory creation and selection.")
+        print("Please ensure that: \n1. The 'urls.meta.json' file contains a 'tags' field for relevant items. \n2. Video IDs in the filesystem match those in the metadata that have tags.")
+    elif not all_discovered_audio_details and not found_any_tags_for_copying : 
+        pass
+
 
     print("\n--- Operation Complete ---")
-    print(f"A total of {total_copy_operations} audio file copy operations were performed across all tags and categories.")
+    print(f"A total of {total_copy_operations} audio files were copied/updated across all tags and categories.")
     print(f"Selected audios and transcripts are saved in: '{output_dataset_dir}' (organized by individual Tag/chunk_size)")
 
 def pipeline():
-    chunked_dataset_path = "chunked_dataset"
+    chunked_dataset_path = "chunked_dataset_with_ground_truth" 
     new_dataset_path = "sampled_testcase" 
     metadata_json_file = "urls.meta.json"
     min_samples_to_select = 5 
