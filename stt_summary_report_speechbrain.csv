@@ -1,0 +1,3 @@
+Method,File_Count (Valid Metrics),Average_WER (CER),Average_WRR (CRR),Average_CER,Average_SER,Files_With_Metric_Errors
+google,240,1.6051,-0.6051,1.6051,1.0000,0
+perfect_reference,1,0.0000,1.0000,0.0000,0.0000,0

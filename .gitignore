@@ -5,7 +5,6 @@ streamed_*
 final_mixed_audio_limited.mp3
 .cache
 .vscode
-*.csv
 chunked_dataset*
 __pycache__
 !*.vtt
