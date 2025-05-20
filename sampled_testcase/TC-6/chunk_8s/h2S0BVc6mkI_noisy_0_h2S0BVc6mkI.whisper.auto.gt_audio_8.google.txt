@@ -1,3 +1,0 @@
-Specified language for transcription: cmn-Hans-CN
-API used language code: cmn-hans-cn (differs from specified cmn-Hans-CN)
-直接点借记卡直接申请就可以了，这张卡只吃什么呢，支持多达12种的一个外币的曲线。

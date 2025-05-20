@@ -1,4 +1,0 @@
-Specified language for transcription: yue-Hant-HK
-API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
-直接納入經濟下
-身高啦

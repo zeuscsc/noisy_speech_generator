@@ -1,3 +1,0 @@
-Specified language for transcription: yue-Hant-HK
-API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
-資產在香港人哋唔得嘅都講過英國嘅呢就走咗啦已經唔搞咁樣情況呀返香港人揸住返嚟可以前都同你一樣嘢係首先你揸住間屋呀你冇人買樓囉

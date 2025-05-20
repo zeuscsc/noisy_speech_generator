@@ -1,3 +1,0 @@
-Specified language for transcription: cmn-Hans-CN
-API used language code: cmn-hans-cn (differs from specified cmn-Hans-CN)
-我跟柜员确认今天能否交易美国会员，跟我说投资账户需要重新申请，于是当场帮我在App申请投资账户。

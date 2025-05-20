@@ -1,4 +1,0 @@
-Specified language for transcription: yue-Hant-HK
-API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
-個地方寫字樓頂睇嘅胡素貞110呎嘅加增加的公營機構之前啲相出嚟
-解決唔到因為點解又唔需要同你講

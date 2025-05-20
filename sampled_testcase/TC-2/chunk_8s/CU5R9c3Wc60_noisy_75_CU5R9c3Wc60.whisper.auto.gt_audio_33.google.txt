@@ -1,4 +1,0 @@
-Specified language for transcription: en-US
-API used language code: en-us (differs from specified en-US)
-Prior information.
- To make the subsequent searches so that we will be able to find the optimal form.

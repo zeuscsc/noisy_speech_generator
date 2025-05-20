@@ -1,3 +1,0 @@
-Specified language for transcription: yue-Hant-HK
-API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
-重大危機就係改善服務質素啦同埋畀番一啲咁大保障了唔係好大條呢就係退返唔用呀我都覺得係咁送畀我嘅都會

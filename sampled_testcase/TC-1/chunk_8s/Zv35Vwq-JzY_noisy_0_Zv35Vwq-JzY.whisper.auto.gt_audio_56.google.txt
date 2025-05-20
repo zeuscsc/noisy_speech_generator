@@ -1,3 +1,0 @@
-Specified language for transcription: yue-Hant-HK
-API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
-Visa mastercard係普遍接受嘅信用卡嘅咁第三啦就係大陸同埋澳門意外外幣簽賬手續費

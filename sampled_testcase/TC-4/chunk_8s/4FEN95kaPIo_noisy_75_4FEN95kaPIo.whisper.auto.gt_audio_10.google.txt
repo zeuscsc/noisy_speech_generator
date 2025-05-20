@@ -1,3 +1,0 @@
-Specified language for transcription: yue-Hant-HK
-API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
-匯豐嘅收入都會受到呢單位百分比

@@ -1,3 +1,0 @@
-Specified language for transcription: yue-Hant-HK
-API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
-響度係咁大佢話吖嘛做中文嗰啲嗰啲出口貿易多咗吖嘛係呢幾年嘅出口

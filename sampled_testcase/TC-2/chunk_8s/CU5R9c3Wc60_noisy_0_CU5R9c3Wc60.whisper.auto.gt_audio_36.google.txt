@@ -1,3 +1,0 @@
-Specified language for transcription: en-US
-API used language code: en-us (differs from specified en-US)
-Getting a specific model score. This could be model score. This could be a cost function cost function or sorry. The loss function loss function like error, some type of an error or

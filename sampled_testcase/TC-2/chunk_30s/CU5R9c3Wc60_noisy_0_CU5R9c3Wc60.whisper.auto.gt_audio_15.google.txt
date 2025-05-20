@@ -1,4 +1,0 @@
-Specified language for transcription: en-US
-API used language code: en-us (differs from specified en-US)
-Or the upper confidence bound method.
- You can use to use as the acquisition function. So this will essentially guide how the model or how the algorithm is searching for the next iterate, next configuration of the hyperparameter. So once the next iteration or configuration is chosen, we will use again. This surrogate model in this step to evaluate the newly chosen configuration, right? So we will evaluate it, find the score again score or the objective function again and then use that newly found information.

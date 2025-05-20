@@ -1,3 +1,0 @@
-Specified language for transcription: yue-Hant-HK
-API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
-唔計按揭借爆佢呀咁大其實你嚟到呢度之後又係嗰句嗰樣嘢呀即係係咪係咪真係走唔甩㗎啦其實信用卡人全部都唔得我自己都醒水啦餵大佬你你一開銀行

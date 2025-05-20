@@ -1,3 +1,0 @@
-Specified language for transcription: en-US
-API used language code: en-us (differs from specified en-US)
-You have hyperparameter 1 and hyperparameter YP 2, hyperparameter 2. Now these points, these Reds, and these greens are the points that the model has already trained on the White.

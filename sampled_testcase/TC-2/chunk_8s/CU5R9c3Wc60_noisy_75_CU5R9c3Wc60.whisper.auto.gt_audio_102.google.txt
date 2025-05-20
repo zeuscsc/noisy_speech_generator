@@ -1,3 +1,0 @@
-Specified language for transcription: en-US
-API used language code: en-us (differs from specified en-US)
-So this is the quote by state power. Use the link in the description to try this out on your

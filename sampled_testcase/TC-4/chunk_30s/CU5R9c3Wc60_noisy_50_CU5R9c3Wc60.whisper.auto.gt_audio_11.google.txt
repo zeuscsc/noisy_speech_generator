@@ -1,3 +1,0 @@
-Specified language for transcription: en-US
-API used language code: en-us (differs from specified en-US)
-Want to find out, but we want to find this, we want to find the configuration that gives the maximum or minimum depending on the objective giving the, what is the configuration that gives the maximum model score. But at the same time, we don't have the liberty of trying out. All of these iterations, all of these configurations possible, Right? The number of iterations or the number of iterations means training here. Each training process is what we refer to as iteration the number of iterations is something that we want to reduce. So we want to achieve this.

@@ -1,3 +1,0 @@
-Specified language for transcription: yue-Hant-HK
-API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
-就算係呀工聯會呀嗰啲都要祝酒慶祝啦係咪要推奴無出嚟選舉呀係咪即係我51你你而家就係

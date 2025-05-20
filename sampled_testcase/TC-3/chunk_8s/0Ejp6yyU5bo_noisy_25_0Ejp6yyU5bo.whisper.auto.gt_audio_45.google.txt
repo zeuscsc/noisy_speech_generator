@@ -1,3 +1,0 @@
-Specified language for transcription: cmn-Hans-CN
-API used language code: cmn-hans-cn (differs from specified cmn-Hans-CN)
-但是呢，他也有它的作用，比如说我们在这个中国大陆刷这张卡，是产生了很多的这个板。

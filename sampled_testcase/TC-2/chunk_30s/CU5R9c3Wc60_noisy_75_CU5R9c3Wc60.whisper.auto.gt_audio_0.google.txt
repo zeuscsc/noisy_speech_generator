@@ -1,7 +1,0 @@
-Specified language for transcription: en-US
-API used language code: en-us (differs from specified en-US)
-Hi, I'm Silva prabakaran in this 1. Let's understand. Clearly the vision optimization method for hyperparameter building. Now, you know, hyperparameter during is a key step in machine learning
- But it can be quite time taking. So we understand everything about Vision optimization.
- Okay, but to be clear.
- How a machine learning model, say, you have the features and the variable that you want.
- Respectively.

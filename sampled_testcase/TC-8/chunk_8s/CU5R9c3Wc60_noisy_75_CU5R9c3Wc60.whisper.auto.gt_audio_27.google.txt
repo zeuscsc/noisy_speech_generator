@@ -1,4 +1,0 @@
-Specified language for transcription: en-US
-API used language code: en-us (differs from specified en-US)
-Hyper parameter.
- 1 and hyperparameter YP 2 hyperparameter. Now, these points. These Reds and these greens are the points that the model has already trained on divided.

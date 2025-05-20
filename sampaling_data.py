@@ -151,7 +151,6 @@ def save_testcase_list_json(report_items_list, output_file, selection_mode_str):
     except IOError as e:
         print(f"Error writing JSON test case list to '{output_file}': {e}")
 
-
 def parse_chunk_folder_name_for_times(chunk_folder_name):
     """Extracts start and end times from chunk folder names like '..._HH-MM-SS_HH-MM-SS'."""
     match = re.search(r'_(\d{2}-\d{2}-\d{2}(?:\.\d{3})?)_(\d{2}-\d{2}-\d{2}(?:\.\d{3})?)$', chunk_folder_name)
@@ -489,13 +488,13 @@ def analyze_and_extract_audios(base_dataset_path,
     save_testcase_list_json(final_report_data_list, testcase_list_json_file, selection_mode_str)
 
 def pipeline():
-    chunked_dataset_path = "chunked_dataset_with_ground_truth" 
-    new_dataset_path = "sampled_testcase" 
+    chunked_dataset_path = "chunked_dataset" 
+    new_dataset_path = "testset" 
     metadata_json_file = "urls.meta.json" 
     min_samples_to_select_if_random = 10 
     test_cases_json_filename = "sampled_testcases_list.json"
 
-    USE_RANDOM_SELECTION = True 
+    USE_RANDOM_SELECTION = False 
     
     selection_mode_str_display = "RANDOM selection" if USE_RANDOM_SELECTION else f"FIXED list selection from '{test_cases_json_filename}'"
     print(f"Pipeline starting with {selection_mode_str_display}.")
