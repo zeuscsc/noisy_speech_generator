@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): cmn-hans-cn
+Specified language for transcription: cmn-Hans-CN
+API used language code: cmn-hans-cn (differs from specified cmn-Hans-CN)
 我们下期节目再见吗？

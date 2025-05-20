@@ -1,2 +1,5 @@
-Detected language (best guess for first segment): en-us
-Download the data, go to the train station by train.
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+Data set. And we will also use these also
+ Download the data set, which is the fresh data set to get the X features and the Y on the use plain test clip to form your extreme X, validation, y, train and Y, basic steps. Now we in order to do the hyper parameter optimization.
+ To find the update, the function.

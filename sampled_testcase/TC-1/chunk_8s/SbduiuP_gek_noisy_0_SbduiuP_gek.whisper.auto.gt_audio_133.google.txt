@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): cmn-hans-cn
-干冰山雪峰谷价格攀升到高位。
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+今年3月匯豐股價一度攀升到一百啦

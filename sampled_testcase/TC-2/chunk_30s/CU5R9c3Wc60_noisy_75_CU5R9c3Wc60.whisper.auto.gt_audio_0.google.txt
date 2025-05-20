@@ -1,2 +1,7 @@
-Detected language (best guess for first segment): en-us
-I am tell David about current version of the voice thing that you can do at home. If you know any more than you have to be to be just and available if you want to play XM 50.
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+Hi, I'm Silva prabakaran in this 1. Let's understand. Clearly the vision optimization method for hyperparameter building. Now, you know, hyperparameter during is a key step in machine learning
+ But it can be quite time taking. So we understand everything about Vision optimization.
+ Okay, but to be clear.
+ How a machine learning model, say, you have the features and the variable that you want.
+ Respectively.

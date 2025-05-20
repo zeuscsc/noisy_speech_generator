@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): yue-hant-hk
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
 個呢就唔單止係全球貿易而gdp增長將會放緩匯豐嘅集團收入呀都會肯定會受到衝擊撚樣仲有好多人借咗錢添呀係咪唔到匯豐呢個集團呢就會受到呢個單位百分比阿女咁咪同時預期呀信貸嘅損失將會增加億美金

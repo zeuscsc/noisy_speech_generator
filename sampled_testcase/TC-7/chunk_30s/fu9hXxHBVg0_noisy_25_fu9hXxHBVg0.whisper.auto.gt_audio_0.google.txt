@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): cmn-hans-cn
-Hello Google。
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+大教堂第一名匯豐匯豐呀因為今日呢佢公佈咗業績

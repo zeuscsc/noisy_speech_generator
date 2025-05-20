@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): cmn-hans-cn
+Specified language for transcription: cmn-Hans-CN
+API used language code: cmn-hans-cn (differs from specified cmn-Hans-CN)
 要知道我既没有预约，也没有提前拿号这个客户经理啊，问我开户的理由，我说是个美元。

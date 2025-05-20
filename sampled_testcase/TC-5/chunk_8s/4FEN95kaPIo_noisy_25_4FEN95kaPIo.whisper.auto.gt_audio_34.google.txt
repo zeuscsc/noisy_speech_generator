@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): cmn-hans-cn
-中国的parking上演员成功！
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+仲喺度派定心丸嘅我哋香港冇影響喎好低啫一個percent

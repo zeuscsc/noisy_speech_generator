@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): cmn-hans-cn
-把这200号门将海藻Netflix。
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+霞姐係咪係咪真係走唔甩㗎喇其實排積金信用卡人全部都唔知

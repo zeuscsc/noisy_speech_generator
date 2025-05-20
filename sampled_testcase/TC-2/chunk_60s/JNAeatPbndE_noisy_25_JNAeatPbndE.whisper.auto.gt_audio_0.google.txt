@@ -1,6 +1,7 @@
-Detected language (best guess for first segment): cmn-hans-cn
-带有马云39了，手抖。
- 这个品牌的生产品发布会。
- 并且推出两三本还要听方法及待的长马尾酒，还要因为T 71门阵呢。
- 因为您这个配货站台功耗跟其最大便启程通通人，所以中药膏色号手感谢老公做工那个还蛮后嫌累累计。
- 3s大别山狗。
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+買丸山小辣收到
+病發作大家嚟到我哋新產品發佈會
+推出呢人身份係一本破天方法是大家產物一款次試
+設計系學人體工學跟住特別唔同唔同人需要都要交曬後手緊一樓講咗咁耐大家係咪好想要呢
+ex遞表三個

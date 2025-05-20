@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): cmn-hans-cn
-摸你哪啊的，多发送接受审查的。
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+過年呀跌咗14.7%呀

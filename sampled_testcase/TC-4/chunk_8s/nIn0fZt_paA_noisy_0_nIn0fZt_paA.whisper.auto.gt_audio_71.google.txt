@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): cmn-hans-cn
-载得有情人都还有在某些情怀。
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+股債定獲齋有錢人都係必定有戴帽㗎佢哋會借錢去咗啲生殖行為

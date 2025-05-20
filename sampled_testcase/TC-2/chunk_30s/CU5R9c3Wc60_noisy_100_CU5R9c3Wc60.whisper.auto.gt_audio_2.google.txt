@@ -1,3 +1,8 @@
-Detected language (best guess for first segment): en-us
-I'll be right over. I just gave you is wrong.
- Call hyper parameters of the United States.
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+In order to achieve that.
+ We try to see.
+ Performing.
+ Adjust various.
+ Hyperparameters of whichever ml models that we are dealing with. For example, is the dealing with say, a random Forest algorithm, the hyperparameter would be something like the number of estimators.
+ And say the next step, right? That could be other parameters. Also,

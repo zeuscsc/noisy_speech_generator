@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): cmn-hans-cn
-从济南解放运动。
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+唔計按揭壓爆佢呀全部都唔得我自己都醒水啦

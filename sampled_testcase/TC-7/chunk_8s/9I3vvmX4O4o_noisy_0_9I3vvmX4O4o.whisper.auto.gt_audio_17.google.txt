@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): cmn-hans-cn
+Specified language for transcription: cmn-Hans-CN
+API used language code: cmn-hans-cn (differs from specified cmn-Hans-CN)
 柜员说可以护照和w8表格同时提交，于是就一起办的，不用两周后再来香港，这么看来我感觉好像是被坑了。

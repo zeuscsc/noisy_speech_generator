@@ -1,2 +1,2 @@
-Detected language (best guess for first segment): cmn-hans-cn
-Medicine in getting美方公里。
+Specified language for transcription: yue-Hant-HK
+No speech recognized.

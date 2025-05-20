@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): yue-hant-hk
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
 喺香港咁然之後就係零關稅因為你細胞我真係零關稅本身係而家呢就係即刻就地正法

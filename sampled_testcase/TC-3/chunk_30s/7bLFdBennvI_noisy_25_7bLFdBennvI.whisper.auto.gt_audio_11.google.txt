@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): cmn-hans-cn
+Specified language for transcription: cmn-Hans-CN
+API used language code: cmn-hans-cn (differs from specified cmn-Hans-CN)
 香港保险费的，但是都需要提供相应的证明，所以现在开户建议带上一些辅助照明的质量，比如内地券商或者基金的持仓证明证明自己确实有投资经验，这一点在中银香港执行的非常严重，我就是因为没有这些症状，因此拒绝结果，那我那个预约也白预约了外套，并且我注意到。

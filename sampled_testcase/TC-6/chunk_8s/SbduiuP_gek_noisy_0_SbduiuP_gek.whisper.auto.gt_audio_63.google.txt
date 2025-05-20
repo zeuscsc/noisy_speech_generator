@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): cmn-hans-cn
-欧洲游？
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+兩公婆就去歐洲又話覆咁樣就好似我哋咁遲一兩個月就去一次歐洲一日遊歐洲咁樣

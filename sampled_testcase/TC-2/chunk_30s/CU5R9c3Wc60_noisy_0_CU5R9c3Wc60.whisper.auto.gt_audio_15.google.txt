@@ -1,2 +1,4 @@
-Detected language (best guess for first segment): en-us
-I'll be up where confidence bound method, you can use to use as the acquisition function for. This is essentially guide how the model for how the algorithm is starting for the next next. Consecration of the ipab am. So when's the next generation of undulation is chosen to be, will use a game. This Saturday get model in this step to Heaven. Why didn't you let Jose in consecration? Right? So we will find the score against score of the object to function again and then use that newly found information.
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+Or the upper confidence bound method.
+ You can use to use as the acquisition function. So this will essentially guide how the model or how the algorithm is searching for the next iterate, next configuration of the hyperparameter. So once the next iteration or configuration is chosen, we will use again. This surrogate model in this step to evaluate the newly chosen configuration, right? So we will evaluate it, find the score again score or the objective function again and then use that newly found information.

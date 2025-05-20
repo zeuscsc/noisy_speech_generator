@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): cmn-hans-cn
-微风给手表作为首都呢，大衣单WiFi防被脱落牙吗？
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+匯豐嘅收入亦都會受到呢低單位百分比嘅拖累呀

@@ -1,1 +1,2 @@
+Specified language for transcription: yue-Hant-HK
 No speech recognized.

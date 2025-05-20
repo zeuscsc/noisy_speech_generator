@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): cmn-hans-cn
-正东与正方形的长是多少？
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+環境極之差啦老細好多人

@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): cmn-hans-cn
-反共的电池中文作文一共几个洞，这个威风。
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+呢份工已經遲咗冇咗佢咁佢就警告下如果關稅戰升級嘅話啦兩件事發生先首先第一就話佢而家呢蘭匯豐自己都唔掂呀而家過關瑞穗會唔會落去

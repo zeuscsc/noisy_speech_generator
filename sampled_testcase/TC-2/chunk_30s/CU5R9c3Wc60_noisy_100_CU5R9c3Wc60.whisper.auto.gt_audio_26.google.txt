@@ -1,3 +1,8 @@
-Detected language (best guess for first segment): en-us
-Call Vicky.
- Pick-n-Pull, Mike.
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+We want to.
+ Getting this.
+ Having a negative sign.
+ That is done. We set the bounds for the various various hyper parameters. We are defining the norms.
+ Call methods based in optimization.
+ We pass the updated function forms.

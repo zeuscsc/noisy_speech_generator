@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): en-us
-The number of tires are the best palomita Sandy cell.
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+Out the uh the number of Trials, it took the best parameters and the trial value itself. So I have

@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): cmn-hans-cn
+Specified language for transcription: cmn-Hans-CN
+API used language code: cmn-hans-cn (differs from specified cmn-Hans-CN)
 3966而拒绝了他的政企，分开不了材料，在预约的网页下载开户须知脸上所说明，但是说的是。

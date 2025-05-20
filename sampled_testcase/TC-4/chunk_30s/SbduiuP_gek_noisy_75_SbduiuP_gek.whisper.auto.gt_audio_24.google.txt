@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): cmn-hans-cn
-不断提高你的中文会干什么？
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+餐飲熱呀新嘅功用邊間

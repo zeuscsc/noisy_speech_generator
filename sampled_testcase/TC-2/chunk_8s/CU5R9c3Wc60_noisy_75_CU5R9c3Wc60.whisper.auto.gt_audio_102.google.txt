@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): en-us
-I'm getting frustrated by this out on the way.
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+So this is the quote by state power. Use the link in the description to try this out on your

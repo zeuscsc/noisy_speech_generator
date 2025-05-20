@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): en-us
-Getting a specific model score, this could be Mortals called this could be a cost function cost function or sorry, the loss function loss function like some type of an era.
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+Getting a specific model score. This could be model score. This could be a cost function cost function or sorry. The loss function loss function like error, some type of an error or

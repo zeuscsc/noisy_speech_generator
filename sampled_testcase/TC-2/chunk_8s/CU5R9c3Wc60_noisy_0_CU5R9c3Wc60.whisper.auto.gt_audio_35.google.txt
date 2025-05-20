@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): en-us
-so what we are concerned about finding the probability of getting a specific model score,
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+So what we are concerned is about finding the probability of getting a specific model score.

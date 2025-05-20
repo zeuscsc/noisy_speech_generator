@@ -1,3 +1,4 @@
-Detected language (best guess for first segment): cmn-hans-cn
+Specified language for transcription: cmn-Hans-CN
+API used language code: cmn-hans-cn (differs from specified cmn-Hans-CN)
 这个小伙太年轻了吧，给大陆人开户带去柜台办理这个更换手机号码的具，把这个138之前加上一个之后呢，我确实就收到了你还会什么，她让我一周以后再登陆的工商银行的1tb，到时候就可以正常的开通，我那也算终于松了一口气好大，只开了一张卡。
  只是因为这一点点小小的插曲啊。

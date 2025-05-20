@@ -1,2 +1,2 @@
-Detected language (best guess for first segment): cmn-hans-cn
-哈喽，我的手机上。
+Specified language for transcription: yue-Hant-HK
+No speech recognized.

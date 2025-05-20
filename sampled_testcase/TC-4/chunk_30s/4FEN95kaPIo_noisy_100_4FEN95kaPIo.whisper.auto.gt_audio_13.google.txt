@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): cmn-hans-cn
-帮我找个什么东西？
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+咁你調返轉頭呢就變咗呢

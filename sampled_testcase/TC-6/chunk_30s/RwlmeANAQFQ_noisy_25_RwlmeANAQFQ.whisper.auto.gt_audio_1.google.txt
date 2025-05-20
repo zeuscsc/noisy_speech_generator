@@ -1,1 +1,5 @@
-No speech recognized.
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+and,
+ Professor of Economics at Harvard University, and Hong Kong University of Science and Technology. So, today we're going to talk about China's, Economic Development and its new
+ Nowadays, you can see a lot of problems in addition to the start of China.

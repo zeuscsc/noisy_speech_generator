@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): en-us
-What's a standard English would say? It is going to rain today. I think it would be best for you to bring an umbrella.
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+For example, in standard English you would say seems like it is going to rain today. I think it would be best for you to bring an umbrella which comes to a total of 21 would

@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): yue-hant-hk
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
 你哋係咪

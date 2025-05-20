@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): cmn-hans-cn
-这个截图都找我们这里。
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+借貸好多酒啦

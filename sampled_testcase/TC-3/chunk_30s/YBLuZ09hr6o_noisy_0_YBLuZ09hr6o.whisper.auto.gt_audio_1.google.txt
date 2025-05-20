@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): cmn-hans-cn
-刚起来咱就走。
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+發生在我身上呀幾年前我已經係喺網上facebook個平台呢就畀人哋俾黑客入侵發生話咁就攞咗我啲信用卡斯卡呀就係呢個咁衰㗎嘛你要去開會啦又見小朋友去做評估啦

@@ -1,1 +1,4 @@
-No speech recognized.
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+Parameters.
+ so, you have hyperparameter 1

@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): yue-hant-hk
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
 2023年第4季港人一共碌咗一千六百億嘅卡數呀到底信用卡表面

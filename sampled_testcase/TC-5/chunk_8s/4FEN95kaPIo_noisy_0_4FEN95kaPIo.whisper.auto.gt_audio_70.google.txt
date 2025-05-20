@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): cmn-hans-cn
-周迅还要冻龄，不愿国家都有着很重了，他与某某这里寻找一下哦。
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+就算係呀工聯會呀嗰啲都要祝酒慶祝啦係咪要推奴無出嚟選舉呀係咪即係我51你你而家就係

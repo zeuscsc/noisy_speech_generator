@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): en-us
-that only few data points, we have sample, if you want to trace the lines in this map,
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+Where only few data points we have sample? Okay, we want to trace the lines in this map. Say you

@@ -1,47 +1,150 @@
 import os
+import re
 import traceback
+from urllib.parse import parse_qs, urlparse
 import numpy as np
 import librosa
 from google.cloud import speech
 import concurrent.futures
 from tqdm import tqdm
 from google.oauth2 import service_account
+import json
 
 BASE_AUDIO_DIRECTORY = "sampled_testcase"
 TARGET_SAMPLE_RATE = 16000
 MAX_WORKERS = 8
 
-POSSIBLE_LANGUAGE_CODES = ["yue-Hant-HK", "en-US", "cmn-Hans-CN"]
 AUDIO_EXTENSIONS = ['.mp3', '.wav', '.flac', '.aac']
+CREDENTIALS_PATH = "C:/Users/User/stt-benchmark-key.json"
+URL_META_JSON_PATH = "urls.meta.json"
+
+USER_SPECIFIED_TARGET_LANGUAGE_CODES = ["yue-Hant-HK", "en-US", "cmn-Hans-CN"]
+
+LANGUAGE_NAME_TO_STT_CODE_MAP = {
+    "Cantonese": "yue-Hant-HK",
+    "English": "en-US",
+    "Mandarin": "cmn-Hans-CN"
+}
+
+def load_url_metadata(json_file_path: str, name_to_code_map: dict, target_codes_list: list) -> dict:
+    video_id_to_lang_code = {}
+    if not os.path.exists(json_file_path):
+        print(f"Error: Metadata JSON file not found at {json_file_path}")
+        return video_id_to_lang_code
+
+    try:
+        with open(json_file_path, 'r', encoding='utf-8') as f:
+            metadata_list = json.load(f)
+
+        for item in metadata_list:
+            language_name = item.get("language")
+            if not language_name:
+                print(f"Warning: Skipping item due to missing 'language' in JSON: {item}")
+                continue
+
+            current_video_id = item.get("video_id")
+
+            if not current_video_id:
+                url_str = item.get("url")
+                if url_str:
+                    try:
+                        parsed_url = urlparse(url_str)
+                        hostname = parsed_url.hostname.lower() if parsed_url.hostname else ""
+                        path = parsed_url.path
+                        
+                        is_youtube_url = 'youtube.com' in hostname or 'youtu.be' in hostname
+                        
+                        if is_youtube_url:
+                            extracted_youtube_id = None
+                            if 'youtube.com' in hostname:
+                                if '/watch' in path:
+                                    params = parse_qs(parsed_url.query)
+                                    if 'v' in params and params['v'] and params['v'][0]:
+                                        extracted_youtube_id = params['v'][0]
+                                elif '/embed/' in path:
+                                    path_segment = path.split('/embed/')
+                                    if len(path_segment) > 1:
+                                        extracted_youtube_id = path_segment[1].split('/')[0].split('?')[0]
+                                else:
+                                    id_candidate = None
+                                    for prefix in ['/v/', '/vi/', '/shorts/']:
+                                        if prefix in path:
+                                            path_segments = path.split(prefix)
+                                            if len(path_segments) > 1:
+                                                id_candidate = path_segments[1].split('/')[0].split('?')[0]
+                                                break
+                                    if id_candidate:
+                                        extracted_youtube_id = id_candidate
+                            
+                            elif 'youtu.be' in hostname:
+                                if path.lstrip('/'):
+                                    extracted_youtube_id = path.lstrip('/').split('?')[0]
+                            
+                            if extracted_youtube_id and re.match(r"^[a-zA-Z0-9_-]{11}$", extracted_youtube_id):
+                                current_video_id = extracted_youtube_id
+                            elif extracted_youtube_id:
+                                print(f"Warning: Extracted '{extracted_youtube_id}' from YouTube URL '{url_str}' but it's not a valid 11-character ID. Skipping.")
+                                continue
+                            else:
+                                print(f"Warning: Identified as YouTube URL '{url_str}' but couldn't extract a valid video ID using known patterns. Skipping.")
+                                continue
+                        else: 
+                            derived_id = os.path.basename(url_str)
+                            if derived_id:
+                                current_video_id = derived_id
+                            else:
+                                print(f"Warning: Derived empty ID using os.path.basename from non-YouTube URL '{url_str}'. Skipping.")
+                                continue
+                    except Exception as e:
+                        print(f"Warning: Error processing URL '{url_str}' for video ID. Error: {e}. Skipping.")
+                        continue
+            
+            if not current_video_id:
+                print(f"Warning: Skipping item due to missing or unobtainable video ID. Item: {item}")
+                continue
+
+            stt_language_code = name_to_code_map.get(language_name)
+            if not stt_language_code:
+                print(f"Warning: Language name '{language_name}' for video ID '{current_video_id}' "
+                      f"not found in LANGUAGE_NAME_TO_STT_CODE_MAP. Skipping this entry.")
+                continue
+
+            if stt_language_code not in target_codes_list:
+                print(f"Warning: Language '{language_name}' (maps to STT code '{stt_language_code}') for video ID '{current_video_id}' "
+                      f"is not in USER_SPECIFIED_TARGET_LANGUAGE_CODES. Skipping this entry.")
+                continue
+            
+            video_id_to_lang_code[current_video_id] = stt_language_code
+
+    except json.JSONDecodeError:
+        print(f"Error: Could not decode JSON from {json_file_path}. Please check its format.")
+    except Exception as e:
+        print(f"An unexpected error occurred while loading URL metadata: {e}\n{traceback.format_exc()}")
+    
+    if not video_id_to_lang_code:
+        print("Warning: No valid language metadata loaded. Transcriptions might fail or be skipped.")
+    else:
+        print(f"Successfully loaded language metadata for {len(video_id_to_lang_code)} video IDs.")
+    return video_id_to_lang_code
 
 def resample_audio(audio_array: np.ndarray, current_sr: int, target_sr: int) -> np.ndarray:
-    """Resamples audio using librosa."""
     if current_sr == target_sr:
         return audio_array
     if audio_array.dtype != np.float32:
         audio_array = audio_array.astype(np.float32)
-
     if not audio_array.flags['C_CONTIGUOUS']:
         audio_array = np.ascontiguousarray(audio_array)
-
     resampled_audio = librosa.resample(audio_array, orig_sr=current_sr, target_sr=target_sr)
     return resampled_audio
 
-def transcribe_audio_file(audio_file_path_and_output_path: tuple) -> str:
-    """
-    Loads an audio file, transcribes it using Google STT API with language detection,
-    and saves the result to a text file.
-    Returns the input audio_file_path upon completion or error for tracking.
-    """
-    audio_file_path, output_txt_path = audio_file_path_and_output_path
+def transcribe_audio_file(task_details: tuple) -> str:
+    audio_file_path, output_txt_path, specific_language_code = task_details
 
-    if not POSSIBLE_LANGUAGE_CODES:
-        error_msg = f"Error for {audio_file_path}: POSSIBLE_LANGUAGE_CODES list is empty.\n"
+    if not specific_language_code:
+        error_msg = f"Error for {audio_file_path}: No specific language code provided for transcription.\n"
         with open(output_txt_path, 'w', encoding='utf-8') as f:
             f.write(error_msg)
         return audio_file_path
-
-    primary_language_code = POSSIBLE_LANGUAGE_CODES[0]
 
     try:
         audio_array, original_sampling_rate = librosa.load(audio_file_path, sr=None, mono=True)
@@ -60,8 +163,7 @@ def transcribe_audio_file(audio_file_path_and_output_path: tuple) -> str:
         return audio_file_path
 
     try:
-        credentials_path = "C:/Users/User/stt-benchmark-key.json" 
-        credentials = service_account.Credentials.from_service_account_file(credentials_path)
+        credentials = service_account.Credentials.from_service_account_file(CREDENTIALS_PATH)
         client = speech.SpeechClient(credentials=credentials)
     except Exception as e:
         error_msg = f"Error initializing Google Speech client for {audio_file_path}: {e}\n{traceback.format_exc()}"
@@ -74,7 +176,7 @@ def transcribe_audio_file(audio_file_path_and_output_path: tuple) -> str:
             audio_array_resampled = resample_audio(audio_array, original_sampling_rate, TARGET_SAMPLE_RATE)
         else:
             audio_array_resampled = audio_array
-        if audio_array_resampled.dtype != np.float32: 
+        if audio_array_resampled.dtype != np.float32:
             audio_array_resampled = audio_array_resampled.astype(np.float32)
 
         np.clip(audio_array_resampled, -1.0, 1.0, out=audio_array_resampled)
@@ -89,15 +191,14 @@ def transcribe_audio_file(audio_file_path_and_output_path: tuple) -> str:
     config = speech.RecognitionConfig(
         encoding=speech.RecognitionConfig.AudioEncoding.LINEAR16,
         sample_rate_hertz=TARGET_SAMPLE_RATE,
-        language_code=primary_language_code,
-        alternative_language_codes=POSSIBLE_LANGUAGE_CODES[1:] if len(POSSIBLE_LANGUAGE_CODES) > 1 else [], 
+        language_code=specific_language_code,
         enable_automatic_punctuation=True,
         enable_word_time_offsets=True
     )
     audio_input = speech.RecognitionAudio(content=content)
 
     full_transcript = ""
-    detected_language_info = ""
+    language_info = f"Specified language for transcription: {specific_language_code}\n"
 
     try:
         response = client.recognize(config=config, audio=audio_input)
@@ -105,93 +206,105 @@ def transcribe_audio_file(audio_file_path_and_output_path: tuple) -> str:
             full_transcript = "No speech recognized."
         else:
             for result_idx, result in enumerate(response.results):
-                lang_for_segment = getattr(result, 'language_code', primary_language_code)
-                if result_idx == 0: 
-                    detected_language_info = f"Detected language (best guess for first segment): {lang_for_segment}\n"
+                if result_idx == 0 and hasattr(result, 'language_code') and result.language_code != specific_language_code:
+                     language_info += f"API used language code: {result.language_code} (differs from specified {specific_language_code})\n"
+                elif result_idx == 0 and hasattr(result, 'language_code'):
+                     language_info += f"API confirmed using language code: {result.language_code}\n"
                 full_transcript += result.alternatives[0].transcript + "\n"
-
+        
         with open(output_txt_path, 'w', encoding='utf-8') as f:
-            if detected_language_info:
-                f.write(detected_language_info)
+            f.write(language_info)
             f.write(full_transcript.strip())
 
     except Exception as e:
-        error_msg = f"Error during API call for {audio_file_path}: {e}\n{traceback.format_exc()}"
+        error_msg = f"Error during API call for {audio_file_path} (Lang: {specific_language_code}): {e}\n{traceback.format_exc()}"
         with open(output_txt_path, 'w', encoding='utf-8') as f:
             f.write(error_msg)
-
     return audio_file_path
 
-def collect_audio_files(base_dir: str) -> list:
-    """
-    Walks through the base_dir, finds audio files, and prepares a list of
-    (input_path, output_path) tuples.
-    """
+def collect_audio_files(base_dir: str, video_id_to_lang_map: dict) -> list:
     tasks = []
     if not os.path.isdir(base_dir):
         print(f"Error: Base directory '{base_dir}' not found.")
         return tasks
-    if not POSSIBLE_LANGUAGE_CODES: 
-        print("Error: POSSIBLE_LANGUAGE_CODES list is empty. Please configure it.")
-        return tasks
+    
+    if not video_id_to_lang_map:
+        print("Warning: Language metadata map is empty. Files may be skipped if they rely on this map.")
 
     print(f"Scanning for audio files in: {base_dir}")
     all_files_to_scan = []
     for root, _, files in os.walk(base_dir):
         for filename in files:
             all_files_to_scan.append(os.path.join(root, filename))
-
     
-    for audio_file_path in tqdm(all_files_to_scan, desc="Scanning files"):
+    for audio_file_path in tqdm(all_files_to_scan, desc="Matching files with metadata"):
         file_ext = os.path.splitext(audio_file_path)[1].lower()
         if file_ext in AUDIO_EXTENSIONS:
-            base_name_without_ext = os.path.splitext(os.path.basename(audio_file_path))[0]
-            output_filename = base_name_without_ext + ".google.txt"
+            base_name_from_file = os.path.splitext(os.path.basename(audio_file_path))[0]
+            
+            extracted_video_id_for_lookup = None
+            match = re.search(r"([a-zA-Z0-9_-]{11})", base_name_from_file)
+            if match:
+                extracted_video_id_for_lookup = match.group(1)
+            
+            if not extracted_video_id_for_lookup:
+                print(f"Info: Could not extract an 11-character video ID pattern from filename base '{base_name_from_file}' (from file '{os.path.basename(audio_file_path)}'). This file will be skipped.")
+                continue
+
+            specific_language_code = video_id_to_lang_map.get(extracted_video_id_for_lookup)
+
+            if not specific_language_code:
+                print(f"Info: No language metadata found in map for extracted video ID '{extracted_video_id_for_lookup}' (from file '{os.path.basename(audio_file_path)}'). Skipping this file.")
+                continue 
+
+            output_filename = base_name_from_file + ".google.txt"
             output_txt_path = os.path.join(os.path.dirname(audio_file_path), output_filename)
-
             os.makedirs(os.path.dirname(output_txt_path), exist_ok=True)
-
-            tasks.append((audio_file_path, output_txt_path))
+            tasks.append((audio_file_path, output_txt_path, specific_language_code))
+            
+    if not tasks:
+        print("No audio files matched with language metadata or found after filtering.")
     return tasks
 
 def process_all_audio_files_parallel():
-    """
-    Collects all audio files and processes them in parallel using Google STT.
-    """
-    tasks = collect_audio_files(BASE_AUDIO_DIRECTORY)
+    print("--- Starting Transcription Process ---")
+    print(f"Target STT Languages: {', '.join(USER_SPECIFIED_TARGET_LANGUAGE_CODES)}")
+    print(f"Attempting to load language metadata from: {URL_META_JSON_PATH}")
 
-    if not tasks:
-        print("No audio files found or an error occurred during scanning.")
+    url_language_metadata = load_url_metadata(
+        URL_META_JSON_PATH,
+        LANGUAGE_NAME_TO_STT_CODE_MAP,
+        USER_SPECIFIED_TARGET_LANGUAGE_CODES
+    )
+
+    if not url_language_metadata:
+        print("Failed to load any valid language metadata. Aborting transcription process.")
         return
 
-    print(f"\nFound {len(tasks)} audio files to process.")
+    tasks = collect_audio_files(BASE_AUDIO_DIRECTORY, url_language_metadata)
+
+    if not tasks:
+        print("No audio files found or matched with metadata for processing.")
+        return
+
+    print(f"\nFound {len(tasks)} audio files matched with language metadata to process.")
     effective_max_workers = MAX_WORKERS if MAX_WORKERS and MAX_WORKERS > 0 else os.cpu_count()
     print(f"Using up to {effective_max_workers} worker processes.")
-
-    if not POSSIBLE_LANGUAGE_CODES:
-        print("Warning: POSSIBLE_LANGUAGE_CODES is empty. Transcription might use default or fail.")
-    else:
-        primary_lang = POSSIBLE_LANGUAGE_CODES[0]
-        alt_langs = POSSIBLE_LANGUAGE_CODES[1:]
-        print(f"Languages for detection: Primary '{primary_lang}', Alternatives: {alt_langs if alt_langs else 'None'}")
-
 
     processed_count = 0
     with concurrent.futures.ProcessPoolExecutor(max_workers=effective_max_workers) as executor:
         futures = [executor.submit(transcribe_audio_file, task) for task in tasks]
-
         for future in tqdm(concurrent.futures.as_completed(futures), total=len(tasks), desc="Transcribing audio"):
             try:
-                result_path = future.result()
+                future.result()
                 processed_count += 1
             except Exception as e:
-                print(f"A task in the pool failed unexpectedly: {e}")
+                print(f"A task in the pool failed unexpectedly: {e}\n{traceback.format_exc()}")
                 processed_count += 1
-
-
+                
     print(f"\n--- Processing Complete ---")
-    print(f"Total audio files submitted for processing: {processed_count}")
-    print(f"Check individual '.google.txt' files for transcription results or errors.")
+    print(f"Total audio files submitted for processing: {processed_count} (out of {len(tasks)} matched files)")
+    print(f"Check individual '.google.txt' files in '{BASE_AUDIO_DIRECTORY}' subdirectories for transcription results or errors.")
 
 if __name__ == "__main__":
     process_all_audio_files_parallel()

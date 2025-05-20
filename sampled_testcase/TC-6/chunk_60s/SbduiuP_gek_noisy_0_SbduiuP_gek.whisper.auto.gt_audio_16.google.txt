@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): cmn-hans-cn
-我要个充电，没了你的答案回来呀，所以我下首充电到姐姐姐贵族宠上瘾犯了吗？
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+撚樣又要搞論大大麻煩咁樣跟住嗰啲嘢又要返嚟探下又要去買咗點解會因為一個衝擊呢呢呢啲大銀行都會奶嘢嘅所以我同你講睇埋恆生呀好慘呀梗係㗎啦做新銀行梗係咁樣㗎啲經濟嘅大浪一沖埋你啲客戶一受衝擊梗有一堆人就掛得咁呀跟住想還錢畀你玩唔到呀以前我識個做燈飾咁樣都話啦咁樣問我借都藉錢再藉錢謝謝謝佢咁衰做生意唔得咪收曬你所有樓嗰啲囉係呀佢好慘呀我嘅鬧啲銀行話佢借錢呀大佬點解你啲嘢賣唔返嗰個價錢呀嘛可能得八成㗎咋佢都輸呀你唔好以為佢想害你一架佢想你借錢做生意呀嘛你唔係點啫但係都唔知道

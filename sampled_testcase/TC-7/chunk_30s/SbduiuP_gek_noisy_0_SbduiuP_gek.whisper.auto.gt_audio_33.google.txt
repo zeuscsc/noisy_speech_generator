@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): cmn-hans-cn
-老屋里的好朋友，我查毛泽东下令捕鱼为生活也可回收的节奏吗？
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+係呀佢好慘呀佢鬧啲銀行話佢借錢呀大佬應該點解你啲嘢賣唔返嗰個價錢呀嘛可能得八成都輸呀你唔好以為佢想愛你一架佢想你淨係填做生意㗎嘛你唔係點啫但係都唔知道㗎嘛一嗰時啱啱喺亞洲金融風暴會做啲泰國的燈連埋啲裝修一次個包埋嚟做呀嘛咁你咪死得啦係咪先啦一係好多人哋做完曬妝

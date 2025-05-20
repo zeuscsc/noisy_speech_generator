@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): cmn-hans-cn
-给我给我换了这么多。
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+咁樣好得意咁樣有啲唔落雜嘅但係呢就幫你唱開曬你屋企個貨倉度擺幾件呢度喺個喎

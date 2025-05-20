@@ -125,51 +125,86 @@ def preprocess_text_for_metrics(text, perform_chinese_conversion=False):
     text = re.sub(r'\s+', '', text)
     return text
 
-def calculate_stt_metrics_speechbrain(ground_truth_str, hypothesis_str):
+def calculate_stt_metrics_speechbrain(
+    ground_truth_str_cer, hypothesis_str_cer,
+    ground_truth_str_nser, hypothesis_str_nser 
+):
     """
     Calculates STT metrics using SpeechBrain.
-    Note: Tokenizes by character, so WER reported is effectively CER.
+    WER reported is effectively CER.
+    NSER is Number Sequence Error Rate.
     """
     if not SPEECHBRAIN_AVAILABLE:
         logger.error("SpeechBrain not available for metrics calculation.")
-        return {"WER": float('nan'), "WRR": float('nan'), "CER": float('nan'), "SER": float('nan')}
+        return {"WER": float('nan'), "WRR": float('nan'), "CER": float('nan'), "SER": float('nan'), "NSER": float('nan')}
 
+    
     calculated_wer = float('nan')
     calculated_cer = float('nan')
     wrr = float('nan')
     ser_segment = float('nan')
+    calculated_nser = float('nan')
 
-    if not ground_truth_str and not hypothesis_str:
+    
+    if not ground_truth_str_cer and not hypothesis_str_cer:
         calculated_wer, calculated_cer, ser_segment = 0.0, 0.0, 0.0
         wrr = 1.0
-    elif not ground_truth_str:
+    elif not ground_truth_str_cer:
         calculated_wer, calculated_cer, ser_segment = 1.0, 1.0, 1.0
         wrr = 0.0
-    elif not hypothesis_str:
+    elif not hypothesis_str_cer:
         calculated_wer, calculated_cer, ser_segment = 1.0, 1.0, 1.0
         wrr = 0.0
     else:
-        ref_tokens = list(ground_truth_str)
-        hyp_tokens = list(hypothesis_str)
+        ref_tokens_cer = list(ground_truth_str_cer)
+        hyp_tokens_cer = list(hypothesis_str_cer)
         try:
-            error_computer = ErrorRateStats()
-            error_computer.append(ids=["segment1"], predict=[hyp_tokens], target=[ref_tokens])
-            stats = error_computer.summarize()
-            error_val = stats.get('error_rate')
+            error_computer_cer = ErrorRateStats()
+            error_computer_cer.append(ids=["segment1_cer"], predict=[hyp_tokens_cer], target=[ref_tokens_cer])
+            stats_cer = error_computer_cer.summarize()
+            error_val_cer = stats_cer.get('error_rate')
 
-            if error_val is None:
-                logger.warning(f"SpeechBrain 'error_rate' not found in summary: {stats}. Defaulting error to 1.0 for this segment.")
-                error_val = 100.0
+            if error_val_cer is None:
+                logger.warning(f"SpeechBrain 'error_rate' for CER not found in summary: {stats_cer}. Defaulting error to 1.0 for this segment.")
+                error_val_cer = 100.0
             
-            calculated_cer = error_val / 100.0
+            calculated_cer = error_val_cer / 100.0
             calculated_wer = calculated_cer 
             wrr = 1.0 - calculated_wer
             ser_segment = 1.0 if calculated_wer > 1e-9 else 0.0
         except Exception as e:
-            logger.error(f"Error during SpeechBrain metrics calculation: {e}")
-            logger.error(f"  GT (len {len(ground_truth_str)}): '{ground_truth_str[:70]}...'")
-            logger.error(f"  HYP (len {len(hypothesis_str)}): '{hypothesis_str[:70]}...'")
-    return {"WER": calculated_wer, "WRR": wrr, "CER": calculated_cer, "SER": ser_segment}
+            logger.error(f"Error during SpeechBrain CER/WER metrics calculation: {e}")
+            logger.error(f"  GT (CER len {len(ground_truth_str_cer)}): '{ground_truth_str_cer[:70]}...'")
+            logger.error(f"  HYP (CER len {len(hypothesis_str_cer)}): '{hypothesis_str_cer[:70]}...'")
+
+    gt_numbers = re.findall(r'\d+', ground_truth_str_nser)
+    hyp_numbers = re.findall(r'\d+', hypothesis_str_nser)
+    
+    if not gt_numbers and not hyp_numbers:
+        calculated_nser = 0.0
+    elif SPEECHBRAIN_AVAILABLE :
+        try:
+            nser_computer = ErrorRateStats()
+            nser_computer.append(ids=["num_seq_1"], predict=[hyp_numbers], target=[gt_numbers])
+            stats_nser = nser_computer.summarize()
+            error_val_nser = stats_nser.get('error_rate')
+
+            if error_val_nser is None:
+                logger.warning(f"SpeechBrain 'error_rate' for NSER not found. GT_nums: {len(gt_numbers)}, HYP_nums: {len(hyp_numbers)}. Stats: {stats_nser}. Defaulting NSER to 1.0.")
+                calculated_nser = 1.0
+            else:
+                calculated_nser = error_val_nser / 100.0
+        except Exception as e:
+            logger.error(f"Error during NSER calculation with SpeechBrain: {e}")
+            logger.error(f"  GT Numbers (count {len(gt_numbers)} from '{ground_truth_str_nser[:30]}...'): {gt_numbers[:10]}")
+            logger.error(f"  HYP Numbers (count {len(hyp_numbers)} from '{hypothesis_str_nser[:30]}...'): {hyp_numbers[:10]}")
+    else:
+        logger.warning("SpeechBrain not available, cannot calculate NSER.")
+
+    return {
+        "WER": calculated_wer, "WRR": wrr, "CER": calculated_cer, "SER": ser_segment,
+        "NSER": calculated_nser
+    }
 
 def main(root_dir):
     all_results_data = []
@@ -182,7 +217,7 @@ def main(root_dir):
         logger.info(f"Chinese script conversion for GT and Hypotheses enabled via OpenCC ({OPENCC_CONFIG}).")
     else:
         logger.info("OpenCC not available/enabled; no Chinese script conversion will be performed.")
-    logger.info(f"Metrics calculated: CER (reported as WER/CER), CRR (reported as WRR), SER.")
+    logger.info(f"Metrics calculated: CER (reported as WER/CER), CRR (reported as WRR), SER, NSER.")
     logger.info(f"Detailed logs will be saved to: {DETAILED_LOG_FILE}")
     logger.info(f"Summary report will be saved to: {SUMMARY_REPORT_FILE}")
 
@@ -240,35 +275,33 @@ def main(root_dir):
 
                 apply_conversion = converter is not None
                 
-                gt_for_readable_log = preprocess_text_for_logging(raw_gt, perform_chinese_conversion=apply_conversion)
-                hyp_for_readable_log = preprocess_text_for_logging(raw_hyp, perform_chinese_conversion=apply_conversion)
+                gt_for_readable_log_and_nser = preprocess_text_for_logging(raw_gt, perform_chinese_conversion=apply_conversion)
+                hyp_for_readable_log_and_nser = preprocess_text_for_logging(raw_hyp, perform_chinese_conversion=apply_conversion)
 
-                processed_gt_for_metrics = preprocess_text_for_metrics(raw_gt, perform_chinese_conversion=apply_conversion)
-                processed_hyp_for_metrics = preprocess_text_for_metrics(raw_hyp, perform_chinese_conversion=apply_conversion)
+                processed_gt_for_cer = preprocess_text_for_metrics(raw_gt, perform_chinese_conversion=apply_conversion)
+                processed_hyp_for_cer = preprocess_text_for_metrics(raw_hyp, perform_chinese_conversion=apply_conversion)
 
                 logger.info(f"(Method: {method_name}) Pair {file_pairs_found}:")
-                logger.info(f"  GT  (readable log): '{gt_for_readable_log[:70]}...' (len: {len(gt_for_readable_log)})")
-                logger.info(f"  HYP (readable log): '{hyp_for_readable_log[:70]}...' (len: {len(hyp_for_readable_log)})")
-                logger.info(f"  GT  (for metrics): '{processed_gt_for_metrics[:50]}...' (len: {len(processed_gt_for_metrics)})")
-                logger.info(f"  HYP (for metrics): '{processed_hyp_for_metrics[:50]}...' (len: {len(processed_hyp_for_metrics)})")
+                logger.info(f"  GT  (readable/NSER): '{gt_for_readable_log_and_nser[:70]}...' (len: {len(gt_for_readable_log_and_nser)})")
+                logger.info(f"  HYP (readable/NSER): '{hyp_for_readable_log_and_nser[:70]}...' (len: {len(hyp_for_readable_log_and_nser)})")
+                logger.info(f"  GT  (for CER metrics): '{processed_gt_for_cer[:50]}...' (len: {len(processed_gt_for_cer)})")
+                logger.info(f"  HYP (for CER metrics): '{processed_hyp_for_cer[:50]}...' (len: {len(processed_hyp_for_cer)})")
 
-                if not processed_gt_for_metrics and not processed_hyp_for_metrics:
-                    metrics = {"WER": 0.0, "WRR": 1.0, "CER": 0.0, "SER": 0.0}
-                elif not processed_gt_for_metrics:
-                     metrics = {"WER": 1.0, "WRR": 0.0, "CER": 1.0, "SER": 1.0}
-                elif not processed_hyp_for_metrics:
-                     metrics = {"WER": 1.0, "WRR": 0.0, "CER": 1.0, "SER": 1.0}
-                else:
-                    metrics = calculate_stt_metrics_speechbrain(processed_gt_for_metrics, processed_hyp_for_metrics)
-
+                metrics = calculate_stt_metrics_speechbrain(
+                    processed_gt_for_cer,
+                    processed_hyp_for_cer,
+                    gt_for_readable_log_and_nser, 
+                    hyp_for_readable_log_and_nser  
+                )
+                
                 logger.info(f"  Metrics (Pair {file_pairs_found} {os.path.basename(hyp_path)}):")
-                logger.info(f"    WER (CER)={metrics['WER']:.4f}, WRR (CRR)={metrics['WRR']:.4f}, CER={metrics['CER']:.4f}, SER={metrics['SER']:.4f}")
+                logger.info(f"    WER (CER)={metrics['WER']:.4f}, WRR (CRR)={metrics['WRR']:.4f}, CER={metrics['CER']:.4f}, SER={metrics['SER']:.4f}, NSER={metrics['NSER']:.4f}")
 
                 all_results_data.append({
                     "method": method_name,
                     "gt_file": os.path.basename(gt_path),
                     "hyp_file": os.path.basename(hyp_path),
-                    **metrics
+                    **metrics 
                 })
                 files_processed_successfully += 1
                 logger.info("--- End Pair Processing ---")
@@ -291,11 +324,14 @@ def generate_summary_report(all_results_data):
         logger.info("No data available to generate summary report.")
         return
 
-    method_summary = defaultdict(lambda: {"total_wer": 0.0, "total_wrr": 0.0, "total_cer": 0.0, "total_ser": 0.0, "count": 0, "nan_count": 0})
+    method_summary = defaultdict(lambda: {
+        "total_wer": 0.0, "total_wrr": 0.0, "total_cer": 0.0, "total_ser": 0.0, "total_nser": 0.0,
+        "count": 0, "nan_count": 0
+    })
 
     for result in all_results_data:
         method = result["method"]
-        current_metrics = [result["WER"], result["WRR"], result["CER"], result["SER"]]
+        current_metrics = [result["WER"], result["WRR"], result["CER"], result["SER"], result["NSER"]]
         if any(m != m for m in current_metrics): 
             method_summary[method]["nan_count"] += 1
             logger.warning(f"NaN metric found for method '{method}', file '{result['hyp_file']}'. It will be excluded from averages.")
@@ -305,12 +341,17 @@ def generate_summary_report(all_results_data):
         method_summary[method]["total_wrr"] += result["WRR"]
         method_summary[method]["total_cer"] += result["CER"]
         method_summary[method]["total_ser"] += result["SER"]
+        method_summary[method]["total_nser"] += result["NSER"] 
         method_summary[method]["count"] += 1
     
     logger.info(f"Generating summary report at: {SUMMARY_REPORT_FILE}")
     try:
         with open(SUMMARY_REPORT_FILE, 'w', newline='', encoding='utf-8') as csvfile:
-            fieldnames = ['Method', 'File_Count (Valid Metrics)', 'Average_WER (CER)', 'Average_WRR (CRR)', 'Average_CER', 'Average_SER', 'Files_With_Metric_Errors']
+            fieldnames = [
+                'Method', 'File_Count (Valid Metrics)',
+                'Average_WER (CER)', 'Average_WRR (CRR)', 'Average_CER', 'Average_SER', 'Average_NSER',
+                'Files_With_Metric_Errors'
+            ]
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
             
@@ -325,6 +366,7 @@ def generate_summary_report(all_results_data):
                 avg_wrr = data['total_wrr'] / count if count > 0 else 0
                 avg_cer = data['total_cer'] / count if count > 0 else 0
                 avg_ser = data['total_ser'] / count if count > 0 else 0
+                avg_nser = data['total_nser'] / count if count > 0 else 0 
                 
                 writer.writerow({
                     'Method': method,
@@ -333,6 +375,7 @@ def generate_summary_report(all_results_data):
                     'Average_WRR (CRR)': f"{avg_wrr:.4f}",
                     'Average_CER': f"{avg_cer:.4f}",
                     'Average_SER': f"{avg_ser:.4f}",
+                    'Average_NSER': f"{avg_nser:.4f}", 
                     'Files_With_Metric_Errors': nan_count
                 })
         logger.info("Summary report generated successfully.")

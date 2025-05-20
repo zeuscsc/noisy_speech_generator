@@ -1,3 +1,6 @@
-Detected language (best guess for first segment): en-us
-Baby please. Baby boy.
- Because we get demoted. Let's go see you.
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+Myself.
+ combination of
+ These points can be anywhere. This may not be in the because these points are is not in random way.
+ we get the model here, gets to see where

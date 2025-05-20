@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): en-us
-Dogwood colors. Where every point is very high and devalues very high. Kidnapping of tank, light and the mile.
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+Dark red colors. Wherever the point is very high. The the value is very high heat Maps kind of thing, right? And the milder, the color becomes the the lower the values are I think of it like this.

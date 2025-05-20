@@ -1,2 +1,2 @@
-Detected language (best guess for first segment): en-us
-Call ringtone.
+Specified language for transcription: cmn-Hans-CN
+No speech recognized.

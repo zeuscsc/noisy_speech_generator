@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): cmn-hans-cn
-这几台红的走了我这里。
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+好有錢但係即係嗰啲都係多啲嘅最後機會玩呢一個嘅地產遊戲咁我哋呢進入唔到市場我哋就一直情嗰個字謝太好多酒樓

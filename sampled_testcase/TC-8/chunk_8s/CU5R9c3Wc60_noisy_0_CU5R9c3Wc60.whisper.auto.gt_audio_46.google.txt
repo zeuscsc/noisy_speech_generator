@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): en-us
-Configurations. Right? We want to minimize the number of vibrations so we need an acquisition functional. So for this acquisition function will guide the search guide.
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+Configurations, right? We want to minimize the number of iterations. So we need an acquisition function also. So this acquisition function will guide the search guide. The search means if

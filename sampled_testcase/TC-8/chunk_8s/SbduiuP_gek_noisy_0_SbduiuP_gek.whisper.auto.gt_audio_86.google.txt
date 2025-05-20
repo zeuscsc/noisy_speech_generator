@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): cmn-hans-cn
-能量。
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+旅客人數增加但係並唔能夠對銷售量產生嘅正面影響即係話呢啲嚟香港但係並無又銷售

@@ -1,2 +1,3 @@
-Detected language (best guess for first segment): en-us
-70 pesos, LOL.
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+70 pesos long.
