@@ -488,13 +488,13 @@ def analyze_and_extract_audios(base_dataset_path,
     save_testcase_list_json(final_report_data_list, testcase_list_json_file, selection_mode_str)
 
 def pipeline():
-    chunked_dataset_path = "chunked_dataset" 
-    new_dataset_path = "testset" 
+    chunked_dataset_path = "chunked_dataset_with_ground_truth" 
+    new_dataset_path = "sampled_testcase" 
     metadata_json_file = "urls.meta.json" 
     min_samples_to_select_if_random = 10 
     test_cases_json_filename = "sampled_testcases_list.json"
 
-    USE_RANDOM_SELECTION = False 
+    USE_RANDOM_SELECTION = True 
     
     selection_mode_str_display = "RANDOM selection" if USE_RANDOM_SELECTION else f"FIXED list selection from '{test_cases_json_filename}'"
     print(f"Pipeline starting with {selection_mode_str_display}.")

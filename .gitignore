@@ -9,5 +9,5 @@ chunked_dataset*
 __pycache__
 !*.vtt
 dataset.zip
-key_words.json
+key_words.*.json
 KEY_WORDS.docx

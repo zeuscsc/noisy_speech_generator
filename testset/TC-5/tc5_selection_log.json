@@ -1,0 +1,58 @@
+{
+    "log_metadata": {
+        "generation_date": "2025-05-21 18:57:38",
+        "log_description": "Test Case 5 Selection (FIXED selection from log)",
+        "total_samples_in_log_map": 3,
+        "original_report_items_count": 3
+    },
+    "samples_by_destination_path": {
+        "testset\\TC-5\\Cantonese-HK\\JNAeatPbndE_noisy_0_JNAeatPbndE.whisper.auto.gt_audio_2.mp3": {
+            "original_path": "chunked_dataset\\JNAeatPbndE\\chunk_5s\\noisy_0\\JNAeatPbndE.whisper.auto.gt_audio_2.mp3",
+            "video_id": "JNAeatPbndE",
+            "tc5_category": "Cantonese-HK",
+            "language_metadata": "cantonese",
+            "accent_metadata": "mandarin",
+            "noisy_folder": "noisy_0",
+            "conceptual_filename": "audio_2.mp3",
+            "original_filename": "JNAeatPbndE.whisper.auto.gt_audio_2.mp3",
+            "chunk_type": "chunk_5s",
+            "destination_audio_path": "testset\\TC-5\\Cantonese-HK\\JNAeatPbndE_noisy_0_JNAeatPbndE.whisper.auto.gt_audio_2.mp3",
+            "destination_transcript_path": "testset\\TC-5\\Cantonese-HK\\JNAeatPbndE_noisy_0_JNAeatPbndE.whisper.auto.gt_audio_2.vtt",
+            "status": "Audio and VTT Copied",
+            "error_message": null,
+            "processed_timestamp": "2025-05-21 18:57:38"
+        },
+        "testset\\TC-5\\Cantonese-HK\\4FEN95kaPIo_noisy_0_4FEN95kaPIo.whisper.auto.gt_audio_66.mp3": {
+            "original_path": "chunked_dataset\\4FEN95kaPIo\\chunk_5s\\noisy_0\\4FEN95kaPIo.whisper.auto.gt_audio_66.mp3",
+            "video_id": "4FEN95kaPIo",
+            "tc5_category": "Cantonese-HK",
+            "language_metadata": "cantonese",
+            "accent_metadata": "cantonese",
+            "noisy_folder": "noisy_0",
+            "conceptual_filename": "audio_66.mp3",
+            "original_filename": "4FEN95kaPIo.whisper.auto.gt_audio_66.mp3",
+            "chunk_type": "chunk_5s",
+            "destination_audio_path": "testset\\TC-5\\Cantonese-HK\\4FEN95kaPIo_noisy_0_4FEN95kaPIo.whisper.auto.gt_audio_66.mp3",
+            "destination_transcript_path": "testset\\TC-5\\Cantonese-HK\\4FEN95kaPIo_noisy_0_4FEN95kaPIo.whisper.auto.gt_audio_66.vtt",
+            "status": "Audio and VTT Copied",
+            "error_message": null,
+            "processed_timestamp": "2025-05-21 18:57:38"
+        },
+        "testset\\TC-5\\Cantonese-HK\\4FEN95kaPIo_noisy_0_4FEN95kaPIo.whisper.auto.gt_audio_59.mp3": {
+            "original_path": "chunked_dataset\\4FEN95kaPIo\\chunk_5s\\noisy_0\\4FEN95kaPIo.whisper.auto.gt_audio_59.mp3",
+            "video_id": "4FEN95kaPIo",
+            "tc5_category": "Cantonese-HK",
+            "language_metadata": "cantonese",
+            "accent_metadata": "cantonese",
+            "noisy_folder": "noisy_0",
+            "conceptual_filename": "audio_59.mp3",
+            "original_filename": "4FEN95kaPIo.whisper.auto.gt_audio_59.mp3",
+            "chunk_type": "chunk_5s",
+            "destination_audio_path": "testset\\TC-5\\Cantonese-HK\\4FEN95kaPIo_noisy_0_4FEN95kaPIo.whisper.auto.gt_audio_59.mp3",
+            "destination_transcript_path": "testset\\TC-5\\Cantonese-HK\\4FEN95kaPIo_noisy_0_4FEN95kaPIo.whisper.auto.gt_audio_59.vtt",
+            "status": "Audio and VTT Copied",
+            "error_message": null,
+            "processed_timestamp": "2025-05-21 18:57:38"
+        }
+    }
+}
