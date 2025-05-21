@@ -1,0 +1,3 @@
+Specified language for transcription: cmn-Hans-CN
+API used language code: cmn-hans-cn (differs from specified cmn-Hans-CN)
+风力较大。

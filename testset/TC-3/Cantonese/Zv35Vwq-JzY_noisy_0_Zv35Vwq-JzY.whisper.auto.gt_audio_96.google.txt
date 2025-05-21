@@ -1,0 +1,3 @@
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+白金visa卡匯豐金卡匯豐金卡學生卡記得呢就要先去做登記先嘅

@@ -1,0 +1,3 @@
+Specified language for transcription: cmn-Hans-CN
+API used language code: cmn-hans-cn (differs from specified cmn-Hans-CN)
+今天最新进度就是客服说旧账户状态依然有效。

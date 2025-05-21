@@ -1,0 +1,3 @@
+Specified language for transcription: cmn-Hans-CN
+API used language code: cmn-hans-cn (differs from specified cmn-Hans-CN)
+足足是了45回，因为这个时候已经5点15了，第2天呢还。

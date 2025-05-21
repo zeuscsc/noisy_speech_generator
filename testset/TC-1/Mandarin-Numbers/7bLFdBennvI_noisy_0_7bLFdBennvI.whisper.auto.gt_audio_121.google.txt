@@ -1,0 +1,3 @@
+Specified language for transcription: cmn-Hans-CN
+API used language code: cmn-hans-cn (differs from specified cmn-Hans-CN)
+13点了就是手机网银操作便捷，高度数字化的服务体验。

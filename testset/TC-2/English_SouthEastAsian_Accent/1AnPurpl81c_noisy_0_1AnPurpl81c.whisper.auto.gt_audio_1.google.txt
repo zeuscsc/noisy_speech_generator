@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+In Singapore, we have Singaporean English or more commonly known as singly.

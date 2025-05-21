@@ -1,0 +1,3 @@
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+直播呢點樣投好多機構投資者呢都會睇住四五六呢

@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+So, the government launched to speak good English movement to try and improve English, standards, and eliminate English.

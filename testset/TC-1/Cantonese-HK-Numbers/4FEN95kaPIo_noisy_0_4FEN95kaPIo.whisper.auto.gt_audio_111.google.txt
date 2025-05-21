@@ -1,0 +1,3 @@
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+要推奴門出嚟選舉呀係咪即係我51你你而家就係

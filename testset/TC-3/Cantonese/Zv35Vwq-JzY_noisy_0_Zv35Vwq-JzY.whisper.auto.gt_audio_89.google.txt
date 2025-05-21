@@ -1,0 +1,3 @@
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+depends on你最紅自主獎賞交咗咩啦你揀咗相之味

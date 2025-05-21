@@ -1,0 +1,3 @@
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+都唔會中visa signature最紅獎賞錢就得基本回贈0.4%咁樣

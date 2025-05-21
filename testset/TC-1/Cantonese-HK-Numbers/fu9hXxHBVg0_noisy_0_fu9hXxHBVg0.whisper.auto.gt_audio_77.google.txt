@@ -1,0 +1,3 @@
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+如果係咁嘅話呢咁其實都係個舊嘅阿伯一百蚊鬆啲咁大廈嘅呢計喎

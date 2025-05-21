@@ -1,0 +1,3 @@
+Specified language for transcription: cmn-Hans-CN
+API used language code: cmn-hans-cn (differs from specified cmn-Hans-CN)
+不是你把那个钱还给你去给你这个奖赏钱。

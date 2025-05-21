@@ -1,0 +1,3 @@
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+對信用卡公司嚟講呢個世界有兩種人一月尾爭卡數

@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+you can use implementation optimization the first, installing this now import GPI OPD, and this is

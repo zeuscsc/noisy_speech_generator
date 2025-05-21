@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+Suppose this is the point where it has the maximum highest accuracy starting somewhere randomly.

@@ -1,0 +1,3 @@
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+明白咗一部分之後呢我哋做返個比較叫做呢個分析分析

@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+Short Explorers. So to do this, there are various techniques such as the expected Improvement method.

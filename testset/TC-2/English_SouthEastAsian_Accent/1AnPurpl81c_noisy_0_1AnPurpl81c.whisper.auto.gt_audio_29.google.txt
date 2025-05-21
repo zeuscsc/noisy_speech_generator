@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+Dictionary. All in all sing English, defined singaporeans and connects them with 1 another

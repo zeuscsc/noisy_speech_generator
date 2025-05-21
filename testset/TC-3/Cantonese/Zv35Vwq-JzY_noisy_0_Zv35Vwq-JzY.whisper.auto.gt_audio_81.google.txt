@@ -1,0 +1,3 @@
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+又有visa mastercard海外簽賬會收1.95%手續費第四呢就申請門檻都比較低啲

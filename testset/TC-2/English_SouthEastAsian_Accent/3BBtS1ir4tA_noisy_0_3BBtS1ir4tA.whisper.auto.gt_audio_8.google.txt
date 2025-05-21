@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+Also worth noting there's not DH. It's either D sound like that, this their them breed

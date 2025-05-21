@@ -1,0 +1,3 @@
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+咁你就會有3.69%回贈囉咁如果你想世界相互去簽賬

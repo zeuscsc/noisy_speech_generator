@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+The training is done, the search is done, we use the best parameter. So from study, get the best trial.

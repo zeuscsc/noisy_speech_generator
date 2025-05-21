@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+The variable that you want to predict X and Y, respectively, this you have in your data.

@@ -1,0 +1,3 @@
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+機場貴賓室不過呢你用咗之後60日呢就要千萬四千蚊只可以免費用

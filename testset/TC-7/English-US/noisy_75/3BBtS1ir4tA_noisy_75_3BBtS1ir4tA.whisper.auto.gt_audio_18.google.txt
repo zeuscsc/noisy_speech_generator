@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+and I tell them, even though I was born in Canada, I used to speak like this when I was very small,

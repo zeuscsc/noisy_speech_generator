@@ -10,7 +10,7 @@ from tqdm import tqdm
 from google.oauth2 import service_account
 import json
 
-BASE_AUDIO_DIRECTORY = "sampled_testcase"
+BASE_AUDIO_DIRECTORY = "testset"
 TARGET_SAMPLE_RATE = 16000
 MAX_WORKERS = 8
 
@@ -266,7 +266,7 @@ def collect_audio_files(base_dir: str, video_id_to_lang_map: dict) -> list:
         print("No audio files matched with language metadata or found after filtering.")
     return tasks
 
-def process_all_audio_files_parallel():
+def pipeline():
     print("--- Starting Transcription Process ---")
     print(f"Target STT Languages: {', '.join(USER_SPECIFIED_TARGET_LANGUAGE_CODES)}")
     print(f"Attempting to load language metadata from: {URL_META_JSON_PATH}")
@@ -307,4 +307,4 @@ def process_all_audio_files_parallel():
     print(f"Check individual '.google.txt' files in '{BASE_AUDIO_DIRECTORY}' subdirectories for transcription results or errors.")
 
 if __name__ == "__main__":
-    process_all_audio_files_parallel()
+    pipeline()

@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+And so that I could fit in and the kids wouldn't make fun of me but I never lost it.

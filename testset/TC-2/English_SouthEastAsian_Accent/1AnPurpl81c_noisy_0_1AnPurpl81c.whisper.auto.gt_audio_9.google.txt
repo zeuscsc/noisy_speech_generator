@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+The rest of Singapore's population, consisted of the Chinese malays and Indians, who were former migrants and only spoke their own native languages.

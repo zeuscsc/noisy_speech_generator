@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+Or what would be the value that you would try for your next iteration? We are more likely to try around.

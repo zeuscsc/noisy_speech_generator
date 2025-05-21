@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+Search approaches slightly better than what grid search approaches. That is, we take random value,

@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+English. You could say I'm going to read now bring on Bella. That's only 7.

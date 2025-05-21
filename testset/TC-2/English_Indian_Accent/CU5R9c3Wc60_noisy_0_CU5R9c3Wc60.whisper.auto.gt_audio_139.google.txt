@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+You get an accuracy of 9649. Okay, so this is the best performance. So once the model is once the

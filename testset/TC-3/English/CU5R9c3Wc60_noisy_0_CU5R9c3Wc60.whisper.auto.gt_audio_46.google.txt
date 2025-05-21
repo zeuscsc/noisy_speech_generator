@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+All these approaches is this. Now let's say here, the red points and the green points are the points that

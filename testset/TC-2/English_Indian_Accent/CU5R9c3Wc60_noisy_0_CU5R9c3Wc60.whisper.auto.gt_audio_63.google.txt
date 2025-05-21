@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+Minimize that error means we want to minimize it, right? So what is the problem? They're getting a particular

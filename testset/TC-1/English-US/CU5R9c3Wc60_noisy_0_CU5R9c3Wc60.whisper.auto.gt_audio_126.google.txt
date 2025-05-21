@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+These are the main part where you define what the hyperparameters are so you are passing it in.

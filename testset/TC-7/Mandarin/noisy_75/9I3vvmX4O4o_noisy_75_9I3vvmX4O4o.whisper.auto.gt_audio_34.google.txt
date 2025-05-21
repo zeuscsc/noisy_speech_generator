@@ -1,0 +1,3 @@
+Specified language for transcription: cmn-Hans-CN
+API used language code: cmn-hans-cn (differs from specified cmn-Hans-CN)
+互相互照，指定邮寄到指定的宪法，只不过我也看到有人说如果是线上开户的。

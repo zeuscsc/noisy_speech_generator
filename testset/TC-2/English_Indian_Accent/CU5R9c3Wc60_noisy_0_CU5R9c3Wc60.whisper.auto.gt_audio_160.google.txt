@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+Parameters that we have found out after building that you can do the train test split with the model.

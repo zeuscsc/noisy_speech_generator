@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+Third part, hyperparameter tuning. Now you know, hyperparameter tuning is a key step.

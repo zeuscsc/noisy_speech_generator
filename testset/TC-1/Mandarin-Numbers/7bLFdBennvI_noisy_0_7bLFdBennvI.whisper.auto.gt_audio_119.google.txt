@@ -1,0 +1,3 @@
+Specified language for transcription: cmn-Hans-CN
+API used language code: cmn-hans-cn (differs from specified cmn-Hans-CN)
+第2点，那就是多元化的金融服务，香港银行账户不仅提供基本的存款取款功能。

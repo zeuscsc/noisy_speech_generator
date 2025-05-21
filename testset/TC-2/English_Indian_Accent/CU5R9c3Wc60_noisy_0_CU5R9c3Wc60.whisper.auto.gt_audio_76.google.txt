@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+Configurations. Right? We want to minimize the number of iterations. So we need an acquisition.

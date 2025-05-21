@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+These Reds and these greens are the points that the model has already trained on the whites.

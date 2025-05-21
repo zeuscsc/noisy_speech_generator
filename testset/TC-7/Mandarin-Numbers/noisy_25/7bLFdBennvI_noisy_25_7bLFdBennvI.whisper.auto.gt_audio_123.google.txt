@@ -1,0 +1,3 @@
+Specified language for transcription: cmn-Hans-CN
+API used language code: cmn-hans-cn (differs from specified cmn-Hans-CN)
+14点开户门槛，不过一些小型的商业银行服务质量高且门槛更低。

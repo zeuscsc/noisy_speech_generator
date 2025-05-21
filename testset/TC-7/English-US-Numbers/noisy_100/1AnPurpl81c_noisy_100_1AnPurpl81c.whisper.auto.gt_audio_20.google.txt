@@ -1,0 +1,4 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+Don't worry, you can fix 1.
+ Show sing. English has a different standard.

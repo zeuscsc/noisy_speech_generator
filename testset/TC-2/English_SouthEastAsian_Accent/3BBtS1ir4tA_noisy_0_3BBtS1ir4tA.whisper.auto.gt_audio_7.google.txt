@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+My full name is Michael Ja Danto manil pesto. Try saying that pipette times.

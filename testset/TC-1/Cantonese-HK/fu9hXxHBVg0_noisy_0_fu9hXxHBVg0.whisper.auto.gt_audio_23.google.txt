@@ -1,0 +1,3 @@
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+非利息收入咁你出嚟講係睇信貸嘅情況啦即有冇得貸款

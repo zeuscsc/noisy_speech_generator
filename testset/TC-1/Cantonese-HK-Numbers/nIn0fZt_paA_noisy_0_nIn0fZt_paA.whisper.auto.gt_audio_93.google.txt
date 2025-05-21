@@ -1,0 +1,3 @@
+Specified language for transcription: yue-Hant-HK
+API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
+依然係偉大發明銀包呀至少放返兩三張呀窒下袋啦

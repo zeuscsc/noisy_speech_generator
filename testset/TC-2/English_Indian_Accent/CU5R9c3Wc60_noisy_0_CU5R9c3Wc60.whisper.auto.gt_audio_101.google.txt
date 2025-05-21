@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+Have a particular country and you want to trace the lines and the lines where the lines are the lines.

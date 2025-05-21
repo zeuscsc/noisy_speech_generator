@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+To deal with both of these approaches. So these are drawbacks, but the biggest drawback with both

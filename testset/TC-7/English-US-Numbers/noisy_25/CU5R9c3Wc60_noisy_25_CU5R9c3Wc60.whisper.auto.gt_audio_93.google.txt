@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+And store it back into the surrogate model again. So this process that is steps 2 and 3.

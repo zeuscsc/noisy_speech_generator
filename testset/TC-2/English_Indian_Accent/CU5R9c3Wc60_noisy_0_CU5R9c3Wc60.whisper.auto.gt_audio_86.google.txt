@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+And I'll try to explore how the model score turns out to be for a different configuration. So that

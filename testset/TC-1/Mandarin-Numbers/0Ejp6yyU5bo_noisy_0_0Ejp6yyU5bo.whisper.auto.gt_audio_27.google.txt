@@ -1,0 +1,3 @@
+Specified language for transcription: cmn-Hans-CN
+API used language code: cmn-hans-cn (differs from specified cmn-Hans-CN)
+然后第3项就是二维码和Apple，Pay还会有百分之二，那这三者是可以叠加。

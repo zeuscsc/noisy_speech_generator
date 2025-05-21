@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+English was celebrated in Singapore's, 50th birthday and was also added into the Oxford English.

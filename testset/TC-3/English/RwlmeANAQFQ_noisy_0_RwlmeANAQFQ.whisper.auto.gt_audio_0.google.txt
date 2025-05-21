@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+Welcome to perspectives from HSBC, thanks for joining us. And now on to Today's Show,

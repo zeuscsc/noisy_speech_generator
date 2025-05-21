@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+As a former colony of Britain, Singapore used British English as their official language for the Administrations.

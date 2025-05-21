@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+Texas. All right. Now you have this grid think of this grid as a map. Okay? This think of this grid as a map.

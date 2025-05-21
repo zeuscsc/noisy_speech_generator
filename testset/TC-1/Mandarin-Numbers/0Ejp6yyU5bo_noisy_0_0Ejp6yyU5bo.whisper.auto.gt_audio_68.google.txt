@@ -1,0 +1,3 @@
+Specified language for transcription: cmn-Hans-CN
+API used language code: cmn-hans-cn (differs from specified cmn-Hans-CN)
+如果超过200，会有3%的这样一个手续费，但是这个不是为什么呢，因为他是香港微信钱包。

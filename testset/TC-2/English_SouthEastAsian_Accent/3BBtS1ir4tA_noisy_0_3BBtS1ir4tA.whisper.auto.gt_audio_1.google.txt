@@ -1,0 +1,3 @@
+Specified language for transcription: en-US
+API used language code: en-us (differs from specified en-US)
+This video is an in-depth tutorial of the Filipino accent. The first thing to know is there are no F sounds
