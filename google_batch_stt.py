@@ -9,6 +9,9 @@ import concurrent.futures
 from tqdm import tqdm
 from google.oauth2 import service_account
 import json
+import time
+from typing import Tuple, Optional, List, Dict
+import pandas as pd
 
 BASE_AUDIO_DIRECTORY = "testset"
 TARGET_SAMPLE_RATE = 16000
@@ -52,10 +55,12 @@ def load_url_metadata(json_file_path: str, name_to_code_map: dict, target_codes_
                         hostname = parsed_url.hostname.lower() if parsed_url.hostname else ""
                         path = parsed_url.path
                         
-                        is_youtube_url = 'youtube.com' in hostname or 'youtu.be' in hostname
+                        is_youtube_url = 'youtube.com' in hostname or 'youtu.be' in hostname or \
+                                         'youtube.com' in hostname or \
+                                         'youtu.be' in hostname
                         
+                        extracted_youtube_id = None
                         if is_youtube_url:
-                            extracted_youtube_id = None
                             if 'youtube.com' in hostname:
                                 if '/watch' in path:
                                     params = parse_qs(parsed_url.query)
@@ -65,28 +70,38 @@ def load_url_metadata(json_file_path: str, name_to_code_map: dict, target_codes_
                                     path_segment = path.split('/embed/')
                                     if len(path_segment) > 1:
                                         extracted_youtube_id = path_segment[1].split('/')[0].split('?')[0]
-                                else:
-                                    id_candidate = None
+                                else: 
                                     for prefix in ['/v/', '/vi/', '/shorts/']:
                                         if prefix in path:
                                             path_segments = path.split(prefix)
                                             if len(path_segments) > 1:
-                                                id_candidate = path_segments[1].split('/')[0].split('?')[0]
+                                                extracted_youtube_id = path_segments[1].split('/')[0].split('?')[0]
                                                 break
-                                    if id_candidate:
-                                        extracted_youtube_id = id_candidate
-                            
                             elif 'youtu.be' in hostname:
-                                if path.lstrip('/'):
+                                 if path.lstrip('/'):
                                     extracted_youtube_id = path.lstrip('/').split('?')[0]
+                            elif 'youtu.be' in hostname:
+                                extracted_youtube_id = path.lstrip('/')
+                            elif 'youtube.com' in hostname:
+                                if '/watch' in path:
+                                    params = parse_qs(parsed_url.query)
+                                    if 'v' in params and params['v']:
+                                        extracted_youtube_id = params['v'][0]
+                                elif '/embed/' in path or '/v/' in path or '/vi/' in path or '/shorts/' in path:
+                                    for prefix in ['/embed/', '/v/', '/vi/', '/shorts/']:
+                                        if prefix in path:
+                                            path_segments = path.split(prefix)
+                                            if len(path_segments) > 1:
+                                                extracted_youtube_id = path_segments[1].split('/')[0].split('?')[0]
+                                                break
                             
                             if extracted_youtube_id and re.match(r"^[a-zA-Z0-9_-]{11}$", extracted_youtube_id):
                                 current_video_id = extracted_youtube_id
                             elif extracted_youtube_id:
-                                print(f"Warning: Extracted '{extracted_youtube_id}' from YouTube URL '{url_str}' but it's not a valid 11-character ID. Skipping.")
+                                print(f"Warning: Extracted '{extracted_youtube_id}' from URL '{url_str}' but it's not a valid 11-character YouTube ID. Skipping.")
                                 continue
-                            else:
-                                print(f"Warning: Identified as YouTube URL '{url_str}' but couldn't extract a valid video ID using known patterns. Skipping.")
+                            else: 
+                                print(f"Warning: URL '{url_str}' looks like YouTube but couldn't extract a video ID. Skipping.")
                                 continue
                         else: 
                             derived_id = os.path.basename(url_str)
@@ -137,45 +152,55 @@ def resample_audio(audio_array: np.ndarray, current_sr: int, target_sr: int) -> 
     resampled_audio = librosa.resample(audio_array, orig_sr=current_sr, target_sr=target_sr)
     return resampled_audio
 
-def transcribe_audio_file(task_details: tuple) -> str:
+def transcribe_audio_file(task_details: tuple) -> Tuple[str, Optional[float]]:
     audio_file_path, output_txt_path, specific_language_code = task_details
+    api_call_duration: Optional[float] = None
 
     if not specific_language_code:
         error_msg = f"Error for {audio_file_path}: No specific language code provided for transcription.\n"
-        with open(output_txt_path, 'w', encoding='utf-8') as f:
-            f.write(error_msg)
-        return audio_file_path
+        try:
+            with open(output_txt_path, 'w', encoding='utf-8') as f:
+                f.write(error_msg)
+        except Exception as e_write:
+            print(f"Critical: Failed to write error to {output_txt_path} for {audio_file_path}. Error: {e_write}")
+        return output_txt_path, api_call_duration
 
     try:
         audio_array, original_sampling_rate = librosa.load(audio_file_path, sr=None, mono=True)
         if audio_array.size == 0:
             with open(output_txt_path, 'w', encoding='utf-8') as f:
                 f.write(f"Error for {audio_file_path}: Audio array loaded from file is empty.\n")
-            return audio_file_path
+            return output_txt_path, api_call_duration
     except FileNotFoundError:
         with open(output_txt_path, 'w', encoding='utf-8') as f:
             f.write(f"Error for {audio_file_path}: Audio file not found.\n")
-        return audio_file_path
+        return output_txt_path, api_call_duration
     except Exception as e:
         error_msg = f"Error loading/preparing audio file {audio_file_path}: {e}\n{traceback.format_exc()}"
         with open(output_txt_path, 'w', encoding='utf-8') as f:
             f.write(error_msg)
-        return audio_file_path
+        return output_txt_path, api_call_duration
 
     try:
+        if not os.path.exists(CREDENTIALS_PATH):
+            error_msg = f"Error initializing Google Speech client for {audio_file_path}: Credentials file not found at {CREDENTIALS_PATH}\n"
+            with open(output_txt_path, 'w', encoding='utf-8') as f:
+                f.write(error_msg)
+            return output_txt_path, api_call_duration
         credentials = service_account.Credentials.from_service_account_file(CREDENTIALS_PATH)
         client = speech.SpeechClient(credentials=credentials)
     except Exception as e:
         error_msg = f"Error initializing Google Speech client for {audio_file_path}: {e}\n{traceback.format_exc()}"
         with open(output_txt_path, 'w', encoding='utf-8') as f:
             f.write(error_msg)
-        return audio_file_path
+        return output_txt_path, api_call_duration
 
     try:
         if original_sampling_rate != TARGET_SAMPLE_RATE:
             audio_array_resampled = resample_audio(audio_array, original_sampling_rate, TARGET_SAMPLE_RATE)
         else:
             audio_array_resampled = audio_array
+        
         if audio_array_resampled.dtype != np.float32:
             audio_array_resampled = audio_array_resampled.astype(np.float32)
 
@@ -186,7 +211,7 @@ def transcribe_audio_file(task_details: tuple) -> str:
         error_msg = f"Error processing audio array for {audio_file_path}: {e}\n{traceback.format_exc()}"
         with open(output_txt_path, 'w', encoding='utf-8') as f:
             f.write(error_msg)
-        return audio_file_path
+        return output_txt_path, api_call_duration
 
     config = speech.RecognitionConfig(
         encoding=speech.RecognitionConfig.AudioEncoding.LINEAR16,
@@ -201,28 +226,33 @@ def transcribe_audio_file(task_details: tuple) -> str:
     language_info = f"Specified language for transcription: {specific_language_code}\n"
 
     try:
+        start_time = time.monotonic()
         response = client.recognize(config=config, audio=audio_input)
+        end_time = time.monotonic()
+        api_call_duration = end_time - start_time
+
         if not response.results:
             full_transcript = "No speech recognized."
         else:
             for result_idx, result in enumerate(response.results):
                 if result_idx == 0 and hasattr(result, 'language_code') and result.language_code != specific_language_code:
-                     language_info += f"API used language code: {result.language_code} (differs from specified {specific_language_code})\n"
+                    language_info += f"API used language code: {result.language_code} (differs from specified {specific_language_code})\n"
                 elif result_idx == 0 and hasattr(result, 'language_code'):
-                     language_info += f"API confirmed using language code: {result.language_code}\n"
+                    language_info += f"API confirmed using language code: {result.language_code}\n"
                 full_transcript += result.alternatives[0].transcript + "\n"
         
         with open(output_txt_path, 'w', encoding='utf-8') as f:
             f.write(full_transcript.strip())
+        return output_txt_path, api_call_duration
 
     except Exception as e:
         error_msg = f"Error during API call for {audio_file_path} (Lang: {specific_language_code}): {e}\n{traceback.format_exc()}"
         with open(output_txt_path, 'w', encoding='utf-8') as f:
             f.write(error_msg)
-    return audio_file_path
+        return output_txt_path, None
 
-def collect_audio_files(base_dir: str, video_id_to_lang_map: dict) -> list:
-    tasks = []
+def collect_audio_files(base_dir: str, video_id_to_lang_map: Dict[str, str]) -> List[Tuple[str, str, str]]:
+    tasks: List[Tuple[str, str, str]] = []
     if not os.path.isdir(base_dir):
         print(f"Error: Base directory '{base_dir}' not found.")
         return tasks
@@ -247,7 +277,7 @@ def collect_audio_files(base_dir: str, video_id_to_lang_map: dict) -> list:
                 extracted_video_id_for_lookup = match.group(1)
             
             if not extracted_video_id_for_lookup:
-                print(f"Info: Could not extract an 11-character video ID pattern from filename base '{base_name_from_file}' (from file '{os.path.basename(audio_file_path)}'). This file will be skipped.")
+                print(f"Info: Could not extract an 11-character video ID pattern from filename base '{base_name_from_file}' (from file '{os.path.basename(audio_file_path)}'). This file will be skipped if metadata relies on 11-char IDs.")
                 continue
 
             specific_language_code = video_id_to_lang_map.get(extracted_video_id_for_lookup)
@@ -257,8 +287,9 @@ def collect_audio_files(base_dir: str, video_id_to_lang_map: dict) -> list:
                 continue 
 
             output_filename = base_name_from_file + ".google.txt"
-            output_txt_path = os.path.join(os.path.dirname(audio_file_path), output_filename)
-            os.makedirs(os.path.dirname(output_txt_path), exist_ok=True)
+            output_dir = os.path.dirname(audio_file_path)
+            output_txt_path = os.path.join(output_dir, output_filename)
+            
             tasks.append((audio_file_path, output_txt_path, specific_language_code))
             
     if not tasks:
@@ -287,23 +318,52 @@ def pipeline():
         return
 
     print(f"\nFound {len(tasks)} audio files matched with language metadata to process.")
-    effective_max_workers = MAX_WORKERS if MAX_WORKERS and MAX_WORKERS > 0 else os.cpu_count()
+    effective_max_workers = MAX_WORKERS if MAX_WORKERS and MAX_WORKERS > 0 else (os.cpu_count() or 1)
     print(f"Using up to {effective_max_workers} worker processes.")
 
     processed_count = 0
+    api_call_durations_list = []
+
     with concurrent.futures.ProcessPoolExecutor(max_workers=effective_max_workers) as executor:
         futures = [executor.submit(transcribe_audio_file, task) for task in tasks]
+        
         for future in tqdm(concurrent.futures.as_completed(futures), total=len(tasks), desc="Transcribing audio"):
             try:
-                future.result()
+                output_path, duration = future.result()
+                if duration is not None:
+                    api_call_durations_list.append({'output_path': output_path, 'duration_seconds': duration})
+                else:
+                    api_call_durations_list.append({'output_path': output_path, 'duration_seconds': None})
                 processed_count += 1
             except Exception as e:
-                print(f"A task in the pool failed unexpectedly: {e}\n{traceback.format_exc()}")
-                processed_count += 1
+                print(f"A task in the pool encountered an error during execution or result retrieval: {e}\n{traceback.format_exc()}")
+                processed_count += 1 
                 
     print(f"\n--- Processing Complete ---")
     print(f"Total audio files submitted for processing: {processed_count} (out of {len(tasks)} matched files)")
     print(f"Check individual '.google.txt' files in '{BASE_AUDIO_DIRECTORY}' subdirectories for transcription results or errors.")
 
+    duration_csv_path = "api_call_durations.csv"
+    if api_call_durations_list:
+        try:
+            df = pd.DataFrame(api_call_durations_list)
+            df = df.sort_values(by='output_path')
+            df.to_csv(duration_csv_path, index=False, encoding='utf-8')
+            print(f"API call durations successfully saved to: {duration_csv_path}")
+        except Exception as e:
+            print(f"Error saving API call durations to CSV: {e}\n{traceback.format_exc()}")
+    else:
+        print("No API call durations were recorded to save.")
+
 if __name__ == "__main__":
-    pipeline()
+    if not os.path.exists(CREDENTIALS_PATH):
+         print(f"CRITICAL ERROR: Google Cloud credentials file not found at '{CREDENTIALS_PATH}'.")
+         print("Please set the correct path for CREDENTIALS_PATH or use GOOGLE_APPLICATION_CREDENTIALS environment variable.")
+    elif not os.path.exists(URL_META_JSON_PATH):
+        print(f"CRITICAL ERROR: URL metadata file not found at '{URL_META_JSON_PATH}'.")
+        print("Please ensure the metadata file exists at the specified path.")
+    elif not os.path.isdir(BASE_AUDIO_DIRECTORY):
+        print(f"CRITICAL ERROR: Base audio directory not found at '{BASE_AUDIO_DIRECTORY}'.")
+        print("Please ensure the audio directory exists.")
+    else:
+        pipeline()
