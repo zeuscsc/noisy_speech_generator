@@ -1,4 +1,4 @@
-﻿PredictionFile,STT_Method,ResponseSpeed_s,TestCase
+﻿PredictionFile,STT_Method,ResponseSpeed_s_from_csv,TestCase
 4FEN95kaPIo_noisy_0_4FEN95kaPIo.whisper.auto.gt_audio_111.google.txt,google,1.343,TC-6
 4FEN95kaPIo_noisy_0_4FEN95kaPIo.whisper.auto.gt_audio_62.google.txt,google,1.438,TC-6
 FmpXfFwzvP8_noisy_0_FmpXfFwzvP8.whisper.auto.gt_audio_13.google.txt,google,2.859,TC-6

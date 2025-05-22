@@ -948,7 +948,7 @@ def pipeline(base_test_set_dir="testset", output_dir="test_case_logs",
     logging.info(f"--- Processing Test Case 6 (API Durations) from: {api_durations_csv_file_path} ---")
     tc6_durations_df = testcase6(api_durations_csv_file_path) 
     if not tc6_durations_df.empty:
-        output_path_tc6_standalone = os.path.join(output_dir, "stt_comparison_tc6.csv")
+        output_path_tc6_standalone = os.path.join(output_dir, "stt_comparison_tc6_results.csv")
         try:
             
             tc6_durations_df.to_csv(output_path_tc6_standalone, index=False, encoding='utf-8-sig')
