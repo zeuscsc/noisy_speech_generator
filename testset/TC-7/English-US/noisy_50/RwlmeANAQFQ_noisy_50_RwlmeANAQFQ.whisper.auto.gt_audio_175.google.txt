@@ -1,2 +1,1 @@
-Specified language for transcription: en-US
 No speech recognized.

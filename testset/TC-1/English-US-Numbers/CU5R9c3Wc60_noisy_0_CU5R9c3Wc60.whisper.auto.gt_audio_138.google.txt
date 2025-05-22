@@ -1,3 +1,1 @@
-Specified language for transcription: en-US
-API used language code: en-us (differs from specified en-US)
 I've already run this code and you can see it has run for about 100 different iterations. And at the end,

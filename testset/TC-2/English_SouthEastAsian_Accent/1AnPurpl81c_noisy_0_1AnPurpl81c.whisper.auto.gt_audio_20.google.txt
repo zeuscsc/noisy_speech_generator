@@ -1,3 +1,1 @@
-Specified language for transcription: en-US
-API used language code: en-us (differs from specified en-US)
 1 by saying, don't worry you can fix 1 as shown sing English has a different standard

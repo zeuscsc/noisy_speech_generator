@@ -1,3 +1,1 @@
-Specified language for transcription: en-US
-API used language code: en-us (differs from specified en-US)
 When I go to Philippines, I love watching TV and all the funny advertisements kuya. Germs.

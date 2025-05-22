@@ -1,3 +1,1 @@
-Specified language for transcription: en-US
-API used language code: en-us (differs from specified en-US)
 Be limited. For example we are searching for these 3 values of hyperparameter 1.

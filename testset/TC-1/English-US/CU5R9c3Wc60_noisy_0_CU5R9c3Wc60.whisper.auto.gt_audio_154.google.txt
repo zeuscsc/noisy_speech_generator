@@ -1,3 +1,1 @@
-Specified language for transcription: en-US
-API used language code: en-us (differs from specified en-US)
 Parameters, we are defining the bounds and call gpop methods. Beijing optimization. We pass the

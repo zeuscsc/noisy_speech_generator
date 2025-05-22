@@ -1,5 +1,3 @@
-Specified language for transcription: en-US
-API used language code: en-us (differs from specified en-US)
 Objective, with minimum number of iterations.
  How do we do this?
  This essentially boils down into

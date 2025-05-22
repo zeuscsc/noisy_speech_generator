@@ -1,3 +1,1 @@
-Specified language for transcription: cmn-Hans-CN
-API used language code: cmn-hans-cn (differs from specified cmn-Hans-CN)
 另一项活动机触发现里面是和第2名，是一个上世界百分之二。

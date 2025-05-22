@@ -1,4 +1,2 @@
-Specified language for transcription: en-US
-API used language code: en-us (differs from specified en-US)
 You can get.
  What's the best value for estimated?

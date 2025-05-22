@@ -1,3 +1,1 @@
-Specified language for transcription: en-US
-API used language code: en-us (differs from specified en-US)
 What is called the grid search? For example, you have 2 hyperparameters, hyperparameter, 1 and

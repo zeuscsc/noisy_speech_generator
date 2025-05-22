@@ -1,4 +1,2 @@
-Specified language for transcription: en-US
-API used language code: en-us (differs from specified en-US)
 1.
  we get the model here, gets to see where

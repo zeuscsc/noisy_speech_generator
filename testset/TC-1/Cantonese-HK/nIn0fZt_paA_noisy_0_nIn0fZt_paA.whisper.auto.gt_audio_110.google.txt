@@ -1,3 +1,1 @@
-Specified language for transcription: yue-Hant-HK
-API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
 佢哋會借錢去咗啲活增值嘅行為買啲會升值嘅嘢

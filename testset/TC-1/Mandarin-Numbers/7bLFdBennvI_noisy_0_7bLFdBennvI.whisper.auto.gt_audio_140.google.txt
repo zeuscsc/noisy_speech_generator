@@ -1,4 +1,2 @@
-Specified language for transcription: cmn-Hans-CN
-API used language code: cmn-hans-cn (differs from specified cmn-Hans-CN)
 查验证。
  另外，开户当日需要存入等值5000元以上。

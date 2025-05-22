@@ -1,3 +1,1 @@
-Specified language for transcription: en-US
-API used language code: en-us (differs from specified en-US)
 C. P opt. So both are good. We will see both in this 1. So for optiona, you need to First install.

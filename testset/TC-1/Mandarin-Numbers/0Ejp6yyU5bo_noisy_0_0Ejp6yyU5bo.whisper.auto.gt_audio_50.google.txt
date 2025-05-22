@@ -1,3 +1,1 @@
-Specified language for transcription: cmn-Hans-CN
-API used language code: cmn-hans-cn (differs from specified cmn-Hans-CN)
 这个是满足了，也就是说他不能够吃馒10%点四，但是让它是可以吃到20%的。

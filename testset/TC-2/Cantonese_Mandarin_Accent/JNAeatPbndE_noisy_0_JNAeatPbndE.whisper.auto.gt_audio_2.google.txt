@@ -1,3 +1,1 @@
-Specified language for transcription: yue-Hant-HK
-API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
 我哋聽talk跟住推出呢樣身份係一款破天方法是大家產

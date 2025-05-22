@@ -1,3 +1,1 @@
-Specified language for transcription: yue-Hant-HK
-API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
 正我識好多靚女㗎嘛你明星呀啲嘢好多男朋

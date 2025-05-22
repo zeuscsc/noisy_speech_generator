@@ -1,3 +1,1 @@
-Specified language for transcription: en-US
-API used language code: en-us (differs from specified en-US)
 but 1 thing that we do need to keep in mind is that China is actually looking more and more like a big

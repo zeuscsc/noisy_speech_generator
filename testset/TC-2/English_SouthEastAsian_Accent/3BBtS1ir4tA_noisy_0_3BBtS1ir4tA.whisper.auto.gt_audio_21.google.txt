@@ -1,3 +1,1 @@
-Specified language for transcription: en-US
-API used language code: en-us (differs from specified en-US)
 Anyway, there are 171 native languages in Philippines. Isn't that incredible?

@@ -1,3 +1,1 @@
-Specified language for transcription: en-US
-API used language code: en-us (differs from specified en-US)
 So the next time you cannot make out the accent of your Filipino neighbor cuz, you know, we're everywhere.

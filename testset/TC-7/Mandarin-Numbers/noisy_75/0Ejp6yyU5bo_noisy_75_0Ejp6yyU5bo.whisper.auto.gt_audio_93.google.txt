@@ -1,3 +1,1 @@
-Specified language for transcription: cmn-Hans-CN
-API used language code: cmn-hans-cn (differs from specified cmn-Hans-CN)
 还吊着的天港币的这个曾担心的朋友点赞！

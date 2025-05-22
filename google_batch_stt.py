@@ -213,7 +213,6 @@ def transcribe_audio_file(task_details: tuple) -> str:
                 full_transcript += result.alternatives[0].transcript + "\n"
         
         with open(output_txt_path, 'w', encoding='utf-8') as f:
-            f.write(language_info)
             f.write(full_transcript.strip())
 
     except Exception as e:

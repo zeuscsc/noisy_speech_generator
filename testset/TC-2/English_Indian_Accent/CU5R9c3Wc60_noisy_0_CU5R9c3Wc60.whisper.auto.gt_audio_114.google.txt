@@ -1,3 +1,1 @@
-Specified language for transcription: en-US
-API used language code: en-us (differs from specified en-US)
 Function, acquisition function will decide what route to take in order to reach the optimal point. So this is

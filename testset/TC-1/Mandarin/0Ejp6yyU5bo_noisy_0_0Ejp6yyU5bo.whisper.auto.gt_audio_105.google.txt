@@ -1,3 +1,1 @@
-Specified language for transcription: cmn-Hans-CN
-API used language code: cmn-hans-cn (differs from specified cmn-Hans-CN)
 路边的小摊上，路边的小店上只要有炮子机，只要有怕死的都能刷。

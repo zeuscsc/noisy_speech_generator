@@ -1,3 +1,1 @@
-Specified language for transcription: cmn-Hans-CN
-API used language code: cmn-hans-cn (differs from specified cmn-Hans-CN)
 可以通过一系列复杂的手段去还讲的的长大，这个就可以了。

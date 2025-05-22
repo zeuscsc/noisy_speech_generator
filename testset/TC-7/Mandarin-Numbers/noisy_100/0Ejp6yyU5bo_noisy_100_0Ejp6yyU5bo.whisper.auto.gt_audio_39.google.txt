@@ -1,2 +1,1 @@
-Specified language for transcription: cmn-Hans-CN
 No speech recognized.

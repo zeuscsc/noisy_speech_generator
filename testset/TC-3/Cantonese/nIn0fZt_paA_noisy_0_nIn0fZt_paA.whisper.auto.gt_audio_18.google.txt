@@ -1,3 +1,1 @@
-Specified language for transcription: yue-Hant-HK
-API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
 一世都還唔清香港有六成嘅人信用卡

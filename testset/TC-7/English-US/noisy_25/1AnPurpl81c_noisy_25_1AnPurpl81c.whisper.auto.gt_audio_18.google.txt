@@ -1,3 +1,1 @@
-Specified language for transcription: en-US
-API used language code: en-us (differs from specified en-US)
 You can say sorry to make your apology, sound less formal. If you want to blame someone,

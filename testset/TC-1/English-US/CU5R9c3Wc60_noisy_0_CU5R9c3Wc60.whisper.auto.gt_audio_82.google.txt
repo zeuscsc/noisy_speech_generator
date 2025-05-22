@@ -1,3 +1,1 @@
-Specified language for transcription: en-US
-API used language code: en-us (differs from specified en-US)
 The decisions are doing well. We will try to for the next iteration when it goes for an exploit option.

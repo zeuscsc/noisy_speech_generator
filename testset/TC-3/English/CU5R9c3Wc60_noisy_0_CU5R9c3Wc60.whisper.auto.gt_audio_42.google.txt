@@ -1,3 +1,1 @@
-Specified language for transcription: en-US
-API used language code: en-us (differs from specified en-US)
 The lowest value of the errors. Also, the search space when we deal especially with grid search

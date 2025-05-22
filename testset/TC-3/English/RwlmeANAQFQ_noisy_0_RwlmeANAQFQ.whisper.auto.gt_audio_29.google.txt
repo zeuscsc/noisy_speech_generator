@@ -1,3 +1,1 @@
-Specified language for transcription: en-US
-API used language code: en-us (differs from specified en-US)
 also start to talk about sectors specific measures in order to cut the capacity and

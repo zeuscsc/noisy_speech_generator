@@ -1,3 +1,1 @@
-Specified language for transcription: yue-Hant-HK
-API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
 派息的部分呀咁呢一年嘅角度計呢

@@ -1,3 +1,1 @@
-Specified language for transcription: en-US
-API used language code: en-us (differs from specified en-US)
 cost function or sorry, the loss function loss function like, error, some type of an error or

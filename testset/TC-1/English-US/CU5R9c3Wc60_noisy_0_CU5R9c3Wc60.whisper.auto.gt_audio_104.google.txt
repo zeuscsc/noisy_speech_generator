@@ -1,3 +1,1 @@
-Specified language for transcription: en-US
-API used language code: en-us (differs from specified en-US)
 Increasing the accuracy. We want to go in a in a particular route that will reach us to the maximum.

@@ -1,3 +1,1 @@
-Specified language for transcription: yue-Hant-HK
-API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
 你嘅消費習慣係點嘅呢就冇欠款呢我相信必定有surprise

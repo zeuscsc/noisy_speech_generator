@@ -1,3 +1,1 @@
-Specified language for transcription: cmn-Hans-CN
-API used language code: cmn-hans-cn (differs from specified cmn-Hans-CN)
 Google出去哪管那这个银行的经理也没有多问，也没有让我出示任何证。

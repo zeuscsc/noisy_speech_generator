@@ -1,4 +1,2 @@
-Specified language for transcription: en-US
-API used language code: en-us (differs from specified en-US)
 so, I think there's some challenges, but
  1 example is they want to um obviously stabilize the real estate.

@@ -1,3 +1,1 @@
-Specified language for transcription: yue-Hant-HK
-API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
 香港呀你最仆街啦嗰陣時跌幾多呀嗰陣時著呢啲鞋

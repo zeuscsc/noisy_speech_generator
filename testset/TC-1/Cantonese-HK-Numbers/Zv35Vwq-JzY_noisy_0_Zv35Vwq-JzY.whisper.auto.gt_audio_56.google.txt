@@ -1,3 +1,1 @@
-Specified language for transcription: yue-Hant-HK
-API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
 白金卡金卡金卡學生卡最紅自主獎賞呢都係一樣

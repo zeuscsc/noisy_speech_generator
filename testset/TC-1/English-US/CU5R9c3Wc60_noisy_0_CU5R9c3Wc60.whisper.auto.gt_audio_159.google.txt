@@ -1,3 +1,1 @@
-Specified language for transcription: en-US
-API used language code: en-us (differs from specified en-US)
 we need to sort of rebuild the model again that is the random Forest classifier the

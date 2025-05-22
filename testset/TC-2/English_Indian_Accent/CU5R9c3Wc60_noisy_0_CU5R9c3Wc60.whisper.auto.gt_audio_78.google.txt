@@ -1,3 +1,1 @@
-Specified language for transcription: en-US
-API used language code: en-us (differs from specified en-US)
 if you are familiar with the concept of reinforcement learning, if you're familiar with reinforcement,

@@ -1,3 +1,1 @@
-Specified language for transcription: yue-Hant-HK
-API used language code: yue-hant-hk (differs from specified yue-Hant-HK)
 咁係咪真係咁高級呢我哋就先睇下佢嘅回贈方便啦基本上只有0.4個

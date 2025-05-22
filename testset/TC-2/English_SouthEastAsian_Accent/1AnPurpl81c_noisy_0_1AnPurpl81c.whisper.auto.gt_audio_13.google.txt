@@ -1,3 +1,1 @@
-Specified language for transcription: en-US
-API used language code: en-us (differs from specified en-US)
 In English, you will say seems like it is going to rain today. I think it would be best for you to bring.
