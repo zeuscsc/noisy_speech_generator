@@ -11,17 +11,17 @@ TEST_CASE_CONFIG = {
     "TC-1": {
         "title": "Multilingual Support",
         "file_name": "stt_comparison_tc1_results.csv",
-        "input_desc": "Voice datasets for each language (English-US, English-UK, English-HK, Cantonese-HK, Mandarin), with length ranging from 4s to 10s.\nGround truth transcriptions for each clip.",
-        "output_desc": "WER (Word Error Rate), WRR (Word Recognition Rate) for each language.",
-        "relevant_cols": ["LanguageSubFolder", "WER", "WRR_Percent"],
+        "input_desc": "Voice datasets for each language (English-US, English-UK, English-HK, Cantonese-HK, Mandarin), with length ranging from 2s to 10s.\nGround truth transcriptions for each clip.",
+        "output_desc": "WER (Word Error Rate), WRR (Word Recognition Rate) for each language, and Accuracy for Numbers (Sequence).",
+        "relevant_cols": ["LanguageSubFolder", "WER", "WRR_Percent", "NumberAccuracy_Percent"],
         "group_by_col": "LanguageSubFolder",
-        "metrics_to_process": {"WER": "avg", "WRR_Percent": "avg"},
-        "report_headers": ["Language", "Average WER (%)", "Average WRR (%)"]
+        "metrics_to_process": {"WER": "avg", "WRR_Percent": "avg", "NumberAccuracy_Percent": "avg"},
+        "report_headers": ["Language", "Average WER (%)", "Average WRR (%)", "Average Sequence Accuracy (%)"]
     },
     "TC-2": {
         "title": "Robustness Across Accents",
         "file_name": "stt_comparison_tc2_results.csv",
-        "input_desc": "Voice datasets for each language (Cantonese-HK with Mandarin accent, Mandarin with Cantonese accent, English with Southeast Asian accent, English with Indian accent), with length ranging from 4s to 10s.\nGround truth transcriptions for each clip.",
+        "input_desc": "Voice datasets for each language (Cantonese-HK with Mandarin accent, Mandarin with Cantonese accent, English with Southeast Asian accent, English with Indian accent), with length ranging from 2s to 10s.\nGround truth transcriptions for each clip.",
         "output_desc": "WER (Word Error Rate), WRR (Word Recognition Rate) and for each language.",
         "relevant_cols": ["LanguageSubFolder", "WER", "WRR_Percent"],
         "group_by_col": "LanguageSubFolder",
@@ -31,8 +31,8 @@ TEST_CASE_CONFIG = {
     "TC-3": {
         "title": "Domain Vocabulary Support",
         "file_name": "stt_comparison_tc3_results.csv",
-        "input_desc": "Voice datasets for each language (English, Cantonese-HK), with length ranging from 4s to 10s, where HSBC specific terms are mentioned.\nGround truth transcriptions for each clip.",
-        "output_desc": "WER (Word Error Rate), and full vocab recognition for each language.",
+        "input_desc": "Voice datasets for each language (English, Cantonese-HK), with length ranging from 2s to 10s, where HSBC specific terms are mentioned.\nGround truth transcriptions for each clip.",
+        "output_desc": "WER (Word Error Rate), and (Accuracy) full vocab recognition for each language.",
         "relevant_cols": ["LanguageSubFolder", "WER", "VocabularyAccuracy_Percent"],
         "group_by_col": "LanguageSubFolder",
         "metrics_to_process": {"WER": "avg", "VocabularyAccuracy_Percent": "avg"},
@@ -41,8 +41,8 @@ TEST_CASE_CONFIG = {
     "TC-4": {
         "title": "Auto Punctuation Feature",
         "file_name": "stt_comparison_tc4_results.csv",
-        "input_desc": "Voice datasets for each language (English-US, English-UK, English-HK, Cantonese-HK, Mandarin), with length ranging from 4s to 10s, and clear punctuation syntax (periods, commas, question marks).\nGround truth transcriptions for each clip.",
-        "output_desc": "Proportion of correct punctuation placements for each language.",
+        "input_desc": "Voice datasets for each language (English-US, English-UK, English-HK, Cantonese-HK, Mandarin), with length ranging from 2s to 10s, and clear punctuation syntax (periods, commas, question marks).\nGround truth transcriptions for each clip.",
+        "output_desc": "Proportion of correct punctuation (Sentence Sepreation) placements for each language.",
         "relevant_cols": ["LanguageSubFolder", "SegmentationAccuracy_Percent"],
         "group_by_col": "LanguageSubFolder",
         "metrics_to_process": {"SegmentationAccuracy_Percent": "avg"},
@@ -51,7 +51,7 @@ TEST_CASE_CONFIG = {
     "TC-5": {
         "title": "Profanity Filtering",
         "file_name": "stt_comparison_tc5_results.csv",
-        "input_desc": "Voice datasets for each language (English-US, English-UK, English-HK, Cantonese-HK, Mandarin), with length ranging from 4s to 10s, containing profanity vocabulary.\nGround truth transcriptions for each clip.",
+        "input_desc": "Voice datasets for each language (English-US, English-UK, English-HK, Cantonese-HK, Mandarin), with length ranging from 2s to 10s, containing profanity vocabulary.\nGround truth transcriptions for each clip.",
         "output_desc": "Rate of profanity vocabulary identified for each language.",
         "relevant_cols": ["LanguageSubFolder", "VocabularyAccuracy_Percent"],
         "group_by_col": "LanguageSubFolder",
@@ -72,12 +72,12 @@ TEST_CASE_CONFIG = {
     "TC-7": {
         "title": "Noise Robustness",
         "file_name": "stt_comparison_tc7_results.csv",
-        "input_desc": "Voice datasets for each language (English-US, English-UK, English-HK, Cantonese-HK, Mandarin), with length ranging from 5s to 10s, mixed with various environment noise at different SNR levels.",
-        "output_desc": "WER (Word Error Rate), WRR (Word Recognition Rate).",
-        "relevant_cols": ["LanguageSubFolder", "NoiseLevel_Percent", "WER", "WRR_Percent"],
+        "input_desc": "Voice datasets for each language (English-US, English-UK, English-HK, Cantonese-HK, Mandarin) with Numbers (Sequence), with length ranging from 2s to 10s, mixed with various environment noise at different SNR levels.",
+        "output_desc": "WER (Word Error Rate), WRR (Word Recognition Rate), and Accuracy for Numbers (Sequence) for each language and noise level.",
+        "relevant_cols": ["LanguageSubFolder", "NoiseLevel_Percent", "WER", "WRR_Percent", "NumberAccuracy_Percent"],
         "group_by_col": ["LanguageSubFolder", "NoiseLevel_Percent"],
-        "metrics_to_process": {"WER": "avg", "WRR_Percent": "avg"},
-        "report_headers": ["Language/Condition", "Noise Level (%)", "Average WER (%)", "Average WRR (%)"]
+        "metrics_to_process": {"WER": "avg", "WRR_Percent": "avg", "NumberAccuracy_Percent": "avg"},
+        "report_headers": ["Language/Condition", "Noise Level (%)", "Average WER (%)", "Average WRR (%)", "Average Sequence Accuracy (%)"]
     }
 }
 
