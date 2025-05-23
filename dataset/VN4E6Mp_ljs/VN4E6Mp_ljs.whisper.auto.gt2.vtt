@@ -1,7 +1,7 @@
 WEBVTT
 
 00:00.000 --> 00:16.000
-Today being teacher's day, let us pay a small tribute to Mr. V. R. Venkatesan, who was undoubtedly one of the best teachers for marine engineers.
+Today being teacher's day,let us pay a small tribute to Mr.V.R.Venkatesan,who was undoubtedly one of the best teachers for marine engineers.
 
 00:16.000 --> 00:22.000
 He was considered a guru of control engineering amongst marine engineers.
@@ -10,13 +10,13 @@ He was considered a guru of control engineering amongst marine engineers.
 It may be impossible for most of us to understand this topic the way he had understood.
 
 00:27.000 --> 00:40.000
-I might have never ever dared to make a video on this topic, but as an afterthought I felt the best tribute I can pay to V. R. V. is to make a small video on a topic he had really loved and mastered.
+I might have never ever dared to make a video on this topic,but as an afterthought I felt the best tribute I can pay to V.R.V.is to make a small video on a topic he had really loved and mastered.
 
 00:40.000 --> 00:45.000
 I had always found this topic very challenging and still have lots of gaps in my understanding.
 
 00:45.000 --> 00:50.000
-The clarity of thought V. R. V. had will always be elusive to most of us.
+The clarity of thought V.R.V.had will always be elusive to most of us.
 
 00:50.000 --> 01:01.000
 I strongly hope that I will be able to do some justice to this topic and generate enough interest to direct you to his elaborate video on this topic in HMT YouTube channel.
@@ -25,37 +25,37 @@ I strongly hope that I will be able to do some justice to this topic and generat
 The link for his full length video will be available in the description.
 
 01:05.000 --> 01:12.000
-With a small request to the departed soul to guide us further on the pursuit to understand marine engineering, let us move on to the video.
+With a small request to the departed soul to guide us further on the pursuit to understand marine engineering,let us move on to the video.
 
 01:12.000 --> 01:23.000
-In this video we will try and understand the basics of three types of control action proportional, integral and derivative.
+In this video we will try and understand the basics of three types of control action proportional,integral and derivative.
 
 01:23.000 --> 01:32.000
 Most of the materials available in the internet or in the books look at it in a very mathematical way like this.
 
 01:32.000 --> 01:41.000
-This is proportional to KPE in some brackets, some T, which is terrifying to most of us marine engineers except for a gifted few.
+This is proportional to KPE in some brackets,some T,which is terrifying to most of us marine engineers except for a gifted few.
 
 01:41.000 --> 01:47.000
-If somebody wants elaboration on mathematics, please do request in comment section we can handle it separately.
+If somebody wants elaboration on mathematics,please do request in comment section we can handle it separately.
 
 01:47.000 --> 01:56.000
 But let us now try to understand it in a very rudimentary way without any mathematics by taking the example of maintaining the level of water in the tank.
 
 01:56.000 --> 02:02.000
-We want the water level to be maintained here, we call this at the set point.
+We want the water level to be maintained here,we call this at the set point.
 
 02:02.000 --> 02:17.000
-Presently it is in a steady state balanced with water flowing in, supply water flowing in at 200 liters per minute and water being consumed from the tank at 200 liters per minute.
+Presently it is in a steady state balanced with water flowing in,supply water flowing in at 200 liters per minute and water being consumed from the tank at 200 liters per minute.
 
 02:17.000 --> 02:28.000
-I have a supply wall here, which is presently 50% open, I can keep it 100% open or 100% shut.
+I have a supply wall here,which is presently 50% open,I can keep it 100% open or 100% shut.
 
 02:28.000 --> 02:37.000
 And this wall can be controlled incrementally or say proportionately between this full open and full shut position.
 
 02:37.000 --> 02:47.000
-Now the water level in the tank is supposed to be maintained here and if by chance the water level falls here, what I have is a error.
+Now the water level in the tank is supposed to be maintained here and if by chance the water level falls here,what I have is a error.
 
 02:47.000 --> 02:51.000
 We call it as a deviation or offset or error.
@@ -64,7 +64,7 @@ We call it as a deviation or offset or error.
 We also sometimes use the jargon's desired value of the control variable.
 
 02:57.000 --> 03:01.000
-So these are all just jargon's but let us keep it simple, we want the water level to be here.
+So these are all just jargon's but let us keep it simple,we want the water level to be here.
 
 03:01.000 --> 03:12.000
 Now as I already told you 200 liters of water per minute is consumed from the tank and same 200 liters per minute of water is filling the tank.
@@ -82,10 +82,10 @@ So he starts consuming 300 liters of water from the tank per minute.
 So it is obvious that the level of water in the tank will reduce.
 
 03:29.000 --> 03:37.000
-Now it is obvious that if I want the level of water to be here, I need to open this wall.
+Now it is obvious that if I want the level of water to be here,I need to open this wall.
 
 03:37.000 --> 03:44.000
-Now the question we are going to ask here is, how much will this wall open, supply wall?
+Now the question we are going to ask here is,how much will this wall open,supply wall?
 
 03:44.000 --> 04:02.000
 Now suppose I make a relationship between this error or the deviation and the opening of the wall in such a way that I establish a proportional relationship between the error and the opening of the wall.
@@ -103,7 +103,7 @@ That is the proportionality I am talking about.
 This opening of the wall I call it as corrective action.
 
 04:18.000 --> 04:25.000
-Now when I have a proportionality established, you can observe that it will happen only after the error has happened.
+Now when I have a proportionality established,you can observe that it will happen only after the error has happened.
 
 04:25.000 --> 04:31.000
 That means this wall will commence opening or commence correcting only after the error has happened.
@@ -112,13 +112,13 @@ That means this wall will commence opening or commence correcting only after the
 The supply wall opens more and more as the deviation becomes more and more.
 
 04:36.000 --> 04:46.000
-As the supply wall opens more and more, there will come a point where the supply is equal to 300 liters per minute.
+As the supply wall opens more and more,there will come a point where the supply is equal to 300 liters per minute.
 
 04:46.000 --> 04:48.000
 The same as the consumption.
 
 04:48.000 --> 04:53.000
-Now since the supply is equal to consumption, we call this as the steady state condition.
+Now since the supply is equal to consumption,we call this as the steady state condition.
 
 04:53.000 --> 04:59.000
 Now the level will remain steady here and it will not go down any further.
@@ -127,10 +127,10 @@ Now the level will remain steady here and it will not go down any further.
 But what we have here left is the error or offset or deviation.
 
 05:05.000 --> 05:15.000
-Now suppose I had linked the proportional action in such a way that when the error is so much, the valve will be full open.
+Now suppose I had linked the proportional action in such a way that when the error is so much,the valve will be full open.
 
 05:15.000 --> 05:21.000
-And when the level is very high here, the valve will be full shut.
+And when the level is very high here,the valve will be full shut.
 
 05:21.000 --> 05:28.000
 We know that the water level has to be between these two points.
@@ -151,28 +151,28 @@ If I don't want the water level to fluctuate so much between these two points an
 What do I need to do?
 
 05:51.000 --> 05:57.000
-I need to ensure that when the level is here, my valve is full open.
+I need to ensure that when the level is here,my valve is full open.
 
 05:57.000 --> 06:01.000
-And when the level is here, the valve is full shut.
+And when the level is here,the valve is full shut.
 
 06:01.000 --> 06:06.000
 So what have I done here?
 
 06:06.000 --> 06:17.000
-I have ensured that for a small change in the deviation, I am creating a bigger change in the opening of the valve or shutting of the valve.
+I have ensured that for a small change in the deviation,I am creating a bigger change in the opening of the valve or shutting of the valve.
 
 06:17.000 --> 06:22.000
 So this adjustment is in simple terms called the proportional band.
 
 06:22.000 --> 06:28.000
-The narrower the proportional band, I can reduce the maximum deviation.
+The narrower the proportional band,I can reduce the maximum deviation.
 
 06:28.000 --> 06:33.000
 Now this is what people roughly refer to as proportional band.
 
 06:33.000 --> 06:43.000
-It is in fact, it in fact tells you about the sensitivity of the corrective action with respect to the error.
+It is in fact,it in fact tells you about the sensitivity of the corrective action with respect to the error.
 
 06:43.000 --> 06:53.000
 This proportional band is also sometimes mathematically they define it as it is the opposite of gain.
@@ -187,7 +187,7 @@ So going back to the level of water in the tank.
 So we know that the valve was opening faster when the error happened and the error got stabilized here.
 
 07:13.000 --> 07:19.000
-Now if I don't want the error to be there at all, we have another trick in our cupboard.
+Now if I don't want the error to be there at all,we have another trick in our cupboard.
 
 07:19.000 --> 07:22.000
 And that is called the integral action.
@@ -196,16 +196,16 @@ And that is called the integral action.
 Now what is integral action?
 
 07:23.000 --> 07:30.000
-It may be a little bit jargonish, but we say that rate of corrective action is proportional to the deviation.
+It may be a little bit jargonish,but we say that rate of corrective action is proportional to the deviation.
 
 07:30.000 --> 07:32.000
-In other terms, what does it mean?
+In other terms,what does it mean?
 
 07:32.000 --> 07:38.000
-If I have integral action, the integral action, see here let us take it step by step.
+If I have integral action,the integral action,see here let us take it step by step.
 
 07:38.000 --> 07:43.000
-Because of the proportional action, the valve started opening and here I got a steady state.
+Because of the proportional action,the valve started opening and here I got a steady state.
 
 07:43.000 --> 07:46.000
 But I got a error offset.
@@ -226,10 +226,10 @@ This is exactly what the integral action is going to do.
 Now we have defined it mathematically as rate of corrective action is proportional to the deviation.
 
 08:01.000 --> 08:06.000
-Now when we say rate, obviously it means that the valve is opening.
+Now when we say rate,obviously it means that the valve is opening.
 
 08:06.000 --> 08:11.000
-If the valve is not moving, then obviously there is no rate of opening.
+If the valve is not moving,then obviously there is no rate of opening.
 
 08:11.000 --> 08:12.000
 Okay.
@@ -247,16 +247,16 @@ We conclude that the integral action actually removes the deviation.
 So the valve will continue to open because the error is there.
 
 08:25.000 --> 08:32.000
-And if the valve continues to open more than what was required, that 300 liters per minute,
+And if the valve continues to open more than what was required,that 300 liters per minute,
 
 08:32.000 --> 08:35.000
 the level will start rising up and it will remove the deviation.
 
 08:35.000 --> 08:39.000
-You see, this is the job of the integral action.
+You see,this is the job of the integral action.
 
 08:39.000 --> 08:44.000
-Let us now look at the third option, which is called the derivative action.
+Let us now look at the third option,which is called the derivative action.
 
 08:44.000 --> 08:49.000
 Now let us see how does it define.
@@ -277,7 +277,7 @@ That means how fast the deviation is happening.
 So it is predictive in nature.
 
 09:09.000 --> 09:15.000
-On the basis of this prediction, this valve will continue to open more than what the P action
+On the basis of this prediction,this valve will continue to open more than what the P action
 
 09:15.000 --> 09:16.000
 would have done.
@@ -295,7 +295,7 @@ is achieved quickly.
 So we can also think it like this.
 
 09:35.000 --> 09:44.000
-You see here, let us go back to this particular example.
+You see here,let us go back to this particular example.
 
 09:44.000 --> 09:48.000
 Now I am going back to 200 liters.
@@ -304,13 +304,13 @@ Now I am going back to 200 liters.
 And somebody has opened 300 liters.
 
 09:51.000 --> 09:56.000
-The control system is seeing that, oh, the level has started falling.
+The control system is seeing that,oh,the level has started falling.
 
 09:56.000 --> 10:02.000
 The control system measuring that is looking at the rate of fall of the level.
 
 10:02.000 --> 10:05.000
-And it is now going to predict, oh, at this rate the level is falling so fast.
+And it is now going to predict,oh,at this rate the level is falling so fast.
 
 10:05.000 --> 10:07.000
 That means I need to open much more.
@@ -355,7 +355,7 @@ Let us summarize the whole thing.
 Depending on the error and the relationship between the error and the opening of this
 
 10:46.000 --> 10:49.000
-valve, there are three types of action.
+valve,there are three types of action.
 
 10:49.000 --> 10:51.000
 One is the one which is proportional action.
@@ -367,19 +367,19 @@ So the valve is going to be operated by the P proportional action which is going
 on the error.
 
 11:00.000 --> 11:04.000
-Then to remove the offset, I have the integral action.
+Then to remove the offset,I have the integral action.
 
 11:04.000 --> 11:08.000
 The whole idea of this integral action is to remove the offset.
 
 11:08.000 --> 11:13.000
-And to make sure that the stability point is reached earlier, the level doesn't fluctuate
+And to make sure that the stability point is reached earlier,the level doesn't fluctuate
 
 11:13.000 --> 11:16.000
-too much, I have the derivative action also.
+too much,I have the derivative action also.
 
 11:16.000 --> 11:23.000
-So then when I have a PID controller, this valve is, opening of the valve is the resultant
+So then when I have a PID controller,this valve is,opening of the valve is the resultant
 
 11:23.000 --> 11:27.000
 of all these three actions put together.
@@ -388,13 +388,13 @@ of all these three actions put together.
 So that is how the controls are happening in a PID controller.
 
 11:32.000 --> 11:37.000
-The processing of these controls can be pneumatic, electronic, digital.
+The processing of these controls can be pneumatic,electronic,digital.
 
 11:37.000 --> 11:43.000
-And generally they can be used for anything like controlling the level, controlling the
+And generally they can be used for anything like controlling the level,controlling the
 
 11:43.000 --> 11:47.000
-pressure, controlling the temperature, controlling the speed.
+pressure,controlling the temperature,controlling the speed.
 
 11:47.000 --> 11:50.000
 So the topic is much more than what we are described here.
@@ -406,7 +406,7 @@ I recommend you to please go to the link provided in the description section to 
 Venkateson's full video on this topic which will be very elaborate with great examples.
 
 12:02.000 --> 12:07.000
-I also request you to please see his beautiful videos on Governor Drup, reverse power and other
+I also request you to please see his beautiful videos on Governor Drup,reverse power and other
 
 12:07.000 --> 12:09.000
 complicated conceptual topics.
@@ -415,7 +415,7 @@ complicated conceptual topics.
 They are all available on HMT YouTube site.
 
 12:13.000 --> 12:16.000
-Mr. Venkateson is not there with us.
+Mr.Venkateson is not there with us.
 
 12:16.000 --> 12:19.000
 His knowledge and dedication had in fact inspired me.
