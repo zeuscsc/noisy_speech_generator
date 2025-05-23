@@ -299,7 +299,7 @@ def process_single_audio_and_transcript_file(audio_file_path, output_base_dir, t
                     if vtt_chunk_str:
                         transcript_chunk_filename = f"{vtt_basename}_audio_{chunk_num}.vtt"
                         transcript_chunk_filepath = os.path.join(noisy_level_specific_chunk_output_dir, transcript_chunk_filename)
-                        if not os.path.exists(transcript_chunk_filepath):
+                        if not os.path.exists(transcript_chunk_filepath) or True:
                             try:
                                 with open(transcript_chunk_filepath, 'w', encoding='utf-8') as f_out:
                                     f_out.write(vtt_chunk_str)

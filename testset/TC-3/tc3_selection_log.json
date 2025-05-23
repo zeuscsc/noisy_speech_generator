@@ -1,6 +1,6 @@
 {
     "log_metadata": {
-        "generation_date": "2025-05-21 18:57:38",
+        "generation_date": "2025-05-23 14:58:52",
         "log_description": "Test Case 3 Selection (FIXED selection from log)",
         "total_samples_in_log_map": 56,
         "original_report_items_count": 56
@@ -20,7 +20,7 @@
             "destination_transcript_path": "testset\\TC-3\\English\\RwlmeANAQFQ_noisy_0_RwlmeANAQFQ.whisper.auto.gt_audio_94.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\English\\CU5R9c3Wc60_noisy_0_CU5R9c3Wc60.whisper.auto.gt_audio_108.mp3": {
             "original_path": "chunked_dataset\\CU5R9c3Wc60\\chunk_5s\\noisy_0\\CU5R9c3Wc60.whisper.auto.gt_audio_108.mp3",
@@ -36,7 +36,7 @@
             "destination_transcript_path": "testset\\TC-3\\English\\CU5R9c3Wc60_noisy_0_CU5R9c3Wc60.whisper.auto.gt_audio_108.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\English\\RwlmeANAQFQ_noisy_0_RwlmeANAQFQ.whisper.auto.gt_audio_0.mp3": {
             "original_path": "chunked_dataset\\RwlmeANAQFQ\\chunk_5s\\noisy_0\\RwlmeANAQFQ.whisper.auto.gt_audio_0.mp3",
@@ -52,7 +52,7 @@
             "destination_transcript_path": "testset\\TC-3\\English\\RwlmeANAQFQ_noisy_0_RwlmeANAQFQ.whisper.auto.gt_audio_0.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\English\\RwlmeANAQFQ_noisy_0_RwlmeANAQFQ.whisper.auto.gt_audio_1.mp3": {
             "original_path": "chunked_dataset\\RwlmeANAQFQ\\chunk_5s\\noisy_0\\RwlmeANAQFQ.whisper.auto.gt_audio_1.mp3",
@@ -68,7 +68,7 @@
             "destination_transcript_path": "testset\\TC-3\\English\\RwlmeANAQFQ_noisy_0_RwlmeANAQFQ.whisper.auto.gt_audio_1.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\English\\RwlmeANAQFQ_noisy_0_RwlmeANAQFQ.whisper.auto.gt_audio_184.mp3": {
             "original_path": "chunked_dataset\\RwlmeANAQFQ\\chunk_5s\\noisy_0\\RwlmeANAQFQ.whisper.auto.gt_audio_184.mp3",
@@ -84,7 +84,7 @@
             "destination_transcript_path": "testset\\TC-3\\English\\RwlmeANAQFQ_noisy_0_RwlmeANAQFQ.whisper.auto.gt_audio_184.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\English\\CU5R9c3Wc60_noisy_0_CU5R9c3Wc60.whisper.auto.gt_audio_46.mp3": {
             "original_path": "chunked_dataset\\CU5R9c3Wc60\\chunk_5s\\noisy_0\\CU5R9c3Wc60.whisper.auto.gt_audio_46.mp3",
@@ -100,7 +100,7 @@
             "destination_transcript_path": "testset\\TC-3\\English\\CU5R9c3Wc60_noisy_0_CU5R9c3Wc60.whisper.auto.gt_audio_46.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\English\\RwlmeANAQFQ_noisy_0_RwlmeANAQFQ.whisper.auto.gt_audio_3.mp3": {
             "original_path": "chunked_dataset\\RwlmeANAQFQ\\chunk_5s\\noisy_0\\RwlmeANAQFQ.whisper.auto.gt_audio_3.mp3",
@@ -116,7 +116,7 @@
             "destination_transcript_path": "testset\\TC-3\\English\\RwlmeANAQFQ_noisy_0_RwlmeANAQFQ.whisper.auto.gt_audio_3.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\English\\RwlmeANAQFQ_noisy_0_RwlmeANAQFQ.whisper.auto.gt_audio_81.mp3": {
             "original_path": "chunked_dataset\\RwlmeANAQFQ\\chunk_5s\\noisy_0\\RwlmeANAQFQ.whisper.auto.gt_audio_81.mp3",
@@ -132,7 +132,7 @@
             "destination_transcript_path": "testset\\TC-3\\English\\RwlmeANAQFQ_noisy_0_RwlmeANAQFQ.whisper.auto.gt_audio_81.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\English\\CU5R9c3Wc60_noisy_0_CU5R9c3Wc60.whisper.auto.gt_audio_109.mp3": {
             "original_path": "chunked_dataset\\CU5R9c3Wc60\\chunk_5s\\noisy_0\\CU5R9c3Wc60.whisper.auto.gt_audio_109.mp3",
@@ -148,7 +148,7 @@
             "destination_transcript_path": "testset\\TC-3\\English\\CU5R9c3Wc60_noisy_0_CU5R9c3Wc60.whisper.auto.gt_audio_109.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\English\\RwlmeANAQFQ_noisy_0_RwlmeANAQFQ.whisper.auto.gt_audio_154.mp3": {
             "original_path": "chunked_dataset\\RwlmeANAQFQ\\chunk_5s\\noisy_0\\RwlmeANAQFQ.whisper.auto.gt_audio_154.mp3",
@@ -164,7 +164,7 @@
             "destination_transcript_path": "testset\\TC-3\\English\\RwlmeANAQFQ_noisy_0_RwlmeANAQFQ.whisper.auto.gt_audio_154.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\English\\RwlmeANAQFQ_noisy_0_RwlmeANAQFQ.whisper.auto.gt_audio_171.mp3": {
             "original_path": "chunked_dataset\\RwlmeANAQFQ\\chunk_5s\\noisy_0\\RwlmeANAQFQ.whisper.auto.gt_audio_171.mp3",
@@ -180,7 +180,7 @@
             "destination_transcript_path": "testset\\TC-3\\English\\RwlmeANAQFQ_noisy_0_RwlmeANAQFQ.whisper.auto.gt_audio_171.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\English\\CU5R9c3Wc60_noisy_0_CU5R9c3Wc60.whisper.auto.gt_audio_42.mp3": {
             "original_path": "chunked_dataset\\CU5R9c3Wc60\\chunk_5s\\noisy_0\\CU5R9c3Wc60.whisper.auto.gt_audio_42.mp3",
@@ -196,7 +196,7 @@
             "destination_transcript_path": "testset\\TC-3\\English\\CU5R9c3Wc60_noisy_0_CU5R9c3Wc60.whisper.auto.gt_audio_42.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\English\\RwlmeANAQFQ_noisy_0_RwlmeANAQFQ.whisper.auto.gt_audio_29.mp3": {
             "original_path": "chunked_dataset\\RwlmeANAQFQ\\chunk_5s\\noisy_0\\RwlmeANAQFQ.whisper.auto.gt_audio_29.mp3",
@@ -212,7 +212,7 @@
             "destination_transcript_path": "testset\\TC-3\\English\\RwlmeANAQFQ_noisy_0_RwlmeANAQFQ.whisper.auto.gt_audio_29.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\English\\RwlmeANAQFQ_noisy_0_RwlmeANAQFQ.whisper.auto.gt_audio_2.mp3": {
             "original_path": "chunked_dataset\\RwlmeANAQFQ\\chunk_5s\\noisy_0\\RwlmeANAQFQ.whisper.auto.gt_audio_2.mp3",
@@ -228,7 +228,7 @@
             "destination_transcript_path": "testset\\TC-3\\English\\RwlmeANAQFQ_noisy_0_RwlmeANAQFQ.whisper.auto.gt_audio_2.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\English\\CU5R9c3Wc60_noisy_0_CU5R9c3Wc60.whisper.auto.gt_audio_45.mp3": {
             "original_path": "chunked_dataset\\CU5R9c3Wc60\\chunk_5s\\noisy_0\\CU5R9c3Wc60.whisper.auto.gt_audio_45.mp3",
@@ -244,7 +244,7 @@
             "destination_transcript_path": "testset\\TC-3\\English\\CU5R9c3Wc60_noisy_0_CU5R9c3Wc60.whisper.auto.gt_audio_45.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\nIn0fZt_paA_noisy_0_nIn0fZt_paA.whisper.auto.gt_audio_101.mp3": {
             "original_path": "chunked_dataset\\nIn0fZt_paA\\chunk_5s\\noisy_0\\nIn0fZt_paA.whisper.auto.gt_audio_101.mp3",
@@ -260,7 +260,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\nIn0fZt_paA_noisy_0_nIn0fZt_paA.whisper.auto.gt_audio_101.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\Zv35Vwq-JzY_noisy_0_Zv35Vwq-JzY.whisper.auto.gt_audio_86.mp3": {
             "original_path": "chunked_dataset\\Zv35Vwq-JzY\\chunk_5s\\noisy_0\\Zv35Vwq-JzY.whisper.auto.gt_audio_86.mp3",
@@ -276,7 +276,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\Zv35Vwq-JzY_noisy_0_Zv35Vwq-JzY.whisper.auto.gt_audio_86.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\nIn0fZt_paA_noisy_0_nIn0fZt_paA.whisper.auto.gt_audio_47.mp3": {
             "original_path": "chunked_dataset\\nIn0fZt_paA\\chunk_5s\\noisy_0\\nIn0fZt_paA.whisper.auto.gt_audio_47.mp3",
@@ -292,7 +292,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\nIn0fZt_paA_noisy_0_nIn0fZt_paA.whisper.auto.gt_audio_47.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\fu9hXxHBVg0_noisy_0_fu9hXxHBVg0.whisper.auto.gt_audio_41.mp3": {
             "original_path": "chunked_dataset\\fu9hXxHBVg0\\chunk_5s\\noisy_0\\fu9hXxHBVg0.whisper.auto.gt_audio_41.mp3",
@@ -308,7 +308,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\fu9hXxHBVg0_noisy_0_fu9hXxHBVg0.whisper.auto.gt_audio_41.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\fu9hXxHBVg0_noisy_0_fu9hXxHBVg0.whisper.auto.gt_audio_53.mp3": {
             "original_path": "chunked_dataset\\fu9hXxHBVg0\\chunk_5s\\noisy_0\\fu9hXxHBVg0.whisper.auto.gt_audio_53.mp3",
@@ -324,7 +324,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\fu9hXxHBVg0_noisy_0_fu9hXxHBVg0.whisper.auto.gt_audio_53.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\fu9hXxHBVg0_noisy_0_fu9hXxHBVg0.whisper.auto.gt_audio_43.mp3": {
             "original_path": "chunked_dataset\\fu9hXxHBVg0\\chunk_5s\\noisy_0\\fu9hXxHBVg0.whisper.auto.gt_audio_43.mp3",
@@ -340,7 +340,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\fu9hXxHBVg0_noisy_0_fu9hXxHBVg0.whisper.auto.gt_audio_43.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\nIn0fZt_paA_noisy_0_nIn0fZt_paA.whisper.auto.gt_audio_18.mp3": {
             "original_path": "chunked_dataset\\nIn0fZt_paA\\chunk_5s\\noisy_0\\nIn0fZt_paA.whisper.auto.gt_audio_18.mp3",
@@ -356,7 +356,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\nIn0fZt_paA_noisy_0_nIn0fZt_paA.whisper.auto.gt_audio_18.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\Zv35Vwq-JzY_noisy_0_Zv35Vwq-JzY.whisper.auto.gt_audio_81.mp3": {
             "original_path": "chunked_dataset\\Zv35Vwq-JzY\\chunk_5s\\noisy_0\\Zv35Vwq-JzY.whisper.auto.gt_audio_81.mp3",
@@ -372,7 +372,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\Zv35Vwq-JzY_noisy_0_Zv35Vwq-JzY.whisper.auto.gt_audio_81.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\YBLuZ09hr6o_noisy_0_YBLuZ09hr6o.whisper.auto.gt_audio_49.mp3": {
             "original_path": "chunked_dataset\\YBLuZ09hr6o\\chunk_5s\\noisy_0\\YBLuZ09hr6o.whisper.auto.gt_audio_49.mp3",
@@ -388,7 +388,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\YBLuZ09hr6o_noisy_0_YBLuZ09hr6o.whisper.auto.gt_audio_49.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\YBLuZ09hr6o_noisy_0_YBLuZ09hr6o.whisper.auto.gt_audio_8.mp3": {
             "original_path": "chunked_dataset\\YBLuZ09hr6o\\chunk_5s\\noisy_0\\YBLuZ09hr6o.whisper.auto.gt_audio_8.mp3",
@@ -404,7 +404,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\YBLuZ09hr6o_noisy_0_YBLuZ09hr6o.whisper.auto.gt_audio_8.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\YBLuZ09hr6o_noisy_0_YBLuZ09hr6o.whisper.auto.gt_audio_62.mp3": {
             "original_path": "chunked_dataset\\YBLuZ09hr6o\\chunk_5s\\noisy_0\\YBLuZ09hr6o.whisper.auto.gt_audio_62.mp3",
@@ -420,7 +420,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\YBLuZ09hr6o_noisy_0_YBLuZ09hr6o.whisper.auto.gt_audio_62.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\Zv35Vwq-JzY_noisy_0_Zv35Vwq-JzY.whisper.auto.gt_audio_25.mp3": {
             "original_path": "chunked_dataset\\Zv35Vwq-JzY\\chunk_5s\\noisy_0\\Zv35Vwq-JzY.whisper.auto.gt_audio_25.mp3",
@@ -436,7 +436,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\Zv35Vwq-JzY_noisy_0_Zv35Vwq-JzY.whisper.auto.gt_audio_25.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\SbduiuP_gek_noisy_0_SbduiuP_gek.whisper.auto.gt_audio_153.mp3": {
             "original_path": "chunked_dataset\\SbduiuP_gek\\chunk_5s\\noisy_0\\SbduiuP_gek.whisper.auto.gt_audio_153.mp3",
@@ -452,7 +452,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\SbduiuP_gek_noisy_0_SbduiuP_gek.whisper.auto.gt_audio_153.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\FmpXfFwzvP8_noisy_0_FmpXfFwzvP8.whisper.auto.gt_audio_9.mp3": {
             "original_path": "chunked_dataset\\FmpXfFwzvP8\\chunk_5s\\noisy_0\\FmpXfFwzvP8.whisper.auto.gt_audio_9.mp3",
@@ -468,7 +468,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\FmpXfFwzvP8_noisy_0_FmpXfFwzvP8.whisper.auto.gt_audio_9.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\fu9hXxHBVg0_noisy_0_fu9hXxHBVg0.whisper.auto.gt_audio_85.mp3": {
             "original_path": "chunked_dataset\\fu9hXxHBVg0\\chunk_5s\\noisy_0\\fu9hXxHBVg0.whisper.auto.gt_audio_85.mp3",
@@ -484,7 +484,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\fu9hXxHBVg0_noisy_0_fu9hXxHBVg0.whisper.auto.gt_audio_85.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\Zv35Vwq-JzY_noisy_0_Zv35Vwq-JzY.whisper.auto.gt_audio_30.mp3": {
             "original_path": "chunked_dataset\\Zv35Vwq-JzY\\chunk_5s\\noisy_0\\Zv35Vwq-JzY.whisper.auto.gt_audio_30.mp3",
@@ -500,7 +500,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\Zv35Vwq-JzY_noisy_0_Zv35Vwq-JzY.whisper.auto.gt_audio_30.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\Zv35Vwq-JzY_noisy_0_Zv35Vwq-JzY.whisper.auto.gt_audio_96.mp3": {
             "original_path": "chunked_dataset\\Zv35Vwq-JzY\\chunk_5s\\noisy_0\\Zv35Vwq-JzY.whisper.auto.gt_audio_96.mp3",
@@ -516,7 +516,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\Zv35Vwq-JzY_noisy_0_Zv35Vwq-JzY.whisper.auto.gt_audio_96.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\YBLuZ09hr6o_noisy_0_YBLuZ09hr6o.whisper.auto.gt_audio_52.mp3": {
             "original_path": "chunked_dataset\\YBLuZ09hr6o\\chunk_5s\\noisy_0\\YBLuZ09hr6o.whisper.auto.gt_audio_52.mp3",
@@ -532,7 +532,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\YBLuZ09hr6o_noisy_0_YBLuZ09hr6o.whisper.auto.gt_audio_52.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\Zv35Vwq-JzY_noisy_0_Zv35Vwq-JzY.whisper.auto.gt_audio_27.mp3": {
             "original_path": "chunked_dataset\\Zv35Vwq-JzY\\chunk_5s\\noisy_0\\Zv35Vwq-JzY.whisper.auto.gt_audio_27.mp3",
@@ -548,7 +548,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\Zv35Vwq-JzY_noisy_0_Zv35Vwq-JzY.whisper.auto.gt_audio_27.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\fu9hXxHBVg0_noisy_0_fu9hXxHBVg0.whisper.auto.gt_audio_83.mp3": {
             "original_path": "chunked_dataset\\fu9hXxHBVg0\\chunk_5s\\noisy_0\\fu9hXxHBVg0.whisper.auto.gt_audio_83.mp3",
@@ -564,7 +564,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\fu9hXxHBVg0_noisy_0_fu9hXxHBVg0.whisper.auto.gt_audio_83.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\Zv35Vwq-JzY_noisy_0_Zv35Vwq-JzY.whisper.auto.gt_audio_57.mp3": {
             "original_path": "chunked_dataset\\Zv35Vwq-JzY\\chunk_5s\\noisy_0\\Zv35Vwq-JzY.whisper.auto.gt_audio_57.mp3",
@@ -580,7 +580,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\Zv35Vwq-JzY_noisy_0_Zv35Vwq-JzY.whisper.auto.gt_audio_57.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\SbduiuP_gek_noisy_0_SbduiuP_gek.whisper.auto.gt_audio_166.mp3": {
             "original_path": "chunked_dataset\\SbduiuP_gek\\chunk_5s\\noisy_0\\SbduiuP_gek.whisper.auto.gt_audio_166.mp3",
@@ -596,7 +596,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\SbduiuP_gek_noisy_0_SbduiuP_gek.whisper.auto.gt_audio_166.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\SbduiuP_gek_noisy_0_SbduiuP_gek.whisper.auto.gt_audio_157.mp3": {
             "original_path": "chunked_dataset\\SbduiuP_gek\\chunk_5s\\noisy_0\\SbduiuP_gek.whisper.auto.gt_audio_157.mp3",
@@ -612,7 +612,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\SbduiuP_gek_noisy_0_SbduiuP_gek.whisper.auto.gt_audio_157.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\fu9hXxHBVg0_noisy_0_fu9hXxHBVg0.whisper.auto.gt_audio_34.mp3": {
             "original_path": "chunked_dataset\\fu9hXxHBVg0\\chunk_5s\\noisy_0\\fu9hXxHBVg0.whisper.auto.gt_audio_34.mp3",
@@ -628,7 +628,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\fu9hXxHBVg0_noisy_0_fu9hXxHBVg0.whisper.auto.gt_audio_34.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\YBLuZ09hr6o_noisy_0_YBLuZ09hr6o.whisper.auto.gt_audio_47.mp3": {
             "original_path": "chunked_dataset\\YBLuZ09hr6o\\chunk_5s\\noisy_0\\YBLuZ09hr6o.whisper.auto.gt_audio_47.mp3",
@@ -644,7 +644,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\YBLuZ09hr6o_noisy_0_YBLuZ09hr6o.whisper.auto.gt_audio_47.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\fu9hXxHBVg0_noisy_0_fu9hXxHBVg0.whisper.auto.gt_audio_82.mp3": {
             "original_path": "chunked_dataset\\fu9hXxHBVg0\\chunk_5s\\noisy_0\\fu9hXxHBVg0.whisper.auto.gt_audio_82.mp3",
@@ -660,7 +660,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\fu9hXxHBVg0_noisy_0_fu9hXxHBVg0.whisper.auto.gt_audio_82.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\FmpXfFwzvP8_noisy_0_FmpXfFwzvP8.whisper.auto.gt_audio_19.mp3": {
             "original_path": "chunked_dataset\\FmpXfFwzvP8\\chunk_5s\\noisy_0\\FmpXfFwzvP8.whisper.auto.gt_audio_19.mp3",
@@ -676,7 +676,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\FmpXfFwzvP8_noisy_0_FmpXfFwzvP8.whisper.auto.gt_audio_19.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\Zv35Vwq-JzY_noisy_0_Zv35Vwq-JzY.whisper.auto.gt_audio_89.mp3": {
             "original_path": "chunked_dataset\\Zv35Vwq-JzY\\chunk_5s\\noisy_0\\Zv35Vwq-JzY.whisper.auto.gt_audio_89.mp3",
@@ -692,7 +692,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\Zv35Vwq-JzY_noisy_0_Zv35Vwq-JzY.whisper.auto.gt_audio_89.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\JNAeatPbndE_noisy_0_JNAeatPbndE.whisper.auto.gt_audio_8.mp3": {
             "original_path": "chunked_dataset\\JNAeatPbndE\\chunk_5s\\noisy_0\\JNAeatPbndE.whisper.auto.gt_audio_8.mp3",
@@ -708,7 +708,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\JNAeatPbndE_noisy_0_JNAeatPbndE.whisper.auto.gt_audio_8.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\fu9hXxHBVg0_noisy_0_fu9hXxHBVg0.whisper.auto.gt_audio_33.mp3": {
             "original_path": "chunked_dataset\\fu9hXxHBVg0\\chunk_5s\\noisy_0\\fu9hXxHBVg0.whisper.auto.gt_audio_33.mp3",
@@ -724,7 +724,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\fu9hXxHBVg0_noisy_0_fu9hXxHBVg0.whisper.auto.gt_audio_33.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\JNAeatPbndE_noisy_0_JNAeatPbndE.whisper.auto.gt_audio_3.mp3": {
             "original_path": "chunked_dataset\\JNAeatPbndE\\chunk_5s\\noisy_0\\JNAeatPbndE.whisper.auto.gt_audio_3.mp3",
@@ -740,7 +740,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\JNAeatPbndE_noisy_0_JNAeatPbndE.whisper.auto.gt_audio_3.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\nIn0fZt_paA_noisy_0_nIn0fZt_paA.whisper.auto.gt_audio_32.mp3": {
             "original_path": "chunked_dataset\\nIn0fZt_paA\\chunk_5s\\noisy_0\\nIn0fZt_paA.whisper.auto.gt_audio_32.mp3",
@@ -756,7 +756,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\nIn0fZt_paA_noisy_0_nIn0fZt_paA.whisper.auto.gt_audio_32.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\fu9hXxHBVg0_noisy_0_fu9hXxHBVg0.whisper.auto.gt_audio_31.mp3": {
             "original_path": "chunked_dataset\\fu9hXxHBVg0\\chunk_5s\\noisy_0\\fu9hXxHBVg0.whisper.auto.gt_audio_31.mp3",
@@ -772,7 +772,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\fu9hXxHBVg0_noisy_0_fu9hXxHBVg0.whisper.auto.gt_audio_31.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\fu9hXxHBVg0_noisy_0_fu9hXxHBVg0.whisper.auto.gt_audio_86.mp3": {
             "original_path": "chunked_dataset\\fu9hXxHBVg0\\chunk_5s\\noisy_0\\fu9hXxHBVg0.whisper.auto.gt_audio_86.mp3",
@@ -788,7 +788,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\fu9hXxHBVg0_noisy_0_fu9hXxHBVg0.whisper.auto.gt_audio_86.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\fu9hXxHBVg0_noisy_0_fu9hXxHBVg0.whisper.auto.gt_audio_38.mp3": {
             "original_path": "chunked_dataset\\fu9hXxHBVg0\\chunk_5s\\noisy_0\\fu9hXxHBVg0.whisper.auto.gt_audio_38.mp3",
@@ -804,7 +804,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\fu9hXxHBVg0_noisy_0_fu9hXxHBVg0.whisper.auto.gt_audio_38.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\nIn0fZt_paA_noisy_0_nIn0fZt_paA.whisper.auto.gt_audio_135.mp3": {
             "original_path": "chunked_dataset\\nIn0fZt_paA\\chunk_5s\\noisy_0\\nIn0fZt_paA.whisper.auto.gt_audio_135.mp3",
@@ -820,7 +820,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\nIn0fZt_paA_noisy_0_nIn0fZt_paA.whisper.auto.gt_audio_135.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\Zv35Vwq-JzY_noisy_0_Zv35Vwq-JzY.whisper.auto.gt_audio_55.mp3": {
             "original_path": "chunked_dataset\\Zv35Vwq-JzY\\chunk_5s\\noisy_0\\Zv35Vwq-JzY.whisper.auto.gt_audio_55.mp3",
@@ -836,7 +836,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\Zv35Vwq-JzY_noisy_0_Zv35Vwq-JzY.whisper.auto.gt_audio_55.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Cantonese\\nIn0fZt_paA_noisy_0_nIn0fZt_paA.whisper.auto.gt_audio_44.mp3": {
             "original_path": "chunked_dataset\\nIn0fZt_paA\\chunk_5s\\noisy_0\\nIn0fZt_paA.whisper.auto.gt_audio_44.mp3",
@@ -852,7 +852,7 @@
             "destination_transcript_path": "testset\\TC-3\\Cantonese\\nIn0fZt_paA_noisy_0_nIn0fZt_paA.whisper.auto.gt_audio_44.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Mandarin\\0Ejp6yyU5bo_noisy_0_0Ejp6yyU5bo.whisper.auto.gt_audio_44.mp3": {
             "original_path": "chunked_dataset\\0Ejp6yyU5bo\\chunk_5s\\noisy_0\\0Ejp6yyU5bo.whisper.auto.gt_audio_44.mp3",
@@ -868,7 +868,7 @@
             "destination_transcript_path": "testset\\TC-3\\Mandarin\\0Ejp6yyU5bo_noisy_0_0Ejp6yyU5bo.whisper.auto.gt_audio_44.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Mandarin\\7bLFdBennvI_noisy_0_7bLFdBennvI.whisper.auto.gt_audio_149.mp3": {
             "original_path": "chunked_dataset\\7bLFdBennvI\\chunk_5s\\noisy_0\\7bLFdBennvI.whisper.auto.gt_audio_149.mp3",
@@ -884,7 +884,7 @@
             "destination_transcript_path": "testset\\TC-3\\Mandarin\\7bLFdBennvI_noisy_0_7bLFdBennvI.whisper.auto.gt_audio_149.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         },
         "testset\\TC-3\\Mandarin\\0Ejp6yyU5bo_noisy_0_0Ejp6yyU5bo.whisper.auto.gt_audio_70.mp3": {
             "original_path": "chunked_dataset\\0Ejp6yyU5bo\\chunk_5s\\noisy_0\\0Ejp6yyU5bo.whisper.auto.gt_audio_70.mp3",
@@ -900,7 +900,7 @@
             "destination_transcript_path": "testset\\TC-3\\Mandarin\\0Ejp6yyU5bo_noisy_0_0Ejp6yyU5bo.whisper.auto.gt_audio_70.vtt",
             "status": "Audio and VTT Copied",
             "error_message": null,
-            "processed_timestamp": "2025-05-21 18:57:38"
+            "processed_timestamp": "2025-05-23 14:58:52"
         }
     }
 }

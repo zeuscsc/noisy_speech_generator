@@ -19,12 +19,12 @@ WER (Word Error Rate), WRR (Word Recognition Rate) for each language, and Accura
 
 | Language | Average WER (%) | Average WRR (%) | Average Sequence Accuracy (%) |
 | --- | --- | --- | --- |
-| Cantonese-HK | 59.42 | 40.58 | N/A |
-| Cantonese-HK-Numbers | N/A | N/A | 55.21 |
-| English-US | 13.32 | 86.68 | N/A |
+| Cantonese-HK | 50.81 | 49.19 | N/A |
+| Cantonese-HK-Numbers | N/A | N/A | 59.38 |
+| English-US | 29.72 | 70.28 | N/A |
 | English-US-Numbers | N/A | N/A | 96.88 |
-| Mandarin | 66.25 | 55.62 | N/A |
-| Mandarin-Numbers | N/A | N/A | 64.06 |
+| Mandarin | 65.43 | 56.45 | N/A |
+| Mandarin-Numbers | N/A | N/A | 65.62 |
 
 
 ## TC-2: Robustness Across Accents
@@ -47,8 +47,8 @@ WER (Word Error Rate), WRR (Word Recognition Rate) and for each language.
 | Accent/Language | Average WER (%) | Average WRR (%) |
 | --- | --- | --- |
 | Cantonese_Mandarin_Accent | 100.00 | 0.00 |
-| English_Indian_Accent | 13.13 | 86.87 |
-| English_SouthEastAsian_Accent | 31.05 | 79.53 |
+| English_Indian_Accent | 38.99 | 61.90 |
+| English_SouthEastAsian_Accent | 37.37 | 73.55 |
 | Mandarin_Cantonese_Accent | 100.00 | 0.00 |
 
 
@@ -71,9 +71,9 @@ WER (Word Error Rate), and (Accuracy) full vocab recognition for each language.
 
 | Language | Average WER (%) | Average Vocabulary Accuracy (%) |
 | --- | --- | --- |
-| Cantonese | 69.75 | 36.53 |
-| English | 10.95 | 93.33 |
-| Mandarin | 57.37 | 66.67 |
+| Cantonese | 59.34 | 45.38 |
+| English | 25.91 | 93.33 |
+| Mandarin | 56.40 | 66.67 |
 
 
 ## TC-4: Auto Punctuation Feature
@@ -95,17 +95,17 @@ Proportion of correct punctuation (Sentence Sepreation) placements for each lang
 
 | Language | Average Segmentation Accuracy (%) |
 | --- | --- |
-| Cantonese | 2.86 |
-| Cantonese-HK | 0.00 |
+| Cantonese | 0.00 |
+| Cantonese-HK | 3.07 |
 | Cantonese-HK-Numbers | 0.00 |
-| Cantonese-HK-Numbers\noisy_100 | 4.76 |
+| Cantonese-HK-Numbers\noisy_100 | 0.00 |
 | Cantonese-HK-Numbers\noisy_25 | 0.00 |
 | Cantonese-HK-Numbers\noisy_50 | 0.00 |
-| Cantonese-HK-Numbers\noisy_75 | 12.50 |
-| Cantonese-HK\noisy_100 | 7.29 |
+| Cantonese-HK-Numbers\noisy_75 | 18.75 |
+| Cantonese-HK\noisy_100 | 6.25 |
 | Cantonese-HK\noisy_25 | 0.00 |
-| Cantonese-HK\noisy_50 | 6.25 |
-| Cantonese-HK\noisy_75 | 7.41 |
+| Cantonese-HK\noisy_50 | 15.62 |
+| Cantonese-HK\noisy_75 | 9.26 |
 | Cantonese_Mandarin_Accent | 0.00 |
 | English-US | 100.00 |
 | English-US-Numbers | 100.00 |
@@ -114,12 +114,12 @@ Proportion of correct punctuation (Sentence Sepreation) placements for each lang
 | English-US-Numbers\noisy_50 | 33.33 |
 | English-US-Numbers\noisy_75 | 50.00 |
 | English-US\noisy_100 | 0.00 |
-| English-US\noisy_25 | 0.00 |
+| English-US\noisy_25 | 100.00 |
 | English-US\noisy_50 | 50.00 |
 | English-US\noisy_75 | 50.00 |
-| English_SouthEastAsian_Accent | 45.31 |
+| English_SouthEastAsian_Accent | 60.94 |
 | Mandarin | 30.00 |
-| Mandarin-Numbers | 32.05 |
+| Mandarin-Numbers | 28.21 |
 | Mandarin-Numbers\noisy_100 | 0.00 |
 | Mandarin-Numbers\noisy_25 | 0.00 |
 | Mandarin-Numbers\noisy_50 | 0.00 |
@@ -190,28 +190,28 @@ WER (Word Error Rate), WRR (Word Recognition Rate), and Accuracy for Numbers (Se
 
 | Language/Condition | Noise Level (%) | Average WER (%) | Average WRR (%) | Average Sequence Accuracy (%) |
 | --- | --- | --- | --- | --- |
-| Cantonese-HK-Numbers\noisy_100 | 100% | 106.25 | 0.00 | N/A |
-| Cantonese-HK-Numbers\noisy_25 | 25% | 89.66 | 10.34 | N/A |
-| Cantonese-HK-Numbers\noisy_50 | 50% | 96.83 | 3.90 | N/A |
-| Cantonese-HK-Numbers\noisy_75 | 75% | 105.75 | 0.50 | N/A |
-| Cantonese-HK\noisy_100 | 100% | 98.34 | 1.66 | N/A |
-| Cantonese-HK\noisy_25 | 25% | 90.79 | 12.38 | N/A |
-| Cantonese-HK\noisy_50 | 50% | 104.33 | 4.38 | N/A |
-| Cantonese-HK\noisy_75 | 75% | 98.42 | 4.75 | N/A |
-| English-US-Numbers\noisy_100 | 100% | 70.77 | 29.23 | N/A |
-| English-US-Numbers\noisy_25 | 25% | 47.12 | 52.88 | N/A |
-| English-US-Numbers\noisy_50 | 50% | 71.58 | 28.42 | N/A |
-| English-US-Numbers\noisy_75 | 75% | 76.34 | 23.66 | N/A |
-| English-US\noisy_100 | 100% | 81.56 | 18.44 | N/A |
-| English-US\noisy_25 | 25% | 50.08 | 49.92 | N/A |
-| English-US\noisy_50 | 50% | 78.04 | 21.96 | N/A |
-| English-US\noisy_75 | 75% | 75.15 | 24.85 | N/A |
-| Mandarin-Numbers\noisy_100 | 100% | 97.82 | 2.18 | N/A |
-| Mandarin-Numbers\noisy_25 | 25% | 60.91 | 39.09 | N/A |
-| Mandarin-Numbers\noisy_50 | 50% | 77.99 | 22.01 | N/A |
-| Mandarin-Numbers\noisy_75 | 75% | 94.81 | 5.19 | N/A |
+| Cantonese-HK-Numbers\noisy_100 | 100% | 102.50 | 0.00 | N/A |
+| Cantonese-HK-Numbers\noisy_25 | 25% | 86.07 | 13.93 | N/A |
+| Cantonese-HK-Numbers\noisy_50 | 50% | 96.05 | 3.95 | N/A |
+| Cantonese-HK-Numbers\noisy_75 | 75% | 106.25 | 0.00 | N/A |
+| Cantonese-HK\noisy_100 | 100% | 98.26 | 1.74 | N/A |
+| Cantonese-HK\noisy_25 | 25% | 82.18 | 17.82 | N/A |
+| Cantonese-HK\noisy_50 | 50% | 100.07 | 3.50 | N/A |
+| Cantonese-HK\noisy_75 | 75% | 95.60 | 4.40 | N/A |
+| English-US-Numbers\noisy_100 | 100% | 74.46 | 25.54 | N/A |
+| English-US-Numbers\noisy_25 | 25% | 56.29 | 43.71 | N/A |
+| English-US-Numbers\noisy_50 | 50% | 79.10 | 20.90 | N/A |
+| English-US-Numbers\noisy_75 | 75% | 78.68 | 21.32 | N/A |
+| English-US\noisy_100 | 100% | 82.55 | 17.45 | N/A |
+| English-US\noisy_25 | 25% | 70.37 | 29.63 | N/A |
+| English-US\noisy_50 | 50% | 82.12 | 17.88 | N/A |
+| English-US\noisy_75 | 75% | 75.06 | 24.93 | N/A |
+| Mandarin-Numbers\noisy_100 | 100% | 97.83 | 2.17 | N/A |
+| Mandarin-Numbers\noisy_25 | 25% | 58.59 | 42.61 | N/A |
+| Mandarin-Numbers\noisy_50 | 50% | 74.86 | 25.14 | N/A |
+| Mandarin-Numbers\noisy_75 | 75% | 95.10 | 4.90 | N/A |
 | Mandarin\noisy_100 | 100% | 85.67 | 14.33 | N/A |
 | Mandarin\noisy_25 | 25% | 53.20 | 46.80 | N/A |
 | Mandarin\noisy_50 | 50% | 78.23 | 21.77 | N/A |
-| Mandarin\noisy_75 | 75% | 85.24 | 14.76 | N/A |
+| Mandarin\noisy_75 | 75% | 84.11 | 15.89 | N/A |
 
