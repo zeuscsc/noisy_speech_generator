@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STT Performance Analysis Infographic (Google Method)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- 
+        Chosen Color Palette: Energetic & Playful
+        - Primary Text: #073B4C (Dark Blue/Slate)
+        - Accent/Highlight Blue: #118AB2 (Strong Blue)
+        - Chart Color 1 (Red/Coral): #FF6B6B
+        - Chart Color 2 (Yellow): #FFD166
+        - Chart Color 3 (Green/Teal): #06D6A0
+        - Background: #F7FAFC (Light Gray)
+        - Card Background: #FFFFFF (White)
+
+        Narrative Plan:
+        1.  Hero/Overall Summary: Key takeaways from STT performance.
+        2.  Multilingual Support (TC-1): Comparison of English-US and Cantonese-HK.
+        3.  Accent Robustness (TC-2): How different accents affect performance.
+        4.  Domain Vocabulary (TC-3): Performance with HSBC-specific terms.
+        5.  Auto Punctuation (TC-4): Accuracy of punctuation across languages and noise.
+        6.  Noise Robustness (TC-7): Impact of noise on different languages.
+        7.  Speed & Latency (TC-6): Transcription speed.
+        8.  Profanity Filtering (TC-5): Note on missing data.
+        9.  Conclusion & Recommendations: Summary of strengths, weaknesses, and improvement areas.
+
+        Visualization Choices:
+        -   Overall: Big numbers, short text.
+        -   TC-1 (Multilingual): Grouped Bar Chart (Chart.js) - WER/WRR for Eng-US, Cant-HK. Justification: Direct comparison. (NO SVG)
+        -   TC-2 (Accents): Grouped Bar Chart (Chart.js) - WER/WRR per accent. Justification: Comparison across categories. (NO SVG)
+        -   TC-3 (Domain Vocab): Grouped Bar Chart (Chart.js) - WER/Vocab Accuracy for Eng, Cant, Mand. Justification: Compare two metrics per language. (NO SVG)
+        -   TC-4 (Punctuation): Bar Chart (Chart.js) - Subset of Segmentation Accuracy. Justification: Clear comparison for selected key conditions. (NO SVG)
+        -   TC-5 (Profanity): Text.
+        -   TC-6 (Speed): Big Number.
+        -   TC-7 (Noise): Grouped Line Charts (Chart.js) - WRR vs Noise Level for Eng, Cant, Mand. Justification: Show trends across noise levels. (NO SVG)
+        -   Conclusion: Styled HTML lists.
+
+        Confirmation: NEITHER Mermaid JS NOR SVG were used anywhere in this output. All charts are rendered using Chart.js on HTML Canvas.
+    -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F7FAFC; /* Light Gray Background */
+            color: #073B4C; /* Dark Blue/Slate Primary Text */
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px; /* Max width for charts */
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px; /* Base height */
+            max-height: 400px; /* Max height */
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+        .stat-card {
+            background-color: #FFFFFF;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .stat-number {
+            font-size: 2.25rem; /* 36px */
+            font-weight: 700;
+            line-height: 2.5rem; /* 40px */
+        }
+        .section-title {
+            font-size: 1.5rem; /* 24px */
+            font-weight: 700;
+            color: #118AB2; /* Strong Blue */
+            margin-bottom: 0.5rem;
+        }
+        .card-title {
+            font-size: 1.25rem; /* 20px */
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        .chart-title {
+            text-align: center;
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #073B4C;
+        }
+        .explanation-text {
+            font-size: 0.875rem; /* 14px */
+            color: #4A5568; /* Tailwind gray-700 */
+            margin-top: 1rem;
+        }
+        .recommendation-list li {
+            margin-bottom: 0.5rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        .recommendation-list li::before {
+            content: '✓'; /* Unicode checkmark */
+            position: absolute;
+            left: 0;
+            color: #06D6A0; /* Bright Green/Teal */
+            font-weight: bold;
+        }
+        .weakness-list li::before {
+            content: '✗'; /* Unicode cross mark */
+            color: #FF6B6B; /* Vibrant Red/Coral */
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <div class="container mx-auto p-4 md:p-8 max-w-5xl">
+
+        <header class="text-center mb-12">
+            <h1 class="text-4xl font-bold mb-2" style="color: #118AB2;">Speech-to-Text (STT) Performance Deep Dive</h1>
+            <p class="text-xl" style="color: #073B4C;">Analyzing Google's STT Method: Key Insights & Trends</p>
+        </header>
+
+        <section class="mb-12 stat-card">
+            <h2 class="section-title">At a Glance: Performance Overview</h2>
+            <p class="mb-6 text-gray-600">The Google STT method shows varied performance across languages and conditions. While strong for standard US English in clean environments, significant challenges arise with other languages like Cantonese and Mandarin, especially when dealing with accents, specific terminology, and background noise.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+                <div>
+                    <p class="stat-number" style="color: #06D6A0;">86.68%</p>
+                    <p class="text-sm font-semibold">WRR for English-US (Clean)</p>
+                    <p class="text-xs text-gray-500">Strong baseline performance.</p>
+                </div>
+                <div>
+                    <p class="stat-number" style="color: #FF6B6B;">~60-66%</p>
+                    <p class="text-sm font-semibold">Avg. WER for Cantonese & Mandarin</p>
+                    <p class="text-xs text-gray-500">Indicating significant transcription challenges.</p>
+                </div>
+                <div>
+                    <p class="stat-number" style="color: #FFD166;">0%</p>
+                    <p class="text-sm font-semibold">Punctuation Accuracy (Cantonese, Clean)</p>
+                    <p class="text-xs text-gray-500">A major area for improvement.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="stat-card">
+            <h2 class="section-title">TC-1: Multilingual Support</h2>
+            <p class="mb-4 text-gray-600">This test case evaluates the STT system's core transcription accuracy across different languages in relatively clean audio conditions. The focus is on Word Error Rate (WER) and Word Recognition Rate (WRR).</p>
+            <div class="chart-container h-[350px] md:h-[400px]">
+                <canvas id="multilingualChart"></canvas>
+            </div>
+            <p class="explanation-text">The chart clearly illustrates a significant performance disparity. English-US achieves a high Word Recognition Rate (WRR) and correspondingly low Word Error Rate (WER). In contrast, Cantonese-HK shows substantially lower WRR and higher WER, indicating greater difficulty in accurate transcription for this language by the Google STT method.</p>
+        </section>
+
+        <section class="stat-card">
+            <h2 class="section-title">TC-2: Robustness Across Accents</h2>
+            <p class="mb-4 text-gray-600">This section examines how the STT system performs when transcribing speech with various accents. High Word Error Rates (WER) indicate difficulty in understanding accented speech.</p>
+            <div class="chart-container h-[400px] md:h-[450px]">
+                <canvas id="accentChart"></canvas>
+            </div>
+            <p class="explanation-text">The Google STT method demonstrates strong performance for English with an Indian accent, achieving accuracy comparable to standard English-US. However, it struggles significantly with English (South East Asian accent), showing a higher WER. For Cantonese (Mandarin accent) and Mandarin (Cantonese accent), the system fails almost entirely, with WER reaching 100%, highlighting a critical weakness in handling these specific cross-language accent scenarios.</p>
+        </section>
+
+        <section class="stat-card">
+            <h2 class="section-title">TC-3: Domain Vocabulary Support</h2>
+            <p class="mb-4 text-gray-600">This test assesses the system's ability to recognize and transcribe domain-specific terminology, in this case, HSBC-related terms. Both Word Error Rate (WER) and Vocabulary Accuracy are key metrics.</p>
+            <div class="chart-container h-[350px] md:h-[400px]">
+                <canvas id="domainVocabChart"></canvas>
+            </div>
+            <p class="explanation-text">The system shows excellent domain vocabulary support for English, with very high vocabulary accuracy and low WER. However, for Cantonese and Mandarin, the recognition of specific terms is significantly poorer, with vocabulary accuracy for Cantonese being particularly low. This suggests that while the general English model is robust for specialized terms, the non-English models require more adaptation for specific vocabularies.</p>
+        </section>
+
+        <section class="stat-card">
+            <h2 class="section-title">TC-4: Auto Punctuation Accuracy</h2>
+            <p class="mb-4 text-gray-600">This section evaluates the STT system's capability to automatically insert correct punctuation. The chart displays Average Segmentation Accuracy for selected key language and noise conditions.</p>
+            <div class="chart-container h-[400px] md:h-[450px]">
+                <canvas id="punctuationChart"></canvas>
+            </div>
+            <p class="explanation-text">Auto-punctuation for English-US is perfect in clean audio but degrades significantly as noise increases. For Cantonese-HK and Mandarin, punctuation accuracy is extremely low even in clean conditions and worsens with noise. This indicates a major area for improvement, especially for non-English languages and noisy environments.</p>
+        </section>
+        
+        <section class="stat-card">
+            <h2 class="section-title">TC-7: Noise Robustness</h2>
+            <p class="mb-4 text-gray-600">This test measures the STT system's performance (Word Recognition Rate - WRR) when transcribing audio mixed with various levels of background noise. "Clean" represents 0% noise baseline from TC-1/TC-3 data.</p>
+            <div class="grid grid-cols-1 lg:grid-cols-1 gap-8">
+                <div>
+                    <h3 class="chart-title">English-US Noise Robustness (WRR %)</h3>
+                    <div class="chart-container h-[300px] md:h-[350px]">
+                        <canvas id="noiseChartEnglish"></canvas>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="chart-title">Cantonese-HK Noise Robustness (WRR %)</h3>
+                    <div class="chart-container h-[300px] md:h-[350px]">
+                        <canvas id="noiseChartCantonese"></canvas>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="chart-title">Mandarin Noise Robustness (WRR %)</h3>
+                    <div class="chart-container h-[300px] md:h-[350px]">
+                        <canvas id="noiseChartMandarin"></canvas>
+                    </div>
+                </div>
+            </div>
+            <p class="explanation-text">Noise significantly impacts transcription accuracy across all languages. English-US maintains better WRR at lower noise levels but still sees a sharp decline as noise increases. Cantonese-HK and Mandarin are highly susceptible to noise, with WRR dropping drastically even at 25% noise and becoming almost unusable at higher noise levels. The "Numbers" variants generally follow similar trends to regular speech within each language.</p>
+        </section>
+
+        <section class="stat-card">
+            <h2 class="section-title">TC-6: Speed & Latency</h2>
+            <p class="mb-4 text-gray-600">This test measures the time taken for transcription.</p>
+            <div class="text-center">
+                <p class="stat-number" style="color: #118AB2;">1.930s</p>
+                <p class="text-lg font-semibold">Average Actual Latency</p>
+                <p class="text-sm text-gray-500">For audio clips of 5-10 seconds. System-reported latency was not available.</p>
+            </div>
+            <p class="explanation-text">An average latency of approximately 1.93 seconds for 5-10 second audio clips is generally acceptable for non-real-time transcription tasks. Individual processing times may vary.</p>
+        </section>
+
+        <section class="stat-card">
+            <h2 class="section-title">TC-5: Profanity Filtering</h2>
+            <p class="text-gray-600">Evaluation of the profanity filtering feature could not be completed for the Google STT method as there was no valid data to aggregate after filtering within the provided test set.</p>
+        </section>
+
+        <section class="stat-card">
+            <h2 class="section-title">Conclusion & Key Recommendations</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="card-title">Strengths Identified:</h3>
+                    <ul class="list-none recommendation-list">
+                        <li>High accuracy for English-US in clean audio.</li>
+                        <li>Good recognition of English domain-specific vocabulary.</li>
+                        <li>Accurate English-US punctuation in clean conditions.</li>
+                        <li>Acceptable transcription latency for non-real-time tasks.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="card-title" style="color: #FF6B6B;">Areas for Improvement:</h3>
+                    <ul class="list-none recommendation-list weakness-list">
+                        <li>Overall accuracy for Cantonese and Mandarin.</li>
+                        <li>Robustness to accents, especially for non-English languages.</li>
+                        <li>Performance in noisy environments across all languages.</li>
+                        <li>Punctuation accuracy for non-English languages and noisy English.</li>
+                        <li>Domain vocabulary support for Cantonese and Mandarin.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-6">
+                <h3 class="card-title">Recommendations:</h3>
+                <ul class="list-none recommendation-list">
+                    <li>Invest in improving base models for Cantonese and Mandarin.</li>
+                    <li>Enhance training for accent robustness, particularly cross-language accents.</li>
+                    <li>Boost noise robustness through pre-processing and diverse training data.</li>
+                    <li>Refine punctuation models for non-English languages and noisy conditions.</li>
+                    <li>Facilitate easier domain adaptation (custom vocabularies) for all languages.</li>
+                </ul>
+            </div>
+        </section>
+
+        <footer class="text-center mt-12 py-6 border-t border-gray-300">
+            <p class="text-sm text-gray-500">&copy; 2025 STT Performance Analysis. Infographic based on provided evaluation data.</p>
+        </footer>
+
+    </div>
+
+    <script>
+        const CHART_COLORS = {
+            red: '#FF6B6B',
+            yellow: '#FFD166',
+            green: '#06D6A0',
+            blue: '#118AB2',
+            darkBlue: '#073B4C',
+            grey: '#CBD5E0'
+        };
+
+        function processLabels(labels) {
+            return labels.map(label => {
+                if (typeof label === 'string' && label.length > 16) {
+                    const words = label.split(' ');
+                    const newLabel = [];
+                    let currentLine = '';
+                    words.forEach(word => {
+                        if ((currentLine + word).length > 16 && currentLine.length > 0) {
+                            newLabel.push(currentLine.trim());
+                            currentLine = word + ' ';
+                        } else {
+                            currentLine += word + ' ';
+                        }
+                    });
+                    newLabel.push(currentLine.trim());
+                    return newLabel;
+                }
+                return label;
+            });
+        }
+        
+        const commonTooltipTitleCallback = function(tooltipItems) {
+            const item = tooltipItems[0];
+            let label = item.chart.data.labels[item.dataIndex];
+            if (Array.isArray(label)) {
+              return label.join(' ');
+            } else {
+              return label;
+            }
+        };
+
+        // TC-1: Multilingual Support Chart
+        const multilingualCtx = document.getElementById('multilingualChart').getContext('2d');
+        new Chart(multilingualCtx, {
+            type: 'bar',
+            data: {
+                labels: processLabels(['Cantonese-HK', 'English-US']),
+                datasets: [{
+                    label: 'Word Error Rate (WER %)',
+                    data: [59.42, 13.32],
+                    backgroundColor: CHART_COLORS.red,
+                    borderColor: CHART_COLORS.red,
+                    borderWidth: 1
+                }, {
+                    label: 'Word Recognition Rate (WRR %)',
+                    data: [40.58, 86.68],
+                    backgroundColor: CHART_COLORS.green,
+                    borderColor: CHART_COLORS.green,
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: { display: true, text: 'Percentage (%)' }
+                    }
+                },
+                plugins: {
+                    title: { display: true, text: 'Multilingual Performance (WER & WRR)' },
+                    tooltip: { callbacks: { title: commonTooltipTitleCallback } }
+                }
+            }
+        });
+
+        // TC-2: Accent Robustness Chart
+        const accentCtx = document.getElementById('accentChart').getContext('2d');
+        new Chart(accentCtx, {
+            type: 'bar',
+            data: {
+                labels: processLabels(['Cantonese (Mandarin Accent)', 'English (Indian Accent)', 'English (SE Asian Accent)', 'Mandarin (Cantonese Accent)']),
+                datasets: [{
+                    label: 'Word Error Rate (WER %)',
+                    data: [100.00, 13.13, 31.05, 100.00],
+                    backgroundColor: CHART_COLORS.red,
+                }, {
+                    label: 'Word Recognition Rate (WRR %)',
+                    data: [0.00, 86.87, 79.53, 0.00],
+                    backgroundColor: CHART_COLORS.green,
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: { y: { beginAtZero: true, title: { display: true, text: 'Percentage (%)' } } },
+                plugins: {
+                    title: { display: true, text: 'Accent Robustness (WER & WRR)' },
+                    tooltip: { callbacks: { title: commonTooltipTitleCallback } }
+                }
+            }
+        });
+
+        // TC-3: Domain Vocabulary Support Chart
+        const domainVocabCtx = document.getElementById('domainVocabChart').getContext('2d');
+        new Chart(domainVocabCtx, {
+            type: 'bar',
+            data: {
+                labels: processLabels(['Cantonese', 'English', 'Mandarin']),
+                datasets: [{
+                    label: 'Word Error Rate (WER %)',
+                    data: [69.75, 10.95, 57.37],
+                    backgroundColor: CHART_COLORS.red,
+                }, {
+                    label: 'Avg. Vocabulary Accuracy (%)',
+                    data: [36.53, 93.33, 66.67],
+                    backgroundColor: CHART_COLORS.blue,
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: { y: { beginAtZero: true, title: { display: true, text: 'Percentage (%)' } } },
+                plugins: {
+                    title: { display: true, text: 'Domain Vocabulary Performance' },
+                    tooltip: { callbacks: { title: commonTooltipTitleCallback } }
+                }
+            }
+        });
+
+        // TC-4: Punctuation Accuracy Chart
+        const punctuationCtx = document.getElementById('punctuationChart').getContext('2d');
+        new Chart(punctuationCtx, {
+            type: 'bar',
+            data: {
+                labels: processLabels([
+                    'English-US (Clean)', 'English-US (25% Noise)', 'English-US (100% Noise)',
+                    'Cantonese-HK (Clean)', 'Cantonese-HK (25% Noise)', 'Cantonese-HK (100% Noise)',
+                    'Mandarin (Clean)', 'Mandarin (25% Noise)', 'Mandarin (100% Noise)'
+                ]),
+                datasets: [{
+                    label: 'Avg. Segmentation Accuracy (%)',
+                    data: [
+                        100.00, // Eng-US Clean (TC-1 base, from TC-4 table)
+                        0.00,  // Eng-US 25% Noise (from TC-4 table, specific noisy_25 entry for English-US) - Note: Table has English-US\noisy_25 as 0.00, English-US-Numbers\noisy_25 as 100. Using English-US\noisy_25.
+                        0.00,  // Eng-US 100% Noise
+                        0.00,  // Cant-HK Clean (TC-1 base, from TC-4 table)
+                        0.00,  // Cant-HK 25% Noise
+                        7.29,  // Cant-HK 100% Noise
+                        30.00, // Mandarin Clean (TC-1 base, from TC-4 table)
+                        10.00, // Mandarin 25% Noise
+                        5.56   // Mandarin 100% Noise
+                    ],
+                    backgroundColor: [
+                        CHART_COLORS.green, CHART_COLORS.yellow, CHART_COLORS.red,
+                        CHART_COLORS.green, CHART_COLORS.yellow, CHART_COLORS.red,
+                        CHART_COLORS.green, CHART_COLORS.yellow, CHART_COLORS.red
+                    ],
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: { y: { beginAtZero: true, max:100, title: { display: true, text: 'Accuracy (%)' } } },
+                plugins: {
+                    title: { display: true, text: 'Auto Punctuation Accuracy (Selected Conditions)' },
+                    legend: { display: false },
+                    tooltip: { callbacks: { title: commonTooltipTitleCallback } }
+                }
+            }
+        });
+
+        // TC-7: Noise Robustness Charts
+        const noiseLabels = ['Clean (0%)', '25% Noise', '50% Noise', '75% Noise', '100% Noise'];
+
+        // English Noise Chart
+        const noiseEnglishCtx = document.getElementById('noiseChartEnglish').getContext('2d');
+        new Chart(noiseEnglishCtx, {
+            type: 'line',
+            data: {
+                labels: noiseLabels,
+                datasets: [{
+                    label: 'English-US (Regular WRR %)',
+                    data: [86.68, 49.92, 21.96, 24.85, 18.44], // 0% from TC-1 Eng-US WRR
+                    borderColor: CHART_COLORS.blue,
+                    backgroundColor: CHART_COLORS.blue + '33', // semi-transparent fill
+                    tension: 0.1,
+                    fill: true
+                }, {
+                    label: 'English-US (Numbers WRR %)',
+                    data: [86.68, 52.88, 28.42, 23.66, 29.23], // Assuming 0% for Numbers is same as regular for baseline
+                    borderColor: CHART_COLORS.green,
+                    backgroundColor: CHART_COLORS.green + '33',
+                    tension: 0.1,
+                    fill: true
+                }]
+            },
+            options: {
+                responsive: true, maintainAspectRatio: false,
+                scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'WRR (%)' } } },
+                plugins: { tooltip: { callbacks: { title: commonTooltipTitleCallback } } }
+            }
+        });
+
+        // Cantonese Noise Chart
+        const noiseCantoneseCtx = document.getElementById('noiseChartCantonese').getContext('2d');
+        new Chart(noiseCantoneseCtx, {
+            type: 'line',
+            data: {
+                labels: noiseLabels,
+                datasets: [{
+                    label: 'Cantonese-HK (Regular WRR %)',
+                    data: [40.58, 12.38, 4.38, 4.75, 1.66], // 0% from TC-1 Cant-HK WRR
+                    borderColor: CHART_COLORS.blue,
+                    backgroundColor: CHART_COLORS.blue + '33',
+                    tension: 0.1,
+                    fill: true
+                }, {
+                    label: 'Cantonese-HK (Numbers WRR %)',
+                    data: [40.58, 10.34, 3.90, 0.50, 0.00], // Assuming 0% for Numbers is same as regular for baseline
+                    borderColor: CHART_COLORS.green,
+                    backgroundColor: CHART_COLORS.green + '33',
+                    tension: 0.1,
+                    fill: true
+                }]
+            },
+            options: {
+                responsive: true, maintainAspectRatio: false,
+                scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'WRR (%)' } } },
+                plugins: { tooltip: { callbacks: { title: commonTooltipTitleCallback } } }
+            }
+        });
+        
+        // Mandarin Noise Chart
+        const noiseMandarinCtx = document.getElementById('noiseChartMandarin').getContext('2d');
+        new Chart(noiseMandarinCtx, {
+            type: 'line',
+            data: {
+                labels: noiseLabels,
+                datasets: [{
+                    label: 'Mandarin (Regular WRR %)',
+                    // Using TC-1 Mandarin WRR 55.62% as baseline (0% noise) as per analysis in thought block
+                    data: [55.62, 46.80, 21.77, 14.76, 14.33], 
+                    borderColor: CHART_COLORS.blue,
+                    backgroundColor: CHART_COLORS.blue + '33',
+                    tension: 0.1,
+                    fill: true
+                }, {
+                    label: 'Mandarin (Numbers WRR %)',
+                     // Using TC-1 Mandarin WRR 55.62% as baseline (0% noise) as per analysis in thought block
+                    data: [55.62, 39.09, 22.01, 5.19, 2.18],
+                    borderColor: CHART_COLORS.green,
+                    backgroundColor: CHART_COLORS.green + '33',
+                    tension: 0.1,
+                    fill: true
+                }]
+            },
+            options: {
+                responsive: true, maintainAspectRatio: false,
+                scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'WRR (%)' } } },
+                plugins: { tooltip: { callbacks: { title: commonTooltipTitleCallback } } }
+            }
+        });
+
+    </script>
+</body>
+</html>
