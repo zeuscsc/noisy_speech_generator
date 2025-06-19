@@ -173,10 +173,6 @@ def extract_and_normalize_numbers(text, language_code):
                 elif isinstance(val, (float, int)):
                     normalized_numbers.append(str(val))
             except ValueError:
-                
-                
-                
-                
                 pass 
     return normalized_numbers
 
@@ -228,10 +224,6 @@ def calculate_vocabulary_accuracy(gt_text, pred_text, vocabulary_list, vtt_stem,
             else:
                 logging.info(f"      Vocab: '{vocab_item_str}' | Found in GT: YES | Found in Pred: NO")
         
-        
-        
-        
-
     if not vocabs_in_gt:
         logging.info(f"      No vocabulary from the provided list found in Ground Truth for {vtt_stem} ({stt_method}). Vocabulary accuracy is N/A.")
         logging.info(f"--- End Vocabulary Check for {vtt_stem} ({stt_method}) ---")
@@ -267,20 +259,13 @@ def calculate_segmentation_accuracy(gt_segments, pred_text):
     for i in range(num_gt_boundaries):
         gt_segment_to_map = gt_segments[i]
         
-        
-        
         gt_content_chars_count = 0
         for char_gt in gt_segment_to_map:
             if not char_gt.isspace() and char_gt not in ALL_PUNCTUATION_CHARS:
                 gt_content_chars_count += 1
         
-        
-        
         if gt_content_chars_count == 0:
             logging.debug(f"GT segment '{gt_segment_to_map}' (index {i}) has 0 content characters. Skipping this boundary check for pred mapping.")
-            
-            
-            
             continue
 
 
@@ -322,8 +307,6 @@ def calculate_segmentation_accuracy(gt_segments, pred_text):
                 logging.debug(f"Boundary after GT '{gt_segment_to_map}' NOT separated. Found '{potential_separator_char}' in pred.")
                 current_pred_char_idx = separator_check_idx 
         else:
-            
-            
             logging.debug(f"Prediction ended exactly after mapping GT segment '{gt_segment_to_map}'. No separator found.")
             current_pred_char_idx = len(pred_text)
 
@@ -475,13 +458,6 @@ def _process_test_case_generic(base_test_set_dir, tc_folder_name,
                 wer_raw = stats.get('error_rate') 
                 if wer_raw is None: wer_raw = stats.get('WER') 
 
-                
-                
-                
-                
-                
-                
-                
                 H, N_ref = stats.get('hits'), stats.get('num_ref_tokens')
                 
                 if H is None and hasattr(wer_tracker, 'hits'): H = wer_tracker.hits
@@ -704,7 +680,6 @@ def testcase4(base_test_set_dir="testset", output_dir_for_logs="test_case_logs")
     tc_folders_to_scan_for_vtts = ["TC-1", "TC-2", "TC-3", "TC-7"] 
     return _process_test_case_4(base_test_set_dir, tc_folders_to_scan_for_vtts, output_dir_for_logs)
 
-
 def testcase5(base_test_set_dir="testset", vocabulary_json_path="vocabulary.profanity.json"):
     
     logging.info(f"Starting Test Case 5 processing: Using data from 'TC-3' folder with vocabulary from: {vocabulary_json_path}")
@@ -749,45 +724,15 @@ def testcase6(api_durations_csv_path):
         output_path_csv_normalized = str(output_path_csv).replace('\\', '/')
         prediction_file_name_from_csv = os.path.basename(output_path_csv_normalized) 
         
-        
-        
-        
-        
-        
-        
         parts = prediction_file_name_from_csv[:-len(".txt")].split('.')
         stt_method_parsed_csv = "unknown"
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         
         name_without_ext = prediction_file_name_from_csv[:-len(".txt")] if prediction_file_name_from_csv.endswith(".txt") else prediction_file_name_from_csv
         stt_method_parsed_csv = name_without_ext.split('.')[-1] if '.' in name_without_ext and len(name_without_ext.split('.')) > 1 else name_without_ext 
         
-        
-        
-        
-
         if not stt_method_parsed_csv or stt_method_parsed_csv == name_without_ext : 
                 logging.warning(f"Could not reliably parse STT method from '{prediction_file_name_from_csv}' in durations CSV. Using last part: '{stt_method_parsed_csv}'. This might cause merge issues if STT methods contain '.' or VTT stems are complex.")
         
-        
-        
-        
-        
-
         durations_data.append({
             "PredictionFile": prediction_file_name_from_csv, 
             "STT_Method": stt_method_parsed_csv, 
@@ -803,7 +748,6 @@ def testcase6(api_durations_csv_path):
     
     result_df["TestCase"] = "TC-6" 
     return result_df
-
 
 def testcase7(base_test_set_dir="testset"):
     logging.info(f"Starting Test Case 7 (Noise Level Test) processing. Data from 'TC-7' folder.")
