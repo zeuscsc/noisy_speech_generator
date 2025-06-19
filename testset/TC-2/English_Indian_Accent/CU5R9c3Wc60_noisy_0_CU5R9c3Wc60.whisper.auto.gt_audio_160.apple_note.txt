@@ -1,0 +1,1 @@
+Parameter that we have found out. After building that, you can do the train test split with the model. 

@@ -1,0 +1,1 @@
+Parameters we are defining the bounds. And call gpop.mehods Beijian optimization. We pass the. 
