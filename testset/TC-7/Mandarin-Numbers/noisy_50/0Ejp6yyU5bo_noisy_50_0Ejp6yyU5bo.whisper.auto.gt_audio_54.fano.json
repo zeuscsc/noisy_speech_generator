@@ -1,0 +1,70 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "这个东西有百分之三十就现在放平时然后",
+                    "confidence": 0.4147651195526123,
+                    "startTime": "0.100s",
+                    "endTime": "2.660s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.060087550431489944,
+                    "speechRate": 7.03125
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊所以",
+                    "confidence": 0.37519371509552,
+                    "startTime": "5.940s",
+                    "endTime": "6.750s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07965946942567825,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "然后之前也有群我",
+                    "confidence": 0.6980645060539246,
+                    "startTime": "4.170s",
+                    "endTime": "5.830s",
+                    "speakerTag": "002",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.13600292801856995,
+                    "speechRate": 4.819277286529541
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-mandarin"
+        ]
+    }
+}

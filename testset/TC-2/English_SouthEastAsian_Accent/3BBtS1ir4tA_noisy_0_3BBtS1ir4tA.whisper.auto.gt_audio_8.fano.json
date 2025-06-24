@@ -1,0 +1,34 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "also worth noting there's not the h it's either the sound like that list they're damn breed",
+                    "confidence": 0.8184482455253601,
+                    "startTime": "0.110s",
+                    "endTime": "6.290s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.11451184004545212,
+                    "speechRate": 3.23624587059021
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-english"
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "per parameter two also so it is always a combination of this and this whereas here since we are random",
+                    "confidence": 0.8456060290336609,
+                    "startTime": "0s",
+                    "endTime": "5.450s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08758178353309631,
+                    "speechRate": 3.669724702835083
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-english"
+        ]
+    }
+}

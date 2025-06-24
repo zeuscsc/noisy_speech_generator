@@ -1,0 +1,52 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "信用卡過咗限額都可以用㗎咩",
+                    "confidence": 0.9278576374053955,
+                    "startTime": "0s",
+                    "endTime": "3.060s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.10759969800710678,
+                    "speechRate": 4.248365879058838
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咩",
+                    "confidence": 0.8309757113456726,
+                    "startTime": "4.360s",
+                    "endTime": "4.580s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.09647393226623535,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-cantonese"
+        ]
+    }
+}

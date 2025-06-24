@@ -1,0 +1,52 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "",
+                    "confidence": 0.2882477641105652,
+                    "startTime": "0.640s",
+                    "endTime": "0.820s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.03915337473154068,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "twenty three",
+                    "confidence": 0.12301837652921677,
+                    "startTime": "1.450s",
+                    "endTime": "2.160s",
+                    "speakerTag": "002",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.04403369128704071,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-english"
+        ]
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "vocabulary you can use singlish to get your points across faster with lesser work",
+                    "confidence": 0.9114245772361755,
+                    "startTime": "0s",
+                    "endTime": "4.200s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.114508256316185,
+                    "speechRate": 3.3333332538604736
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "for example instead",
+                    "confidence": 0.9211995005607605,
+                    "startTime": "4.960s",
+                    "endTime": "5.950s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.12613993883132935,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-english"
+        ]
+    }
+}

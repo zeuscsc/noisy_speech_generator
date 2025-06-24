@@ -1,0 +1,34 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "hey there spy there this is your boy mikey busto",
+                    "confidence": 0.7255165576934814,
+                    "startTime": "0.090s",
+                    "endTime": "3.370s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.15685857832431793,
+                    "speechRate": 3.0487804412841797
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-english"
+        ]
+    }
+}

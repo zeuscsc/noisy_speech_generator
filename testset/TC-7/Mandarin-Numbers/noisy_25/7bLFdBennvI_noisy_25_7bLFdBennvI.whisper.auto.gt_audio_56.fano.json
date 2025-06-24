@@ -1,0 +1,34 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "因为当时我是已经三点钟我也",
+                    "confidence": 0.6576865315437317,
+                    "startTime": "0.760s",
+                    "endTime": "4.080s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04588732868432999,
+                    "speechRate": 3.9156627655029297
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-mandarin"
+        ]
+    }
+}

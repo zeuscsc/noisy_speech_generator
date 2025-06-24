@@ -1,0 +1,52 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "所以我们在呃这个中国大陆的话",
+                    "confidence": 0.9311023950576782,
+                    "startTime": "1.280s",
+                    "endTime": "3.840s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.09075898677110672,
+                    "speechRate": 5.46875
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "它是银联卡",
+                    "confidence": 0.9201845526695251,
+                    "startTime": "0s",
+                    "endTime": "0.820s",
+                    "speakerTag": "002",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.0889100581407547,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-mandarin"
+        ]
+    }
+}

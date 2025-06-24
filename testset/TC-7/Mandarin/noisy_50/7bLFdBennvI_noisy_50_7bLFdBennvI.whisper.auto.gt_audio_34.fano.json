@@ -1,0 +1,70 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "零八六你",
+                    "confidence": 0.11266104876995087,
+                    "startTime": "3.720s",
+                    "endTime": "4.410s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.046079371124506,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我没有记得",
+                    "confidence": 0.3318988084793091,
+                    "startTime": "2.590s",
+                    "endTime": "3.300s",
+                    "speakerTag": "002",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04824669659137726,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "但是如果有人之前买过",
+                    "confidence": 0.7186203002929688,
+                    "startTime": "0.720s",
+                    "endTime": "2.410s",
+                    "speakerTag": "003",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05414973571896553,
+                    "speechRate": 5.917159557342529
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-mandarin"
+        ]
+    }
+}

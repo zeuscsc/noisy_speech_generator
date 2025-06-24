@@ -1,0 +1,34 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "因为他拿不出投资的任何证明所以呢也给他具有",
+                    "confidence": 0.9027405381202698,
+                    "startTime": "0.410s",
+                    "endTime": "3.960s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.03348943218588829,
+                    "speechRate": 5.915493011474609
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-mandarin"
+        ]
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "连打架都挺幸福的",
+                    "confidence": 0.47265052795410156,
+                    "startTime": "1.590s",
+                    "endTime": "3.210s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05704963952302933,
+                    "speechRate": 4.938271522521973
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "因为我刚啊现在跟我讲八四了",
+                    "confidence": 0.3088114261627197,
+                    "startTime": "4.300s",
+                    "endTime": "6.540s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05931810289621353,
+                    "speechRate": 5.8035712242126465
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "中银香港的",
+                    "confidence": 0.8843513131141663,
+                    "startTime": "0.200s",
+                    "endTime": "1.040s",
+                    "speakerTag": "002",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06108073890209198,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-mandarin"
+        ]
+    }
+}

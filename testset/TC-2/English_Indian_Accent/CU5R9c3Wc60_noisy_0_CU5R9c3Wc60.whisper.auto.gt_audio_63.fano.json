@@ -1,0 +1,52 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "minimize it error means we want to minimize it",
+                    "confidence": 0.7357388138771057,
+                    "startTime": "0s",
+                    "endTime": "1.900s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.07889988273382187,
+                    "speechRate": 4.736842155456543
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "so what's the problem there getting a particular",
+                    "confidence": 0.6706253290176392,
+                    "startTime": "2.600s",
+                    "endTime": "4.060s",
+                    "speakerTag": "002",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.10539368540048599,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-english"
+        ]
+    }
+}

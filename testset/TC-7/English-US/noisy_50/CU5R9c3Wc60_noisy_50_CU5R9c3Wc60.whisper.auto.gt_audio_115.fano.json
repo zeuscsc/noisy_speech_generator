@@ -1,0 +1,52 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": ">the fundamental idea behind by asian optimization let's implement this",
+                    "confidence": 0.7776004672050476,
+                    "startTime": "0s",
+                    "endTime": "4.060s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.07656024396419525,
+                    "speechRate": 2.955665111541748
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "okso we will see top",
+                    "confidence": 0.6636942625045776,
+                    "startTime": "4.510s",
+                    "endTime": "5.520s",
+                    "speakerTag": "002",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.07159610837697983,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-english"
+        ]
+    }
+}

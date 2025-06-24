@@ -1,0 +1,70 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "ok",
+                    "confidence": 0.4695655107498169,
+                    "startTime": "5.510s",
+                    "endTime": "6.180s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.082402803003788,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "balance的话一个是",
+                    "confidence": 0.22432032227516174,
+                    "startTime": "0.720s",
+                    "endTime": "1.950s",
+                    "speakerTag": "002",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06775087863206863,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.009890803135931492,
+                    "startTime": "3.530s",
+                    "endTime": "4.180s",
+                    "speakerTag": "002",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05852475389838219,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-mandarin"
+        ]
+    }
+}

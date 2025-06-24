@@ -1,0 +1,34 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "喂你喺香港呀你喺沙士呀最仆街啦嗰陣時跌幾多呀嗰陣時gdp係",
+                    "confidence": 0.8674131631851196,
+                    "startTime": "0.030s",
+                    "endTime": "5.950s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.17315487563610077,
+                    "speechRate": 4.5608110427856445
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-cantonese"
+        ]
+    }
+}

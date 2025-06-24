@@ -1,0 +1,34 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "預識走向嘅擔憂匯豐呢股價曾經喺一日之內暴跌咗十五個percent",
+                    "confidence": 0.8433685898780823,
+                    "startTime": "0s",
+                    "endTime": "5.950s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.12837795913219452,
+                    "speechRate": 4.369748115539551
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-cantonese"
+        ]
+    }
+}

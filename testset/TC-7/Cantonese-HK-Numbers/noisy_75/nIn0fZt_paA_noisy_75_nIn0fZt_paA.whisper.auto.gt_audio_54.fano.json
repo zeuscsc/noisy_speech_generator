@@ -1,0 +1,52 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "做唔到㗎",
+                    "confidence": 0.5700777769088745,
+                    "startTime": "2.750s",
+                    "endTime": "3.290s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.049561403691768646,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係啦",
+                    "confidence": 0.22321198880672455,
+                    "startTime": "1.920s",
+                    "endTime": "2.350s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.049490272998809814,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-cantonese"
+        ]
+    }
+}

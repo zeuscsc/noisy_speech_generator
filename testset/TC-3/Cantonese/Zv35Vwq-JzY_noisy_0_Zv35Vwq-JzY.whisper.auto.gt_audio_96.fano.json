@@ -1,0 +1,52 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "visa signature啦白金visa卡匯豐金卡啦匯豐金卡有學生卡",
+                    "confidence": 0.8554239869117737,
+                    "startTime": "0s",
+                    "endTime": "4.290s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03646817430853844,
+                    "speechRate": 4.662004470825195
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁記得呢就要先去做登記先嘅",
+                    "confidence": 0.9313896298408508,
+                    "startTime": "4.630s",
+                    "endTime": "6.970s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.051268793642520905,
+                    "speechRate": 5.55555534362793
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-cantonese"
+        ]
+    }
+}

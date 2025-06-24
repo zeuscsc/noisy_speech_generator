@@ -1,0 +1,70 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "don't just ban them with chosen betweens i gotone",
+                    "confidence": 0.33216020464897156,
+                    "startTime": "0.020s",
+                    "endTime": "3.250s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.06641969829797745,
+                    "speechRate": 3.095975160598755
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "get the model here gets to see",
+                    "confidence": 0.5784076452255249,
+                    "startTime": "4.300s",
+                    "endTime": "7.450s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.06877780705690384,
+                    "speechRate": 2.222222328186035
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "we",
+                    "confidence": 0.06311044842004776,
+                    "startTime": "7.090s",
+                    "endTime": "7.250s",
+                    "speakerTag": "002",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08310969918966293,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-english"
+        ]
+    }
+}

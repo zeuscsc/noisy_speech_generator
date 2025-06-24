@@ -1,0 +1,52 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": ">can get the best parameter values now once the best parameter is that it's to make",
+                    "confidence": 0.49962928891181946,
+                    "startTime": "0s",
+                    "endTime": "4.850s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.07593532651662827,
+                    "speechRate": 3.7113401889801025
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "once the best element is that you've got its to make",
+                    "confidence": 0.2744712233543396,
+                    "startTime": "2.600s",
+                    "endTime": "4.850s",
+                    "speakerTag": "002",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.07779642939567566,
+                    "speechRate": 5.333333492279053
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-english"
+        ]
+    }
+}

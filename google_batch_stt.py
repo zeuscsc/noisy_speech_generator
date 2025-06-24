@@ -343,7 +343,7 @@ def pipeline():
     print(f"Total audio files submitted for processing: {processed_count} (out of {len(tasks)} matched files)")
     print(f"Check individual '.google.txt' files in '{BASE_AUDIO_DIRECTORY}' subdirectories for transcription results or errors.")
 
-    duration_csv_path = "api_call_durations.csv"
+    duration_csv_path = "google_api_call_durations.csv"
     if api_call_durations_list:
         try:
             df = pd.DataFrame(api_call_durations_list)

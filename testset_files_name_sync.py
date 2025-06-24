@@ -54,7 +54,51 @@ def check_and_rename_files(root_folder):
 
     print("Script finished.")
 
+def rename_files_in_folder(root_folder):
+    """
+    Recursively walks through a folder and its subfolders to rename specific
+    .json and .txt files.
+
+    This function searches for files ending with '.json' or '.txt' that
+    contain '.custom.' in their filenames. It then renames these files by
+    replacing '.custom.' with '.fano.'.
+
+    Args:
+        root_folder (str): The absolute or relative path to the root folder
+                           to start the file traversal from.
+    """
+    if not os.path.isdir(root_folder):
+        print(f"Error: The specified folder '{root_folder}' does not exist.")
+        return
+
+    print(f"Starting to scan files in: {root_folder}\n")
+    renamed_files_count = 0
+
+    for dirpath, _, filenames in os.walk(root_folder):
+        for filename in filenames:
+            # Check if the file has a .json or .txt extension and contains '.custom.'
+            if (filename.endswith(".json") or filename.endswith(".txt")) and ".custom." in filename:
+                original_filepath = os.path.join(dirpath, filename)
+                
+                # Create the new filename by replacing '.custom.' with '.fano.'
+                new_filename = filename.replace(".custom.", ".fano.")
+                new_filepath = os.path.join(dirpath, new_filename)
+
+                try:
+                    # Rename the file
+                    os.rename(original_filepath, new_filepath)
+                    print(f"Renamed: {original_filepath}  ->  {new_filepath}")
+                    renamed_files_count += 1
+                except OSError as e:
+                    print(f"Error renaming file {original_filepath}: {e}")
+
+    if renamed_files_count == 0:
+        print("No files matching the criteria were found to rename.")
+    else:
+        print(f"\nFinished renaming {renamed_files_count} file(s).")
+
 if __name__ == "__main__":
     target_directory = "testset"
     check_and_rename_files(target_directory)
+    rename_files_in_folder(target_directory)
 

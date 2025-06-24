@@ -1,0 +1,1 @@
+the variable that you want to predict x and y respectively this you have in your data
