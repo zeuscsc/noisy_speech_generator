@@ -15,6 +15,30 @@ WER (Word Error Rate), WRR (Word Recognition Rate) for each language, and Accura
 
 ### Results:
 
+#### STT Method: apple_note
+
+| Language | Average WER (%) | Average WRR (%) | Average Sequence Accuracy (%) |
+| --- | --- | --- | --- |
+| Cantonese-HK | 43.44 | 56.56 | N/A |
+| Cantonese-HK-Numbers | N/A | N/A | 68.75 |
+| English-US | 25.76 | 74.24 | N/A |
+| English-US-Numbers | N/A | N/A | 93.75 |
+| Mandarin | 36.73 | 63.27 | N/A |
+| Mandarin-Numbers | N/A | N/A | 91.67 |
+
+
+#### STT Method: fano
+
+| Language | Average WER (%) | Average WRR (%) | Average Sequence Accuracy (%) |
+| --- | --- | --- | --- |
+| Cantonese-HK | 41.87 | 58.96 | N/A |
+| Cantonese-HK-Numbers | N/A | N/A | 71.88 |
+| English-US | 31.76 | 68.24 | N/A |
+| English-US-Numbers | N/A | N/A | 87.50 |
+| Mandarin | 60.73 | 61.15 | N/A |
+| Mandarin-Numbers | N/A | N/A | 95.83 |
+
+
 #### STT Method: google
 
 | Language | Average WER (%) | Average WRR (%) | Average Sequence Accuracy (%) |
@@ -54,6 +78,26 @@ WER (Word Error Rate), WRR (Word Recognition Rate) and for each language.
 
 ### Results:
 
+#### STT Method: apple_note
+
+| Accent/Language | Average WER (%) | Average WRR (%) |
+| --- | --- | --- |
+| Cantonese_Mandarin_Accent | 113.33 | 0.00 |
+| English_Indian_Accent | 37.12 | 62.88 |
+| English_SouthEastAsian_Accent | 23.56 | 76.44 |
+| Mandarin_Cantonese_Accent | 100.00 | 0.00 |
+
+
+#### STT Method: fano
+
+| Accent/Language | Average WER (%) | Average WRR (%) |
+| --- | --- | --- |
+| Cantonese_Mandarin_Accent | 96.67 | 3.33 |
+| English_Indian_Accent | 40.62 | 60.27 |
+| English_SouthEastAsian_Accent | 29.58 | 70.42 |
+| Mandarin_Cantonese_Accent | 112.50 | 0.00 |
+
+
 #### STT Method: google
 
 | Accent/Language | Average WER (%) | Average WRR (%) |
@@ -89,6 +133,24 @@ WER (Word Error Rate), and (Accuracy) full vocab recognition for each language.
 
 ### Results:
 
+#### STT Method: apple_note
+
+| Language | Average WER (%) | Average Vocabulary Accuracy (%) |
+| --- | --- | --- |
+| Cantonese | 48.89 | 47.33 |
+| English | 24.34 | 86.67 |
+| Mandarin | 50.00 | 100.00 |
+
+
+#### STT Method: fano
+
+| Language | Average WER (%) | Average Vocabulary Accuracy (%) |
+| --- | --- | --- |
+| Cantonese | 45.54 | 73.38 |
+| English | 24.45 | 93.33 |
+| Mandarin | 61.90 | 33.33 |
+
+
 #### STT Method: google
 
 | Language | Average WER (%) | Average Vocabulary Accuracy (%) |
@@ -121,6 +183,85 @@ Proportion of correct punctuation (Sentence Sepreation) placements for each lang
 
 
 ### Results:
+
+#### STT Method: apple_note
+
+| Language | Average Segmentation Accuracy (%) |
+| --- | --- |
+| Cantonese | 12.38 |
+| Cantonese-HK | 3.68 |
+| Cantonese-HK-Numbers | 10.26 |
+| Cantonese-HK-Numbers\noisy_100 | 0.00 |
+| Cantonese-HK-Numbers\noisy_25 | 4.76 |
+| Cantonese-HK-Numbers\noisy_50 | 0.00 |
+| Cantonese-HK-Numbers\noisy_75 | 0.00 |
+| Cantonese-HK\noisy_100 | 0.00 |
+| Cantonese-HK\noisy_25 | 0.00 |
+| Cantonese-HK\noisy_50 | 0.00 |
+| Cantonese-HK\noisy_75 | 0.00 |
+| Cantonese_Mandarin_Accent | 13.64 |
+| English-US | 100.00 |
+| English-US-Numbers | 50.00 |
+| English-US-Numbers\noisy_100 | 33.33 |
+| English-US-Numbers\noisy_25 | 100.00 |
+| English-US-Numbers\noisy_50 | 0.00 |
+| English-US-Numbers\noisy_75 | 0.00 |
+| English-US\noisy_100 | 0.00 |
+| English-US\noisy_25 | 0.00 |
+| English-US\noisy_50 | 25.00 |
+| English-US\noisy_75 | 0.00 |
+| English_SouthEastAsian_Accent | 45.31 |
+| Mandarin | 33.33 |
+| Mandarin-Numbers | 39.74 |
+| Mandarin-Numbers\noisy_100 | 0.00 |
+| Mandarin-Numbers\noisy_50 | 0.00 |
+| Mandarin-Numbers\noisy_75 | 0.00 |
+| Mandarin\noisy_100 | 0.00 |
+| Mandarin\noisy_25 | 0.00 |
+| Mandarin\noisy_50 | 0.00 |
+| Mandarin\noisy_75 | 16.67 |
+| Mandarin_Cantonese_Accent | 0.00 |
+
+
+#### STT Method: fano
+
+| Language | Average Segmentation Accuracy (%) |
+| --- | --- |
+| Cantonese | 4.52 |
+| Cantonese-HK | 3.51 |
+| Cantonese-HK-Numbers | 0.00 |
+| Cantonese-HK-Numbers\noisy_100 | 9.52 |
+| Cantonese-HK-Numbers\noisy_25 | 0.00 |
+| Cantonese-HK-Numbers\noisy_50 | 0.00 |
+| Cantonese-HK-Numbers\noisy_75 | 0.00 |
+| Cantonese-HK\noisy_100 | 12.50 |
+| Cantonese-HK\noisy_25 | 2.78 |
+| Cantonese-HK\noisy_50 | 0.00 |
+| Cantonese-HK\noisy_75 | 0.00 |
+| Cantonese_Mandarin_Accent | 18.18 |
+| English-US | 0.00 |
+| English-US-Numbers | 50.00 |
+| English-US-Numbers\noisy_100 | 0.00 |
+| English-US-Numbers\noisy_25 | 0.00 |
+| English-US-Numbers\noisy_50 | 0.00 |
+| English-US-Numbers\noisy_75 | 0.00 |
+| English-US\noisy_100 | 100.00 |
+| English-US\noisy_25 | 0.00 |
+| English-US\noisy_50 | 0.00 |
+| English-US\noisy_75 | 0.00 |
+| English_SouthEastAsian_Accent | 34.38 |
+| Mandarin | 28.33 |
+| Mandarin-Numbers | 0.00 |
+| Mandarin-Numbers\noisy_100 | 0.00 |
+| Mandarin-Numbers\noisy_25 | 16.67 |
+| Mandarin-Numbers\noisy_50 | 7.14 |
+| Mandarin-Numbers\noisy_75 | 25.00 |
+| Mandarin\noisy_100 | 16.67 |
+| Mandarin\noisy_25 | 0.00 |
+| Mandarin\noisy_50 | 10.00 |
+| Mandarin\noisy_75 | 0.00 |
+| Mandarin_Cantonese_Accent | 40.00 |
+
 
 #### STT Method: google
 
@@ -228,6 +369,14 @@ Rate of profanity vocabulary identified for each language.
 
 ### Results:
 
+#### STT Method: apple_note
+
+No valid data to aggregate for this STT method after filtering.
+
+#### STT Method: fano
+
+No valid data to aggregate for this STT method after filtering.
+
 #### STT Method: google
 
 No valid data to aggregate for this STT method after filtering.
@@ -250,6 +399,14 @@ Actual latency in seconds vs system-reported latency.
 
 ### Results:
 
+#### STT Method: fano
+
+| Metric | Value |
+| --- | --- |
+| Average Actual Latency (s) | 3.382 |
+| System-Reported Latency (s) | Data not available in source CSV |
+
+
 #### STT Method: google
 
 | Metric | Value |
@@ -271,6 +428,65 @@ WER (Word Error Rate), WRR (Word Recognition Rate), and Accuracy for Numbers (Se
 
 
 ### Results:
+
+#### STT Method: apple_note
+
+| Language/Condition | Noise Level (%) | Average WER (%) | Average WRR (%) | Average Sequence Accuracy (%) |
+| --- | --- | --- | --- | --- |
+| Cantonese-HK-Numbers\noisy_100 | 100% | 80.31 | 19.69 | N/A |
+| Cantonese-HK-Numbers\noisy_25 | 25% | 66.98 | 33.02 | N/A |
+| Cantonese-HK-Numbers\noisy_50 | 50% | 82.75 | 17.25 | N/A |
+| Cantonese-HK-Numbers\noisy_75 | 75% | 98.94 | 1.06 | N/A |
+| Cantonese-HK\noisy_100 | 100% | 89.92 | 10.08 | N/A |
+| Cantonese-HK\noisy_25 | 25% | 57.00 | 43.00 | N/A |
+| Cantonese-HK\noisy_50 | 50% | 71.47 | 28.53 | N/A |
+| Cantonese-HK\noisy_75 | 75% | 90.78 | 9.22 | N/A |
+| English-US-Numbers\noisy_100 | 100% | 83.58 | 16.42 | N/A |
+| English-US-Numbers\noisy_25 | 25% | 54.05 | 45.95 | N/A |
+| English-US-Numbers\noisy_50 | 50% | 80.50 | 19.50 | N/A |
+| English-US-Numbers\noisy_75 | 75% | 70.88 | 29.12 | N/A |
+| English-US\noisy_100 | 100% | 81.50 | 18.50 | N/A |
+| English-US\noisy_25 | 25% | 68.88 | 31.12 | N/A |
+| English-US\noisy_50 | 50% | 82.00 | 18.00 | N/A |
+| English-US\noisy_75 | 75% | 77.29 | 22.71 | N/A |
+| Mandarin-Numbers\noisy_100 | 100% | 92.58 | 7.42 | N/A |
+| Mandarin-Numbers\noisy_50 | 50% | 61.11 | 38.89 | N/A |
+| Mandarin-Numbers\noisy_75 | 75% | 73.00 | 27.00 | N/A |
+| Mandarin\noisy_100 | 100% | 83.62 | 16.38 | N/A |
+| Mandarin\noisy_25 | 25% | 37.49 | 62.51 | N/A |
+| Mandarin\noisy_50 | 50% | 57.84 | 42.16 | N/A |
+| Mandarin\noisy_75 | 75% | 69.53 | 30.47 | N/A |
+
+
+#### STT Method: fano
+
+| Language/Condition | Noise Level (%) | Average WER (%) | Average WRR (%) | Average Sequence Accuracy (%) |
+| --- | --- | --- | --- | --- |
+| Cantonese-HK-Numbers\noisy_100 | 100% | 85.10 | 14.90 | N/A |
+| Cantonese-HK-Numbers\noisy_25 | 25% | 65.24 | 34.76 | N/A |
+| Cantonese-HK-Numbers\noisy_50 | 50% | 82.31 | 17.69 | N/A |
+| Cantonese-HK-Numbers\noisy_75 | 75% | 92.98 | 7.02 | N/A |
+| Cantonese-HK\noisy_100 | 100% | 86.46 | 13.54 | N/A |
+| Cantonese-HK\noisy_25 | 25% | 66.03 | 33.97 | N/A |
+| Cantonese-HK\noisy_50 | 50% | 75.21 | 26.18 | N/A |
+| Cantonese-HK\noisy_75 | 75% | 90.66 | 9.34 | N/A |
+| English-US-Numbers\noisy_100 | 100% | 92.45 | 7.55 | N/A |
+| English-US-Numbers\noisy_25 | 25% | 63.07 | 36.93 | N/A |
+| English-US-Numbers\noisy_50 | 50% | 81.72 | 18.28 | N/A |
+| English-US-Numbers\noisy_75 | 75% | 89.40 | 10.60 | N/A |
+| English-US\noisy_100 | 100% | 84.09 | 15.90 | N/A |
+| English-US\noisy_25 | 25% | 69.74 | 30.26 | N/A |
+| English-US\noisy_50 | 50% | 87.54 | 12.46 | N/A |
+| English-US\noisy_75 | 75% | 101.50 | 6.19 | N/A |
+| Mandarin-Numbers\noisy_100 | 100% | 114.91 | 1.76 | N/A |
+| Mandarin-Numbers\noisy_25 | 25% | 68.91 | 35.59 | N/A |
+| Mandarin-Numbers\noisy_50 | 50% | 85.12 | 17.78 | N/A |
+| Mandarin-Numbers\noisy_75 | 75% | 85.99 | 14.01 | N/A |
+| Mandarin\noisy_100 | 100% | 95.76 | 6.18 | N/A |
+| Mandarin\noisy_25 | 25% | 38.13 | 61.87 | N/A |
+| Mandarin\noisy_50 | 50% | 91.82 | 18.13 | N/A |
+| Mandarin\noisy_75 | 75% | 81.41 | 18.59 | N/A |
+
 
 #### STT Method: google
 

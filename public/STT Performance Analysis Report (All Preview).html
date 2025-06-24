@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STT System Evaluation Infographic</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* slate-50 */
+        }
+        .chart-container {
+            position: relative;
+            background: white;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            padding: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        .metric-note {
+            font-size: 0.875rem;
+            color: #475569; /* slate-600 */
+            text-align: center;
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+
+    <div class="max-w-7xl mx-auto">
+        <header class="text-center mb-8">
+            <h1 class="text-3xl md:text-4xl font-bold text-slate-800">STT System Evaluation Summary</h1>
+            <p class="mt-2 text-lg text-slate-600">An interactive overview of Speech-to-Text model performance.</p>
+        </header>
+
+        <div class="mb-6 max-w-md mx-auto">
+            <label for="testCaseSelector" class="block text-sm font-medium text-slate-700 mb-2">Select a Test Case to View:</label>
+            <select id="testCaseSelector" class="w-full bg-white border border-slate-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                <option value="tc1" selected>TC-1: Multilingual Support</option>
+                <option value="tc2">TC-2: Robustness Across Accents</option>
+                <option value="tc3">TC-3: Domain Vocabulary Support</option>
+                <option value="tc4">TC-4: Auto Punctuation Feature</option>
+                <option value="tc6">TC-6: Transcription Speed and Latency</option>
+                <option value="tc7">TC-7: Noise Robustness</option>
+            </select>
+        </div>
+
+        <!-- Chart Sections -->
+        <div id="tc1" class="view">
+            <div class="chart-container">
+                <h2 class="text-xl font-semibold text-slate-700 text-center mb-4">TC-1: Multilingual Support - Recognition Rate</h2>
+                <canvas id="tc1_wrr_chart"></canvas>
+                <p class="metric-note">Word Recognition Rate (WRR %): Higher is better.</p>
+            </div>
+            <div class="chart-container">
+                <h2 class="text-xl font-semibold text-slate-700 text-center mb-4">TC-1: Multilingual Support - Number Sequence Accuracy</h2>
+                <canvas id="tc1_acc_chart"></canvas>
+                <p class="metric-note">Sequence Accuracy (%): Higher is better.</p>
+            </div>
+        </div>
+
+        <div id="tc2" class="view hidden">
+            <div class="chart-container">
+                <h2 class="text-xl font-semibold text-slate-700 text-center mb-4">TC-2: Robustness Across Accents - Word Error Rate</h2>
+                <canvas id="tc2_wer_chart"></canvas>
+                <p class="metric-note">Word Error Rate (WER %): Lower is better.</p>
+            </div>
+        </div>
+
+        <div id="tc3" class="view hidden">
+            <div class="chart-container">
+                <h2 class="text-xl font-semibold text-slate-700 text-center mb-4">TC-3: Domain Vocabulary Support - Accuracy</h2>
+                 <canvas id="tc3_acc_chart"></canvas>
+                 <p class="metric-note">Vocabulary Accuracy (%): Higher is better.</p>
+            </div>
+        </div>
+
+        <div id="tc4" class="view hidden">
+            <div class="chart-container">
+                <h2 class="text-xl font-semibold text-slate-700 text-center mb-4">TC-4: Auto Punctuation - Segmentation Accuracy (Clean Audio)</h2>
+                <canvas id="tc4_acc_chart"></canvas>
+                <p class="metric-note">Segmentation Accuracy (%): Higher is better. Showing results for non-noisy base languages only.</p>
+            </div>
+        </div>
+        
+        <div id="tc6" class="view hidden">
+             <div class="chart-container">
+                <h2 class="text-xl font-semibold text-slate-700 text-center mb-4">TC-6: Transcription Speed - Average Latency</h2>
+                 <canvas id="tc6_latency_chart"></canvas>
+                 <p class="metric-note">Average Actual Latency (s): Lower is better.</p>
+            </div>
+        </div>
+
+        <div id="tc7" class="view hidden">
+            <div class="chart-container">
+                <h2 class="text-xl font-semibold text-slate-700 text-center mb-4">TC-7: Noise Robustness - Word Recognition Rate vs. Noise Level</h2>
+                <div class="md:flex md:space-x-4 mb-4">
+                    <div class="flex-1 mb-2 md:mb-0">
+                        <label for="tc7_lang_selector" class="block text-sm font-medium text-slate-700 mb-1">Language:</label>
+                        <select id="tc7_lang_selector" class="w-full bg-white border border-slate-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                           <option>Cantonese-HK</option>
+                           <option>English-US</option>
+                           <option>Mandarin</option>
+                        </select>
+                    </div>
+                     <div class="flex-1">
+                        <label for="tc7_content_selector" class="block text-sm font-medium text-slate-700 mb-1">Content Type:</label>
+                        <select id="tc7_content_selector" class="w-full bg-white border border-slate-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                            <option value="">General</option>
+                            <option value="-Numbers">Numbers</option>
+                        </select>
+                    </div>
+                </div>
+                <canvas id="tc7_wrr_chart"></canvas>
+                <p class="metric-note">Word Recognition Rate (WRR %): Higher is better.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        // --- DATA ---
+        // Manually parsed data from the report
+        const reportData = {
+            tc1: {
+                apple_note: { 'Cantonese-HK': 56.56, 'English-US': 74.24, 'Mandarin': 63.27, 'Cantonese-HK-Numbers': 68.75, 'English-US-Numbers': 93.75, 'Mandarin-Numbers': 91.67 },
+                fano: { 'Cantonese-HK': 58.96, 'English-US': 68.24, 'Mandarin': 61.15, 'Cantonese-HK-Numbers': 71.88, 'English-US-Numbers': 87.50, 'Mandarin-Numbers': 95.83 },
+                google: { 'Cantonese-HK': 49.19, 'English-US': 70.28, 'Mandarin': 56.45, 'Cantonese-HK-Numbers': 59.38, 'English-US-Numbers': 96.88, 'Mandarin-Numbers': 65.62 },
+                iphone: { 'Cantonese-HK': 48.05, 'English-US': 61.41, 'Mandarin': 64.83, 'Cantonese-HK-Numbers': 62.50, 'English-US-Numbers': 87.50, 'Mandarin-Numbers': 77.92 },
+            },
+            tc2: {
+                apple_note: { 'Cantonese_Mandarin_Accent': 113.33, 'English_Indian_Accent': 37.12, 'English_SouthEastAsian_Accent': 23.56, 'Mandarin_Cantonese_Accent': 100.00 },
+                fano: { 'Cantonese_Mandarin_Accent': 96.67, 'English_Indian_Accent': 40.62, 'English_SouthEastAsian_Accent': 29.58, 'Mandarin_Cantonese_Accent': 112.50 },
+                google: { 'Cantonese_Mandarin_Accent': 100.00, 'English_Indian_Accent': 38.99, 'English_SouthEastAsian_Accent': 37.37, 'Mandarin_Cantonese_Accent': 100.00 },
+                iphone: { 'Cantonese_Mandarin_Accent': 97.78, 'English_Indian_Accent': 43.00, 'English_SouthEastAsian_Accent': 33.71, 'Mandarin_Cantonese_Accent': 100.00 },
+            },
+            tc3: {
+                apple_note: { 'Cantonese': 47.33, 'English': 86.67, 'Mandarin': 100.00 },
+                fano: { 'Cantonese': 73.38, 'English': 93.33, 'Mandarin': 33.33 },
+                google: { 'Cantonese': 45.38, 'English': 93.33, 'Mandarin': 66.67 },
+                iphone: { 'Cantonese': 44.19, 'English': 80.00, 'Mandarin': 66.67 },
+            },
+            tc4: {
+                 apple_note: { 'Cantonese': 12.38, 'English-US': 100.00, 'Mandarin': 33.33 },
+                 fano: { 'Cantonese': 4.52, 'English-US': 0.00, 'Mandarin': 28.33 },
+                 google: { 'Cantonese': 0.00, 'English-US': 100.00, 'Mandarin': 30.00 },
+                 iphone: { 'Cantonese': 12.38, 'English-US': 0.00, 'Mandarin': 50.00 },
+            },
+            tc6: {
+                fano: 3.382,
+                google: 1.930,
+            },
+            tc7: {
+                apple_note: { 'Cantonese-HK': [43.00, 28.53, 9.22, 10.08], 'Cantonese-HK-Numbers': [33.02, 17.25, 1.06, 19.69], 'English-US': [31.12, 18.00, 22.71, 18.50], 'English-US-Numbers': [45.95, 19.50, 29.12, 16.42], 'Mandarin': [62.51, 42.16, 30.47, 16.38], 'Mandarin-Numbers': [null, 38.89, 27.00, 7.42]},
+                fano: { 'Cantonese-HK': [33.97, 26.18, 9.34, 13.54], 'Cantonese-HK-Numbers': [34.76, 17.69, 7.02, 14.90], 'English-US': [30.26, 12.46, 6.19, 15.90], 'English-US-Numbers': [36.93, 18.28, 10.60, 7.55], 'Mandarin': [61.87, 18.13, 18.59, 6.18], 'Mandarin-Numbers': [35.59, 17.78, 14.01, 1.76]},
+                google: { 'Cantonese-HK': [17.82, 3.50, 4.40, 1.74], 'Cantonese-HK-Numbers': [13.93, 3.95, 0.00, 0.00], 'English-US': [29.63, 17.88, 24.93, 17.45], 'English-US-Numbers': [43.71, 20.90, 21.32, 25.54], 'Mandarin': [46.80, 21.77, 15.89, 14.33], 'Mandarin-Numbers': [42.61, 25.14, 4.90, 2.17]},
+                iphone: { 'Cantonese-HK': [35.71, 17.97, 5.95, 10.94], 'Cantonese-HK-Numbers': [32.86, 3.79, 1.19, 7.83], 'English-US': [22.49, 4.46, 16.14, 0.66], 'English-US-Numbers': [34.75, 17.57, 10.27, 2.92], 'Mandarin': [56.58, 19.93, 12.89, 6.13], 'Mandarin-Numbers': [48.59, 17.09, 5.08, 0.96]},
+            }
+        };
+
+        // --- CHART CONFIG ---
+        const charts = {};
+        const commonColors = {
+            apple_note: 'rgba(107, 114, 128, 0.7)', // gray
+            fano: 'rgba(59, 130, 246, 0.7)', // blue
+            google: 'rgba(239, 68, 68, 0.7)', // red
+            iphone: 'rgba(34, 197, 94, 0.7)' // green
+        };
+        const commonBorderColors = {
+            apple_note: 'rgb(107, 114, 128)',
+            fano: 'rgb(59, 130, 246)',
+            google: 'rgb(239, 68, 68)',
+            iphone: 'rgb(34, 197, 94)'
+        };
+
+        // --- RENDER FUNCTIONS ---
+
+        function renderTC1() {
+            const wrr_ctx = document.getElementById('tc1_wrr_chart').getContext('2d');
+            const acc_ctx = document.getElementById('tc1_acc_chart').getContext('2d');
+            
+            const languages = ['Cantonese-HK', 'English-US', 'Mandarin'];
+            const numberLanguages = ['Cantonese-HK-Numbers', 'English-US-Numbers', 'Mandarin-Numbers'];
+            
+            if (charts.tc1_wrr) charts.tc1_wrr.destroy();
+            charts.tc1_wrr = new Chart(wrr_ctx, {
+                type: 'bar',
+                data: {
+                    labels: languages,
+                    datasets: Object.keys(reportData.tc1).map(method => ({
+                        label: method,
+                        data: languages.map(lang => reportData.tc1[method][lang]),
+                        backgroundColor: commonColors[method],
+                        borderColor: commonBorderColors[method],
+                        borderWidth: 1
+                    }))
+                },
+                options: { responsive: true, scales: { y: { beginAtZero: true, title: { display: true, text: 'WRR (%)' } } } }
+            });
+
+            if (charts.tc1_acc) charts.tc1_acc.destroy();
+            charts.tc1_acc = new Chart(acc_ctx, {
+                type: 'bar',
+                data: {
+                    labels: numberLanguages.map(l => l.replace('-Numbers', ' Numbers')),
+                    datasets: Object.keys(reportData.tc1).map(method => ({
+                        label: method,
+                        data: numberLanguages.map(lang => reportData.tc1[method][lang]),
+                        backgroundColor: commonColors[method],
+                        borderColor: commonBorderColors[method],
+                        borderWidth: 1
+                    }))
+                },
+                options: { responsive: true, scales: { y: { beginAtZero: true, title: { display: true, text: 'Accuracy (%)' } } } }
+            });
+        }
+        
+        function renderTC2() {
+            const ctx = document.getElementById('tc2_wer_chart').getContext('2d');
+            const accents = Object.keys(reportData.tc2.apple_note);
+
+            if (charts.tc2_wer) charts.tc2_wer.destroy();
+            charts.tc2_wer = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: accents.map(a => a.replace(/_/g, ' ')),
+                    datasets: Object.keys(reportData.tc2).map(method => ({
+                        label: method,
+                        data: accents.map(accent => reportData.tc2[method][accent]),
+                        backgroundColor: commonColors[method],
+                        borderColor: commonBorderColors[method],
+                        borderWidth: 1
+                    }))
+                },
+                options: { responsive: true, scales: { y: { beginAtZero: true, title: { display: true, text: 'WER (%)' } } } }
+            });
+        }
+
+        function renderTC3() {
+            const ctx = document.getElementById('tc3_acc_chart').getContext('2d');
+            const languages = Object.keys(reportData.tc3.apple_note);
+
+            if (charts.tc3_acc) charts.tc3_acc.destroy();
+            charts.tc3_acc = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: languages,
+                    datasets: Object.keys(reportData.tc3).map(method => ({
+                        label: method,
+                        data: languages.map(lang => reportData.tc3[method][lang]),
+                        backgroundColor: commonColors[method],
+                        borderColor: commonBorderColors[method],
+                        borderWidth: 1
+                    }))
+                },
+                options: { responsive: true, scales: { y: { beginAtZero: true, title: { display: true, text: 'Vocabulary Accuracy (%)' } } } }
+            });
+        }
+        
+        function renderTC4() {
+            const ctx = document.getElementById('tc4_acc_chart').getContext('2d');
+            const languages = Object.keys(reportData.tc4.apple_note);
+
+            if (charts.tc4_acc) charts.tc4_acc.destroy();
+            charts.tc4_acc = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: languages,
+                    datasets: Object.keys(reportData.tc4).map(method => ({
+                        label: method,
+                        data: languages.map(lang => reportData.tc4[method][lang]),
+                        backgroundColor: commonColors[method],
+                        borderColor: commonBorderColors[method],
+                        borderWidth: 1
+                    }))
+                },
+                options: { responsive: true, scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Segmentation Accuracy (%)' } } } }
+            });
+        }
+
+        function renderTC6() {
+            const ctx = document.getElementById('tc6_latency_chart').getContext('2d');
+            const methods = Object.keys(reportData.tc6);
+
+            if (charts.tc6_latency) charts.tc6_latency.destroy();
+            charts.tc6_latency = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: methods,
+                    datasets: [{
+                        label: 'Average Latency',
+                        data: methods.map(method => reportData.tc6[method]),
+                        backgroundColor: methods.map(m => commonColors[m]),
+                        borderColor: methods.map(m => commonBorderColors[m]),
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    indexAxis: 'y',
+                    plugins: { legend: { display: false } },
+                    scales: { x: { beginAtZero: true, title: { display: true, text: 'Time (s)' } } }
+                }
+            });
+        }
+        
+        function renderTC7() {
+            const lang = document.getElementById('tc7_lang_selector').value;
+            const content = document.getElementById('tc7_content_selector').value;
+            const key = lang + content;
+
+            const ctx = document.getElementById('tc7_wrr_chart').getContext('2d');
+            const noiseLevels = ['25%', '50%', '75%', '100%'];
+
+            if (charts.tc7_wrr) charts.tc7_wrr.destroy();
+            charts.tc7_wrr = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: noiseLevels,
+                    datasets: Object.keys(reportData.tc7).map(method => ({
+                        label: method,
+                        data: reportData.tc7[method][key],
+                        borderColor: commonBorderColors[method],
+                        backgroundColor: commonColors[method],
+                        tension: 0.1,
+                        fill: false
+                    }))
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: { beginAtZero: true, title: { display: true, text: 'WRR (%)' } },
+                        x: { title: { display: true, text: 'Noise Level' } }
+                    }
+                }
+            });
+        }
+
+
+        // --- EVENT LISTENERS ---
+        const selector = document.getElementById('testCaseSelector');
+        const views = document.querySelectorAll('.view');
+        
+        function updateView() {
+            const selectedValue = selector.value;
+            views.forEach(view => {
+                if (view.id === selectedValue) {
+                    view.classList.remove('hidden');
+                } else {
+                    view.classList.add('hidden');
+                }
+            });
+
+            // Destroy all charts before rendering new ones to prevent conflicts
+            Object.values(charts).forEach(chart => {
+                if(chart && typeof chart.destroy === 'function') {
+                    chart.destroy();
+                }
+            });
+            
+            // Render the correct chart
+            switch (selectedValue) {
+                case 'tc1': renderTC1(); break;
+                case 'tc2': renderTC2(); break;
+                case 'tc3': renderTC3(); break;
+                case 'tc4': renderTC4(); break;
+                case 'tc6': renderTC6(); break;
+                case 'tc7': renderTC7(); break;
+            }
+        }
+        
+        selector.addEventListener('change', updateView);
+        
+        // TC7 specific listeners
+        document.getElementById('tc7_lang_selector').addEventListener('change', renderTC7);
+        document.getElementById('tc7_content_selector').addEventListener('change', renderTC7);
+
+        // Initial Render
+        window.onload = () => {
+            updateView();
+        };
+
+    </script>
+</body>
+</html>
