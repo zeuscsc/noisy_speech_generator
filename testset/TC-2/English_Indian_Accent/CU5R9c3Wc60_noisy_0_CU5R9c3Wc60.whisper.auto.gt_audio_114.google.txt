@@ -1,1 +1,0 @@
-Function, acquisition function will decide what route to take in order to reach the optimal point. So this is

@@ -1,0 +1,196 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "when",
+                    "confidence": 0.32068905234336853,
+                    "startTime": "0.870s",
+                    "endTime": "1.280s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.03779178857803345,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "做一起啊",
+                    "confidence": 0.5281744003295898,
+                    "startTime": "2.020s",
+                    "endTime": "2.790s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07134009897708893,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "yin is instead of你",
+                    "confidence": 0.31524893641471863,
+                    "startTime": "3.610s",
+                    "endTime": "4.750s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07144112139940262,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "怎样就要",
+                    "confidence": 0.5739718079566956,
+                    "startTime": "5.800s",
+                    "endTime": "6.620s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.09008610248565674,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "中华人民共和国一看到我们的美金政府新币九万",
+                    "confidence": 0.46204474568367004,
+                    "startTime": "7.460s",
+                    "endTime": "12.830s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.0697471871972084,
+                    "speechRate": 3.910614490509033
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "因为到时候有时候被留有人家接近的时候马来人民币如果说有澳门可以民币因为",
+                    "confidence": 0.23448999226093292,
+                    "startTime": "13.940s",
+                    "endTime": "21.490s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.08941509574651718,
+                    "speechRate": 4.635761737823486
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "三分钟完人民共和国也许我到人民币行政局",
+                    "confidence": 0.478354811668396,
+                    "startTime": "22.790s",
+                    "endTime": "27.810s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07811713963747025,
+                    "speechRate": 3.784860610961914
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "去分一早啰嗯分享八点四五六二多",
+                    "confidence": 0.18814410269260406,
+                    "startTime": "28.630s",
+                    "endTime": "32.640s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.08690399676561356,
+                    "speechRate": 3.7406482696533203
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "一零六八一五然后我们的working怎幺办",
+                    "confidence": 0.38898900151252747,
+                    "startTime": "33.400s",
+                    "endTime": "36.640s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.09469091147184372,
+                    "speechRate": 4.629629611968994
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "对中央人民币和澳门本地民币去汇款",
+                    "confidence": 0.4852754771709442,
+                    "startTime": "37.430s",
+                    "endTime": "42.590s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07330969721078873,
+                    "speechRate": 3.1007752418518066
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-mandarin"
+        ]
+    }
+}

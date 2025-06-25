@@ -1,1 +1,0 @@
-Configurations, right? We want to minimize the number of iterations. So we need an acquisition. 

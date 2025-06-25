@@ -1,0 +1,700 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "先给大家说一下汇丰银行的这三张卡啊这三张卡还是蛮重要的",
+                    "confidence": 0.876401960849762,
+                    "startTime": "2.930s",
+                    "endTime": "7.500s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.026501189917325974,
+                    "speechRate": 5.9080963134765625
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊其中这两张是借记卡这张是信用卡",
+                    "confidence": 0.9249366521835327,
+                    "startTime": "7.920s",
+                    "endTime": "11.830s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.02042638324201107,
+                    "speechRate": 4.092071533203125
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "这两张借记卡也是特别重要的很多小伙伴都不知道怎幺使视频最后啊我有这个两张卡的一个对比",
+                    "confidence": 0.8855764269828796,
+                    "startTime": "12.220s",
+                    "endTime": "19.370s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.021978158503770828,
+                    "speechRate": 5.874125957489014
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊首先呢我们先申请的肯定是这张红卡这个红的这张卡呢叫是汇丰万的这个账号的卡",
+                    "confidence": 0.890953779220581,
+                    "startTime": "19.670s",
+                    "endTime": "26.940s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.02229245752096176,
+                    "speechRate": 5.0894083976745605
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊如果你申请完这张卡之后呢那这张卡啊有两个权益啊是免费的一个是说这个账户",
+                    "confidence": 0.9295462965965271,
+                    "startTime": "27.370s",
+                    "endTime": "35.070s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.02507428638637066,
+                    "speechRate": 4.675324440002441
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "都是免费的第二你这张卡啊在香港atm机曲线啊都是免费的剩下的其他的",
+                    "confidence": 0.9045212864875793,
+                    "startTime": "35.680s",
+                    "endTime": "43.030s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.02032015658915043,
+                    "speechRate": 4.217687129974365
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "都是要收费的啊不管是你在海外啊曲线也好哪怕你是在海外的啊",
+                    "confidence": 0.9337261319160461,
+                    "startTime": "43.380s",
+                    "endTime": "49.030s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.024694763123989105,
+                    "speechRate": 4.955752372741699
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "汇丰的atm机上曲线这个都要收费的啊这个你可以认为就是一张你的开户的一张卡",
+                    "confidence": 0.8660921454429626,
+                    "startTime": "49.400s",
+                    "endTime": "57.190s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.02003314532339573,
+                    "speechRate": 4.492939472198486
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊你开了这张户之后啊其实就可以不用这张卡了那用哪张卡呢",
+                    "confidence": 0.926953136920929,
+                    "startTime": "57.610s",
+                    "endTime": "63.480s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.026829412207007408,
+                    "speechRate": 4.599659442901611
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "用的就是这张蓝色的蓝狮子卡啊大家可以看见啊还是蛮漂亮的",
+                    "confidence": 0.9091538190841675,
+                    "startTime": "63.750s",
+                    "endTime": "69.420s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.01739092543721199,
+                    "speechRate": 4.761904716491699
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "而且啊这边带的是master的一个标志为什幺说这张卡这张卡也是借记卡",
+                    "confidence": 0.9090448021888733,
+                    "startTime": "70.050s",
+                    "endTime": "75.950s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.02577047236263752,
+                    "speechRate": 4.91525411605835
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "这张卡在哪申请呢这张卡在你的啊申请完了之后的",
+                    "confidence": 0.8868144750595093,
+                    "startTime": "76.300s",
+                    "endTime": "80.700s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.02193678729236126,
+                    "speechRate": 5
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "汇丰的app上直接点借记卡直接申请就可以了这张卡支持什幺呢",
+                    "confidence": 0.9407373070716858,
+                    "startTime": "81.080s",
+                    "endTime": "87.130s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.021525366231799126,
+                    "speechRate": 4.462810039520264
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "支持啊多达十二种的一个外币的曲线同时的话只让你有这张卡啊",
+                    "confidence": 0.910192608833313,
+                    "startTime": "87.510s",
+                    "endTime": "93.890s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.025288809090852737,
+                    "speechRate": 4.388714790344238
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "首先这张卡也是免费的啊不收任其任何年费你就理解为它就是一张借记卡",
+                    "confidence": 0.9004775881767273,
+                    "startTime": "94.250s",
+                    "endTime": "101.140s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.02327577769756317,
+                    "speechRate": 4.644412040710449
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "你在啊海外只要是汇丰的atm机啊曲线啊基本上都不收费啊",
+                    "confidence": 0.942264974117279,
+                    "startTime": "101.630s",
+                    "endTime": "108.840s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.021507931873202324,
+                    "speechRate": 3.4674062728881836
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "同时啊你在大陆啊atm机上尤其是汇丰的atm机上曲线也都是不收费的",
+                    "confidence": 0.9343694448471069,
+                    "startTime": "109.370s",
+                    "endTime": "116.590s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.01891040802001953,
+                    "speechRate": 4.016620635986328
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "如果你的资金达到了一定体量了从汇丰外升级到更高层级的账户的话",
+                    "confidence": 0.9177682399749756,
+                    "startTime": "116.980s",
+                    "endTime": "123.250s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.026248766109347343,
+                    "speechRate": 4.784688949584961
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "那基本上你用这张卡消费刷卡也都是基本上都不收费的",
+                    "confidence": 0.917900025844574,
+                    "startTime": "123.480s",
+                    "endTime": "128.980s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.019727425649762154,
+                    "speechRate": 4.363636493682861
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "那这张卡是什幺呢那这张卡啊这张黑红底的这样一个又带有红的狮子的这张是",
+                    "confidence": 0.8570671081542969,
+                    "startTime": "129.610s",
+                    "endTime": "136.840s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.02939741685986519,
+                    "speechRate": 4.702628135681152
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "汇丰的啊双臂的信用卡啊什幺意思呢也就是你拥有了这张信用卡啊你就可以",
+                    "confidence": 0.9010751247406006,
+                    "startTime": "137.080s",
+                    "endTime": "144.810s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.022380175068974495,
+                    "speechRate": 4.2690815925598145
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊在大陆这边刷人民币啊消费啊同时啊用港币来还人币",
+                    "confidence": 0.8243786096572876,
+                    "startTime": "145.050s",
+                    "endTime": "151.920s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.019314978271722794,
+                    "speechRate": 3.4934496879577637
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "同时的话最重要这张是张神卡为什幺呢我之前有视频介绍过这张神卡它可以做到返现",
+                    "confidence": 0.8923165798187256,
+                    "startTime": "152.140s",
+                    "endTime": "159.970s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.02371416799724102,
+                    "speechRate": 4.725415229797363
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊百分之四点四就是每比可以做到百分之四点四而且返现的额度最高可以达到",
+                    "confidence": 0.8812985420227051,
+                    "startTime": "160.100s",
+                    "endTime": "167.430s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.02139669470489025,
+                    "speechRate": 4.638472080230713
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "八万港币这个还是挺不错的很多信用卡它也有粉线啊",
+                    "confidence": 0.8327295184135437,
+                    "startTime": "167.580s",
+                    "endTime": "173.840s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.020742235705256462,
+                    "speechRate": 3.674121379852295
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "但是呢它上边封顶的额度就是几千块啊有的也就是一万块钱这张卡能做到八万",
+                    "confidence": 0.9199842810630798,
+                    "startTime": "174.160s",
+                    "endTime": "181.500s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.022409362718462944,
+                    "speechRate": 4.632152557373047
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "为什幺说汇丰啊这三张卡是最重要的啊三张卡啊而且这三张卡都是免费的",
+                    "confidence": 0.9131794571876526,
+                    "startTime": "181.910s",
+                    "endTime": "189.530s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.025250189006328583,
+                    "speechRate": 4.199475288391113
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊这两张是借记卡肯定是没有年费没有月费的对吧只是你",
+                    "confidence": 0.9404232501983643,
+                    "startTime": "189.750s",
+                    "endTime": "195.260s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.018322590738534927,
+                    "speechRate": 4.537205219268799
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "使用的时候有些费用那这张信用卡的话它也是两年啊都是免费的",
+                    "confidence": 0.9156022667884827,
+                    "startTime": "195.500s",
+                    "endTime": "201.730s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.022390669211745262,
+                    "speechRate": 4.494381904602051
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "如果你想知道如何申请这张信用卡可以看一下我相关的视频介绍同时的话这张信用卡",
+                    "confidence": 0.9213629364967346,
+                    "startTime": "202.080s",
+                    "endTime": "209.830s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.025819864124059677,
+                    "speechRate": 4.77419376373291
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "在之前它可是要二十万的额度你才能申请到的就是你账户里有二十万的额度才",
+                    "confidence": 0.9323633909225464,
+                    "startTime": "210.020s",
+                    "endTime": "217.810s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.023032171651721,
+                    "speechRate": 4.364570140838623
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "可以申请的现在已经把这门槛放低了如果啊你之前啊注册或我合作的证券公司",
+                    "confidence": 0.9270942211151123,
+                    "startTime": "218s",
+                    "endTime": "225.500s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.02141987532377243,
+                    "speechRate": 4.5333333015441895
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "像长条证券啊富图证券啊还有老虎证券啊还有华盛证券啊",
+                    "confidence": 0.8070368766784668,
+                    "startTime": "225.770s",
+                    "endTime": "231.280s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.027252497151494026,
+                    "speechRate": 4.537205219268799
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊你可以联系一下我啊我可以免费啊赠送一个如何申请到",
+                    "confidence": 0.9062202572822571,
+                    "startTime": "231.710s",
+                    "endTime": "237.590s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.017247656360268593,
+                    "speechRate": 4.2517008781433105
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊最低成本的申请到这一张双臂的啊汇丰的这张神卡这张信用卡那好",
+                    "confidence": 0.8351837396621704,
+                    "startTime": "237.880s",
+                    "endTime": "245.060s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.018416935577988625,
+                    "speechRate": 4.1782732009887695
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "那今天的视频就给大家介绍到这里什幺最后会有这两张卡的一个啊",
+                    "confidence": 0.8414162397384644,
+                    "startTime": "245.330s",
+                    "endTime": "251.590s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.024298986420035362,
+                    "speechRate": 4.632587909698486
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "一个对比它的权益对比大家可以看一下啊如果我的视频对你有帮助的话请点一下订阅",
+                    "confidence": 0.9265061020851135,
+                    "startTime": "251.940s",
+                    "endTime": "258.960s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.019518472254276276,
+                    "speechRate": 5.270655155181885
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "非常感谢",
+                    "confidence": 0.9365671873092651,
+                    "startTime": "259.100s",
+                    "endTime": "260.050s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.01989251747727394,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-mandarin"
+        ]
+    }
+}

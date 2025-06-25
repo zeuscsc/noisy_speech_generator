@@ -1,0 +1,178 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "给你你一下子that means是吗",
+                    "confidence": 0.2757909297943115,
+                    "startTime": "0.880s",
+                    "endTime": "2.790s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04945828393101692,
+                    "speechRate": 5.235601902008057
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "九九三九",
+                    "confidence": 0.2718210816383362,
+                    "startTime": "3.600s",
+                    "endTime": "4.740s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07391659915447235,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "你要照要",
+                    "confidence": 0.3005799949169159,
+                    "startTime": "5.820s",
+                    "endTime": "6.600s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.0894869863986969,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "so我要人民币嘛我我我看到我们的美金真是很难拿一点五万",
+                    "confidence": 0.31219521164894104,
+                    "startTime": "7.460s",
+                    "endTime": "12.820s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.0736393854022026,
+                    "speechRate": 4.850746154785156
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "跌到现在也有四六五零下跌可以的吗然后马来西亚yang yang gook theree cagain",
+                    "confidence": 0.2099238485097885,
+                    "startTime": "13.930s",
+                    "endTime": "21.520s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.097321517765522,
+                    "speechRate": 3.557312250137329
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "打去问完了你问我我给你你知道我问你一问你",
+                    "confidence": 0.31521913409233093,
+                    "startTime": "22.800s",
+                    "endTime": "27.800s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.08235300332307816,
+                    "speechRate": 4
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "interbank transfer stable insterus啦",
+                    "confidence": 0.21456634998321533,
+                    "startTime": "28.630s",
+                    "endTime": "32.660s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.09414677321910858,
+                    "speechRate": 1.2406947612762451
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "记得因为有时候我们的bank statement five",
+                    "confidence": 0.3099891245365143,
+                    "startTime": "33.410s",
+                    "endTime": "36.690s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.10279891639947891,
+                    "speechRate": 3.9634146690368652
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "对对中央人民币我我account两个美金一定可以进去了",
+                    "confidence": 0.34170156717300415,
+                    "startTime": "37.430s",
+                    "endTime": "42.570s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07727425545454025,
+                    "speechRate": 4.0856032371521
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-mandarin"
+        ]
+    }
+}

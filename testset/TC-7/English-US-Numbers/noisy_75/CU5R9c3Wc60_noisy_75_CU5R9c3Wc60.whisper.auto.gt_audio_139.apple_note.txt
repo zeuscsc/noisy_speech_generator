@@ -1,1 +1,0 @@
-You get an accuracy of .9649. This is the best. So once the model is. 

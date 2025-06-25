@@ -1,1 +1,0 @@
-Machine learning model building. But it can be quite timetaking. So we will understand. 

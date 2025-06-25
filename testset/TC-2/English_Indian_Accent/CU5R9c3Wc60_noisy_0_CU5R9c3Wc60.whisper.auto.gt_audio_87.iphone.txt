@@ -1,1 +1,0 @@
-Short explores that are various techniques, such as the expected improvement method 

@@ -328,7 +328,7 @@ def create_chunked_dataset_parallel(base_input_audio_dir, base_input_transcript_
         print(f"Created base output directory: {output_base_dir}")
 
     # target_chunk_durations_s = [8, 30, 60]
-    target_chunk_durations_s = [5]
+    target_chunk_durations_s = [6000]
 
     audio_files = glob.glob(os.path.join(base_input_audio_dir, "*", "*.mp3"))
     if not audio_files:

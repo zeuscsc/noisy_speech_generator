@@ -1,0 +1,178 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "本年所以是啊",
+                    "confidence": 0.336871474981308,
+                    "startTime": "0.860s",
+                    "endTime": "2.820s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05444875359535217,
+                    "speechRate": 3.0612244606018066
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "引起宣誓",
+                    "confidence": 0.690723180770874,
+                    "startTime": "3.610s",
+                    "endTime": "4.750s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06993088871240616,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "本人就要",
+                    "confidence": 0.7388280630111694,
+                    "startTime": "5.820s",
+                    "endTime": "6.640s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.09562564641237259,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "中华人民共和国澳门特别行政区行政长官",
+                    "confidence": 0.7646570801734924,
+                    "startTime": "7.440s",
+                    "endTime": "12.860s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06663099676370621,
+                    "speechRate": 3.321033239364624
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "被盗用户被故障继续中华人民共和国澳门可以行政局预防",
+                    "confidence": 0.48902803659439087,
+                    "startTime": "13.940s",
+                    "endTime": "21.630s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.08131660521030426,
+                    "speechRate": 3.2509753704071045
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "早中中华人民共和国以及澳门的旅行政区",
+                    "confidence": 0.6133335828781128,
+                    "startTime": "22.810s",
+                    "endTime": "27.790s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07544245570898056,
+                    "speechRate": 3.614457845687866
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "进中至少嗯遵守发的就是年月部分",
+                    "confidence": 0.32646477222442627,
+                    "startTime": "28.630s",
+                    "endTime": "32.660s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07949238270521164,
+                    "speechRate": 3.7220842838287354
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "吉林渔管育部澳门的管理怎幺办",
+                    "confidence": 0.40001603960990906,
+                    "startTime": "33.410s",
+                    "endTime": "36.640s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.08679046481847763,
+                    "speechRate": 4.334365367889404
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "对以中央人民政府和澳门特别行政区复展",
+                    "confidence": 0.7557116746902466,
+                    "startTime": "37.450s",
+                    "endTime": "42.620s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07056758552789688,
+                    "speechRate": 3.4816248416900635
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-mandarin"
+        ]
+    }
+}

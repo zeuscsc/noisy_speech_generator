@@ -1,0 +1,106 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "in the united kingdom there's british english and in the united states there's american english in singapore we have singaporean english are not only known as singlish you can usually hear singlish use for informing realisations they might be confused by its different standards of english so how can this itly isinglish different from the british and american english and one of all the last names and laws representation since we started the combination i think",
+                    "confidence": 0.5208669304847717,
+                    "startTime": "1.020s",
+                    "endTime": "33.660s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.0858372300863266,
+                    "speechRate": 2.3897058963775635
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "that's the part of the is the official language for the administrations if you were a singaporean at that time it will be the first time you would have papatasis and learn about the abcs",
+                    "confidence": 0.45941057801246643,
+                    "startTime": "33.970s",
+                    "endTime": "47.210s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08723413944244385,
+                    "speechRate": 2.7190332412719727
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "but like that there was only a minority due of elites for official english the west of singapore's population consinstead of the chinese malays has in it who are formal migrants and release from their home they give from business so when these non english speople who are introduced to standard english they influenced english with their whole native languages moving it into what we know today as singlish but any other language singlish its own sense of news africa we can use singlish to get your points across faster with lesser words for example in standard english you would say seems like ie's going to wait a date i think it will be best for you to bring an umbrella which comes to a total of twenty one words whereas when you use siglish you could say i'm going to ring now three umbrella that's only seven words another interesting example is a singlish word la that originates from the chinese counterpart",
+                    "confidence": 0.6594531536102295,
+                    "startTime": "47.580s",
+                    "endTime": "100.390s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08580110222101212,
+                    "speechRate": 3.1622798442840576
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "blood is very vista and can be used for many different patterns for example you can say serena to make your apology soume less formal if you want to blame someone you can say oh you're hot la when the la emphasizes your husband you can also use love to reassure someone i say don't worry can fix one lah i show singlish has a different standard of english making it difficult for the rest of the world to understand it is to got the attention of the government has singlish have decreased the country's overall english standards they were concerned singlish would hinder singapore's economics development so the government managed to speak with english footprint to try and improve english standards and elimilnaon singlish you can pay high bills was not well received by some singaporeans a singlish of them to maintaitn solidarity and friendships among themselves support this fact that he has become a national identity and should not be abolished",
+                    "confidence": 0.6497783660888672,
+                    "startTime": "101.080s",
+                    "endTime": "153.480s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08538874983787537,
+                    "speechRate": 3.1679389476776123
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "today though the use of singlish is still debatable you see the government in the world starting to embrace the language singlish was celebrated in singapore's fifth birthday and was also attended into english to china singlish defines singaporeans and connects them with one another i'm sure we cannot agree that the language will definitely be read in singapore for a very long time",
+                    "confidence": 0.6978886723518372,
+                    "startTime": "154.360s",
+                    "endTime": "175.950s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.09220106899738312,
+                    "speechRate": 3.0569708347320557
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-english"
+        ]
+    }
+}

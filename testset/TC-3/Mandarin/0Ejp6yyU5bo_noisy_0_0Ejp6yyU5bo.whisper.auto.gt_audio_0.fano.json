@@ -1,0 +1,1726 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "hello啊好像那幺来讲一下这个信用卡的用卡心得",
+                    "confidence": 0.6547354459762573,
+                    "startTime": "0.460s",
+                    "endTime": "5.310s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.0826861783862114,
+                    "speechRate": 4.123711109161377
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊这是一张汇丰银行香港汇丰银行",
+                    "confidence": 0.934332549571991,
+                    "startTime": "5.710s",
+                    "endTime": "9.150s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07323595881462097,
+                    "speechRate": 4.360465049743652
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊发行了一张银联信用卡在中国大陆非常的火",
+                    "confidence": 0.9178348183631897,
+                    "startTime": "9.300s",
+                    "endTime": "14.070s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07650736719369888,
+                    "speechRate": 4.192872047424316
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "那幺它为什幺那幺火呢它有一个核心的卖点",
+                    "confidence": 0.9053879976272583,
+                    "startTime": "14.600s",
+                    "endTime": "18.160s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06833738833665848,
+                    "speechRate": 5.33707857131958
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊就是大陆刷卡百分之四点四的现金返还",
+                    "confidence": 0.9410127401351929,
+                    "startTime": "18.780s",
+                    "endTime": "24.130s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07511135190725327,
+                    "speechRate": 3.3644859790802
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊也就是说你拿着这张卡在中国大陆刷人民币的话啊是百分之四点四的",
+                    "confidence": 0.9240882396697998,
+                    "startTime": "24.710s",
+                    "endTime": "31.980s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07111052423715591,
+                    "speechRate": 4.26409912109375
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "现金返还那这个现金返还的力度在中国吧中国大陆",
+                    "confidence": 0.8942307233810425,
+                    "startTime": "32.500s",
+                    "endTime": "38.350s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06128798797726631,
+                    "speechRate": 3.76068377494812
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊很多家银行应该是达不到吧而且它是前两年是免年费的",
+                    "confidence": 0.9118538498878479,
+                    "startTime": "38.750s",
+                    "endTime": "43.370s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.061991460621356964,
+                    "speechRate": 5.411255359649658
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊然后后面的话是有免费但是呢你可以直接打个电话就可以把这个年费给免掉",
+                    "confidence": 0.9189731478691101,
+                    "startTime": "44.130s",
+                    "endTime": "49.300s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.08880070596933365,
+                    "speechRate": 6.576402187347412
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊也就是说他就是免年费的啊他他不是刚性的年费啊你打个电话就可以把以后的这个年费也可以免掉啊所以它是免年费并且它在大陆刷卡是百分之四点四的反线就这一个核心卖点已经",
+                    "confidence": 0.8738669753074646,
+                    "startTime": "49.450s",
+                    "endTime": "67.370s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.0906563401222229,
+                    "speechRate": 4.464285850524902
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "非常非常吸引人了对吧那下面我们就",
+                    "confidence": 0.9172508120536804,
+                    "startTime": "67.760s",
+                    "endTime": "71.160s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.09580598026514053,
+                    "speechRate": 4.705882549285889
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "主要的来讲解一下这张卡首先这张卡它是一张卡",
+                    "confidence": 0.9232158660888672,
+                    "startTime": "72s",
+                    "endTime": "77.020s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06974829733371735,
+                    "speechRate": 4.183267116546631
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "但是呢它是有两个账户一个是人民币账户一个是港币账户啊它是银联卡所以我们在呃这个中国大陆的话我们就可以直接用这张银联卡来去刷人民币啊因为我们手里是有人民币的嘛",
+                    "confidence": 0.8780468106269836,
+                    "startTime": "77.340s",
+                    "endTime": "91.960s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07474891096353531,
+                    "speechRate": 5.33515739440918
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "首先我们来啊这个讲一下这个pos信用卡的三大基础返线的活动首先第一个活动就是基础返线",
+                    "confidence": 0.8593156933784485,
+                    "startTime": "92.770s",
+                    "endTime": "101.240s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.08715029805898666,
+                    "speechRate": 4.722550392150879
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "是百分之零点四啊这个你无论是刷人民币还是刷港币啊这个都是有的啊有百分之零点四",
+                    "confidence": 0.9221678376197815,
+                    "startTime": "101.550s",
+                    "endTime": "108.810s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07155002653598785,
+                    "speechRate": 5.23415994644165
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "第二个赏世界活动是百分之二",
+                    "confidence": 0.911520779132843,
+                    "startTime": "109.340s",
+                    "endTime": "112.660s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.11846890300512314,
+                    "speechRate": 3.9156627655029297
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "他的要求是在香港以外的地区刷人民币",
+                    "confidence": 0.9161625504493713,
+                    "startTime": "112.720s",
+                    "endTime": "117.630s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.11733713746070862,
+                    "speechRate": 3.4623217582702637
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "刚刚我们讲了这张卡它是有人民币账户还有这个港币账户的对吧",
+                    "confidence": 0.9067347645759583,
+                    "startTime": "118.130s",
+                    "endTime": "122.600s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07801593095064163,
+                    "speechRate": 6.26398229598999
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "那港币账户里面存的肯定是啊这个港币那人民币账户肯定是存在人民币对吧那我们在中国大陆刷卡或者是进行消费也是使用这个人民币对吧所以诶刚好",
+                    "confidence": 0.9147701263427734,
+                    "startTime": "123.150s",
+                    "endTime": "135.860s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.09918010234832764,
+                    "speechRate": 5.192761421203613
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊我们就符合这个上世界的这样一个用卡的需求因为什幺因为我们基本上都在大陆啊啊我们偶尔去这个国外去旅游但是我们大部分时间都在中国大陆",
+                    "confidence": 0.9133179783821106,
+                    "startTime": "136.250s",
+                    "endTime": "148.890s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.10023581236600876,
+                    "speechRate": 5.142405033111572
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "胃毛病对吧所以这个百分之二啊也非常容易能够满足",
+                    "confidence": 0.8306668400764465,
+                    "startTime": "149.350s",
+                    "endTime": "154.830s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.08904069662094116,
+                    "speechRate": 4.197080135345459
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "然后第三项就是二维码和apple pay还会有百分之二那这三者是可以叠加的你满足哪三者",
+                    "confidence": 0.9196027517318726,
+                    "startTime": "155.250s",
+                    "endTime": "162.810s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.09847330302000046,
+                    "speechRate": 4.761904716491699
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊比如说比如说你满足这个第一项但是不满足第二第三那你就只有百分之零二点四那就是说你满足这个第一项那就是一百分之二点四",
+                    "confidence": 0.3455051779747009,
+                    "startTime": "162.920s",
+                    "endTime": "171.750s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.09300880134105682,
+                    "speechRate": 6.568516254425049
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "如果你既满足一二三都满足的话那你就可以最高吃满百分之四点四的这样一个",
+                    "confidence": 0.9399818181991577,
+                    "startTime": "172.030s",
+                    "endTime": "179.280s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.11234592646360397,
+                    "speechRate": 4.689655303955078
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊这个返现首先第二个上世界活动刚刚我也讲了非常简单只需要你在香港以外的地区那我们就是中国大陆嘛啊你在澳门也可以对在澳门也可以刷人民币啊",
+                    "confidence": 0.8902449011802673,
+                    "startTime": "179.800s",
+                    "endTime": "192.360s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.11998210102319717,
+                    "speechRate": 5.334394931793213
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊但是刷人民币在澳门刷人民币应该不多吧啊主要是在大陆刷人民币这个很容易很轻松就能实现",
+                    "confidence": 0.7353047132492065,
+                    "startTime": "192.770s",
+                    "endTime": "200.310s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.08487606048583984,
+                    "speechRate": 5.570291996002197
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "主要就是第三个就是二维码和apple pay活动它是有百分之二的这样一个反向但是呢它比较复杂",
+                    "confidence": 0.8780140280723572,
+                    "startTime": "200.750s",
+                    "endTime": "208.530s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.11490509659051895,
+                    "speechRate": 5.012853622436523
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "首先apple pay",
+                    "confidence": 0.9339193105697632,
+                    "startTime": "209.270s",
+                    "endTime": "211.040s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.15071378648281097,
+                    "speechRate": 2.2598869800567627
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "比较简单啊他是线上线下都是满足这个活动的啊都是满足这个二维码和iblo bad这样一个活动你都都可以吃满这个百分之四点四的这样一个反线啊就是apple pay线上的线下都可以",
+                    "confidence": 0.7792773842811584,
+                    "startTime": "211.390s",
+                    "endTime": "225.730s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07554271817207336,
+                    "speechRate": 5.160390377044678
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "那线下是什幺意思呢线下就是你拿到你的苹果手机然后去找一个appos机也可以刷卡啊这是线下的是线下",
+                    "confidence": 0.17822985351085663,
+                    "startTime": "226.080s",
+                    "endTime": "236.360s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.09669770300388336,
+                    "speechRate": 4.280155658721924
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "线上的话你直接用京东也可以调取到这个apple pay同样是百分之四点四满足这个活动啊",
+                    "confidence": 0.8720064163208008,
+                    "startTime": "236.690s",
+                    "endTime": "243.700s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.09586483240127563,
+                    "speechRate": 5.1355204582214355
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "那幺第二个就就是这个rever的竹扫和被扫都可以满足这个要求",
+                    "confidence": 0.7831941246986389,
+                    "startTime": "244.080s",
+                    "endTime": "249.620s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.10191810876131058,
+                    "speechRate": 4.693140983581543
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊这个rewear的是一个app啊汇丰官方出的一个app那他们这个app呢也是可以扫这个二维码的那后面我们会主动讲啊也是可以满足这个活动要求的",
+                    "confidence": 0.8776237964630127,
+                    "startTime": "249.880s",
+                    "endTime": "261.210s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.08547729253768921,
+                    "speechRate": 5.295675277709961
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "那云闪付竹扫和被扫也是就线下啊线下竹扫和被扫也可以满足这个活动啊但是呢云散户线上是不满足这个活动三啊但是呢第一项活动基础返线零点四",
+                    "confidence": 0.7502433657646179,
+                    "startTime": "261.670s",
+                    "endTime": "277.400s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.1125752404332161,
+                    "speechRate": 4.13223123550415
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "和第二项这个呃上市界啊百分之二这个是满足的也就是说他不能够吃满百分之四点四但是呢它是可以吃到百分之二点四的也就是说活动三二维码和apple pay这个活动它是不满足的啊就是线上",
+                    "confidence": 0.8712888360023499,
+                    "startTime": "277.520s",
+                    "endTime": "293.360s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.10765169560909271,
+                    "speechRate": 5.113636493682861
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "云散户不行你线下的话无论是竹扫就是你扫别人",
+                    "confidence": 0.8179149031639099,
+                    "startTime": "293.820s",
+                    "endTime": "298.150s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.1133354976773262,
+                    "speechRate": 4.849884510040283
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "或者是被扫啊就是商家拿着pos机啊扫你的这样一个手机上的二维码啊这都是有百分之四点四的就是线上影响会是没有的",
+                    "confidence": 0.8114527463912964,
+                    "startTime": "298.450s",
+                    "endTime": "307.150s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.0848550796508789,
+                    "speechRate": 5.977011680603027
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "然后之前也有群友呃说了一呃就是问了一下就是说我直接刷实际卡是不是更高呢",
+                    "confidence": 0.8183682560920715,
+                    "startTime": "308.450s",
+                    "endTime": "314.960s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.12468502670526505,
+                    "speechRate": 5.376344203948975
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯没有啊因为什幺呢你直接在这个中国大陆刷实体卡的话你只能满足第一个和第二个活动第三个活动",
+                    "confidence": 0.936948835849762,
+                    "startTime": "315.300s",
+                    "endTime": "322.810s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.0825444757938385,
+                    "speechRate": 5.8588547706604
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "因为什幺第三个活动它就叫二维码和apple pay活动",
+                    "confidence": 0.9335924386978149,
+                    "startTime": "323.100s",
+                    "endTime": "326.920s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.12034926563501358,
+                    "speechRate": 5.235601902008057
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "所以你直接发这个第三个活动你肯定是不满足的啊也就是说你也是只有这个百分之二点四的直接刷卡啊直接刷卡也是只有百分之二点四的这样一个反线啊而且你拿着卡还更麻烦那你还不如用apple pay呢对不对",
+                    "confidence": 0.8265346884727478,
+                    "startTime": "327.410s",
+                    "endTime": "343.530s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.08512648195028305,
+                    "speechRate": 5.521091938018799
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "好",
+                    "confidence": 0.8786160945892334,
+                    "startTime": "344.190s",
+                    "endTime": "344.520s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.09167374670505524,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "那前几天我也发了一个视频就是说啊其实这张卡啊是可以绑定我们的微信香港钱包的之前是不可以的啊呃这个可以绑定也就是这两天的事儿而且是我我基本上应该是全往第一个发现",
+                    "confidence": 0.9038863778114319,
+                    "startTime": "345.010s",
+                    "endTime": "360.740s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.100777268409729,
+                    "speechRate": 5.022250652313232
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "这个pose信用卡可以绑定微信香港钱包啊这是我第一个反向发现的但是呢",
+                    "confidence": 0.8210325837135315,
+                    "startTime": "361.330s",
+                    "endTime": "368.210s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.09278668463230133,
+                    "speechRate": 4.505814075469971
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "你如果绑定了这个呃微信香港钱包的话它是没有百分之三的那个手续费就是如果你是绑定微信或者是绑定支付宝的话",
+                    "confidence": 0.7404183745384216,
+                    "startTime": "370.420s",
+                    "endTime": "380.830s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.10373050719499588,
+                    "speechRate": 4.899135589599609
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "它应该是有外卡的话如果超过两百会有百分之三的这样一个呃手续费但是这个不是为什幺呢因为它是香港微信钱包它它这个钱包就是微信",
+                    "confidence": 0.891674816608429,
+                    "startTime": "381.380s",
+                    "endTime": "392.080s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.13729199767112732,
+                    "speechRate": 5.607476711273193
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "它这个微信香港钱包就是香港的然后香港的钱包绑定香港的信用卡",
+                    "confidence": 0.9051821231842041,
+                    "startTime": "392.420s",
+                    "endTime": "398.200s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.14843352138996124,
+                    "speechRate": 5.017301082611084
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "合来百分之三的手续费之说呢对不对他就没这个手续费啊没这个手续费但是呢",
+                    "confidence": 0.8688173890113831,
+                    "startTime": "398.850s",
+                    "endTime": "404.980s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.12965287268161774,
+                    "speechRate": 5.546492576599121
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "它的反线就比较低了只有百分之零点四的基础返线啊",
+                    "confidence": 0.7853414416313171,
+                    "startTime": "405.200s",
+                    "endTime": "409.370s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07161786407232285,
+                    "speechRate": 5.515587329864502
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "那虽然只有百分之零点四的基础反限但是呢它也有它的作用比如说",
+                    "confidence": 0.8502236604690552,
+                    "startTime": "409.800s",
+                    "endTime": "415s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.1189543828368187,
+                    "speechRate": 5.57692289352417
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我们在呃这个",
+                    "confidence": 0.8246200680732727,
+                    "startTime": "416.600s",
+                    "endTime": "418.580s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.15528248250484467,
+                    "speechRate": 3.0303030014038086
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "中国大陆刷这张卡是产生了很多的这个返现但这个返现是不是直接把这个",
+                    "confidence": 0.841677188873291,
+                    "startTime": "419.290s",
+                    "endTime": "425.460s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.1047176718711853,
+                    "speechRate": 5.186385631561279
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "钱返给你是给你这个奖赏的钱啊我们叫rc啊奖赏钱rc但是呢一rc就等于一港币",
+                    "confidence": 0.7928564548492432,
+                    "startTime": "425.800s",
+                    "endTime": "434.680s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.1042364090681076,
+                    "speechRate": 3.828828811645508
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊或者是依人民币",
+                    "confidence": 0.7779151797294617,
+                    "startTime": "435.100s",
+                    "endTime": "436.620s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.08588910847902298,
+                    "speechRate": 5.263157844543457
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "但是呢我们刷的都是人民币对吧因为刷的人民币这个给的返先多啊那幺我们也是主刷人民币那幺主刷人民币得到了人民币rc就是人民币奖赏钱是不能够直接还人民币账单这句话很重要哦就是你产生的这个人民币",
+                    "confidence": 0.8516951203346252,
+                    "startTime": "437.040s",
+                    "endTime": "455.360s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.11933055520057678,
+                    "speechRate": 5.021833896636963
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "的rc奖赏钱不能够直接还款你的人民币账单",
+                    "confidence": 0.9328597187995911,
+                    "startTime": "455.850s",
+                    "endTime": "461.860s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.11143390089273453,
+                    "speechRate": 3.161397695541382
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊可以通过一系列复杂的手段去还港币的",
+                    "confidence": 0.9376408457756042,
+                    "startTime": "462.630s",
+                    "endTime": "466.750s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.14213977754116058,
+                    "speechRate": 4.368932247161865
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "账单这个是可以的但是不能还人民币但是我们也讲了我们只能",
+                    "confidence": 0.9309840798377991,
+                    "startTime": "467.470s",
+                    "endTime": "472.170s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.1135820671916008,
+                    "speechRate": 5.744680881500244
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "产生人民币的这样一个账单因为我们在大陆对吧只能产生人民币但是呢如果有了这个微信香港钱包因为这个微信相包香港钱包只能刷港币",
+                    "confidence": 0.8921970129013062,
+                    "startTime": "472.500s",
+                    "endTime": "484.270s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.1249217763543129,
+                    "speechRate": 5.097705841064453
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "所以这个时候我们就有了这个港币的账单那我们就可以把",
+                    "confidence": 0.9269496202468872,
+                    "startTime": "484.390s",
+                    "endTime": "488.610s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.11603301018476486,
+                    "speechRate": 5.92417049407959
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "呃刷人民币产生的那个比较多的那个奖赏钱可以就还了这个港币的这样一个账单啊我们主刷啊我们主要还是刷人民币还是获得百分之四点四的这样一个反限",
+                    "confidence": 0.9122287631034851,
+                    "startTime": "489.050s",
+                    "endTime": "502.520s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.12721650302410126,
+                    "speechRate": 5.048255443572998
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊然后呢我们呃这个反限如果如果说你没有这个里程的这样一个需求的话有些人是直接把这个可以换的这一个机票的时候可以换机票",
+                    "confidence": 0.30822041630744934,
+                    "startTime": "502.940s",
+                    "endTime": "513.390s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.10297510027885437,
+                    "speechRate": 5.550239086151123
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "但如果你没有的话你就可以比如说你产生了一百啊或者是一千吧一千的这样一个rc的",
+                    "confidence": 0.9095247387886047,
+                    "startTime": "514.010s",
+                    "endTime": "520.620s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.11003770679235458,
+                    "speechRate": 5.597579479217529
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "这样一个呃奖赏钱啊但是呢你又没有里程需求那你就可以用这种方式就是微信绑定",
+                    "confidence": 0.9183880090713501,
+                    "startTime": "520.720s",
+                    "endTime": "528.450s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.10043638944625854,
+                    "speechRate": 4.657179832458496
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "pos信用卡产生一千港币的这样一个账单然后你就可以用一千",
+                    "confidence": 0.9200842976570129,
+                    "startTime": "528.720s",
+                    "endTime": "534.180s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.09868277609348297,
+                    "speechRate": 4.761904716491699
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "这个奖赏钱还掉这一千港币的这个账单啊有有点复杂但是你如果说你理解了",
+                    "confidence": 0.8314163088798523,
+                    "startTime": "534.520s",
+                    "endTime": "542.540s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.09304112195968628,
+                    "speechRate": 4.114713191986084
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "就",
+                    "confidence": 0.8604334592819214,
+                    "startTime": "542.900s",
+                    "endTime": "543.430s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.09459324181079865,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "就很简单好吧我就讲到这儿了你自己慢慢琢磨吧",
+                    "confidence": 0.9136018753051758,
+                    "startTime": "544.200s",
+                    "endTime": "547.300s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.08614802360534668,
+                    "speechRate": 6.77419376373291
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "呃然后呢我是强烈的建议大家用这个reword的呃revor的plus他们叫revor的plus app那这个app呢就是汇丰呃官方的这样一个呃app它可以进行这个比如说你有那个奖赏的钱都在这个app里面啊存着呢",
+                    "confidence": 0.8671143651008606,
+                    "startTime": "548.170s",
+                    "endTime": "566.060s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.09507940709590912,
+                    "speechRate": 4.304080486297607
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "然后呢我主要想跟大家讲的就是这个付款码跟这个扫一扫",
+                    "confidence": 0.9288585186004639,
+                    "startTime": "566.170s",
+                    "endTime": "571.470s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.09357454627752304,
+                    "speechRate": 4.716980934143066
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊那幺付款码呢它是有两个地区啊首先是香港及其他地区",
+                    "confidence": 0.912544846534729,
+                    "startTime": "571.840s",
+                    "endTime": "576.420s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.08727078139781952,
+                    "speechRate": 5.458515167236328
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊还有还有一个就是大家比较喜欢的中国大陆地区那中国大陆地区大家都不知道我们在这个大陆地区",
+                    "confidence": 0.16799718141555786,
+                    "startTime": "576.780s",
+                    "endTime": "586.620s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.1295975297689438,
+                    "speechRate": 4.4715447425842285
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "到中国大陆地区的泡字机上面去刷啊这个被扫是完全没有问题的而且你是迟满了百分之四点四的这样一个反线",
+                    "confidence": 0.8199451565742493,
+                    "startTime": "587.010s",
+                    "endTime": "594.420s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.08272601664066315,
+                    "speechRate": 6.4777326583862305
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "所以呢我是比较推荐这个reword的线下啊竹扫和备扫都可以而且呃前一段时间不是出去旅游了吗啊然后我也试了一下在路边的小摊上路边的小店上只要有泡丝机",
+                    "confidence": 0.7985870838165283,
+                    "startTime": "594.900s",
+                    "endTime": "610.220s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.09361813962459564,
+                    "speechRate": 4.438642501831055
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "只要有posity都能刷",
+                    "confidence": 0.8947798013687134,
+                    "startTime": "610.670s",
+                    "endTime": "612.420s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.16287510097026825,
+                    "speechRate": 4
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊不像那个小葫芦书上面说的就是说它的这个嗯背扫码非常的苛刻没有真的非常非常的便利",
+                    "confidence": 0.7758935689926147,
+                    "startTime": "612.900s",
+                    "endTime": "621.750s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.09911864250898361,
+                    "speechRate": 4.519773960113525
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊我找到的就是那种",
+                    "confidence": 0.8977692723274231,
+                    "startTime": "622.210s",
+                    "endTime": "623.790s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.16278868913650513,
+                    "speechRate": 5.696202754974365
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "路边的小小店你知道吧他有那个pos机我说来试一下嘛哈直接就能刷成功所以我就",
+                    "confidence": 0.8914006948471069,
+                    "startTime": "624.390s",
+                    "endTime": "630.270s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.08811348676681519,
+                    "speechRate": 5.952381134033203
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "比较喜欢这个rever的你说云散户的话云闪付它绑定的话是有很多很多的这样一个限定条件啊还要换号码还要换云闪复我没有搞我嫌太麻烦了因为我的reword被嫂就用的特别舒服啊我也是强烈建议大家用这个rever的app",
+                    "confidence": 0.7818003296852112,
+                    "startTime": "630.670s",
+                    "endTime": "649.030s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.08300904929637909,
+                    "speechRate": 4.901960849761963
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "好这个汇丰的pos信用卡讲完了啊那有可能是呃很多人他是没有这个pose的",
+                    "confidence": 0.8608604669570923,
+                    "startTime": "649.610s",
+                    "endTime": "656.800s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.1073659211397171,
+                    "speechRate": 4.311543941497803
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊包括汇丰的银行卡他也是没有的啊那我就",
+                    "confidence": 0.8521739840507507,
+                    "startTime": "657.100s",
+                    "endTime": "660.740s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.0724097415804863,
+                    "speechRate": 5.219780445098877
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊给大家推荐一个这个万事达人民币卡最为推进的就是这个普发的呃万达人民币卡之前我们已经推荐过了啊首先它是世界卡啊",
+                    "confidence": 0.7539775967597961,
+                    "startTime": "661.050s",
+                    "endTime": "672.800s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.09125208109617233,
+                    "speechRate": 4.680850982666016
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "仅次于世界知己卡因为他是第三个等级了啊第三个等级了你相较于中国农业银行发行的这个万世达人民币卡他的等级就比较",
+                    "confidence": 0.7987179756164551,
+                    "startTime": "673.010s",
+                    "endTime": "683.240s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.09973634779453278,
+                    "speechRate": 5.278592586517334
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "低了啊它只是白金卡的一个行列",
+                    "confidence": 0.8987776041030884,
+                    "startTime": "683.520s",
+                    "endTime": "686.890s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06576420366764069,
+                    "speechRate": 4.154302597045898
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "而且这张卡是没有年费的啊刷六次就可以免年费而且你呃这个申请这申请完这张卡之后是可以领取一年的携程钻石贵宾vip",
+                    "confidence": 0.9021182060241699,
+                    "startTime": "687.230s",
+                    "endTime": "698.220s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.10061052441596985,
+                    "speechRate": 4.822566032409668
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯这张卡非常的香如果说你申请不到汇丰的post信用卡没办法去出国旅游的话",
+                    "confidence": 0.8971208930015564,
+                    "startTime": "698.760s",
+                    "endTime": "706.150s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.10931426286697388,
+                    "speechRate": 4.465493679046631
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "去刷卡的话那这张卡啊你到国外去刷也是一样的它是",
+                    "confidence": 0.918897271156311,
+                    "startTime": "706.900s",
+                    "endTime": "712.240s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.10270735621452332,
+                    "speechRate": 4.3071160316467285
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "同样拥有人民币账户和美元账户啊我是非常非常推荐这张卡的那如果说你想要申请的话你可以直接",
+                    "confidence": 0.7945932745933533,
+                    "startTime": "712.590s",
+                    "endTime": "721.930s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.083526611328125,
+                    "speechRate": 4.603854179382324
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "扫描这个屏幕的二维码啊而且你收到卡立即激活啊然后消费消费任意一笔啊这个金额的订单还会送三十六元的这样一个刷卡金",
+                    "confidence": 0.892284631729126,
+                    "startTime": "722.230s",
+                    "endTime": "733.430s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.09100067615509033,
+                    "speechRate": 4.910714149475098
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "然后这个申请的链接我也放到这个视频下方了",
+                    "confidence": 0.9347525835037231,
+                    "startTime": "733.760s",
+                    "endTime": "737.840s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.08788552135229111,
+                    "speechRate": 4.901960849761963
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊最后啊我最后我们再讲一下我们的这个电报群啊我们电报群有非常非常多机卡的大佬嗯啊对",
+                    "confidence": 0.8703493475914001,
+                    "startTime": "738.160s",
+                    "endTime": "746.430s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07641464471817017,
+                    "speechRate": 4.957678318023682
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "香港的卡也有这个新加坡的卡也有然后这个",
+                    "confidence": 0.9408155679702759,
+                    "startTime": "746.750s",
+                    "endTime": "751.040s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.10096509754657745,
+                    "speechRate": 4.4289045333862305
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "美国的这样一个信用卡也有啊甚至是美国的check in count啊就是支票账户也有",
+                    "confidence": 0.8356006145477295,
+                    "startTime": "751.340s",
+                    "endTime": "757.420s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.08489120006561279,
+                    "speechRate": 5.098684310913086
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊所以我们电报群还是人才济济的啊所以推荐大家这个到我们电报群去交流好那幺我们电报群再见",
+                    "confidence": 0.8156825304031372,
+                    "startTime": "757.540s",
+                    "endTime": "765.110s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.08467502892017365,
+                    "speechRate": 5.680316925048828
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "拜拜",
+                    "confidence": 0.8986138105392456,
+                    "startTime": "765.950s",
+                    "endTime": "766.350s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.0451376736164093,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-mandarin"
+        ]
+    }
+}

@@ -1,0 +1,1744 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "各位網友大家好呀咁今段片呢就想同大家比較吓",
+                    "confidence": 0.7680288553237915,
+                    "startTime": "0s",
+                    "endTime": "5.100s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.051875561475753784,
+                    "speechRate": 4.117647171020508
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我都唔係好想去",
+                    "confidence": 0.05787786468863487,
+                    "startTime": "29.250s",
+                    "endTime": "30.400s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07815238833427429,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "補充嘅時候呢即係transcript先係想",
+                    "confidence": 0.37025782465934753,
+                    "startTime": "44.150s",
+                    "endTime": "48.410s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05947558209300041,
+                    "speechRate": 2.816901445388794
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "寫第一張紙先讀到哩張咁樣呢",
+                    "confidence": 0.2262350618839264,
+                    "startTime": "56s",
+                    "endTime": "59.890s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06283857673406601,
+                    "speechRate": 3.341902256011963
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "知呀",
+                    "confidence": 0.6814284920692444,
+                    "startTime": "134.330s",
+                    "endTime": "134.750s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.08469261974096298,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "政府呢就按哩張卡嘅時間咁樣睇落去",
+                    "confidence": 0.292354553937912,
+                    "startTime": "144.750s",
+                    "endTime": "151.200s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06775207817554474,
+                    "speechRate": 2.4806201457977295
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁係咪真係好好呢頭先向",
+                    "confidence": 0.46218958497047424,
+                    "startTime": "151.890s",
+                    "endTime": "154.610s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06367968022823334,
+                    "speechRate": 4.044117450714111
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁你係咪",
+                    "confidence": 0.11066406220197678,
+                    "startTime": "177.940s",
+                    "endTime": "182.310s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.0654231607913971,
+                    "speechRate": 0.9153317809104919
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "小朋友講咩呢",
+                    "confidence": 0.24770043790340424,
+                    "startTime": "192.190s",
+                    "endTime": "193.530s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06886112689971924,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "司長係邊個",
+                    "confidence": 0.07679697871208191,
+                    "startTime": "194.390s",
+                    "endTime": "196.700s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.0698162391781807,
+                    "speechRate": 2.1645021438598633
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.008215967565774918,
+                    "startTime": "200.850s",
+                    "endTime": "201.400s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07366839796304703,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁呀",
+                    "confidence": 0.11960451304912567,
+                    "startTime": "203.210s",
+                    "endTime": "203.870s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.08501920849084854,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁之後嚟講你約佢係咁多人去投保嘅意識啦誒真係唔好意思呀咁畀人即係如果你做",
+                    "confidence": 0.2621084153652191,
+                    "startTime": "254.330s",
+                    "endTime": "267.430s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05463726446032524,
+                    "speechRate": 2.748091697692871
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁即係人哋",
+                    "confidence": 0.26904886960983276,
+                    "startTime": "281.410s",
+                    "endTime": "283.080s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07811113446950912,
+                    "speechRate": 2.994011878967285
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "如果你同我做哩件事嘅",
+                    "confidence": 0.2342660278081894,
+                    "startTime": "284.130s",
+                    "endTime": "286.860s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.0649714544415474,
+                    "speechRate": 3.66300368309021
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "如果係時間唔會好遠先",
+                    "confidence": 0.19104285538196564,
+                    "startTime": "288.920s",
+                    "endTime": "292.120s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07572896778583527,
+                    "speechRate": 3.125
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.5421221852302551,
+                    "startTime": "299.360s",
+                    "endTime": "299.650s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06626532971858978,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗱咁就唔係即係咁之後我哋想問番誒即係",
+                    "confidence": 0.12763705849647522,
+                    "startTime": "300.670s",
+                    "endTime": "309.960s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07148408144712448,
+                    "speechRate": 1.9375672340393066
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我所覺得",
+                    "confidence": 0.14948712289333344,
+                    "startTime": "310.790s",
+                    "endTime": "311.610s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07827135175466537,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "酌情係有情況",
+                    "confidence": 0.26974987983703613,
+                    "startTime": "313.600s",
+                    "endTime": "314.890s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.0882091224193573,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁佢讀書有冇寫證明",
+                    "confidence": 0.2762107849121094,
+                    "startTime": "315.610s",
+                    "endTime": "319.340s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06703618913888931,
+                    "speechRate": 2.4128687381744385
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "即係你最高呢選擇啲咁",
+                    "confidence": 0.3199926018714905,
+                    "startTime": "319.640s",
+                    "endTime": "325.640s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06445980072021484,
+                    "speechRate": 1.6666666269302368
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "私人同埋影響嘅意見其實佢哩種情況係冇事嘅",
+                    "confidence": 0.18002036213874817,
+                    "startTime": "325.940s",
+                    "endTime": "332.480s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06379490345716476,
+                    "speechRate": 3.0581040382385254
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "做testing嘅時候呢佢先有",
+                    "confidence": 0.14265713095664978,
+                    "startTime": "334.850s",
+                    "endTime": "340.960s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07456468045711517,
+                    "speechRate": 1.4729950428009033
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "誒其實係之後就會咁有個先有個",
+                    "confidence": 0.20626813173294067,
+                    "startTime": "351.850s",
+                    "endTime": "356.890s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06324705481529236,
+                    "speechRate": 2.777777671813965
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "而家可以嘅情況係點呢哩個補償係咪呢簽名",
+                    "confidence": 0.21214063465595245,
+                    "startTime": "361.250s",
+                    "endTime": "365.140s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05487893894314766,
+                    "speechRate": 4.884318828582764
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "其實可唔可以咁講呢係咪有啲擔心",
+                    "confidence": 0.06955777853727341,
+                    "startTime": "367.350s",
+                    "endTime": "377.650s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.059199217706918716,
+                    "speechRate": 1.4563106298446655
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "人",
+                    "confidence": 0.0373627245426178,
+                    "startTime": "379.910s",
+                    "endTime": "380.750s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07459429651498795,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "tc呀等陣想",
+                    "confidence": 0.12727512419223785,
+                    "startTime": "409.640s",
+                    "endTime": "410.750s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.08834696561098099,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "唔該晒",
+                    "confidence": 0.3245602548122406,
+                    "startTime": "420.950s",
+                    "endTime": "421.610s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.0624869242310524,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁呀",
+                    "confidence": 0.056429214775562286,
+                    "startTime": "437.950s",
+                    "endTime": "441.900s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.059553202241659164,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁之後",
+                    "confidence": 0.29403969645500183,
+                    "startTime": "463.300s",
+                    "endTime": "463.960s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06613292545080185,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "感謝你",
+                    "confidence": 0.39517974853515625,
+                    "startTime": "472.850s",
+                    "endTime": "473.730s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07755724340677261,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁另一個問題都問哩件事喇咁第二呢就係",
+                    "confidence": 0.1698724329471588,
+                    "startTime": "496.720s",
+                    "endTime": "506.960s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05511682853102684,
+                    "speechRate": 1.7578125
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.2168591171503067,
+                    "startTime": "507.290s",
+                    "endTime": "507.830s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06845001876354218,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "如果低嘅話呢",
+                    "confidence": 0.3002151846885681,
+                    "startTime": "540.700s",
+                    "endTime": "543.790s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05521475151181221,
+                    "speechRate": 1.9417475461959839
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "十四架啦",
+                    "confidence": 0.1229640394449234,
+                    "startTime": "571.830s",
+                    "endTime": "572.890s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.08334910869598389,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁哩",
+                    "confidence": 0.7120459675788879,
+                    "startTime": "574.570s",
+                    "endTime": "574.850s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.08428863435983658,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "如果大家有興趣嘅話呢",
+                    "confidence": 0.45136865973472595,
+                    "startTime": "581.750s",
+                    "endTime": "584.960s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06652507930994034,
+                    "speechRate": 3.115264892578125
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "最後表達",
+                    "confidence": 0.3424709439277649,
+                    "startTime": "587.540s",
+                    "endTime": "588.460s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.08187467604875565,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "哦",
+                    "confidence": 0.012132509611546993,
+                    "startTime": "592.790s",
+                    "endTime": "593.290s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07697760313749313,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "唔該拜拜",
+                    "confidence": 0.4040431082248688,
+                    "startTime": "596.400s",
+                    "endTime": "597.720s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06678809225559235,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "少少時間",
+                    "confidence": 0.15926040709018707,
+                    "startTime": "15.390s",
+                    "endTime": "19.190s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.09705435484647751,
+                    "speechRate": 1.0526316165924072
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "miss calling",
+                    "confidence": 0.1247837021946907,
+                    "startTime": "20.540s",
+                    "endTime": "23.790s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.08714202046394348,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.026982804760336876,
+                    "startTime": "32.250s",
+                    "endTime": "33.250s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.10339618474245071,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "one three eight",
+                    "confidence": 0.1064549908041954,
+                    "startTime": "34.290s",
+                    "endTime": "38.710s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.0893385037779808,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "十七都冇",
+                    "confidence": 0.2385069727897644,
+                    "startTime": "53.950s",
+                    "endTime": "55.160s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.08224587887525558,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "唔好意思",
+                    "confidence": 0.0506434291601181,
+                    "startTime": "66.470s",
+                    "endTime": "73.200s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07706853747367859,
+                    "speechRate": 0.5943536162376404
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "哦",
+                    "confidence": 0.06299299001693726,
+                    "startTime": "92.550s",
+                    "endTime": "93.250s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07501323521137238,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我都唔記得",
+                    "confidence": 0.09334639459848404,
+                    "startTime": "103.750s",
+                    "endTime": "107.700s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.08278697729110718,
+                    "speechRate": 1.2658227682113647
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁如果",
+                    "confidence": 0.7409594655036926,
+                    "startTime": "136.220s",
+                    "endTime": "136.840s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.0900380089879036,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "知唔知點解我哋",
+                    "confidence": 0.11548840999603271,
+                    "startTime": "138.420s",
+                    "endTime": "142.150s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.08663973957300186,
+                    "speechRate": 1.8766756057739258
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "ok ok ok",
+                    "confidence": 0.06995246559381485,
+                    "startTime": "169.550s",
+                    "endTime": "176.810s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.08587948977947235,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我都唔知你有冇",
+                    "confidence": 0.05659325793385506,
+                    "startTime": "197.300s",
+                    "endTime": "199.500s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.08779598772525787,
+                    "speechRate": 3.1818182468414307
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "over",
+                    "confidence": 0.8874437808990479,
+                    "startTime": "243.580s",
+                    "endTime": "243.860s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07362182438373566,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "有冇呀",
+                    "confidence": 0.05175691843032837,
+                    "startTime": "277.190s",
+                    "endTime": "279.110s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.10196129232645035,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.5210609436035156,
+                    "startTime": "309.200s",
+                    "endTime": "309.360s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.090265654027462,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "誒二九五",
+                    "confidence": 0.09149764478206635,
+                    "startTime": "311.850s",
+                    "endTime": "313.150s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.0957486480474472,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我都唔係好想去",
+                    "confidence": 0.06414464116096497,
+                    "startTime": "343.790s",
+                    "endTime": "344.650s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.10764046013355255,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我唔知點樣",
+                    "confidence": 0.09132833778858185,
+                    "startTime": "346.140s",
+                    "endTime": "349.400s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.08678187429904938,
+                    "speechRate": 1.5337423086166382
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "好呀",
+                    "confidence": 0.3087446093559265,
+                    "startTime": "382.200s",
+                    "endTime": "382.400s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.08233833312988281,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "誒",
+                    "confidence": 0.01466195285320282,
+                    "startTime": "406.190s",
+                    "endTime": "406.590s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.09692130982875824,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "tcc tc",
+                    "confidence": 0.1121412143111229,
+                    "startTime": "412.940s",
+                    "endTime": "417.150s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.08080243319272995,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啦",
+                    "confidence": 0.10433956235647202,
+                    "startTime": "445.290s",
+                    "endTime": "445.860s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.08485526591539383,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.05065745487809181,
+                    "startTime": "447.640s",
+                    "endTime": "447.960s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07593097537755966,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯先生",
+                    "confidence": 0.17137731611728668,
+                    "startTime": "449.920s",
+                    "endTime": "451.580s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.09928881376981735,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "zero",
+                    "confidence": 0.19706851243972778,
+                    "startTime": "482.290s",
+                    "endTime": "486.750s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.09087721258401871,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我以前都唔知",
+                    "confidence": 0.056907132267951965,
+                    "startTime": "516.950s",
+                    "endTime": "518.290s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07246197760105133,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "因為你係唔係",
+                    "confidence": 0.19730223715305328,
+                    "startTime": "519.250s",
+                    "endTime": "521.180s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.10242032259702682,
+                    "speechRate": 3.1088082790374756
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁我唔知佢佢",
+                    "confidence": 0.16114701330661774,
+                    "startTime": "522.150s",
+                    "endTime": "523.710s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.09600765258073807,
+                    "speechRate": 3.846153736114502
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "即係哩啲哩啲",
+                    "confidence": 0.10046527534723282,
+                    "startTime": "551.330s",
+                    "endTime": "555.550s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07981956005096436,
+                    "speechRate": 1.421800971031189
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "check番呢個",
+                    "confidence": 0.3007679879665375,
+                    "startTime": "561.090s",
+                    "endTime": "562.660s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.08398887515068054,
+                    "speechRate": 2.5477707386016846
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "誒你邊條有冇問過呀",
+                    "confidence": 0.2712830901145935,
+                    "startTime": "585.330s",
+                    "endTime": "587s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.08984722942113876,
+                    "speechRate": 5.389221668243408
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁我",
+                    "confidence": 0.09065570682287216,
+                    "startTime": "589.790s",
+                    "endTime": "590.720s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07551337778568268,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我都唔知幾時翻",
+                    "confidence": 0.06280159205198288,
+                    "startTime": "25.450s",
+                    "endTime": "26.660s",
+                    "speakerTag": "003",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06757454574108124,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "你唔係",
+                    "confidence": 0.06511255353689194,
+                    "startTime": "42.810s",
+                    "endTime": "42.980s",
+                    "speakerTag": "003",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05853351950645447,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "ok ok ok ok",
+                    "confidence": 0.07340167462825775,
+                    "startTime": "73.690s",
+                    "endTime": "80.500s",
+                    "speakerTag": "003",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06404668837785721,
+                    "speechRate": 0.5873715281486511
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "即係",
+                    "confidence": 0.09175148606300354,
+                    "startTime": "112.090s",
+                    "endTime": "113.560s",
+                    "speakerTag": "003",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.056358326226472855,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係呀",
+                    "confidence": 0.06467381864786148,
+                    "startTime": "123.900s",
+                    "endTime": "125.160s",
+                    "speakerTag": "003",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.08151950687170029,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁你",
+                    "confidence": 0.03420271724462509,
+                    "startTime": "160.210s",
+                    "endTime": "163.700s",
+                    "speakerTag": "003",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07444840669631958,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我都唔知有冇",
+                    "confidence": 0.046819817274808884,
+                    "startTime": "190.300s",
+                    "endTime": "192.090s",
+                    "speakerTag": "003",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05622829124331474,
+                    "speechRate": 3.3519554138183594
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係",
+                    "confidence": 0.2695331871509552,
+                    "startTime": "430.890s",
+                    "endTime": "431.210s",
+                    "speakerTag": "003",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06191426143050194,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "總之呀咁你咪可以",
+                    "confidence": 0.16382774710655212,
+                    "startTime": "463.320s",
+                    "endTime": "467.580s",
+                    "speakerTag": "003",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06414646655321121,
+                    "speechRate": 1.877934217453003
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "一號嘅",
+                    "confidence": 0.1975729763507843,
+                    "startTime": "491.250s",
+                    "endTime": "492.200s",
+                    "speakerTag": "003",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.059297237545251846,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁仲有冇其他",
+                    "confidence": 0.37497133016586304,
+                    "startTime": "493.950s",
+                    "endTime": "495.490s",
+                    "speakerTag": "003",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.0770411565899849,
+                    "speechRate": 3.896103858947754
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "ok呀",
+                    "confidence": 0.5483104586601257,
+                    "startTime": "529.790s",
+                    "endTime": "530.350s",
+                    "speakerTag": "003",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.060587912797927856,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "唔知邊個",
+                    "confidence": 0.15075957775115967,
+                    "startTime": "531.070s",
+                    "endTime": "531.840s",
+                    "speakerTag": "003",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06438954919576645,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我都唔知你係邊",
+                    "confidence": 0.051858317106962204,
+                    "startTime": "533.090s",
+                    "endTime": "533.800s",
+                    "speakerTag": "003",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07181322574615479,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嘅時候",
+                    "confidence": 0.0569632463157177,
+                    "startTime": "563.760s",
+                    "endTime": "568.160s",
+                    "speakerTag": "003",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06427669525146484,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "點樣呀",
+                    "confidence": 0.5106634497642517,
+                    "startTime": "576.710s",
+                    "endTime": "577s",
+                    "speakerTag": "003",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.08974218368530273,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "九二零一",
+                    "confidence": 0.4832576811313629,
+                    "startTime": "49.200s",
+                    "endTime": "49.960s",
+                    "speakerTag": "004",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.08350495249032974,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "唔好想即係少少個搵食",
+                    "confidence": 0.19701768457889557,
+                    "startTime": "61.450s",
+                    "endTime": "63.800s",
+                    "speakerTag": "004",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.0724564716219902,
+                    "speechRate": 4.255319118499756
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁visa signature呢基本冇用嘅",
+                    "confidence": 0.5021705031394958,
+                    "startTime": "155.850s",
+                    "endTime": "158.250s",
+                    "speakerTag": "004",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06405884772539139,
+                    "speechRate": 3.75
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.10416517406702042,
+                    "startTime": "159.110s",
+                    "endTime": "159.420s",
+                    "speakerTag": "004",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.09215550869703293,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我都唔知你係咩",
+                    "confidence": 0.06389550864696503,
+                    "startTime": "164.190s",
+                    "endTime": "164.750s",
+                    "speakerTag": "004",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06629904359579086,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "政府就",
+                    "confidence": 0.1265883445739746,
+                    "startTime": "184.970s",
+                    "endTime": "187.420s",
+                    "speakerTag": "004",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05413453280925751,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-cantonese"
+        ]
+    }
+}

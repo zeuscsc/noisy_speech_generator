@@ -1,1 +1,0 @@
-Parameters, we are defining the bounds and call gpop methods. Beijing optimization. We pass the

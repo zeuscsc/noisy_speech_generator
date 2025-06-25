@@ -1,1 +1,0 @@
-The main part, where you define what the hyper parameters are, so you are passing it into. 

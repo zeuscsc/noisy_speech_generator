@@ -1,0 +1,3076 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗱咁好啦你但係而家經濟又唔好啦吓話嗱即係你睇吓今日匯豐呀匯豐嘅ceo呢",
+                    "confidence": 0.87272047996521,
+                    "startTime": "3.420s",
+                    "endTime": "9.650s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.16441377997398376,
+                    "speechRate": 5.296950340270996
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗌橋字呀就警告呀係嘛而家吓即係你出到嚟係最壞嘅時候啦係嘛而家嗱佢咁樣講就好驚",
+                    "confidence": 0.8267150521278381,
+                    "startTime": "9.920s",
+                    "endTime": "17.630s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.17041699588298798,
+                    "speechRate": 4.928664207458496
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "好大鑊啦係嘛即係你一般人都你唔好話呀呀范國威你搵唔搵到工呀",
+                    "confidence": 0.8461915254592896,
+                    "startTime": "18.810s",
+                    "endTime": "24.820s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.22623707354068756,
+                    "speechRate": 4.825291156768799
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "一般香港人呢你而家都驚緊呀即係你你有樓嘅又驚吓哩份工呀驚遲早冇咗佢",
+                    "confidence": 0.8829953074455261,
+                    "startTime": "25.260s",
+                    "endTime": "32.350s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.17794790863990784,
+                    "speechRate": 4.65444278717041
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "呀咁我去就警告吓如果關稅戰升級嘅話呢吓即係兩件事發生先首先第一",
+                    "confidence": 0.8371884822845459,
+                    "startTime": "32.860s",
+                    "endTime": "40.140s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.17055141925811768,
+                    "speechRate": 4.258241653442383
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "就係話佢而家呢嗱首先匯豐自己都唔掂",
+                    "confidence": 0.940116286277771,
+                    "startTime": "40.630s",
+                    "endTime": "43.440s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.17620128393173218,
+                    "speechRate": 6.049821853637695
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "吓即係佢話匯豐呢你你講個咩首先就係個地緣政治問題啦地緣政治惡化啦吓",
+                    "confidence": 0.8609457612037659,
+                    "startTime": "44.020s",
+                    "endTime": "49.420s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.17233656346797943,
+                    "speechRate": 6.111111164093018
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "然之後呢就佢話佢預期就係一樣嘢啫睇吓嗰個嗱而家嗰個關稅水平呢會唔會延續落去",
+                    "confidence": 0.8960186839103699,
+                    "startTime": "49.810s",
+                    "endTime": "57.550s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.16445118188858032,
+                    "speechRate": 4.780361652374268
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "若果主要嘅貿易集團之間主要嘅貿易國啦貿易大國啦之間係關稅啦",
+                    "confidence": 0.8860312104225159,
+                    "startTime": "58.220s",
+                    "endTime": "63.890s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.17381760478019714,
+                    "speechRate": 5.114638328552246
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "都係顯著高於四月一號嘅水平即係其實高於四月一號即係哩個libration date之前意思就係話",
+                    "confidence": 0.8526219129562378,
+                    "startTime": "64.340s",
+                    "endTime": "71.200s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.1699468046426773,
+                    "speechRate": 5.2478132247924805
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "donald trump嗰個關稅地圖炮延續落去或者就而家你話嗰九係咪七十五個國家",
+                    "confidence": 0.8392179012298584,
+                    "startTime": "71.700s",
+                    "endTime": "79.030s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.17061810195446014,
+                    "speechRate": 4.092769622802734
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "吓佢哋嗰個誒嗰個低關稅過到期呢都過唔到嘅時候呢延續落去甚至乎加番嘅話呢",
+                    "confidence": 0.8692525029182434,
+                    "startTime": "79.520s",
+                    "endTime": "86.350s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.1542956531047821,
+                    "speechRate": 5.124451160430908
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "全球嘅貿易或者係gdp嘅增長會放緩",
+                    "confidence": 0.945712685585022,
+                    "startTime": "86.980s",
+                    "endTime": "90.880s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.13421757519245148,
+                    "speechRate": 3.846153736114502
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "匯豐嘅收入亦都會受到呢低單位百分比",
+                    "confidence": 0.9399776458740234,
+                    "startTime": "91.700s",
+                    "endTime": "95.840s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.17629380524158478,
+                    "speechRate": 4.106280326843262
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "吓嘅拖累呀係嘛嗱我唔知道咩咩咩叫低單位百分比呀總之就係話個盈利受到拖累啦",
+                    "confidence": 0.7704446315765381,
+                    "startTime": "96.270s",
+                    "endTime": "103.340s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.13931161165237427,
+                    "speechRate": 5.09193754196167
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "同時預期信貸損失預期信貸損失呢就會增加到五億",
+                    "confidence": 0.9294983744621277,
+                    "startTime": "103.810s",
+                    "endTime": "108.440s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.17782634496688843,
+                    "speechRate": 4.751619815826416
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我諗尤其係嗰啲即係做誒嗯物業做誒按揭貸款嗰啲呀",
+                    "confidence": 0.9287815093994141,
+                    "startTime": "109s",
+                    "endTime": "114.770s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.17981170117855072,
+                    "speechRate": 3.986135244369507
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係嘛會default呀嗱因為哩個絕對相關喎吓因為佢講緊呢就係話呢誒",
+                    "confidence": 0.8121873736381531,
+                    "startTime": "115.540s",
+                    "endTime": "121.420s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.19773125648498535,
+                    "speechRate": 4.591836929321289
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "佢話樓價都會受影響喎樓價呢仲大鑊嘩嗱長期嚟講呀吓嘛佢話下行兩個情況嘅預期出現呀吓話",
+                    "confidence": 0.8254250288009644,
+                    "startTime": "122.120s",
+                    "endTime": "129.650s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.15145432949066162,
+                    "speechRate": 5.444887161254883
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁呀如果你話下行兩個情況嗱第一個下行就係話呢",
+                    "confidence": 0.9282937049865723,
+                    "startTime": "130.550s",
+                    "endTime": "133.730s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.16051819920539856,
+                    "speechRate": 6.918239116668701
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "呀嗰個呀佢話關稅政策就會令令到呢銀行嘅利息收入同埋其他業務實收收入呢",
+                    "confidence": 0.8791936039924622,
+                    "startTime": "134.390s",
+                    "endTime": "141.860s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.13933517038822174,
+                    "speechRate": 4.551539421081543
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "都會受到直接嘅影利息收入呢就你預期起碼呢",
+                    "confidence": 0.8803733587265015,
+                    "startTime": "142.220s",
+                    "endTime": "145.670s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.19152894616127014,
+                    "speechRate": 5.7971014976501465
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "誒就美美聯儲加稅先啦係嘛唔係加息呀聯儲局加息先呢咁咁你香港你",
+                    "confidence": 0.8575899004936218,
+                    "startTime": "146.460s",
+                    "endTime": "152.840s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.19714438915252686,
+                    "speechRate": 4.7021942138671875
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.8838357925415039,
+                    "startTime": "163.820s",
+                    "endTime": "164.090s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.2115951031446457,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯咁同埋呢",
+                    "confidence": 0.9287562966346741,
+                    "startTime": "185.360s",
+                    "endTime": "186.760s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.16547231376171112,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "誒外壞帳兩方面呀第一就係做生意做貿易嗰啲人",
+                    "confidence": 0.8554179668426514,
+                    "startTime": "187.610s",
+                    "endTime": "191.920s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.13887947797775269,
+                    "speechRate": 4.872389793395996
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗰啲即係做貿易嗰啲公司呢嗰啲借貸呀係嘛嗰啲就可能唔掂啦還唔到錢啦",
+                    "confidence": 0.8959300518035889,
+                    "startTime": "192.630s",
+                    "endTime": "199.400s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.1583537459373474,
+                    "speechRate": 4.726735591888428
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁嗰度default撥備呢又計一嚿錢因為你關稅嘅問題好多貿易你出口唔到啦",
+                    "confidence": 0.8598774671554565,
+                    "startTime": "199.770s",
+                    "endTime": "204.640s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.13846705853939056,
+                    "speechRate": 6.1601643562316895
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁另一方面咁其實或者有啲呢就本身完全係冇受影響嘅真係好似做she in呀",
+                    "confidence": 0.8726288676261902,
+                    "startTime": "205.500s",
+                    "endTime": "211.680s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.16024890542030334,
+                    "speechRate": 5.177993297576904
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗰啲嗰嗰啲咁樣嘅中介呀喺香港咁然之後就本身",
+                    "confidence": 0.9307804703712463,
+                    "startTime": "212.410s",
+                    "endTime": "217.540s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.1966554820537567,
+                    "speechRate": 4.093567371368408
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係係係零係零關稅因為你細包裹呀真係零關稅㗎嘛本身係",
+                    "confidence": 0.8157483339309692,
+                    "startTime": "218.210s",
+                    "endTime": "223.750s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.2185417115688324,
+                    "speechRate": 4.512635231018066
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "而家係冇晒成個市場呀而家係突然間冇得做呀",
+                    "confidence": 0.9454264044761658,
+                    "startTime": "224.210s",
+                    "endTime": "227.870s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.23082803189754486,
+                    "speechRate": 5.464480876922607
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁你公司就即刻呢就係就即刻就地政法㗎嗰啲係你就借咗錢嗰啲借咗畀佢",
+                    "confidence": 0.8430731296539307,
+                    "startTime": "228.660s",
+                    "endTime": "235.890s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.14280809462070465,
+                    "speechRate": 4.4260029792785645
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁而家就即刻冇得撈㗎啦依家嗰啲鞋",
+                    "confidence": 0.8080630302429199,
+                    "startTime": "236.050s",
+                    "endTime": "238.090s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06476685404777527,
+                    "speechRate": 7.843137264251709
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "然之後仲有個嗰啲呢就係誒嗯嗰啲物業貸款啦係嘛",
+                    "confidence": 0.8672676682472229,
+                    "startTime": "238.920s",
+                    "endTime": "242.530s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.12338672578334808,
+                    "speechRate": 6.094182968139648
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯當到心所以佢咪要出口述囉話畀你聽兩三個禮拜搞掂囉",
+                    "confidence": 0.7791234850883484,
+                    "startTime": "276.720s",
+                    "endTime": "281.050s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.11636792123317719,
+                    "speechRate": 5.773672103881836
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係嘛咁但係冇用呀你唔信佢呀",
+                    "confidence": 0.7839977145195007,
+                    "startTime": "281.770s",
+                    "endTime": "283.870s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.15044811367988586,
+                    "speechRate": 6.190476417541504
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "呀咁我哋陣間可以講吓嗰個問題嘅第二次我哋講吓個問題佢話下行量嘅情況出現嘅預測情景呀吓嘛",
+                    "confidence": 0.8536586761474609,
+                    "startTime": "290.790s",
+                    "endTime": "297.950s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.09276279807090759,
+                    "speechRate": 6.005586624145508
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "佢就話供應鏈問題加劇通脹利率初期會上升先嘅",
+                    "confidence": 0.9136741757392883,
+                    "startTime": "298.610s",
+                    "endTime": "303.360s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.11231936514377594,
+                    "speechRate": 4.4210524559021
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁即係哩個就誒一個加息啦係嘛咁然之後哩咁嘅情況之下呢",
+                    "confidence": 0.8847341537475586,
+                    "startTime": "304.250s",
+                    "endTime": "308.780s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.12719808518886566,
+                    "speechRate": 5.739514350891113
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "呀佢話香港嘅gdp可能會下降九點七個percent",
+                    "confidence": 0.9268717765808105,
+                    "startTime": "309.250s",
+                    "endTime": "312.740s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.11823572218418121,
+                    "speechRate": 4.871060371398926
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "即係你見你見到呀邊個呀呀波叔",
+                    "confidence": 0.7312917709350586,
+                    "startTime": "313.670s",
+                    "endTime": "316s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.1970401108264923,
+                    "speechRate": 6.0085835456848145
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "仲喺度怕定心軟㗎扯我哋香港冇影響喎係嘛",
+                    "confidence": 0.780624270439148,
+                    "startTime": "316.760s",
+                    "endTime": "321.710s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.2227100282907486,
+                    "speechRate": 3.838383913040161
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我哋出口嘅美國佔比好低啫一個percent都冇呀係咪佢講到係咁但係佢話呀嘛佢話做東盟嗰啲",
+                    "confidence": 0.8871682286262512,
+                    "startTime": "322.010s",
+                    "endTime": "329.270s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.2010236531496048,
+                    "speechRate": 5.23415994644165
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗰啲出口貿易多咗呀嘛喺哩幾年嘅出口佈局係我話你條我話哩條撚樣都傻嘅",
+                    "confidence": 0.8404096364974976,
+                    "startTime": "329.670s",
+                    "endTime": "336.030s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.161566823720932,
+                    "speechRate": 5.188679218292236
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "唔係即係你其實你話你話東盟尤其係越南嗰啲出口多咗因為你洗產地呀嘛",
+                    "confidence": 0.9238367676734924,
+                    "startTime": "336.790s",
+                    "endTime": "342.620s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.22332195937633514,
+                    "speechRate": 5.4888505935668945
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "其實你嗰啲雖然你由美國轉咗去越南其實最終你個中端顧客都係美國佬呀嘛",
+                    "confidence": 0.9297505021095276,
+                    "startTime": "342.850s",
+                    "endTime": "349.730s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.21040372550487518,
+                    "speechRate": 4.796511650085449
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "似欺欺人啦哩個真係叫做係",
+                    "confidence": 0.7671436667442322,
+                    "startTime": "350.580s",
+                    "endTime": "352.280s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.29343533515930176,
+                    "speechRate": 7.058823585510254
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "冇㗎啦你咪最多咪做埋哩哩哩九十日囉",
+                    "confidence": 0.9332139492034912,
+                    "startTime": "358.360s",
+                    "endTime": "362.280s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.21222497522830963,
+                    "speechRate": 4.336734771728516
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁之後冇㗎啦",
+                    "confidence": 0.9363167881965637,
+                    "startTime": "363.320s",
+                    "endTime": "364.580s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.1863020807504654,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "吓咁然之後漏加哩個先至大鑊嗱其實你gdp已經死㗎啦其實係去到咁樣嘅話係",
+                    "confidence": 0.8828418850898743,
+                    "startTime": "365.570s",
+                    "endTime": "371.500s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.17077307403087616,
+                    "speechRate": 5.564924240112305
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "喂你喺香港呀你喺沙士呀最仆街啦嗰陣時跌幾多呀嗰陣時gdp係",
+                    "confidence": 0.8810279369354248,
+                    "startTime": "372.410s",
+                    "endTime": "378.300s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.17364569008350372,
+                    "speechRate": 4.584040641784668
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "gdp其實我諗跌啲你唔好話跌啦你keep住零你都死得啦",
+                    "confidence": 0.9249414205551147,
+                    "startTime": "379.110s",
+                    "endTime": "384.740s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.13271968066692352,
+                    "speechRate": 3.907637596130371
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "你而家仲係跌十個percent九點七個percent喎gdp喎",
+                    "confidence": 0.9208758473396301,
+                    "startTime": "385.670s",
+                    "endTime": "389.930s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.14572742581367493,
+                    "speechRate": 3.990610361099243
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "經濟增長跌十個percent喎",
+                    "confidence": 0.9411840438842773,
+                    "startTime": "390.690s",
+                    "endTime": "392.460s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.12969090044498444,
+                    "speechRate": 5.08474588394165
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "樓價",
+                    "confidence": 0.7581782341003418,
+                    "startTime": "393.200s",
+                    "endTime": "394.030s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.2136964648962021,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "就最多呢就而家嗰個level裡面再跌三十個percent你仲唔洗呀",
+                    "confidence": 0.9388384819030762,
+                    "startTime": "394.750s",
+                    "endTime": "400.650s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.15211500227451324,
+                    "speechRate": 3.8983051776885986
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗱你而家去到咁樣嘅話呢你揸住層樓想移民嗰啲都唔得嘛",
+                    "confidence": 0.8970563411712646,
+                    "startTime": "402.010s",
+                    "endTime": "406.330s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.12393917888402939,
+                    "speechRate": 5.787036895751953
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "點算",
+                    "confidence": 0.9031035304069519,
+                    "startTime": "409.140s",
+                    "endTime": "409.520s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.13530218601226807,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "你揸住層樓你都冇得疑問啦而家係反而你層樓係你嘅婦女呀",
+                    "confidence": 0.8469369411468506,
+                    "startTime": "410.320s",
+                    "endTime": "414.610s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.13467636704444885,
+                    "speechRate": 6.060606002807617
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "呀我哋二零二一年嗰陣時即係走嘅時候係最好時機呀因為你揸住層樓有人肯接",
+                    "confidence": 0.8541565537452698,
+                    "startTime": "415.480s",
+                    "endTime": "421.340s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.14486229419708252,
+                    "speechRate": 5.8020477294921875
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁你就揸住哩嚿錢嚟英國買樓呀係嘛",
+                    "confidence": 0.8767668008804321,
+                    "startTime": "422.020s",
+                    "endTime": "424.640s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.12389683723449707,
+                    "speechRate": 6.106870174407959
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.8215904831886292,
+                    "startTime": "425.760s",
+                    "endTime": "426.020s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.26095443964004517,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "而家個情況呢就調番轉而家哩層樓呢就變咗你婦女係慘過無產階級呀",
+                    "confidence": 0.8955135345458984,
+                    "startTime": "429.050s",
+                    "endTime": "435.550s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.14186029136180878,
+                    "speechRate": 4.615384578704834
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "呀除非你真係好似有啲人喺度喺度諗呀唔知呀間唔中有啲連燈仔就話移民呢就撇帳呀嘛",
+                    "confidence": 0.7544677257537842,
+                    "startTime": "437.390s",
+                    "endTime": "442.310s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.1572820246219635,
+                    "speechRate": 7.72357702255249
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "吓撇帳移民呀嘛即係credit card只係借即係你你你成身屎忽數咁呀然之後就就走咗去呀嘛係嘛",
+                    "confidence": 0.81131511926651,
+                    "startTime": "445.390s",
+                    "endTime": "451.830s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.20688758790493011,
+                    "speechRate": 5.900620937347412
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係",
+                    "confidence": 0.20080769062042236,
+                    "startTime": "458.360s",
+                    "endTime": "458.800s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.1391931176185608,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "吓咁你你話credit card都唔得啦咁你話你銀行貸款咁樣計",
+                    "confidence": 0.8692812919616699,
+                    "startTime": "459.850s",
+                    "endTime": "464.900s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.1347903162240982,
+                    "speechRate": 4.356435775756836
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗱咁呀即係你你除嗯嗱你如果你話你借借中資呀係嘛如果你即係你搵中銀自己㗎嘛你即係做按揭呀吓話",
+                    "confidence": 0.5740072131156921,
+                    "startTime": "465.750s",
+                    "endTime": "473.050s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.13607116043567657,
+                    "speechRate": 6.164383411407471
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "借爆佢呀咁呀即係然之後吓咩三十年按揭呀咁樣點借爆佢呀咁但係其實你嚟到哩度之後咁又係嗰個月嗰樣嘢呀",
+                    "confidence": 0.8562638759613037,
+                    "startTime": "473.450s",
+                    "endTime": "481.300s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.1427343636751175,
+                    "speechRate": 6.114649772644043
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "吓即係係咪係咪真係走得甩嘅呢其實係係咪真係咁容易呀好似信用卡有人試過",
+                    "confidence": 0.8624072670936584,
+                    "startTime": "481.910s",
+                    "endTime": "487.990s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.12873640656471252,
+                    "speechRate": 5.592105388641357
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "內",
+                    "confidence": 0.5300070643424988,
+                    "startTime": "494.130s",
+                    "endTime": "494.400s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.27452465891838074,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "吓咁即係開唔到戶口呀吓話",
+                    "confidence": 0.8490456342697144,
+                    "startTime": "497.540s",
+                    "endTime": "498.900s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.19647859036922455,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係囉我就係唔知呀我未試過呀吓即係亦都冇身邊冇朋友係咁樣嘅情況啦吓咁呀即係",
+                    "confidence": 0.911727249622345,
+                    "startTime": "499.640s",
+                    "endTime": "506.500s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.12255016714334488,
+                    "speechRate": 5.2478132247924805
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯有錢就係囉",
+                    "confidence": 0.8499225378036499,
+                    "startTime": "522.440s",
+                    "endTime": "523.960s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.229485884308815,
+                    "speechRate": 3.9473683834075928
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "你手停口停點算呀",
+                    "confidence": 0.8641961812973022,
+                    "startTime": "531.280s",
+                    "endTime": "532.490s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.12661796808242798,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "吓即係你尤其係我我都話啦你而家你即係譬如你中年唔好份工咁樣樣",
+                    "confidence": 0.8338449597358704,
+                    "startTime": "533.230s",
+                    "endTime": "538.490s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.15641359984874725,
+                    "speechRate": 5.7034220695495605
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "你唔好話乜嘢呀我哋係連保安呀都都都危危乎呀而家係",
+                    "confidence": 0.8172982335090637,
+                    "startTime": "538.690s",
+                    "endTime": "542.470s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.16453281044960022,
+                    "speechRate": 6.349206447601318
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "保安咁計喂好多呢即係你話年紀大嗰啲人呢就中途站呀係嘛",
+                    "confidence": 0.9271188378334045,
+                    "startTime": "543.790s",
+                    "endTime": "549.030s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.15212491154670715,
+                    "speechRate": 4.961832046508789
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "吓就係叫做即係養住自己退休起碼即係都都有份捱吓咁樣樣呀",
+                    "confidence": 0.8956249356269836,
+                    "startTime": "549.690s",
+                    "endTime": "554.100s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.1513126939535141,
+                    "speechRate": 6.122448921203613
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "呀好有錢但係即係",
+                    "confidence": 0.8682844042778015,
+                    "startTime": "558.270s",
+                    "endTime": "559.790s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.13750241696834564,
+                    "speechRate": 5.263157844543457
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁誒其實有錢嗰啲都係多啲嘅有錢都係多啲嘅",
+                    "confidence": 0.8897731304168701,
+                    "startTime": "560.710s",
+                    "endTime": "565.640s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.09292919933795929,
+                    "speechRate": 4.056795120239258
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "呀即係八十後開始呀係嘛",
+                    "confidence": 0.804110050201416,
+                    "startTime": "567.950s",
+                    "endTime": "569.540s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.09850681573152542,
+                    "speechRate": 6.918239116668701
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係",
+                    "confidence": 0.7604082822799683,
+                    "startTime": "570.830s",
+                    "endTime": "571.090s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.14325188100337982,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "吓話疫情嗰個借嗰個借貸好多走佬呀即係你話借政府嗰啲係嘛嗰啲百分百擔保嗰啲係嘛",
+                    "confidence": 0.8219661712646484,
+                    "startTime": "579.840s",
+                    "endTime": "587.390s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.16970713436603546,
+                    "speechRate": 5.033112525939941
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "chinese啲老闆嗰啲",
+                    "confidence": 0.557012140750885,
+                    "startTime": "589.030s",
+                    "endTime": "590.480s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.2138742357492447,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "吓係呀吓咁呀即係話邊個呀邊個話準備做大策呀唔好亂嚟呀吓即係你唔好你唔好去",
+                    "confidence": 0.7879934310913086,
+                    "startTime": "592.100s",
+                    "endTime": "598.400s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.10922412574291229,
+                    "speechRate": 5.714285850524902
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "即係",
+                    "confidence": 0.6797379851341248,
+                    "startTime": "600.410s",
+                    "endTime": "600.770s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.2840564548969269,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "吓係呀好好大鑊㗎一有仲有外露呢",
+                    "confidence": 0.6579644680023193,
+                    "startTime": "605.020s",
+                    "endTime": "608.540s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.15449492633342743,
+                    "speechRate": 4.261363506317139
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "你做外勞呢我又話即係你做保安都都唔好以為呢就係即係諗住好安全啦吓話",
+                    "confidence": 0.7679747343063354,
+                    "startTime": "609.290s",
+                    "endTime": "615.350s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.14595581591129303,
+                    "speechRate": 5.445544719696045
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "吓因為你而家你同以前唔同呀即係你誒勞勞動市場呢其實個保障亦都係好差做得係呀",
+                    "confidence": 0.8842172026634216,
+                    "startTime": "616.070s",
+                    "endTime": "622.210s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.11295152455568314,
+                    "speechRate": 6.026058673858643
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "吓咁你話五一喎就嚟喎五一迎接大陸客㗎啫嘛邊度畀你試威邊度畀你訴求呀",
+                    "confidence": 0.8328895568847656,
+                    "startTime": "622.890s",
+                    "endTime": "628.750s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.18599379062652588,
+                    "speechRate": 5.631399154663086
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "呀就算係呀工聯會呀嗰啲都要捉走慶祝啦係嘛要推啲勞毛出嚟選舉啦係嘛",
+                    "confidence": 0.8114080429077148,
+                    "startTime": "629.350s",
+                    "endTime": "635.080s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.1908881664276123,
+                    "speechRate": 5.58464241027832
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "吓嘛吓即係你你出你你而家嗰啲政治反出獄呀你都搞到咁樣呀吓即係你",
+                    "confidence": 0.8220750093460083,
+                    "startTime": "642.460s",
+                    "endTime": "648.470s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.13067977130413055,
+                    "speechRate": 5.158070087432861
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "都都都都搞到即係咁好似吓即係",
+                    "confidence": 0.88148432970047,
+                    "startTime": "648.840s",
+                    "endTime": "652.160s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.15752118825912476,
+                    "speechRate": 4.216867446899414
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "呀就明白你入番去ngo係幾咁困難嘅事啦",
+                    "confidence": 0.8944061994552612,
+                    "startTime": "0.010s",
+                    "endTime": "3.430s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.1431346982717514,
+                    "speechRate": 4.970760345458984
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.8844623565673828,
+                    "startTime": "6.090s",
+                    "endTime": "6.330s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.20082439482212067,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係呀未算最壞",
+                    "confidence": 0.6489773988723755,
+                    "startTime": "16.630s",
+                    "endTime": "18.850s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.19626136124134064,
+                    "speechRate": 2.702702760696411
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.8789892792701721,
+                    "startTime": "33.200s",
+                    "endTime": "33.410s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.3053138852119446,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.8857483267784119,
+                    "startTime": "69.900s",
+                    "endTime": "70.070s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.12279921025037766,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.8788849711418152,
+                    "startTime": "97.620s",
+                    "endTime": "97.850s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.1537400186061859,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.8807647824287415,
+                    "startTime": "115s",
+                    "endTime": "115.270s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.11039134860038757,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係呀",
+                    "confidence": 0.9101132750511169,
+                    "startTime": "116.880s",
+                    "endTime": "117.200s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.2121671885251999,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.8902797698974609,
+                    "startTime": "149.030s",
+                    "endTime": "149.280s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.2793513536453247,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "唔係即係但係咁講加息呢係會誒即係",
+                    "confidence": 0.9270994067192078,
+                    "startTime": "152.570s",
+                    "endTime": "157.220s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.16260188817977905,
+                    "speechRate": 3.4408602714538574
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "即係帳面上面呢係有利於銀行嘅收益銀行嘅主誒主要業務嘅贊息差呀嘛",
+                    "confidence": 0.864598274230957,
+                    "startTime": "157.820s",
+                    "endTime": "163.590s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.14807596802711487,
+                    "speechRate": 5.372616767883301
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "但係問題你利息加咗之後同時係講緊你呆壞究竟係呆壞帳嘅增幅大啲定係你利息",
+                    "confidence": 0.8013018369674683,
+                    "startTime": "164s",
+                    "endTime": "171.390s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.1496247947216034,
+                    "speechRate": 4.7361297607421875
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "利息差嘅誒收入係誒進展好啲咁解嘅啫嘛咁而家佢倒緊嘅就係呆壞帳嘅嘅增長會誒",
+                    "confidence": 0.78068608045578,
+                    "startTime": "171.580s",
+                    "endTime": "179.500s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.13752985000610352,
+                    "speechRate": 4.545454502105713
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "誒得增長需要嘅撥備係大過息差誒擴大嘅收入囉",
+                    "confidence": 0.8611140847206116,
+                    "startTime": "179.910s",
+                    "endTime": "185.060s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.14651942253112793,
+                    "speechRate": 4.077670097351074
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.8826463222503662,
+                    "startTime": "196.520s",
+                    "endTime": "196.810s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.2415248602628708,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.8784646391868591,
+                    "startTime": "212s",
+                    "endTime": "212.230s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.11429112404584885,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "左手揸右手呀",
+                    "confidence": 0.410002201795578,
+                    "startTime": "217.050s",
+                    "endTime": "217.920s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.2305867224931717,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "第一",
+                    "confidence": 0.916244387626648,
+                    "startTime": "224.130s",
+                    "endTime": "224.450s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.3041103780269623,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.8805094361305237,
+                    "startTime": "228.020s",
+                    "endTime": "228.370s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.11380387842655182,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.6470884680747986,
+                    "startTime": "234.920s",
+                    "endTime": "235.110s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06445807963609695,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "誒我趁機回一回啲呀魯波啲先佢話關稅戰就應該玩唔耐嗱但係",
+                    "confidence": 0.8561453223228455,
+                    "startTime": "242.720s",
+                    "endTime": "248.120s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.15327642858028412,
+                    "speechRate": 5
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "誒表面上就咁睇啦咁但係如果你睇哩一個糧食同埋能源市場呢",
+                    "confidence": 0.9193264842033386,
+                    "startTime": "248.490s",
+                    "endTime": "253.640s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.17502766847610474,
+                    "speechRate": 5.24271821975708
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "其實反而佢哋呢就估計關稅戰呢係會有機會延長如果唔係點解",
+                    "confidence": 0.9284570217132568,
+                    "startTime": "253.890s",
+                    "endTime": "259.270s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.14729012548923492,
+                    "speechRate": 5.018587589263916
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "誒巴呀巴西大斗嘅訂單呢突然之誒個期貨訂單突然之間個價格急升",
+                    "confidence": 0.8537882566452026,
+                    "startTime": "259.570s",
+                    "endTime": "265.550s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.17427866160869598,
+                    "speechRate": 4.849498271942139
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "跟住然後你你你係會見到誒哩一個嘅美國入面嗰啲咩逆化天然氣呀大豆嘅嗰啲市場",
+                    "confidence": 0.7991271615028381,
+                    "startTime": "265.830s",
+                    "endTime": "272.150s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.1623097062110901,
+                    "speechRate": 5.696202754974365
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "突然之間就會多咗好多嗰啲咩日本呀南美嘅買家啦",
+                    "confidence": 0.9017331600189209,
+                    "startTime": "272.450s",
+                    "endTime": "276.360s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.15402576327323914,
+                    "speechRate": 5.626598358154297
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.881774365901947,
+                    "startTime": "281.200s",
+                    "endTime": "281.460s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.13114382326602936,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "冇呀係因為糧食同埋能源市場嘅誒嘅從業者已個反應已經話咗畀你聽佢唔信donald trum呀",
+                    "confidence": 0.755449116230011,
+                    "startTime": "282.920s",
+                    "endTime": "290.650s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.19079947471618652,
+                    "speechRate": 4.657179832458496
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.8915360569953918,
+                    "startTime": "298.010s",
+                    "endTime": "298.330s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.138956680893898,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.8781453371047974,
+                    "startTime": "318.200s",
+                    "endTime": "318.500s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.13596223294734955,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係呀",
+                    "confidence": 0.8006030917167664,
+                    "startTime": "325.640s",
+                    "endTime": "325.900s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.21546781063079834,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.8799015879631042,
+                    "startTime": "331.390s",
+                    "endTime": "331.740s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.10615789145231247,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "",
+                    "confidence": 0.6350812911987305,
+                    "startTime": "336.160s",
+                    "endTime": "336.860s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07953950762748718,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嘔嘅飛咪",
+                    "confidence": 0.4017477035522461,
+                    "startTime": "349.770s",
+                    "endTime": "350.860s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.2185809463262558,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咪就係報報道過囉大家係趁哩九十日嘅寬限期入面就訂晒下半年嗰啲貨呀係",
+                    "confidence": 0.8746140599250793,
+                    "startTime": "351.540s",
+                    "endTime": "358.210s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.17098619043827057,
+                    "speechRate": 4.947526454925537
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.8857046961784363,
+                    "startTime": "365.020s",
+                    "endTime": "365.330s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.09112048894166946,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.8519479036331177,
+                    "startTime": "371.500s",
+                    "endTime": "371.900s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.08853118121623993,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.8855941891670227,
+                    "startTime": "401.270s",
+                    "endTime": "401.670s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.09011957049369812,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "熟樓呀嘛",
+                    "confidence": 0.77434241771698,
+                    "startTime": "407.730s",
+                    "endTime": "409.140s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.10319734364748001,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.8827473521232605,
+                    "startTime": "415.040s",
+                    "endTime": "415.270s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.09382067620754242,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "仲有水位而家就話咩跌到二零一六年嘅水位呀嘛係",
+                    "confidence": 0.9300782680511475,
+                    "startTime": "424.610s",
+                    "endTime": "428.620s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.1326085329055786,
+                    "speechRate": 5.486284255981445
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.8876776695251465,
+                    "startTime": "435.760s",
+                    "endTime": "436.280s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.09542866051197052,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係呀冇冇咁簡單㗎哩啲嘢",
+                    "confidence": 0.9335202574729919,
+                    "startTime": "442.540s",
+                    "endTime": "445.730s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.19313915073871613,
+                    "speechRate": 3.4482758045196533
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "正案",
+                    "confidence": 0.17385025322437286,
+                    "startTime": "448.550s",
+                    "endTime": "449.340s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.2915746569633484,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "走唔甩㗎我哋成日都講過哩個世界有有樣嘢叫環聯信貸㗎嘛你一開戶口人哋知你咩事㗎啦你去",
+                    "confidence": 0.9090233445167542,
+                    "startTime": "451.670s",
+                    "endTime": "458.700s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.16113577783107758,
+                    "speechRate": 5.83214807510376
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "去到哩一度",
+                    "confidence": 0.9295869469642639,
+                    "startTime": "458.940s",
+                    "endTime": "459.840s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.14010140299797058,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.8845406174659729,
+                    "startTime": "465.070s",
+                    "endTime": "465.340s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.08294381946325302,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係啦係啦",
+                    "confidence": 0.40199458599090576,
+                    "startTime": "469.950s",
+                    "endTime": "470.580s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.15316654741764069,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "你都你真係睇",
+                    "confidence": 0.25716114044189453,
+                    "startTime": "471.450s",
+                    "endTime": "472.210s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.16829580068588257,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "但係",
+                    "confidence": 0.6431440114974976,
+                    "startTime": "473.070s",
+                    "endTime": "473.340s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.08238204568624496,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "誒都唔得全部都唔得嗱希望我有自己都都都醒水啦",
+                    "confidence": 0.8271917104721069,
+                    "startTime": "488.450s",
+                    "endTime": "492.840s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.17741705477237701,
+                    "speechRate": 5.01138973236084
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "喂大佬你外國你一開銀行戶口人哋知咩事除非你要搞證件",
+                    "confidence": 0.9197418689727783,
+                    "startTime": "493.170s",
+                    "endTime": "497.250s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.1727161556482315,
+                    "speechRate": 6.127450942993164
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係啦",
+                    "confidence": 0.9089516401290894,
+                    "startTime": "498.920s",
+                    "endTime": "499.370s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.14366787672042847,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.8765967488288879,
+                    "startTime": "504.390s",
+                    "endTime": "504.670s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.16152231395244598,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "唔係但係",
+                    "confidence": 0.8902307152748108,
+                    "startTime": "506.410s",
+                    "endTime": "506.900s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.11658398807048798,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "亦都回回番啲網友即係匯豐頭先講緊嘅一樣嘢就係失業率嘅問題呀嘛就係講緊點解失業率長期咁低嘅原因係因為",
+                    "confidence": 0.9363790154457092,
+                    "startTime": "507.070s",
+                    "endTime": "514.900s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.11663894355297089,
+                    "speechRate": 6.25798225402832
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "香港嘅嗰個勞動力係老化得太恐怖呀嘛係即係好多對好多人嚟講冇嘢㗎失咗業我咪索性退休囉",
+                    "confidence": 0.9456505179405212,
+                    "startTime": "515.130s",
+                    "endTime": "521.500s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.14527910947799683,
+                    "speechRate": 6.436420917510986
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "因為香港嘅局係呀香港嘅嗰個勞誒勞動力講緊嘅嗰個咩誒勞動人口中",
+                    "confidence": 0.8248943090438843,
+                    "startTime": "522.770s",
+                    "endTime": "528.450s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.19667375087738037,
+                    "speechRate": 5.2816901206970215
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "年齡中位數唔知四十八歲呀嘛",
+                    "confidence": 0.9392186999320984,
+                    "startTime": "528.760s",
+                    "endTime": "531.290s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.1430085152387619,
+                    "speechRate": 5.138339996337891
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.8870396018028259,
+                    "startTime": "543.100s",
+                    "endTime": "543.410s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07635771483182907,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係啱",
+                    "confidence": 0.5777084231376648,
+                    "startTime": "549.090s",
+                    "endTime": "549.580s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.1282072365283966,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "不過又咁講香港嘅老人家又又真係可以好有錢㗎吓係",
+                    "confidence": 0.8732935786247253,
+                    "startTime": "553.780s",
+                    "endTime": "558.430s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.11373048275709152,
+                    "speechRate": 4.946236610412598
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.8827785849571228,
+                    "startTime": "563.900s",
+                    "endTime": "564.330s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.11256304383277893,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係我哋哩一代先開始窮㗎咋嘛",
+                    "confidence": 0.8882664442062378,
+                    "startTime": "565.580s",
+                    "endTime": "567.960s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.1147608608007431,
+                    "speechRate": 5.462184906005859
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係呀好明顯㗎係因為我哋玩唔我哋哩一代係最後機會玩哩一個嘅地產遊戲",
+                    "confidence": 0.9249868392944336,
+                    "startTime": "569.460s",
+                    "endTime": "576.700s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.12851783633232117,
+                    "speechRate": 4.419889450073242
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁我哋哩進入唔到市場我哋就一世窮㗎啦係",
+                    "confidence": 0.9116678833961487,
+                    "startTime": "576.980s",
+                    "endTime": "579.640s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.10319129377603531,
+                    "speechRate": 7.142857074737549
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "百分百",
+                    "confidence": 0.4400370717048645,
+                    "startTime": "584.850s",
+                    "endTime": "585.670s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.17809073626995087,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係呀channel c嗰啲呀吓",
+                    "confidence": 0.8500914573669434,
+                    "startTime": "586.840s",
+                    "endTime": "588.300s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.1657787412405014,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係呀窗口師老闆係唔好意思",
+                    "confidence": 0.6462584733963013,
+                    "startTime": "590.480s",
+                    "endTime": "592.140s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.13597911596298218,
+                    "speechRate": 7.228915691375732
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.8830443024635315,
+                    "startTime": "597.320s",
+                    "endTime": "597.530s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.10894626379013062,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "講笑嘅啫啲網友即係講起而家嘅嗰個誒嗰個香港嘅經濟環境",
+                    "confidence": 0.9003913402557373,
+                    "startTime": "599.340s",
+                    "endTime": "605.340s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.20488104224205017,
+                    "speechRate": 4.333333492279053
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.8829585313796997,
+                    "startTime": "608.970s",
+                    "endTime": "609.290s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.14610353112220764,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係呀嗯",
+                    "confidence": 0.5358569622039795,
+                    "startTime": "615.520s",
+                    "endTime": "615.980s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07205455750226974,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.7782513499259949,
+                    "startTime": "623.010s",
+                    "endTime": "623.200s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.28104376792907715,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "唔係呀即係我我五五一你你而家就係令到啲猜佬要行多啲獅子山呀嘛",
+                    "confidence": 0.6879043579101562,
+                    "startTime": "634.860s",
+                    "endTime": "642.350s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.18956483900547028,
+                    "speechRate": 4.005340576171875
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-cantonese"
+        ]
+    }
+}

@@ -1,1 +1,0 @@
-The lowest value of the error is also the search space when we deal, especially with grid search my 

@@ -6,14 +6,140 @@
                     "words": [],
                     "tokenConfidence": [],
                     "jargons": [],
-                    "transcript": "in the united kingdom there's british english and in the united states there's american english",
-                    "confidence": 0.9203861355781555,
-                    "startTime": "1.030s",
-                    "endTime": "6.950s",
+                    "transcript": "in the united kingdom there's british english and in the united states there's american english in singapore we have singaporean english or more commonly known as singlish you can usually hear singlish used for informal conversations and might be confused by its different standards of english so how exactly is singlish different from british and american english and what do all the last lays and laws ",
+                    "confidence": 0.9030401110649109,
+                    "startTime": "1.020s",
+                    "endTime": "28.210s",
                     "speakerTag": "001",
                     "languageCode": "en-HK",
-                    "rmsAmplitude": 0.09888336062431335,
-                    "speechRate": 2.871621608734131
+                    "rmsAmplitude": 0.10436572879552841,
+                    "speechRate": 2.5009193420410156
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "singlish started when singapore became an independent nation and introduced english into their country",
+                    "confidence": 0.910627007484436,
+                    "startTime": "28.340s",
+                    "endTime": "33.710s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.10028959065675735,
+                    "speechRate": 2.607076406478882
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "as a former colony of britain singapore used british english as their official language for their administrations if you were a singaporean ant that time it will be the first time you would have proper classes and learn about the abcs",
+                    "confidence": 0.8894684314727783,
+                    "startTime": "33.970s",
+                    "endTime": "47.300s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.11008791625499725,
+                    "speechRate": 3.0757689476013184
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "but back then there was only a minority group of elites who were proficient in english the rest of singapore's population consistaed of the chinese malays and indians who were former migrants and only formed their own native languages so when these non english speakers were introduced to standard english they influenced english with their own native languages molding it into what we know today as singlish like any other language singlish has its own sets of rules and vocabulary you can use senglish to get your points across faster with lesser words for example instead english you would say seems like it is going to rain today i think it would be best for you to bring an umbrella out which comes to a total of twenty one words whereas when you use singlish you could say i'm going to read now bring umbrella that's only seven ",
+                    "confidence": 0.833574116230011,
+                    "startTime": "47.590s",
+                    "endTime": "95.020s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.11902143061161041,
+                    "speechRate": 3.1836390495300293
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "another interesting example is a singlish word la that originates from his chinese counterpart",
+                    "confidence": 0.7451855540275574,
+                    "startTime": "95.200s",
+                    "endTime": "100.810s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.11043189465999603,
+                    "speechRate": 2.4955437183380127
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "la is very versatile and can be used for many different contexts for example you can say sorry la to make your apology sound less formal if you want to blame someone you could say oh your fault love where the law emphasizes your ankle you can also use law to reassure someone by saying don't worry can fix one lah as showed singlish has a different standard of english making it difficult for the rest of the world to understand this brought the attention of the government as singlish had decreased the country's overall english standards they were concerned singlish will hinder singapore's economic development",
+                    "confidence": 0.8531715273857117,
+                    "startTime": "101.080s",
+                    "endTime": "135.500s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.11227845400571823,
+                    "speechRate": 3.1667635440826416
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "so the government lodged to speak good english movement to try and improve english standards and eliminates english the campaign however was not well received by some singaporeans as singlish helped them to maintain solidarity and friendships among themselveso supporters felt that he has become a national identity and should not be abolished",
+                    "confidence": 0.8725951910018921,
+                    "startTime": "135.690s",
+                    "endTime": "153.750s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.11203799396753311,
+                    "speechRate": 2.934662342071533
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "today though the use of singlish is too debatable we see the government and the world starting to embrace the language singlish was celebrated in singapore's fiftieth birthday and was also added into the oxford english dictionary all in kall singlish define singaporeans and connects them with one another i'm sure we can all agree that the language will definitely remain in singapore for a very long time",
+                    "confidence": 0.8919377326965332,
+                    "startTime": "154.330s",
+                    "endTime": "175.950s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.12274762243032455,
+                    "speechRate": 3.2377429008483887
                 }
             ],
             "channelTag": 1

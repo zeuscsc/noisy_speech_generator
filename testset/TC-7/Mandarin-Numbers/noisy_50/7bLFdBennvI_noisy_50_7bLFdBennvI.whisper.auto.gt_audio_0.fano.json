@@ -1,0 +1,3346 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "大家好吧这一次我来香港的主要目的就是银行开股的因为现在大国开股越来越多",
+                    "confidence": 0.7104476690292358,
+                    "startTime": "0.430s",
+                    "endTime": "8.190s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04571424052119255,
+                    "speechRate": 4.510309219360352
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "具体原因呢我们company的话就不然你们说现在香港电话",
+                    "confidence": 0.40677762031555176,
+                    "startTime": "9.070s",
+                    "endTime": "13.890s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05111439898610115,
+                    "speechRate": 4.564315319061279
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "它也是有so far的",
+                    "confidence": 0.18944725394248962,
+                    "startTime": "15.350s",
+                    "endTime": "17.120s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07546104490756989,
+                    "speechRate": 3.9548022747039795
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "所谓投有的下就是其实是",
+                    "confidence": 0.2218605875968933,
+                    "startTime": "18.190s",
+                    "endTime": "20.400s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06765159964561462,
+                    "speechRate": 4.977375507354736
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "take out out for munita with is in to minutes amount six more than ausie balance also我们给你",
+                    "confidence": 0.23347441852092743,
+                    "startTime": "20.820s",
+                    "endTime": "28.910s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05858590081334114,
+                    "speechRate": 2.595797300338745
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "美金啊for my fill understanding to before shang that我们就会拿我们的就拿来answer那个",
+                    "confidence": 0.21145915985107422,
+                    "startTime": "29.620s",
+                    "endTime": "37.510s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06530027836561203,
+                    "speechRate": 3.1685678958892822
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "然后而是需要提前预约就是大的银行基本不需要提前半个月",
+                    "confidence": 0.7218027114868164,
+                    "startTime": "37.560s",
+                    "endTime": "43.530s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.0582149513065815,
+                    "speechRate": 4.355108737945557
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我选择网上预约的银行是中银香港",
+                    "confidence": 0.8953480124473572,
+                    "startTime": "44.330s",
+                    "endTime": "47.120s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04692986607551575,
+                    "speechRate": 5.376344203948975
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "微信搜索从您香港出去呃选择预约开户组合证件买什幺账户可以呵",
+                    "confidence": 0.5702847838401794,
+                    "startTime": "47.860s",
+                    "endTime": "55.410s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05441420525312424,
+                    "speechRate": 3.841059684753418
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "九零三五",
+                    "confidence": 0.42566996812820435,
+                    "startTime": "55.660s",
+                    "endTime": "56.440s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04925305396318436,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "可以先选择分行再选择日期也可以先选择日期再选择分行",
+                    "confidence": 0.7729529142379761,
+                    "startTime": "57.160s",
+                    "endTime": "63.160s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05427607521414757,
+                    "speechRate": 4.166666507720947
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我选选我是先选usd呃由于我一开始呃香港他们就可以",
+                    "confidence": 0.40572044253349304,
+                    "startTime": "64.010s",
+                    "endTime": "69.770s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.049801055341959,
+                    "speechRate": 3.993055582046509
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "你给我查那个钱进来因为你你这个进去我就觉得随便是选地的最后",
+                    "confidence": 0.35186195373535156,
+                    "startTime": "70.190s",
+                    "endTime": "76.550s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.052335310727357864,
+                    "speechRate": 4.559748649597168
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "就是市区的一个小时然后建议您尽量要去地区的那个大",
+                    "confidence": 0.5163677334785461,
+                    "startTime": "76.900s",
+                    "endTime": "82.380s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04780106246471405,
+                    "speechRate": 4.379561901092529
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "银行人多你等了时间就会就没有了而且地理位置好像银行因为价格啊也比较好",
+                    "confidence": 0.5242164134979248,
+                    "startTime": "83.430s",
+                    "endTime": "90.270s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04320656880736351,
+                    "speechRate": 4.970760345458984
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "现在大陆人来香港开户的人太多了不是能预约的分行啊还是",
+                    "confidence": 0.6363519430160522,
+                    "startTime": "91.620s",
+                    "endTime": "97.520s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05098675563931465,
+                    "speechRate": 4.406779766082764
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我whatch了五十五千五十一点五我完了so你",
+                    "confidence": 0.26117458939552307,
+                    "startTime": "98.120s",
+                    "endTime": "101.410s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.057190023362636566,
+                    "speechRate": 5.167173385620117
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "选了啦因为最近我们也是去上一点点",
+                    "confidence": 0.47057613730430603,
+                    "startTime": "102.360s",
+                    "endTime": "105.450s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.0619015172123909,
+                    "speechRate": 5.177993297576904
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "尽管不尽全风险监督债",
+                    "confidence": 0.3872043192386627,
+                    "startTime": "106.360s",
+                    "endTime": "109.370s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.053825605660676956,
+                    "speechRate": 3.3222591876983643
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "需要是增长",
+                    "confidence": 0.4547995924949646,
+                    "startTime": "110.150s",
+                    "endTime": "111.640s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05442610755562782,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "虽然是个薪资好但是我们未看到今年一月嘛只有十八号这一天可以约",
+                    "confidence": 0.6629672646522522,
+                    "startTime": "112.480s",
+                    "endTime": "119.350s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04918620362877846,
+                    "speechRate": 4.366812229156494
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "而像港港湾仔区无间忘区这个月所有的门市都没有",
+                    "confidence": 0.48592522740364075,
+                    "startTime": "120.540s",
+                    "endTime": "126.440s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05775896832346916,
+                    "speechRate": 3.728813648223877
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "选到好跟好什幺时间有call date有十七号那个人起息会不会下来",
+                    "confidence": 0.35116833448410034,
+                    "startTime": "127.910s",
+                    "endTime": "133.170s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05746898427605629,
+                    "speechRate": 4.942965984344482
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "预约成户口银行会给你发一个文件确认",
+                    "confidence": 0.8063896298408508,
+                    "startTime": "134.350s",
+                    "endTime": "137.620s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05366293713450432,
+                    "speechRate": 5.198776721954346
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "特别说一下就是说如果您预约以后因为有一份需要更改时间去做更改取消违约的",
+                    "confidence": 0.4928167164325714,
+                    "startTime": "138.470s",
+                    "endTime": "145.140s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06170741468667984,
+                    "speechRate": 5.247376441955566
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "需要提前一点上中银香港网页申请办",
+                    "confidence": 0.8689677715301514,
+                    "startTime": "145.320s",
+                    "endTime": "149.200s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05106794834136963,
+                    "speechRate": 4.123711109161377
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "另外今年中银香港啊我开始支持手机线上申请开户的",
+                    "confidence": 0.6674022078514099,
+                    "startTime": "149.910s",
+                    "endTime": "155.530s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.0506523996591568,
+                    "speechRate": 4.092526912689209
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "但是需要你人在香港的时候才可以现场分享",
+                    "confidence": 0.6107360124588013,
+                    "startTime": "156.440s",
+                    "endTime": "160.200s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.053499020636081696,
+                    "speechRate": 5.053191661834717
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "那我觉得啊这样我还不如来讲的话我还能直接来线上办理这样",
+                    "confidence": 0.3364284932613373,
+                    "startTime": "160.970s",
+                    "endTime": "167.830s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05606765300035477,
+                    "speechRate": 3.9358601570129395
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我们要办五一的一点七五",
+                    "confidence": 0.3538528382778168,
+                    "startTime": "168.080s",
+                    "endTime": "170.290s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05093103647232056,
+                    "speechRate": 4.977375507354736
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "这个马路都给封了只能走人不能走车给多十两个",
+                    "confidence": 0.7592260241508484,
+                    "startTime": "171.300s",
+                    "endTime": "175.170s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.11402121186256409,
+                    "speechRate": 5.426356792449951
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "年代呵",
+                    "confidence": 0.4390762448310852,
+                    "startTime": "180.520s",
+                    "endTime": "181.720s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.09911167621612549,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.02595094032585621,
+                    "startTime": "186.470s",
+                    "endTime": "186.810s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07288673520088196,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "买到这个中银香港我比较万分",
+                    "confidence": 0.32210344076156616,
+                    "startTime": "188.050s",
+                    "endTime": "191.260s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05017395690083504,
+                    "speechRate": 4.049844264984131
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "发现香港的买这幺大的也好",
+                    "confidence": 0.42145657539367676,
+                    "startTime": "192.020s",
+                    "endTime": "194.590s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04892386868596077,
+                    "speechRate": 4.669260501861572
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "在大陆我们一个人market的那个一个payment advice是在我们key in他们的price而已嘛",
+                    "confidence": 0.2526950538158417,
+                    "startTime": "196.670s",
+                    "endTime": "204.120s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.0576263964176178,
+                    "speechRate": 3.8926174640655518
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "ok明白so这个是讲那个是我们的老板要回去啊",
+                    "confidence": 0.206790491938591,
+                    "startTime": "204.830s",
+                    "endTime": "209.900s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.10129974782466888,
+                    "speechRate": 3.9447731971740723
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "你再或者叫我留意电话的记录给你跟你一堆一百点",
+                    "confidence": 0.387326717376709,
+                    "startTime": "210.280s",
+                    "endTime": "214.790s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.058043453842401505,
+                    "speechRate": 4.878048896789551
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "另外香港银行的购买金额五百三十五这个大家不用担心quival了",
+                    "confidence": 0.4536781311035156,
+                    "startTime": "215.460s",
+                    "endTime": "221.610s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04895245283842087,
+                    "speechRate": 4.227642059326172
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "关于现场预约的话有些人说如果你不预言",
+                    "confidence": 0.8074455261230469,
+                    "startTime": "222.080s",
+                    "endTime": "226.790s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.0521651990711689,
+                    "speechRate": 3.8216559886932373
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "随便找个网点吧上您去报这样也行",
+                    "confidence": 0.6339078545570374,
+                    "startTime": "226.890s",
+                    "endTime": "230.370s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.050127312541007996,
+                    "speechRate": 4.310344696044922
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊根据我们这样来说那你比较投入一点如果你秀一行当天分房的人不多",
+                    "confidence": 0.5277943015098572,
+                    "startTime": "231.080s",
+                    "endTime": "237.150s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05658503994345665,
+                    "speechRate": 5.107083797454834
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "银行我不会愿意给你反馈回来但是大多数情况这样子银行我已经有一个月被那个续约",
+                    "confidence": 0.394604355096817,
+                    "startTime": "237.380s",
+                    "endTime": "244.670s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05501771718263626,
+                    "speechRate": 5.075445652008057
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "今天其实我去过四川去北京",
+                    "confidence": 0.512843132019043,
+                    "startTime": "244.990s",
+                    "endTime": "247.370s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.056779954582452774,
+                    "speechRate": 5.042016983032227
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我看两个问题因为我有一点而拒绝我看我这个时间",
+                    "confidence": 0.48513263463974,
+                    "startTime": "248.130s",
+                    "endTime": "252.530s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05298013240098953,
+                    "speechRate": 5
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "关于开户的材料在预约的网页下可能开户须知里面所说明但是说的比较复杂",
+                    "confidence": 0.7965918183326721,
+                    "startTime": "252.550s",
+                    "endTime": "259.830s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04700640216469765,
+                    "speechRate": 4.5329670906066895
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我准备的开户人员了解你的身份证哦通行证给我换一张票还有我上个月银行信用卡退账的",
+                    "confidence": 0.595542848110199,
+                    "startTime": "260.420s",
+                    "endTime": "268.240s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04916473850607872,
+                    "speechRate": 4.987212181091309
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "移动的身份证和录音的这两份的嗯又要剩余的那个大的办理",
+                    "confidence": 0.42178526520729065,
+                    "startTime": "268.640s",
+                    "endTime": "275.020s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05494837090373039,
+                    "speechRate": 4.075234889984131
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "那个money market with to code deal ah also",
+                    "confidence": 0.24905431270599365,
+                    "startTime": "275.440s",
+                    "endTime": "280.460s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07585732638835907,
+                    "speechRate": 1.9920319318771362
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "比较理解地址如果我有那个收益的那种告知",
+                    "confidence": 0.3514431416988373,
+                    "startTime": "280.820s",
+                    "endTime": "284.670s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05023764818906784,
+                    "speechRate": 4.935064792633057
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "因为因为trader不在业嘛没有艺的需要看回",
+                    "confidence": 0.4916382133960724,
+                    "startTime": "285.260s",
+                    "endTime": "288.860s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04729096218943596,
+                    "speechRate": 4.722222328186035
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "你的意思是只是现在你是说它会就没有它没有",
+                    "confidence": 0.4599730670452118,
+                    "startTime": "290.070s",
+                    "endTime": "294.080s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04928649961948395,
+                    "speechRate": 4.9875311851501465
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "但是so我也不是等下一帮我so是说明天也是要签一个星期四可是咧",
+                    "confidence": 0.2810019850730896,
+                    "startTime": "295.140s",
+                    "endTime": "300.930s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05180639401078224,
+                    "speechRate": 5.008635520935059
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "但是第四间同事也是天天如药我们还是要靠选择一点时间的话就是",
+                    "confidence": 0.328177809715271,
+                    "startTime": "301.800s",
+                    "endTime": "309.060s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05035661906003952,
+                    "speechRate": 3.994490385055542
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "所以有管你的人也管要处理的人有地管不会相反一点啰",
+                    "confidence": 0.21649043262004852,
+                    "startTime": "309.420s",
+                    "endTime": "314.800s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06334296613931656,
+                    "speechRate": 4.46096658706665
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "同一个银行就是说老一点这个东西我们的contract号码我要做六二五九五五这个人民币哦",
+                    "confidence": 0.2686905264854431,
+                    "startTime": "315.350s",
+                    "endTime": "321.840s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04916734993457794,
+                    "speechRate": 5.546995162963867
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "所以讲当然什幺level meancal market因为这个月跑到这样它的价位啦通常",
+                    "confidence": 0.25867536664009094,
+                    "startTime": "322.600s",
+                    "endTime": "329.030s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.046631112694740295,
+                    "speechRate": 4.043545722961426
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我以前那个月租本的银行月租到里面然后说一下开户的利息这个名字",
+                    "confidence": 0.49559372663497925,
+                    "startTime": "329.750s",
+                    "endTime": "336.710s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04870882257819176,
+                    "speechRate": 4.310344696044922
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "需要如果你们在户口的话你们可能就没有那个feed contract可是我们就是这样子做不一样大",
+                    "confidence": 0.17254307866096497,
+                    "startTime": "337.450s",
+                    "endTime": "344.770s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05983183905482292,
+                    "speechRate": 4.918032646179199
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "是啦因为如果是下回有机会会可以做回可能过lock这样吧",
+                    "confidence": 0.2546287775039673,
+                    "startTime": "345.450s",
+                    "endTime": "350.860s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06135953217744827,
+                    "speechRate": 4.436229228973389
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "不会建议你给我你你可以给我但是如果有这个时间来过我们没有区分比如说这个运营确实真的好",
+                    "confidence": 0.4270365238189697,
+                    "startTime": "351.160s",
+                    "endTime": "358.800s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04637652263045311,
+                    "speechRate": 5.497382164001465
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "也没有说当时在等他们开户的时候我是如果你们中银香港的客户给你",
+                    "confidence": 0.46453192830085754,
+                    "startTime": "359.540s",
+                    "endTime": "365.590s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.045330267399549484,
+                    "speechRate": 4.958677768707275
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "今年十月份以后他们收到了一份通知如果你先开会以下了一定会给你转一下",
+                    "confidence": 0.5573236346244812,
+                    "startTime": "366.420s",
+                    "endTime": "373.450s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04924359172582626,
+                    "speechRate": 4.694167613983154
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "所以如果你那时候如果你如果你问我们两个礼拜",
+                    "confidence": 0.36785170435905457,
+                    "startTime": "374.040s",
+                    "endTime": "377.710s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04479034245014191,
+                    "speechRate": 5.722070693969727
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "那幺需要你提供三个月以内在国内护照或者证明",
+                    "confidence": 0.505472719669342,
+                    "startTime": "378.040s",
+                    "endTime": "383.180s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05926232039928436,
+                    "speechRate": 4.0856032371521
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "因为有的消费他们的原因在我们有时候他们可以做这个所以我就毕竟真的在香港交的我微信也是会",
+                    "confidence": 0.3191608488559723,
+                    "startTime": "384.260s",
+                    "endTime": "391.860s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.0506051629781723,
+                    "speechRate": 5.657894611358643
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "你要是做储蓄呢还是在本地也没有住址证明的因为生日",
+                    "confidence": 0.45385515689849854,
+                    "startTime": "392.950s",
+                    "endTime": "397.900s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.036401182413101196,
+                    "speechRate": 4.848484992980957
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "而且因为每次从来在七十五点九可以出来嗯对然后我的开回去了啊回来",
+                    "confidence": 0.205732524394989,
+                    "startTime": "398.260s",
+                    "endTime": "404.960s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04412591829895973,
+                    "speechRate": 4.626865863800049
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "ok for ba for structure hand three million is a ten million这样子",
+                    "confidence": 0.233395516872406,
+                    "startTime": "405.320s",
+                    "endTime": "411.810s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.056238457560539246,
+                    "speechRate": 2.3112480640411377
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "所以现在将已经建议带上一些比如说内地券商投资基金的实收入",
+                    "confidence": 0.4820392429828644,
+                    "startTime": "412.230s",
+                    "endTime": "419.960s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.056499455124139786,
+                    "speechRate": 3.622251033782959
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "所以如果interest rate的话因为你你们这里可能就会像你刚才讲的非常日喔",
+                    "confidence": 0.36191508173942566,
+                    "startTime": "420.600s",
+                    "endTime": "426.150s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04756545647978783,
+                    "speechRate": 5.225225448608398
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我就是因为没有别的ticket then这个我们有去bond asi",
+                    "confidence": 0.32092615962028503,
+                    "startTime": "426.730s",
+                    "endTime": "430.900s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05182329937815666,
+                    "speechRate": 4.556354999542236
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "结果呢那个越越来越越好因为现在我注意到呵排在我前面两个月打回来的时候能拿出哦",
+                    "confidence": 0.44472935795783997,
+                    "startTime": "431.270s",
+                    "endTime": "439.370s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.046557504683732986,
+                    "speechRate": 4.6913580894470215
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "你的觉得还是一样的啦因为你们under than that whatever我们这边没有",
+                    "confidence": 0.24022500216960907,
+                    "startTime": "439.790s",
+                    "endTime": "446.860s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05071249231696129,
+                    "speechRate": 3.394625186920166
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "所以食品的利息是低了的所以没有什幺问题所以最后呢我的做的问题",
+                    "confidence": 0.26850923895835876,
+                    "startTime": "447.220s",
+                    "endTime": "455.150s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.053825534880161285,
+                    "speechRate": 3.783102035522461
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "注意香港的东西我已经做了",
+                    "confidence": 0.26724860072135925,
+                    "startTime": "455.720s",
+                    "endTime": "458.210s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04441910982131958,
+                    "speechRate": 4.819277286529541
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "当然如果你forty market是香港的那你一直就要在来香港aussie呃从中医上啊出来以后呢",
+                    "confidence": 0.4348726272583008,
+                    "startTime": "458.950s",
+                    "endTime": "466.900s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05205101892352104,
+                    "speechRate": 4.150943279266357
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我要去到附近的一家人贵不会不会不会过我们五月我们所以也暂时",
+                    "confidence": 0.3182540833950043,
+                    "startTime": "467.140s",
+                    "endTime": "474.800s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05197780951857567,
+                    "speechRate": 3.785900831222534
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "第二条汇通的啊这边没有直接拒绝但是说今天因为当时我",
+                    "confidence": 0.4989781379699707,
+                    "startTime": "476.480s",
+                    "endTime": "482.860s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.053492072969675064,
+                    "speechRate": 3.9184954166412354
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "你看啊我们可以买到九十五点九可以买到可以吗还是",
+                    "confidence": 0.1690535843372345,
+                    "startTime": "483.320s",
+                    "endTime": "490.550s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06413684785366058,
+                    "speechRate": 3.18118953704834
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "但是交通银行啊我需要有一个呃进行一个customer不过你也可能当天拿",
+                    "confidence": 0.3712088465690613,
+                    "startTime": "491.170s",
+                    "endTime": "498.490s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.050815027207136154,
+                    "speechRate": 3.825136661529541
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "需要后台对你的资料进行准查这个银行经理说我的审核过了以后需要三到七日来",
+                    "confidence": 0.7838038206100464,
+                    "startTime": "498.790s",
+                    "endTime": "506.080s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.045671019703149796,
+                    "speechRate": 4.801097393035889
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "之后呢再来一个叫做办理最后的那个",
+                    "confidence": 0.6609863638877869,
+                    "startTime": "506.360s",
+                    "endTime": "510.480s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05070509761571884,
+                    "speechRate": 3.8834950923919678
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "如果这样的话所以我就有这个loan吧有非常的暴力了",
+                    "confidence": 0.3854418396949768,
+                    "startTime": "511.130s",
+                    "endTime": "515.290s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04630151391029358,
+                    "speechRate": 5.288461685180664
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我总只是看到那个collateral market因为我这边也是market不可以back to我们在家",
+                    "confidence": 0.2302369624376297,
+                    "startTime": "515.820s",
+                    "endTime": "524.410s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.062424223870038986,
+                    "speechRate": 3.1431896686553955
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我知道我去的第四条也就是恒生也中语啊接待了",
+                    "confidence": 0.5928536653518677,
+                    "startTime": "524.860s",
+                    "endTime": "530.160s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04702327772974968,
+                    "speechRate": 3.962264060974121
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "这个的at two讲的是那个deal",
+                    "confidence": 0.2748052179813385,
+                    "startTime": "530.880s",
+                    "endTime": "533.410s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.054398201406002045,
+                    "speechRate": 4.34782600402832
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我终于是把我顺利了带到了半年前我在家里但知道我既没有预约但也没有其他拿好了",
+                    "confidence": 0.5533354878425598,
+                    "startTime": "533.760s",
+                    "endTime": "540.620s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.049926817417144775,
+                    "speechRate": 5.393586158752441
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "那个客服经理问了我开户的户人我说是说美元通知他是去管那个银行的经理也没有过问题",
+                    "confidence": 0.5757625699043274,
+                    "startTime": "541.090s",
+                    "endTime": "548.830s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04362897574901581,
+                    "speechRate": 5.038759708404541
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "jennelle我让我callable calaring然后我就登记了一下我的inform想诶还有去velater我去问一下你的老板啰",
+                    "confidence": 0.335132360458374,
+                    "startTime": "549.140s",
+                    "endTime": "556.810s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05623283237218857,
+                    "speechRate": 4.432855129241943
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯不过我的身份证没以外唯一要看的就是我们没有管理但是你拿出来然后已经查好了给我十四年了",
+                    "confidence": 0.4493723213672638,
+                    "startTime": "557.410s",
+                    "endTime": "564.550s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05124779790639877,
+                    "speechRate": 6.022408962249756
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "它还没有再过啊可是不可以等到现在好一点十十的时候它下个然后它还可以auto",
+                    "confidence": 0.3479762673377991,
+                    "startTime": "564.840s",
+                    "endTime": "571.300s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04695722460746765,
+                    "speechRate": 5.263157844543457
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "看了主管就visa hoper因为他的手机也给我打了一个电话",
+                    "confidence": 0.5375197529792786,
+                    "startTime": "572.280s",
+                    "endTime": "576.350s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05095823109149933,
+                    "speechRate": 5.405405521392822
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊首先要不要我问一下我问你一下我就相当于延期这样子然后问一下因为那里面我觉得有时候业务",
+                    "confidence": 0.48827627301216125,
+                    "startTime": "576.660s",
+                    "endTime": "584s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04849410429596901,
+                    "speechRate": 5.858310699462891
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我告诉他之后这个把机顶盒挂了再之后呢他让我们下午就是你们的app的",
+                    "confidence": 0.4031469225883484,
+                    "startTime": "584.660s",
+                    "endTime": "590.990s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06003991514444351,
+                    "speechRate": 4.897314548492432
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "没有啦那个是那个是那个还是有完全没有cover的啦我要跟他讲他做完全部讲啊",
+                    "confidence": 0.23664650321006775,
+                    "startTime": "591.650s",
+                    "endTime": "596.970s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05607843026518822,
+                    "speechRate": 6.203007698059082
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "这个时候时间已经是五点四十分这个也好像五点关门",
+                    "confidence": 0.6772602796554565,
+                    "startTime": "597.630s",
+                    "endTime": "602.850s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.051705121994018555,
+                    "speechRate": 4.406130313873291
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "就当我刚要跟我讲注意顺利看了一个香港的那个麻烦的事又了",
+                    "confidence": 0.6505662202835083,
+                    "startTime": "603.250s",
+                    "endTime": "609.350s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.053687721490859985,
+                    "speechRate": 4.426229476928711
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "住在最后一户因为一缴多少钱我可能也收不到啊可能最后发了那一个他又会有验证给我",
+                    "confidence": 0.4803931713104248,
+                    "startTime": "609.970s",
+                    "endTime": "617.150s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05559062585234642,
+                    "speechRate": 5.292479038238525
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "都都射了四五回因为这个时候啊你五点十五第二天呢还是多几点",
+                    "confidence": 0.601362407207489,
+                    "startTime": "617.970s",
+                    "endTime": "623.780s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.058490365743637085,
+                    "speechRate": 4.819277286529541
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "你这个银行经理银行你能看到出去半夜想下班了我要一直办法没解决回复",
+                    "confidence": 0.38745829463005066,
+                    "startTime": "624.080s",
+                    "endTime": "629.840s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05436026304960251,
+                    "speechRate": 5.55555534362793
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "没事儿呢我一想一算今天就到了可能确实是缘分有限",
+                    "confidence": 0.6644982099533081,
+                    "startTime": "630.570s",
+                    "endTime": "635.790s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.052662454545497894,
+                    "speechRate": 4.406130313873291
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "不过好了一点那时间我还不知道问题诶我只能在后天上午再来才可以",
+                    "confidence": 0.5377311706542969,
+                    "startTime": "636.210s",
+                    "endTime": "641.700s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.056512292474508286,
+                    "speechRate": 5.464480876922607
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "当时让这两个我记得有多问题所以我们以前我们有",
+                    "confidence": 0.34028270840644836,
+                    "startTime": "642.820s",
+                    "endTime": "647.700s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07312020659446716,
+                    "speechRate": 4.508196830749512
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "中银香港那边就是前三家都已经都可以看那个data有到啊就是讲到这个啦",
+                    "confidence": 0.26164644956588745,
+                    "startTime": "648.140s",
+                    "endTime": "655.020s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05612124875187874,
+                    "speechRate": 4.505814075469971
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "你那部是在国内是不是a五十二零二点一六五给你看",
+                    "confidence": 0.31409645080566406,
+                    "startTime": "655.670s",
+                    "endTime": "660.350s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06151515245437622,
+                    "speechRate": 4.914529800415039
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊我容易不是我开啦我卖拿啦不是最后有就是就是做不到email啊所以就是我需要从开户嘛",
+                    "confidence": 0.36283165216445923,
+                    "startTime": "661.080s",
+                    "endTime": "669.050s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05332982912659645,
+                    "speechRate": 4.767879486083984
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我们要自己来这个安装的行程我要在香港再多待两家",
+                    "confidence": 0.565044641494751,
+                    "startTime": "669.830s",
+                    "endTime": "674.170s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.051556650549173355,
+                    "speechRate": 5.299539089202881
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "隔了一天以后我又来到了这边儿恒生银行红磡分行经过这个银行经理反复的跟我讲",
+                    "confidence": 0.7515555024147034,
+                    "startTime": "674.700s",
+                    "endTime": "682.350s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.056287165731191635,
+                    "speechRate": 4.705882549285889
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "原来如果是手机号没有加八六二五零所以啊我的手机是绝对收不到这个信号",
+                    "confidence": 0.6806842684745789,
+                    "startTime": "682.730s",
+                    "endTime": "688.920s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05659635365009308,
+                    "speechRate": 5.331179141998291
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "因为也是要怕也是因为大陆的菜户啊没有",
+                    "confidence": 0.2640332877635956,
+                    "startTime": "690.040s",
+                    "endTime": "693.850s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07040207833051682,
+                    "speechRate": 4.724409580230713
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "因此呢他要带我们去柜台办理那个购买手机号码呢你去把这个幺三八之前呢加上一个八六",
+                    "confidence": 0.699211061000824,
+                    "startTime": "694.460s",
+                    "endTime": "702.160s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05348482355475426,
+                    "speechRate": 5.064935207366943
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "之后的确实能收到了你看我们也没有",
+                    "confidence": 0.3671339750289917,
+                    "startTime": "702.340s",
+                    "endTime": "705.350s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.059907153248786926,
+                    "speechRate": 5.315614700317383
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "他让我一周以后再登录旅游商业银行的edd到的话就可以住房开工",
+                    "confidence": 0.7028595805168152,
+                    "startTime": "706.150s",
+                    "endTime": "711.580s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04845095053315163,
+                    "speechRate": 5.1565375328063965
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我呢个人终于是轰了一口气好歹就开了一张卡",
+                    "confidence": 0.6959606409072876,
+                    "startTime": "712.460s",
+                    "endTime": "716.410s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.052892252802848816,
+                    "speechRate": 5.063291072845459
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "就是因为这一点点小小的差距啊一下子打断了推动计划",
+                    "confidence": 0.6743868589401245,
+                    "startTime": "717.380s",
+                    "endTime": "721.800s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.053352437913417816,
+                    "speechRate": 5.429864406585693
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "原本找了住两天啊你你回看到没有结果我要弄出来先",
+                    "confidence": 0.3566536009311676,
+                    "startTime": "722.410s",
+                    "endTime": "726.490s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05146953836083412,
+                    "speechRate": 5.63725471496582
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "所以我觉得这个开户的经验接下来就如果",
+                    "confidence": 0.5615527033805847,
+                    "startTime": "726.890s",
+                    "endTime": "731.300s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.0641498863697052,
+                    "speechRate": 4.081632614135742
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "二零二五年一月份或我开始申请办理这一项的银行需要怎幺样",
+                    "confidence": 0.289969265460968,
+                    "startTime": "731.840s",
+                    "endTime": "738.470s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04978090152144432,
+                    "speechRate": 4.0723981857299805
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "在国内投资理财或者买股票的证明",
+                    "confidence": 0.737583577632904,
+                    "startTime": "738.960s",
+                    "endTime": "742.330s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.043800946325063705,
+                    "speechRate": 4.451038360595703
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "如果没有这个证明如果是这样的金百分之一百你就可以申请一个账户",
+                    "confidence": 0.460012823343277,
+                    "startTime": "743.080s",
+                    "endTime": "748.080s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.049002908170223236,
+                    "speechRate": 6
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "银行的经理的主要换的这个经检这个电子管理的总经理和身份证一样",
+                    "confidence": 0.4386981129646301,
+                    "startTime": "749.130s",
+                    "endTime": "754.610s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.051527366042137146,
+                    "speechRate": 5.474452495574951
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "是必须要有没有是吧我给你看到户口上面就要拿",
+                    "confidence": 0.43345049023628235,
+                    "startTime": "755.440s",
+                    "endTime": "760.910s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06055208668112755,
+                    "speechRate": 3.8391225337982178
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "这个银行就是你跟我说的另外一个人的话是因为有一部分是大陆一在之前在中银的银行卡之后已经有搞卖了",
+                    "confidence": 0.5820239782333374,
+                    "startTime": "762.010s",
+                    "endTime": "770.960s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.0585092268884182,
+                    "speechRate": 5.251396656036377
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "导致中银香港和汇丰跟两个最大的发货行真的同时也排到了门口这个东西",
+                    "confidence": 0.6541424989700317,
+                    "startTime": "771.280s",
+                    "endTime": "777.840s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04851830005645752,
+                    "speechRate": 4.878048896789551
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我主说啊我人真是坑国人啊另外有很多朋友问啊我在香港开了银行卡以后",
+                    "confidence": 0.7485184073448181,
+                    "startTime": "778.150s",
+                    "endTime": "785.540s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06058765947818756,
+                    "speechRate": 4.330175876617432
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "可不可以把我国内银行卡钱全部转到那个银行卡里面去",
+                    "confidence": 0.8830336928367615,
+                    "startTime": "785.970s",
+                    "endTime": "790.430s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06121623143553734,
+                    "speechRate": 5.381165981292725
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "银行卡转账是有限额的每次五万美元如果你转了过于密集会受到大陆银行的限制",
+                    "confidence": 0.9078870415687561,
+                    "startTime": "790.840s",
+                    "endTime": "798.160s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.0757734403014183,
+                    "speechRate": 4.781420707702637
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "您啊只能是蚂蚁搬家一点儿一点的往外倒的因为大陆烟火对资金的回复嘛是比较严格的",
+                    "confidence": 0.6870784163475037,
+                    "startTime": "798.840s",
+                    "endTime": "806.390s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05864275246858597,
+                    "speechRate": 5.033112525939941
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "当然如果您有特殊的证明您每次汇款可以突破每次五万美金的电",
+                    "confidence": 0.8488433957099915,
+                    "startTime": "807.030s",
+                    "endTime": "812.840s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.056358806788921356,
+                    "speechRate": 4.819277286529541
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "本来不啊本来香港开多一个公司是不是低一点啊因为最近会有一点偏离",
+                    "confidence": 0.3144164979457855,
+                    "startTime": "813.670s",
+                    "endTime": "820.740s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.03934163227677345,
+                    "speechRate": 4.384724140167236
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "这样好我回国一点就是last wee deal settlement才帮我",
+                    "confidence": 0.3068827986717224,
+                    "startTime": "820.970s",
+                    "endTime": "825.110s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.042496927082538605,
+                    "speechRate": 4.106280326843262
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "估计可以可以就把它做做接过第一次transfer的deal我们都",
+                    "confidence": 0.28068265318870544,
+                    "startTime": "825.450s",
+                    "endTime": "830.250s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04275866225361824,
+                    "speechRate": 4.583333492279053
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "一二零一九一二二点",
+                    "confidence": 0.3874284327030182,
+                    "startTime": "831.140s",
+                    "endTime": "833.290s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06475139409303665,
+                    "speechRate": 4.186046600341797
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "这样打也罢了哦因为我check with",
+                    "confidence": 0.241486057639122,
+                    "startTime": "834.070s",
+                    "endTime": "837.530s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.051998067647218704,
+                    "speechRate": 3.468208074569702
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "anther that我如果我扣钱扣去到我可是每一股都是不一样的话都是一毛钱都没有",
+                    "confidence": 0.27941158413887024,
+                    "startTime": "838.400s",
+                    "endTime": "846.170s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04565009847283363,
+                    "speechRate": 4.118403911590576
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "call to in market man如果有银行may如果我们已经count了那个银行的没有管你",
+                    "confidence": 0.3206474184989929,
+                    "startTime": "846.600s",
+                    "endTime": "852.850s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04276583343744278,
+                    "speechRate": 4.480000019073486
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "你不能跟我一晚一点啊你就跟我一起",
+                    "confidence": 0.36976680159568787,
+                    "startTime": "853.300s",
+                    "endTime": "855.560s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.036680109798908234,
+                    "speechRate": 7.079646110534668
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "第四点它不会起approve一些小型的商业银行户然后你的cut都有低",
+                    "confidence": 0.3361014127731323,
+                    "startTime": "856.410s",
+                    "endTime": "862.910s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.041391074657440186,
+                    "speechRate": 4
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "九五点九零六马币就要六六一三比内地香港也行so market有一些低的",
+                    "confidence": 0.32180583477020264,
+                    "startTime": "863.650s",
+                    "endTime": "870.350s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.0550018735229969,
+                    "speechRate": 4.179104328155518
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "如果我为投资投资打来刚刚的说明",
+                    "confidence": 0.458903968334198,
+                    "startTime": "870.800s",
+                    "endTime": "873.250s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04872851073741913,
+                    "speechRate": 6.122448921203613
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "有啦香港银行啊还有外汇会换给我们不能hold on the call in la to hat pat you",
+                    "confidence": 0.3502275347709656,
+                    "startTime": "874.020s",
+                    "endTime": "880.990s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04635341838002205,
+                    "speechRate": 4.017216682434082
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "支付方便如另外汇丰银行对中国有治理看来的",
+                    "confidence": 0.6587337851524353,
+                    "startTime": "881.160s",
+                    "endTime": "885.850s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.050357237458229065,
+                    "speechRate": 4.264392375946045
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "不需要预约直接现场然后直接开户需要的最重要的资料还是你可以派出的",
+                    "confidence": 0.6851664185523987,
+                    "startTime": "886.590s",
+                    "endTime": "893.280s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05469369515776634,
+                    "speechRate": 4.783258438110352
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "以及您的收入流程不过到最后一步的时候说我这个名额与弊他也没有给我解释清楚",
+                    "confidence": 0.6056227684020996,
+                    "startTime": "893.800s",
+                    "endTime": "901.720s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.058911602944135666,
+                    "speechRate": 4.545454502105713
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "就是说啊我们还需要再来一块项目来任意你家人可以注意",
+                    "confidence": 0.48693209886550903,
+                    "startTime": "902.150s",
+                    "endTime": "906.460s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06403034180402756,
+                    "speechRate": 5.800464153289795
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "做一个银行卡背面的签名确认就是那个汇丰银行啊",
+                    "confidence": 0.7057361602783203,
+                    "startTime": "907.040s",
+                    "endTime": "911.580s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.0590980127453804,
+                    "speechRate": 4.845815181732178
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "就算是开了一半因为这个银行呢它会在一个活会的时候我觉得就是没有顺利的开完了",
+                    "confidence": 0.5171304941177368,
+                    "startTime": "911.940s",
+                    "endTime": "918.960s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05924949422478676,
+                    "speechRate": 5.270655155181885
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "等我什幺时候有时间还能去香港的时候啊我能把这个汇丰银行查看啊",
+                    "confidence": 0.6097902059555054,
+                    "startTime": "919.530s",
+                    "endTime": "924.660s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05625161528587341,
+                    "speechRate": 5.8479533195495605
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "另外我有一个朋友可能是他打银行的他就他有给我发了一个票户口那个钱这样子",
+                    "confidence": 0.4455679655075073,
+                    "startTime": "925.500s",
+                    "endTime": "932.360s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05470871552824974,
+                    "speechRate": 5.102040767669678
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "除了身份证然后身份证还有我问一下这些必须领班",
+                    "confidence": 0.45410457253456116,
+                    "startTime": "932.970s",
+                    "endTime": "937.160s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06573431938886642,
+                    "speechRate": 5.250596523284912
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "还需要九十五十万港币的资产账户",
+                    "confidence": 0.688629686832428,
+                    "startTime": "937.790s",
+                    "endTime": "941.080s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05386962369084358,
+                    "speechRate": 4.55927038192749
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "for我我得买的是nab manuses我会买four它一次我觉得是可以认识的",
+                    "confidence": 0.27577316761016846,
+                    "startTime": "942.200s",
+                    "endTime": "949.160s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05037163943052292,
+                    "speechRate": 3.591953992843628
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "哦开户当日我们不要打开因为比之前时间多",
+                    "confidence": 0.4755454659461975,
+                    "startTime": "949.330s",
+                    "endTime": "952.700s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.050976045429706573,
+                    "speechRate": 5.637982368469238
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "另外开户单位需要额入五千元以上好你的现金认为还是一些要求",
+                    "confidence": 0.4773120582103729,
+                    "startTime": "953.790s",
+                    "endTime": "960.540s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05571208894252777,
+                    "speechRate": 4.148148059844971
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "可以回人民币个人渣打银行也是但我觉得确实看不到他的",
+                    "confidence": 0.6298134922981262,
+                    "startTime": "961.150s",
+                    "endTime": "966.840s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.053091876208782196,
+                    "speechRate": 4.393672943115234
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "好歹现在手里也有一张红灯那个已经放弃了那个渣打银行的账户",
+                    "confidence": 0.42382296919822693,
+                    "startTime": "967.340s",
+                    "endTime": "972.560s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.058261074125766754,
+                    "speechRate": 5.36398458480835
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "以上呢就是我来香港开银行卡里面这个也跟你讲说希望能多少帮助到",
+                    "confidence": 0.6301422715187073,
+                    "startTime": "973.050s",
+                    "endTime": "978.860s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05485967546701431,
+                    "speechRate": 5.163511276245117
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "虽然开股逃顺但是还是很开心的在香港的话来做着外出卡吧",
+                    "confidence": 0.5487948656082153,
+                    "startTime": "979.650s",
+                    "endTime": "986.220s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05620589479804039,
+                    "speechRate": 3.9573819637298584
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "一样啊香港也有风险",
+                    "confidence": 0.546603262424469,
+                    "startTime": "986.460s",
+                    "endTime": "988.650s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.047785837203264236,
+                    "speechRate": 4.109589099884033
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "这期节目就说到这如果您喜欢我的频道可以在右下角您的订阅感谢您的支持",
+                    "confidence": 0.6779062151908875,
+                    "startTime": "989.390s",
+                    "endTime": "997.200s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05340810865163803,
+                    "speechRate": 4.2253522872924805
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "也欢迎您在评论区发表您的任何观点",
+                    "confidence": 0.7597705125808716,
+                    "startTime": "997.320s",
+                    "endTime": "1000.430s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04998474568128586,
+                    "speechRate": 5.1446943283081055
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "祝您二零二五年一切顺利开源",
+                    "confidence": 0.844451904296875,
+                    "startTime": "1001.220s",
+                    "endTime": "1004.350s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06370805203914642,
+                    "speechRate": 4.153354644775391
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我们下集节目再见咯",
+                    "confidence": 0.6458548307418823,
+                    "startTime": "1005.530s",
+                    "endTime": "1007.640s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06818168610334396,
+                    "speechRate": 4.265402793884277
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "那那通交的地铁太爽了看电影它这个地铁是通交的",
+                    "confidence": 0.5046670436859131,
+                    "startTime": "1110.160s",
+                    "endTime": "1114.520s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07997816801071167,
+                    "speechRate": 5.045871734619141
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我开始没有呃没有打错啊",
+                    "confidence": 0.3677794933319092,
+                    "startTime": "1115.520s",
+                    "endTime": "1118s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.0674002468585968,
+                    "speechRate": 4.435483932495117
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "第一次做凌晨两点的那些啊现在还不爽嘛",
+                    "confidence": 0.6131770014762878,
+                    "startTime": "1119.170s",
+                    "endTime": "1123.950s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07723744958639145,
+                    "speechRate": 3.765690326690674
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "因为几",
+                    "confidence": 0.35160762071609497,
+                    "startTime": "383.540s",
+                    "endTime": "384.250s",
+                    "speakerTag": "002",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06153397634625435,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "hari",
+                    "confidence": 0.2552574872970581,
+                    "startTime": "1043.260s",
+                    "endTime": "1044.390s",
+                    "speakerTag": "003",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.09226703643798828,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "香港人啊香港人",
+                    "confidence": 0.6078054308891296,
+                    "startTime": "1066.090s",
+                    "endTime": "1068.040s",
+                    "speakerTag": "003",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.08960925787687302,
+                    "speechRate": 3.5897436141967773
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "早啊",
+                    "confidence": 0.10270412266254425,
+                    "startTime": "1034.380s",
+                    "endTime": "1035.230s",
+                    "speakerTag": "004",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.1007971316576004,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "有啊online也是",
+                    "confidence": 0.2095896452665329,
+                    "startTime": "1061.530s",
+                    "endTime": "1062.960s",
+                    "speakerTag": "004",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.0786571279168129,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "呵",
+                    "confidence": 0.15156514942646027,
+                    "startTime": "1065.980s",
+                    "endTime": "1066.290s",
+                    "speakerTag": "004",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.11985637247562408,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "哦",
+                    "confidence": 0.13946790993213654,
+                    "startTime": "1099.250s",
+                    "endTime": "1099.870s",
+                    "speakerTag": "004",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.10162252932786942,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "呃i think i think now",
+                    "confidence": 0.27359363436698914,
+                    "startTime": "1101.930s",
+                    "endTime": "1106.550s",
+                    "speakerTag": "004",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.08544965833425522,
+                    "speechRate": 1.298701286315918
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "那你们呢",
+                    "confidence": 0.2012437880039215,
+                    "startTime": "1021.500s",
+                    "endTime": "1022.550s",
+                    "speakerTag": "005",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.13315869867801666,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "二五六九三六点二四你send给我action到你那个letter是多少",
+                    "confidence": 0.18162232637405396,
+                    "startTime": "1049.160s",
+                    "endTime": "1056.670s",
+                    "speakerTag": "005",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06860366463661194,
+                    "speechRate": 2.9294273853302
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "很少啊又是他又打过了嘛",
+                    "confidence": 0.2283993512392044,
+                    "startTime": "1056.890s",
+                    "endTime": "1060.910s",
+                    "speakerTag": "005",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.0800173431634903,
+                    "speechRate": 2.736318349838257
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "啊你的company名字是",
+                    "confidence": 0.21825620532035828,
+                    "startTime": "1074.470s",
+                    "endTime": "1076.400s",
+                    "speakerTag": "005",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06347755342721939,
+                    "speechRate": 3.6269431114196777
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "你们的不要啊你要explore那个",
+                    "confidence": 0.29301512241363525,
+                    "startTime": "1077.150s",
+                    "endTime": "1079.340s",
+                    "speakerTag": "005",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07831365615129471,
+                    "speechRate": 5.022830963134766
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "哇walao诶",
+                    "confidence": 0.20862044394016266,
+                    "startTime": "1087.430s",
+                    "endTime": "1089.720s",
+                    "speakerTag": "005",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06414201110601425,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "知道知道啊",
+                    "confidence": 0.22938419878482819,
+                    "startTime": "1091.640s",
+                    "endTime": "1093.310s",
+                    "speakerTag": "005",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.090121790766716,
+                    "speechRate": 2.994011878967285
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "哈",
+                    "confidence": 0.2338043600320816,
+                    "startTime": "1099.080s",
+                    "endTime": "1099.280s",
+                    "speakerTag": "005",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.10265840590000153,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "呃actually我们有继续做",
+                    "confidence": 0.20676842331886292,
+                    "startTime": "1039.800s",
+                    "endTime": "1042.770s",
+                    "speakerTag": "006",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04768165946006775,
+                    "speechRate": 2.6936028003692627
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "hello morning",
+                    "confidence": 0.24837814271450043,
+                    "startTime": "1069.800s",
+                    "endTime": "1072.500s",
+                    "speakerTag": "006",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05154944583773613,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-mandarin"
+        ]
+    }
+}

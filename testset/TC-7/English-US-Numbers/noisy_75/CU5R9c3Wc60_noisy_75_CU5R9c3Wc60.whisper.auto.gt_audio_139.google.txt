@@ -1,2 +1,0 @@
-Can you get an accuracy of 0.964?
- so, once the model is

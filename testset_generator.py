@@ -1889,7 +1889,7 @@ def pipeline():
         base_dataset_path=base_dataset,
         tc1_output_base_path=tc1_output_path,
         metadata_file_path=metadata_file,
-        total_samples_to_select=100, 
+        total_samples_to_select=10, 
         log_file_path=tc1_log,
         use_fixed_selection=True 
     )
@@ -1904,7 +1904,7 @@ def pipeline():
         metadata_file_path=metadata_file,
         log_file_path=tc2_log,
         use_fixed_selection=True, 
-        total_samples_for_tc2=100 
+        total_samples_for_tc2=10 
     )
 
     
@@ -1918,7 +1918,7 @@ def pipeline():
         vocabulary_file_path=hsbc_vocabulary_json_path, 
         log_file_path=tc3_log,
         use_fixed_selection=True, 
-        total_samples_to_select=100 
+        total_samples_to_select=10 
     )
     
 
@@ -1932,7 +1932,7 @@ def pipeline():
         vocabulary_file_path=profanity_vocabulary_json_path, 
         log_file_path=tc5_log,
         use_fixed_selection=True, 
-        total_samples_to_select=100 
+        total_samples_to_select=10 
     )
     print(f"\nPipeline finished. Current date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
@@ -1946,7 +1946,7 @@ def pipeline():
         metadata_file_path=metadata_file,
         log_file_path=tc7_log,
         use_fixed_selection=True, 
-        total_samples_to_select=200
+        total_samples_to_select=20
     )
 
     print(f"\nPipeline finished. Current date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")

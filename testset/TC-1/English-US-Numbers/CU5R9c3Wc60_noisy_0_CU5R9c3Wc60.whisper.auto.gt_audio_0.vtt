@@ -1,0 +1,490 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.020
+Hi,I'm Selva Prabhakaran.In this one,let's understand clearly the Bayesian optimization
+
+00:00:05.020 --> 00:00:09.920
+method for hyper parameter tuning.Now,you know,hyper parameter tuning is a key step in
+
+00:00:09.920 --> 00:00:13.800
+machine learning model building,but it can be quite time taking.So we will understand
+
+00:00:13.800 --> 00:00:19.760
+everything about Bayesian optimization specifically.Okay.But to be clear,let's quickly revise
+
+00:00:19.760 --> 00:00:23.540
+what is hyper parameter tuning in the first place so that everything will make sense and
+
+00:00:23.540 --> 00:00:28.880
+fall in place.This is how machine learning model building happens.Say you have the features and
+
+00:00:28.880 --> 00:00:33.220
+the variable that you want to predict X and Y respectively.This you have in your data,
+
+00:00:33.380 --> 00:00:38.080
+the data is split into training data set on which the model will be actually trained.Then you will
+
+00:00:38.080 --> 00:00:42.900
+do the prediction on validation data set,which has not been shown to the model during training,
+
+00:00:43.100 --> 00:00:49.520
+right?So you will do the prediction.So X and Y from the train is passed to the ML model.This is
+
+00:00:49.520 --> 00:00:55.640
+the training process.Okay.You get the predictions on the validation data set,the Y hat.Then you
+
+00:00:55.640 --> 00:01:00.640
+compare the Y hat against the actual Y from the validation data set.From that you compute the
+
+00:01:00.640 --> 00:01:06.100
+error,which is called the validation error,right?We want this error to be as low as possible.In
+
+00:01:06.100 --> 00:01:12.340
+order to achieve that,one of the techniques is we try to see how the model is performing.That is
+
+00:01:12.340 --> 00:01:19.140
+the error.Performance is lower the error,better the performances.Now we try to adjust various
+
+00:01:19.140 --> 00:01:25.220
+combinations of the hyper parameters of whichever ML model that we are dealing with.For example,
+
+00:01:25.220 --> 00:01:29.840
+if we are dealing with say a random forest algorithm,the hyper parameter could be something
+
+00:01:29.840 --> 00:01:36.720
+like the number of estimators and say the max depth,right?And could be other parameters also.
+
+00:01:37.580 --> 00:01:43.780
+Likewise,if you use say support vector missions,it could be what kernel you are using,what kernel
+
+00:01:43.780 --> 00:01:49.640
+you are using,what the value of the C parameters,things like that,right?So for a specific value
+
+00:01:49.640 --> 00:01:55.280
+of these hyper parameters,the error might be lowest.This is what hyper parameter tuning is
+
+00:01:55.280 --> 00:02:00.560
+all about.Now the process of hyper parameter tuning itself is done using the most common method is using
+
+00:02:00.560 --> 00:02:05.240
+what is called the grid search.For example,you have two hyper parameters,hyper parameter one and
+
+00:02:05.240 --> 00:02:11.440
+two,and these are the possible values of hyper parameters one and two on the Y axis,right?Now we want
+
+00:02:11.440 --> 00:02:17.200
+to see for various combinations of these hyper parameters,what is the model error is.Either the
+
+00:02:17.200 --> 00:02:22.580
+error can be the lowest or you compute the accuracy of the model and try to reach the maximum accuracy
+
+00:02:22.580 --> 00:02:29.040
+whichever way that you want to do it.So we train the models for all these combinations of both of these
+
+00:02:29.040 --> 00:02:36.240
+parameters and see which is the lowest error,let's say,okay?This is grid search approach.Whereas random
+
+00:02:36.240 --> 00:02:42.560
+search approach is slightly better than what grid search approach is,that is,we take random values
+
+00:02:42.560 --> 00:02:47.520
+of hyper parameters,both one and two randomly we pick.Here they are equally spaced usually typically
+
+00:02:47.520 --> 00:02:52.720
+equally play equally spaced or discrete values of hyper parameters.We choose specific values of hyper
+
+00:02:52.720 --> 00:02:58.160
+parameter two also.So it is always a combination of this and this.Whereas here,since we are randomly
+
+00:02:58.160 --> 00:03:05.200
+picking it,these points can be anywhere.This may not be in a grid.Because these points are can is
+
+00:03:05.200 --> 00:03:12.640
+randomly chosen between hyper parameters one and two.We get the model here gets to see various
+
+00:03:12.640 --> 00:03:17.760
+different values of the hyper parameters,right?So here,let's say the model got to see the
+
+00:03:17.760 --> 00:03:23.120
+hyper parameter value to only four different unique values.But see here,you can see the model has seen
+
+00:03:23.120 --> 00:03:29.120
+this value here,this value here,for this parameter,this value here,for this parameter,this value,
+
+00:03:29.120 --> 00:03:33.680
+so on and so forth,right?So the model gets to see multiple different values of hyper parameter,
+
+00:03:33.680 --> 00:03:39.760
+both one and two,both two and one here,right?So that is the advantage of random search.Okay,
+
+00:03:39.760 --> 00:03:45.600
+the searches,more,more variety will be there.However,the problem is,both of these approaches
+
+00:03:45.600 --> 00:03:52.080
+are time consuming.In random search,we will never ever get to probably know the lowest value of your
+
+00:03:52.080 --> 00:03:56.400
+hyper parameters.I mean,we have the combination of hyper parameters that is going to give you the
+
+00:03:56.400 --> 00:04:01.760
+lowest value of the errors.Also,the search space when we deal especially with grid search might be
+
+00:04:01.760 --> 00:04:05.680
+limited.For example,we are searching for these three values of hyper parameter one,
+
+00:04:05.680 --> 00:04:10.160
+what of the optimal value lies outside these values,right?That is also a limitation when we
+
+00:04:10.160 --> 00:04:15.360
+deal with both of these approaches.So these are drawbacks,but the biggest drawback with both of
+
+00:04:15.360 --> 00:04:21.440
+these approaches is this.Now,let's say here the red points and the green points are the points that
+
+00:04:21.440 --> 00:04:27.440
+you have hyper parameter one and hyper parameter hyper two hyper parameter two.Now these points,
+
+00:04:27.440 --> 00:04:33.280
+these reds and these greens are the points that the model has already trained on.The whites are
+
+00:04:33.280 --> 00:04:38.000
+yet to be trained.Now we know that the models performing good in this region and it's not so
+
+00:04:38.000 --> 00:04:44.080
+good in this region.Now with this information,this information is not used both of in both of grid
+
+00:04:44.080 --> 00:04:49.680
+search as well as random search.But if this is the information given to you,what would be the value
+
+00:04:49.680 --> 00:04:55.120
+or what would be the value that you would try for your next iteration?We are more likely to try around
+
+00:04:55.120 --> 00:04:59.360
+this area,isn't it?Because this is green,this is doing well,right?Because this area is doing
+
+00:04:59.360 --> 00:05:04.640
+well,we will try and find out for this particular region for the best possible parameter combination.
+
+00:05:04.640 --> 00:05:09.680
+But we don't take that information account when into account when we are using grid search as well
+
+00:05:09.680 --> 00:05:16.960
+as random search.So this is exactly what Bayesian optimization is all about.It tries to make use
+
+00:05:16.960 --> 00:05:23.120
+of the prior information to make the subsequent searches so that we will be able to find the optimal point
+
+00:05:23.760 --> 00:05:30.080
+quite fast.So this is the fundamental idea behind Bayesian optimization.But how does this work?
+
+00:05:30.080 --> 00:05:37.600
+So what we are concerned is about finding the probability of getting a specific model score,
+
+00:05:37.600 --> 00:05:42.960
+getting a specific model score.This could be model score.This could be a cost function,
+
+00:05:42.960 --> 00:05:48.640
+cost function or sorry,the loss function,loss function like error,some type of an error or
+
+00:05:48.640 --> 00:05:53.520
+it could be accuracy,right?Accuracy means we want to maximize it.Loss function means we want to
+
+00:05:53.520 --> 00:05:57.600
+minimize it.Error means we want to minimize it,right?So what is the probability of getting a particular
+
+00:05:57.600 --> 00:06:04.400
+model score given a particular configuration of the hyper parameters?So this is ultimately what we want
+
+00:06:04.400 --> 00:06:12.400
+to find out.But we want to find this.We want to find the configuration that gives the maximum or minimum
+
+00:06:12.960 --> 00:06:18.000
+depending on the objective,giving the what is the configuration that gives the maximum model score.
+
+00:06:18.000 --> 00:06:21.280
+But at the same time,we don't have the liberty of trying out
+
+00:06:22.160 --> 00:06:28.080
+all of these iterations,all of these configurations possible,right?The number of iterations or the
+
+00:06:28.080 --> 00:06:32.880
+number of iterations means training here.Each training process is what we refer to as iteration.
+
+00:06:32.880 --> 00:06:37.040
+The number of iterations is something that we want to reduce.So we want to achieve this
+
+00:06:37.040 --> 00:06:46.160
+objective with minimum number of iterations.How do we do this?This essentially boils down into four
+
+00:06:46.160 --> 00:06:51.680
+steps.First,we need a surrogate model.Surrogate model is nothing but the model where we predict the
+
+00:06:51.680 --> 00:06:56.960
+model score or the objective function,whatever we want to call it.So predict the objective function
+
+00:06:56.960 --> 00:07:02.720
+given a particular configuration of hyper parameters,right?So we will have a surrogate
+
+00:07:02.720 --> 00:07:08.400
+model.At the same time,we cannot estimate this for all possible combinations or all possible
+
+00:07:08.400 --> 00:07:13.760
+configurations,right?We want to minimize the number of iterations.So we need an acquisition
+
+00:07:13.760 --> 00:07:18.960
+function also.So this acquisition function will guide the search.Guide the search means if you
+
+00:07:18.960 --> 00:07:23.680
+are familiar with the concept of reinforcement learning,if you are familiar with reinforcement
+
+00:07:24.480 --> 00:07:28.560
+learning with the idea behind say multi-arm bandits and all this is quite similar to that
+
+00:07:29.200 --> 00:07:35.280
+where this acquisition function will have the opportunity to explore either explore or exploit.
+
+00:07:35.280 --> 00:07:40.000
+Exploit means what it means is basically we know that these regions are doing well.If we know that
+
+00:07:40.000 --> 00:07:45.360
+these regions are doing well,we will try to for the next iteration when it goes for an exploit option,
+
+00:07:45.360 --> 00:07:49.920
+it will try to choose data points around this region.Okay,so it will go for data points in this
+
+00:07:49.920 --> 00:07:56.320
+in this particular zone.That would be exploit.Explore would be it will try to find out or try to test out
+
+00:07:56.320 --> 00:08:00.640
+data points that is farther away right randomly to choose some other point somewhere in the board
+
+00:08:00.640 --> 00:08:06.160
+and we'll try to explore how the model score turns out to be for a different configuration.So that's
+
+00:08:06.160 --> 00:08:11.840
+what explore is.So to do this,there are various techniques such as the expected improvement method
+
+00:08:11.840 --> 00:08:19.440
+or the upper confidence bound method you can use to use as the acquisition function.So this will
+
+00:08:19.440 --> 00:08:26.960
+essentially guide how the model or how the algorithm is searching for the next iterate next configuration
+
+00:08:26.960 --> 00:08:32.240
+of the hyper parameter.So once the next iteration or configuration is chosen,we will use again
+
+00:08:32.240 --> 00:08:40.000
+the surrogate model in this step to evaluate the newly chosen configuration,right?So we will evaluate it
+
+00:08:40.000 --> 00:08:46.640
+find the score again score or the objective function again and then use that newly found information
+
+00:08:46.640 --> 00:08:53.840
+and store it back into the surrogate model again.So this process that is steps two and three,
+
+00:08:53.840 --> 00:08:59.840
+these will go on until the optimization or objective function does not improve anymore or the number of
+
+00:08:59.840 --> 00:09:05.200
+iterations that the user has set has been achieved.So this is the whole idea behind it.If you want
+
+00:09:05.200 --> 00:09:11.120
+to understand simply rights,if you want to understand simply what surrogate function versus surrogate
+
+00:09:11.120 --> 00:09:17.040
+function versus a acquisition function does is simply say this is your grid.This is your hyper
+
+00:09:17.040 --> 00:09:23.440
+parameter,hyper parameter grid.Say you have the hyper parameter one and hyper parameter two on the y
+
+00:09:23.440 --> 00:09:30.320
+axis,all right?Now you have this grid.Think of this grid as a map,okay?This think of this grid as a map
+
+00:09:30.320 --> 00:09:36.560
+where only few data points we have sampled,okay?We want to trace the lines in this map.Say you,you have
+
+00:09:36.560 --> 00:09:42.880
+a particular country and you want to trace the lines and the lines where the lines are the lines
+
+00:09:42.880 --> 00:09:49.120
+are the points where your objective function,the objective function is highest.So higher the
+
+00:09:49.120 --> 00:09:52.960
+objective function,suppose if it's accuracy,we want to maximize it,right?Suppose your objective is
+
+00:09:52.960 --> 00:10:00.960
+increasing the accuracy.We want to go in a in a particular route that will reach us to the maximum.
+
+00:10:00.960 --> 00:10:05.760
+Suppose this is the point where it has the maximum highest accuracy starting somewhere randomly.
+
+00:10:05.760 --> 00:10:11.840
+We want to reach this point at the fastest rate,right?The acquisition function,the acquisition
+
+00:10:11.840 --> 00:10:15.920
+function is something that will,that will estimate the height of these points,okay?
+
+00:10:15.920 --> 00:10:21.840
+Think of this as a contour.You might have seen contour graphs and all where you have say red colors,
+
+00:10:21.840 --> 00:10:26.320
+dark red colors,wherever the point is very high.The,the value is very high heat maps kind of thing,
+
+00:10:26.960 --> 00:10:32.400
+right?And the milder the color becomes the,the lower the values are,okay?Think of it like this.
+
+00:10:32.400 --> 00:10:37.920
+So the acquisition point acquisition function will help you estimate the value of the objective
+
+00:10:37.920 --> 00:10:44.800
+function at any given point,right?Likewise,the,okay,sorry,the surrogate function.I'm talking about
+
+00:10:44.800 --> 00:10:51.200
+surrogate function here.Surrogate function will estimate this objective value and the,and the acquisition
+
+00:10:51.200 --> 00:10:58.000
+function acquisition function will decide what route to take in order to reach the optimal point.So this is the
+
+00:10:58.000 --> 00:11:03.520
+fundamental idea behind Bayesian optimization.Let's implement this in code.Okay.So we will see a couple
+
+00:11:03.520 --> 00:11:11.360
+of implementations of hyper parameter optimization.One is using the optuna package.The other is using
+
+00:11:11.360 --> 00:11:18.480
+GPyOpt.So both are good.We will see both in this one.So for optuna,you need to first install
+
+00:11:18.480 --> 00:11:24.480
+pip install optuna and scikit-learn.All right.So once that is done,I'll give you the link to the,
+
+00:11:24.480 --> 00:11:29.520
+this,this particular data set or this particular notebook in the description,please use that link
+
+00:11:29.520 --> 00:11:35.920
+to try to get this and try it out.First,we will import the packages optuna numpy pandas.
+
+00:11:35.920 --> 00:11:40.960
+And from scikit-learn,we are going to be using the breast cancer data set.And we will also use
+
+00:11:40.960 --> 00:11:46.240
+these also.All right.So basic steps.First,we will download the data,load the data set,which is
+
+00:11:46.240 --> 00:11:52.320
+the breast cancer data set.We get the X,the features and the Y form the use strain test split to form
+
+00:11:52.320 --> 00:11:57.920
+your X-train,X-validation,Y-train and Y-validation.Basic steps.Now,in order to do the
+
+00:11:57.920 --> 00:12:02.560
+hyper parameter optimization,we define the objective function.This is the key.This is
+
+00:12:02.560 --> 00:12:07.280
+the main part where you define what the hyper parameters are.So you are passing it into a
+
+00:12:07.280 --> 00:12:12.480
+dictionary.Okay.Hyper parameters and what could be the potential values each of these parameters
+
+00:12:12.480 --> 00:12:17.600
+could take.Okay.Depending on what the nature of the values are here,these are integers.So trial
+
+00:12:17.600 --> 00:12:21.520
+dot suggestion.Okay.This trial is the object that we are passing to the objective itself.
+
+00:12:21.520 --> 00:12:26.720
+Then we will train the,train the random forest classifier,fit it.That is,this is the training
+
+00:12:26.720 --> 00:12:32.160
+part itself.Then get the predicted values and compute the accuracy score.And we are returning
+
+00:12:32.160 --> 00:12:38.320
+the accuracy score.This is the objective function.Now,once that is done,we are ready to create a study
+
+00:12:38.880 --> 00:12:44.400
+that we are using the optuna.This is present as a method inside optuna object itself.And since we
+
+00:12:44.400 --> 00:12:49.520
+are using accuracy,we are setting the direction as maximize.Okay.So the study is created.
+
+00:12:49.520 --> 00:12:54.080
+They've called study dot optimize.The number of trials we are setting as 100.You can increase
+
+00:12:54.080 --> 00:12:59.360
+this number if you have more computation power and patience.All right.So this is the,we are printing
+
+00:12:59.360 --> 00:13:05.120
+out the,the number of trials it took,the best parameters and the trial value itself.So I have
+
+00:13:05.120 --> 00:13:12.720
+already run this code and you can see it has run for about 100 different iterations.And at the end,
+
+00:13:12.720 --> 00:13:19.440
+you get an accuracy of 0.9649.Okay.So this is the best performance.So once the model is,once the
+
+00:13:19.440 --> 00:13:24.880
+training is done,the search is done,we use the best parameters.So from study,get the best trial
+
+00:13:24.880 --> 00:13:29.920
+and the parameters from that trail and rebuild this model.Okay.We have to retrain this model using the
+
+00:13:29.920 --> 00:13:35.280
+best parameters and then you can do the prediction also.So this is based on the optuna packaging.
+
+00:13:35.280 --> 00:13:40.480
+Now,similarly,if you slightly go down in this notebook,we have the grid search CV as well
+
+00:13:40.480 --> 00:13:48.000
+as the random search.After this,we will implement using GPyOpt.So this is another package where you
+
+00:13:48.000 --> 00:13:55.120
+can use implement Bayesian optimization.We're first installing this now import GPyOpt and this is
+
+00:13:55.120 --> 00:14:01.040
+implemented on the iris data set,same random forest classifier.Now we load the same steps.We load
+
+00:14:01.040 --> 00:14:07.920
+the iris,the x and the y,then define the objective function again,again,same,same stuff.So we are
+
+00:14:07.920 --> 00:14:12.480
+defining the parameters.These parameters,instead of having it as a dictionary,we are estimating,
+
+00:14:12.480 --> 00:14:17.520
+we are creating separate objects for the parameters,then pass them into the random forest classifier.
+
+00:14:17.520 --> 00:14:22.640
+So these values are going directly inside.All right.Then we are computing the score.And since we
+
+00:14:22.640 --> 00:14:28.400
+want to minimize,it is always going to be minimized here.We are getting the score and adding a negative
+
+00:14:28.400 --> 00:14:33.600
+to it.So now it's going to be,even though this is an accuracy,we are going to minimize here because
+
+00:14:33.600 --> 00:14:38.880
+this is having a negative sign.So that is done.We set the bounds for the various,various hyper
+
+00:14:38.880 --> 00:14:46.400
+parameters.We are defining the bounds and call GPyOpt dot methods Bayesian optimization.We pass the
+
+00:14:46.400 --> 00:14:53.280
+objective function bounds and acquisition function type equal to ei expected improvement.You could also
+
+00:14:53.280 --> 00:14:58.160
+try the other options,especially the UCB option,which could also work well.Now,once that is done,
+
+00:14:58.400 --> 00:15:03.360
+we run the optimization,then get the best parameters,convert to integer values,and then
+
+00:15:03.360 --> 00:15:08.240
+you can get the best parameter values.Now,once the best parameters values are estimated,
+
+00:15:08.960 --> 00:15:14.480
+we need to sort of rebuild the model again.That is the random forest classifier with the best
+
+00:15:14.480 --> 00:15:19.840
+parameters that we have found out.After building that,you can do the train test split,fit the model
+
+00:15:19.840 --> 00:15:24.640
+and get the best predictions.So this is the code quite straightforward.Use the link in the
+
+00:15:24.640 --> 00:15:26.640
+description to try this out on your own.

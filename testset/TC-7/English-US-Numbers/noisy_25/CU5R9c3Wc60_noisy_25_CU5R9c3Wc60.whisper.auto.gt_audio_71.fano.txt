@@ -1,3 +1,0 @@
-objective with minimum number of
->iterations how do we do this
-this essentially boils down into four

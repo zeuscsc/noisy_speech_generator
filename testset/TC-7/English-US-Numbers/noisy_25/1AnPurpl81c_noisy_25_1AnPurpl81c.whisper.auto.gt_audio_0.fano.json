@@ -1,0 +1,214 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "in the united kingdom there's british english and in the united states there's american english in singapore we have singaporean english or more commonly known as ",
+                    "confidence": 0.8662965297698975,
+                    "startTime": "1.020s",
+                    "endTime": "12.820s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08269951492547989,
+                    "speechRate": 2.3728814125061035
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "can usually hear singlish use for informal conversations and might be confused by its different standards of english so how exactly is singlish different from british and american english and what do all the last lays and laws represent",
+                    "confidence": 0.8050580620765686,
+                    "startTime": "12.880s",
+                    "endTime": "28.210s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.09250897169113159,
+                    "speechRate": 2.5440313816070557
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": ">singlish started when singapore became an independent nation and introduced english into their country",
+                    "confidence": 0.8068311810493469,
+                    "startTime": "28.320s",
+                    "endTime": "33.640s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08606169372797012,
+                    "speechRate": 2.8195488452911377
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "as a former colony of britain singapore used british english as the official language for their administrations if you were a singaporean at that time it will be the first time you would have proper classes and learn about the abcs",
+                    "confidence": 0.7974455952644348,
+                    "startTime": "33.970s",
+                    "endTime": "46.920s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.0936116948723793,
+                    "speechRate": 3.1660232543945312
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "but back then there was only a minority group of elites who were proficient in english the rest of singapore's population consisted of the chinese malays and india were former migrants and only from their own native languages so when these non english speakers were introduced to standard english they influenced english with their own native languages moving it into what we know today as ",
+                    "confidence": 0.8756408095359802,
+                    "startTime": "47.590s",
+                    "endTime": "69.600s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.10170963406562805,
+                    "speechRate": 2.9986369609832764
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "but any other language signatures its own sets of rules and vocabulary you can use singlish to get your points across faserter with lesser words for example instead an english you would say seems like it is going to rain to date i think it would be best for you to bring an umbrella which comes to a total of twenty one words whereas when you use singlish you could say i'm going to rain now bring an ",
+                    "confidence": 0.7943247556686401,
+                    "startTime": "69.800s",
+                    "endTime": "92.910s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.09522240608930588,
+                    "speechRate": 3.418433666229248
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "that's only seven words another interesting example is a singlish word la that originates from his chinese counterpart",
+                    "confidence": 0.8155937194824219,
+                    "startTime": "93.040s",
+                    "endTime": "100.460s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.09562201052904129,
+                    "speechRate": 2.5606470108032227
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "blood is very versatile and can be used for many different contexts for example you can say sorry la to make your apology sound less formal if you want to blame someone you can say oh your fault lah where the law emphasizes your income you can also use love to reassure someone by saying don't worry can fix one ",
+                    "confidence": 0.7720939517021179,
+                    "startTime": "101.080s",
+                    "endTime": "120.850s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.09257393330335617,
+                    "speechRate": 3.0854830741882324
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "showed singlish has a different standard of english making it difficult for the rest of the world to understand this brought the attention of the government has singlish and decreased the country's overall english standards they were concerned singlish would hinder singapore's economic ",
+                    "confidence": 0.8597574234008789,
+                    "startTime": "120.940s",
+                    "endTime": "135.470s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.09500164538621902,
+                    "speechRate": 3.0970406532287598
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "so the government lodged to speak good english movement to try and improve english standards and eliminates english the campaign however was not well received by some singaporeans i singlished up them to maintain solidarity and friendships among themselves supporters felt that he has become a national identity and should not be abolished",
+                    "confidence": 0.8446560502052307,
+                    "startTime": "135.670s",
+                    "endTime": "153.430s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.09405025094747543,
+                    "speechRate": 2.98423433303833
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "today though the use of singlish is still debatable we see the government and the world starting to embrace the language singlish was celebrated in singapore's fiftieth birthday and was also added into the oxford english dictionary all in all singlish define singaporeans and connects them with one another i'm sure we can all agree that the language will definitely remain in singapore for a very long time",
+                    "confidence": 0.860816478729248,
+                    "startTime": "154.330s",
+                    "endTime": "175.950s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.10221384465694427,
+                    "speechRate": 3.2377429008483887
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-english"
+        ]
+    }
+}

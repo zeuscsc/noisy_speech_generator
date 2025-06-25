@@ -1,0 +1,178 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "本年初一是啊",
+                    "confidence": 0.37455740571022034,
+                    "startTime": "0.860s",
+                    "endTime": "2.830s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.061567291617393494,
+                    "speechRate": 3.045685291290283
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "仅起宣誓",
+                    "confidence": 0.519982635974884,
+                    "startTime": "3.610s",
+                    "endTime": "4.770s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07207763195037842,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "本人就认",
+                    "confidence": 0.46162113547325134,
+                    "startTime": "5.820s",
+                    "endTime": "6.680s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.10469356179237366,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "中华人民共和国澳门特别行政区行政长官",
+                    "confidence": 0.9399704933166504,
+                    "startTime": "7.440s",
+                    "endTime": "12.900s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06731465458869934,
+                    "speechRate": 3.296703338623047
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "必当用户并估价执行中华人民共和国澳门特别行政区基本的",
+                    "confidence": 0.7327426671981812,
+                    "startTime": "13.960s",
+                    "endTime": "21.950s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07570797950029373,
+                    "speechRate": 3.2540676593780518
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "少中中华人民共和国及其澳门可比行政区",
+                    "confidence": 0.7880667448043823,
+                    "startTime": "22.810s",
+                    "endTime": "27.800s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07684878259897232,
+                    "speechRate": 3.6072144508361816
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "竞中之手遵守发律连接奉公",
+                    "confidence": 0.4977671205997467,
+                    "startTime": "28.630s",
+                    "endTime": "32.670s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07533160597085953,
+                    "speechRate": 2.97029709815979
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "致力于维护澳门的稳定以国霸者对中央人民政府和",
+                    "confidence": 0.7715619802474976,
+                    "startTime": "33.400s",
+                    "endTime": "40.030s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07801897823810577,
+                    "speechRate": 3.3182504177093506
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "澳门特别行进去复展",
+                    "confidence": 0.8029950857162476,
+                    "startTime": "40.250s",
+                    "endTime": "42.640s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.061992038041353226,
+                    "speechRate": 3.765690326690674
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-mandarin"
+        ]
+    }
+}

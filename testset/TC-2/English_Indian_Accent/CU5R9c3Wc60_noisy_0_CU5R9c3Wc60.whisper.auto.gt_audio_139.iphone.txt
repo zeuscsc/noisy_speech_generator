@@ -1,1 +1,0 @@
-Can you get an accuracy of .9649 so this is the best performance so once the model is on the 

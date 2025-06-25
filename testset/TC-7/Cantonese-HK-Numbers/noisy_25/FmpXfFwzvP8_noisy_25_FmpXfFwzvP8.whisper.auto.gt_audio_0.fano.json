@@ -1,0 +1,664 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "哩張卡呢都係響",
+                    "confidence": 0.6760242581367493,
+                    "startTime": "9.020s",
+                    "endTime": "11s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.037229083478450775,
+                    "speechRate": 3.535353422164917
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "就畀啲小朋友嘅咁一位小朋友就攞唔到底卡就算佢攞到你張credit card同附屬卡呢",
+                    "confidence": 0.7070590853691101,
+                    "startTime": "18.250s",
+                    "endTime": "25.700s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.042802561074495316,
+                    "speechRate": 4.429530143737793
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "而家外國呢就唔係好多網上交易呢你嗰個唔係本地張卡呢其實佢都唔畀你嘅佢直情唔用credit card",
+                    "confidence": 0.8086560368537903,
+                    "startTime": "25.980s",
+                    "endTime": "33.090s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.046116992831230164,
+                    "speechRate": 5.625878810882568
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "因為credit card太多爭拗啦上一條面望咗太多問題啦咁你你仲有個誒中間人個機制喺度呀嘛",
+                    "confidence": 0.8030685186386108,
+                    "startTime": "33.340s",
+                    "endTime": "40.530s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.053583089262247086,
+                    "speechRate": 5.146036148071289
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "吓你因為你冇授權咁你咪話張credit card喂你唔得呀畀番錢我呀唔得呀咁樣",
+                    "confidence": 0.9249635934829712,
+                    "startTime": "40.740s",
+                    "endTime": "45.500s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.058122847229242325,
+                    "speechRate": 6.302521228790283
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁呀debit card就唔係囉debit card好似以前嗰啲唔係辦事嗰個戶口就係直接喺你個戶口就係話你戶口有幾多錢就直接可以攞到",
+                    "confidence": 0.6724554300308228,
+                    "startTime": "45.860s",
+                    "endTime": "53.820s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.046204909682273865,
+                    "speechRate": 6.281406879425049
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁佢亦都係可以呢係觸碰式嘅即係好似百分之六嘅咁樣tag難度tag難度又可以網上用個喎",
+                    "confidence": 0.5795210003852844,
+                    "startTime": "54.200s",
+                    "endTime": "61.250s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04724336043000221,
+                    "speechRate": 5.390070915222168
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁試過無數咁多次呢基本上我喺外國呢差唔多十單",
+                    "confidence": 0.9178889393806458,
+                    "startTime": "61.790s",
+                    "endTime": "66.560s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.051585789769887924,
+                    "speechRate": 4.612159252166748
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "狗單呢都係唔需要問我攞嗰啲securitical嘅即係冇一個誒咩安全嘅驗證碼咁樣",
+                    "confidence": 0.7837768197059631,
+                    "startTime": "66.830s",
+                    "endTime": "73.500s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04577495902776718,
+                    "speechRate": 4.497751235961914
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁又係嗰個漏洞嗰個問題就係你冇啦咁多同少都冇喺香港hktv mall五百蚊佢都要問我攞個舖",
+                    "confidence": 0.8550406098365784,
+                    "startTime": "74.500s",
+                    "endTime": "82.210s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.061351947486400604,
+                    "speechRate": 4.928664207458496
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "其他嘢嗰啲幾萬蚊就冇攞個code嘅但係又話網上已經授權咗個囉喎咁哩張卡呢咁我試過即係我啲小朋友就",
+                    "confidence": 0.8945444822311401,
+                    "startTime": "82.650s",
+                    "endTime": "90.410s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05908852815628052,
+                    "speechRate": 5.798969268798828
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "用啦咁呀外國用啦",
+                    "confidence": 0.7511470913887024,
+                    "startTime": "90.510s",
+                    "endTime": "91.940s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.052654847502708435,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係完全我係唔知嘅咁嘅動作咁而家最大問題就係當你畀咗哩張卡佢佢會萬一跌咗吓",
+                    "confidence": 0.8592963218688965,
+                    "startTime": "92.690s",
+                    "endTime": "99.990s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04090934619307518,
+                    "speechRate": 4.931506633758545
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "佢哋嘅意識係低啲嘅佢萬一跌咗咁你個門口呢就原來呢就畀一條鎖匙人哋呢就任入嚟我屋企",
+                    "confidence": 0.7124279737472534,
+                    "startTime": "100.220s",
+                    "endTime": "108.190s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04716218635439873,
+                    "speechRate": 5.018820762634277
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係仲驚過credit card因為credit card呢仲有啲嘢可以聚實到哩張卡debit card呢",
+                    "confidence": 0.8510778546333313,
+                    "startTime": "108.540s",
+                    "endTime": "114.170s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05738820880651474,
+                    "speechRate": 4.618117332458496
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係仲危險所以而家前往興隆debit card呢我覺得係好得人驚因為debit card可以喺網上",
+                    "confidence": 0.7870259284973145,
+                    "startTime": "114.450s",
+                    "endTime": "120.230s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05406143143773079,
+                    "speechRate": 5.536332130432129
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "而網上你用過一次嘅紀錄你不論係amazon又好",
+                    "confidence": 0.8604887127876282,
+                    "startTime": "120.680s",
+                    "endTime": "124.310s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.047884490340948105,
+                    "speechRate": 4.958677768707275
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "你喺嗰啲誒嗯誒上網over又好咁樣啦佢其實都可以cap到你張卡嗰啲資料係仲驚嘅",
+                    "confidence": 0.7014817595481873,
+                    "startTime": "124.760s",
+                    "endTime": "132.140s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.046100012958049774,
+                    "speechRate": 4.607046127319336
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯咁哩張卡呢我奉勸辦卡真係原來有一個方法嘅就係你出門",
+                    "confidence": 0.7752770781517029,
+                    "startTime": "133.220s",
+                    "endTime": "139.670s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04669373482465744,
+                    "speechRate": 4.031007766723633
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "如果你用啦你直接用外幣轉帳㗎嘛咁外幣返香港即刻block暫停哩張卡原來有個咁嘅機制嘅",
+                    "confidence": 0.8530046939849854,
+                    "startTime": "139.890s",
+                    "endTime": "147.430s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.050760865211486816,
+                    "speechRate": 5.039787769317627
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "去暫停哩張卡咁好唔好畀個小朋友用呢嗱我就咁睇嘅你要開另外一個戶口嗰個戶口呢",
+                    "confidence": 0.8854118585586548,
+                    "startTime": "147.780s",
+                    "endTime": "155.220s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05565483123064041,
+                    "speechRate": 4.973118305206299
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "就只係擺一個好選辣嘅啫即係話你蝕極就要蝕你要預有機會蝕㗎啦",
+                    "confidence": 0.7577521800994873,
+                    "startTime": "155.500s",
+                    "endTime": "159.420s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06452710181474686,
+                    "speechRate": 7.397959232330322
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "吓你有機會蝕即係話你入面買一千蚊咁佢可能真係只不過用五百蚊但係呢",
+                    "confidence": 0.8899152874946594,
+                    "startTime": "160.140s",
+                    "endTime": "166.920s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05206901952624321,
+                    "speechRate": 4.719764232635498
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "你畀人哋盜用咗呢只係一千蚊嚟嘅咁但係你會唔會個小朋友",
+                    "confidence": 0.798856258392334,
+                    "startTime": "167.970s",
+                    "endTime": "173.060s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05173494666814804,
+                    "speechRate": 5.108055114746094
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "或者你係好有心機門市都會留意自己啲自動轉帳呢即係幾十蚊佢又可以拍嘅咁哩個呢我又可以拍嘅哩個呢",
+                    "confidence": 0.4686993658542633,
+                    "startTime": "173.300s",
+                    "endTime": "181.060s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04727444052696228,
+                    "speechRate": 5.927834987640381
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "就仲大危機咁而家我呢就好擔心即係誒我點樣解釋極呢都解釋唔到",
+                    "confidence": 0.8984939455986023,
+                    "startTime": "181.640s",
+                    "endTime": "188.780s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04933050274848938,
+                    "speechRate": 4.061624526977539
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "誒點樣可點樣解決嘅因為哩個唔係一個教仔嘅問題唔係一個升學嘅問題我解決唔到我只可以同你大家講就係",
+                    "confidence": 0.8438354730606079,
+                    "startTime": "189.580s",
+                    "endTime": "197.180s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04947640746831894,
+                    "speechRate": 6.184210300445557
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "即係除非即係同啲銀行啦尤其是匯豐啦而家好多時好多人都用匯豐啦",
+                    "confidence": 0.7889137864112854,
+                    "startTime": "197.740s",
+                    "endTime": "202.750s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.046336542814970016,
+                    "speechRate": 5.98802375793457
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "即係除非佢改善番佢嗰個風險諮詢同埋畀番一啲更大嘅動作如果唔係呢我諗有一個好大好大錢同埋",
+                    "confidence": 0.6040812730789185,
+                    "startTime": "203.440s",
+                    "endTime": "211.110s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.0649939626455307,
+                    "speechRate": 5.606257915496826
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "就會係套卡錢囉即係大家開始唔用啦即係我都覺得好驚即係不知不法係咁送係咁送係咁送啲卡畀我啦",
+                    "confidence": 0.702502429485321,
+                    "startTime": "211.300s",
+                    "endTime": "219.280s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04781922698020935,
+                    "speechRate": 5.513784408569336
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "但係誒嗯",
+                    "confidence": 0.8490011096000671,
+                    "startTime": "219.850s",
+                    "endTime": "220.840s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05516580119729042,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "都會出示",
+                    "confidence": 0.6115352511405945,
+                    "startTime": "222.110s",
+                    "endTime": "222.950s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03479399159550667,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "而家呢就畀緊哩張卡片佢啦",
+                    "confidence": 0.48258814215660095,
+                    "startTime": "5.730s",
+                    "endTime": "8.530s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03301730751991272,
+                    "speechRate": 4.285714149475098
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係呀",
+                    "confidence": 0.12096457928419113,
+                    "startTime": "9.850s",
+                    "endTime": "10.750s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03593059256672859,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "哩幾年呢即係你唔小心就有需要啦甚至係鼓勵上一啲去向嘅",
+                    "confidence": 0.36324650049209595,
+                    "startTime": "11.890s",
+                    "endTime": "17.860s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.0425981841981411,
+                    "speechRate": 4.355108737945557
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "其實呢",
+                    "confidence": 0.23771192133426666,
+                    "startTime": "2.220s",
+                    "endTime": "2.500s",
+                    "speakerTag": "003",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.009825355373322964,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-cantonese"
+        ]
+    }
+}

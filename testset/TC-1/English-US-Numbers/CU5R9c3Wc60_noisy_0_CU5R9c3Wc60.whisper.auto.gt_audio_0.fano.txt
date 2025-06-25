@@ -1,0 +1,124 @@
+i am selva pravacaran in this one let's understand clearly the bayesian optimization method for hyperparameter tuning now you know hyperparameter tuning is a key step in machine learning model building but it can be quite time taking so we will understand everything about by asian optimization specifically okay but to be clear let's quickly revise what is hyper parameter tuning in the first place or that everything will make sense and fallen past this is how a machine learning model building happens say you have the features and the variable that you want to predict x and y respectively this you have in your data the data his split into training data set on which the model will be actually trained then you will do the prediction on validation data set which has not been shown to the model during training right so you will do the prediction 
+x and y from the train is passed to the ml model this is the training process
+okay you get the predictions on the validation data set the y hat then you compare the y hat against the actual y from the validation data set
+>that you compute the error which is called the variation error right we want this error to be as low as possible in order to achieve that one of the techniques is we
+try to see how the model is performing that is the error performance is lower the error better the performance is now we
+try to are just various combinations
+of the hyper parameters of whichever emerald model that we are dealing with for example if we are dealing with say a random forestal garden the hyper parameter would be something like the number of estimators
+and say we match depth
+right and could be other parameters also
+likewise if you use say support vetamissions it could be what kernel you are using what kernel
+you are using what the value of the c parameters things like that right so for a specific value of these hyper parameters
+the error might be lowest this is what hyperparameter tuning is all about now the process of hyperparameter tuning itself is done using the most common method is using what is called the grid search for example you have two hyperparameters hyper parameter one and two and these are the possible values of hyperbarabit as one and two on the y axis right now we want to see for various combinations of these hyperparameters what does the model error risk either the error can be the lowest or you compute the accuracy of the 
+and try to reach the maximum accuracy whichever way whichever way that you want to do it so we train the models for all these combinations of both of these parameters and see which is the lowest error let's say ok this is grid source 
+whereas random search approaches slightly better than what grid search approaches that is
+we take random values of hyper parameters both one and two randomly we pick here they are equally spaced usually typicalld equally space ore a discrete value of hyperparameters we choose specific values of hyperparameter two also so it is always a combination of this and this whereas here since we are randomly picking 
+these points can be anywhere
+this may not be negrit because these points are is ra is randomly chosen between hyper parameters one and two
+we get the model here gets to see various different values of the hyper parameters right so here let's say the model got to see the hyperparameter value two only four different unique values but see here you can see the model has seen this value here
+this value here for this parameter this value here for this parameter this value
+so on and so forth right so the model gets to see multiple different values of fiber parameter both one and two both two and one here right
+so that is the advantage of random search okay the searches
+more more variety will be there however the problem is both of these approaches are time consuming in random search we will never ever get to probably know the lowest value of
+your hyperparameters
+i mean the the combination of hyper parameters that is going to give you the lowest value of the errors also the search space when we deal especially with grid search might be limited for example we are searching for
+these three values of hyperparameter one what of the optimal value lies outside these values right that is also a limitation when we deal with
+both of these approaches so these are drawbacks but the biggest drawback with both of these approaches is this now let's say here the red points and the green points are the points that you have hyper parameter one and hyper parameter yp two hyper parameter two
+of these points these reds and these greens
+are the points that the model has already trained on the whites are yet to be trained ah we know that the model is performing good in this region and it starts so good in this region now with this information this information is not used both of in both of grid search as well as random search but if this is the information given to you what would be the value or what would be the value that you would try for your next titration they are more likely to try around this area i sent it because this is green this is doing well right because this area is doing well we will
+try and find out for this particular region for the best
+possible parameter combination but we don't take that information account when into account when we are using grid search as well as random search so this is exactly what
+bayesian bayesian optimization is all about it also make use of the prior information
+to make the subsequent searches so that we will be able to find the optimal point quite fast
+so this is the fundamental idea behind by asian optimisation but how does this work so what we are concerned is about finding the
+probability of
+getting a specific model score getting a specific model score this could be model score this could be a
+cost function cost function or sorry the loss function loss function like error some type of an error or it could be accuracy
+by accuracy means we want to maximize it loss function means we want to minimize it error means we want to minimize it right so what's the problem they're getting a particular model score
+given a particular configuration of the hyper parameters so this is ultimately what we want to find out but
+we want to find this we want to find the configuration that gives the maximum or minimum
+depending on the objector
+giving them what is the configuration that gives the maximum model scope but at the same time we don't have the liberty of trying out
+all of these iterations all of these configurations possible right
+the number of iterations or the number of itrations means training here each training process is what we therefore do as itration
+the number of iterations is something that we want to reduce so we want to achieve this objective with minimum number of
+iterations how do we do this
+this essentially boils down into four steps first we need a serrogate model serrogate model starting but the model where we predict the model score or the objective function whatever we want to call it so practically objective function given
+a particular configuration of hyper parameters right so we will have a surrogate model at the same time we cannot
+estimate this for all possible combinations or all possible configurations right we want to minimise the number of iterations so we need an acquisition function also
+so this acquisition function will guide the search guide the search means if you are familiar with the concept of reinforcement learning
+if you are familiar with reinforcement
+learning with the idea behind say multiam bandits on all this is quite similar to that where this acquisition function
+will have the opportunity to explore either explore or explore explore means what it means is basically we know that these regions are doing well
+if we know that these readers are doing well we will try to for the next citration
+when it goes for an extra exploit option it will try to choose data points around this region okay so it will go for data points in this in this particular zone
+that would be explored explorer would be it will try to find out or try to test our data points that is farther away
+i randomly told you some other point somewhere in the boat and i'll try to explore how the
+models code turns out to be for a different configuration so that's what explorers so to do this there are various techniques such as the expected improvement method or the upper confidence bound method
+you can use to use as the acquisition function so this will essentially guide
+how the model or how the algorithm is searching for the next itrate
+next configuration of the hyperparameter so once the next itration or configuration is chosen we will use again the surrogate model in this step
+to evaluate the newly chosen configuration right so we will evaluate it
+find the score again score out the objective function again and then use that newly found information and store it back
+into the sarogate model again so this process that is steps two and three
+these will go on until the optimization of objective function does not improve anymore or the number of iterations that the user has set
+has been achieved so this is the whole idea behind it ah if you want to understand simply right if you want to understand simply what ah
+sublegate function versus surrogate function was as an acquisition function does it simply say this is your grade
+this is your hyper parameter
+hyper parameter grid say you have the hyperparameter one on hyper parameter two on the way axis okay now you have this grid
+think of this grid as a map okay this think of this grid as a map where only few data points we have sampled
+>we want to trace the lines in this map say you you have a particular country and you want to trace the lines and the lines where
+the lines are the lines are the points where your objective function
+the objective function is higher so higher the objective function supposed it was accuracy we want maximize that right suppose your objective is increasing that accuracy
+we want to go in a in a particular route
+that will reach us to the maximum suppose this is the point where it has the maximum highest accuracy starting somewhere randomly we want to reach this point
+at the fastest rate right the acquisition function the acquisition function is something that will that will estimate the height of these points okay think of this as a contour
+that you might have seen contour graphs and all
+>where you have say red colors dark red colors wherever the point is very high the value is very high heat maps kind of thing
+right and the milder the colour becomes the they lower the values up
+can think of it like this so the acquisition point acquisition function will help you estimate the value of the objective function
+at any given point right likewise the serag okay sorry the sarogate function i'm talking about sarogate function here
+surrogate function will estimate the subject to value and the and the acquisition function
+acquisition function will decide what route to take
+in order to reach the optimal point so this is the fundamental idea behind by asian optimisation let's implement this in quote okay so we will see a couple of implementations of
+hyperparameter optimization one is using the optina package the other is using gpy
+opt so both are good we will see both in this one so for optina you need to first install pill store optuna and psychic learn
+all right so once that is done i'll give you the link to the this this particular data set
+ah this particular notebook in the description please use that link to try to get this and try it out
+first we will import the packages opt in a number by pandas and from cyclone we are going to be using the breast cancer data set
+and we will also use these so basic steps
+first we will download the data load the data set which is the breast cancer data set we get the x the features and the y
+form the use train test split to form your x train x validation wide train and y validation
+basic steps now in order to do the hyperparameter optimisation we define the objective function this is the key this is the main part
+where you define what the hyper parameters are so you are passing it into a dictionary okay hyper parameters
+and what could be the potential values each of these parameters could take okay depending on what the nature of the values are
+here these are integious so trial suggestion ok this trial is the object that we are passing to the objective itself then we will train the train the random forest classifier
+fit it that is this is the training part itself then get the predicted values
+and compute the accuracy score and we are returning the accuracy score this is the objective function now once that is done we are ready to
+create a study that we are using
+the optunal this is person has a method inside optunal object itself and since we are using accuracy we are setting the direction as maximise
+ok so so the study is created they have got studied or to optimize
+the number of threats we are setting as hundred you can increase this number if you have more ah computation power and patience alright so this is the
+we are printing out the the number of trials it took the best parameters and the trial value itself so i have already run this code
+>and you can see it has run for about a hundred different titrations
+and at the end you get an accuracy of point nine six four nine
+ok so this is the best performance so once the model is once the training is done the search is done we use the best parameters so from study get the best trial and the parameters from that trail and rebuild this model
+okay we have to retrain this model using the best parameters and then you can do the prediction also so this is based on the optina package and
+now similarly if you slightly go down in this notebook we have the grid search cv as well as the random search
+after this we will implement using
+gpi opt so this is another package where you can use implement bation optimization we're first installing this now
+import gpa opd and this is in
+implemented on the iris data set same random forest classifier now we load the same steps we load the iris the x and the y
+then define the objective function again again same same stuff so we are defining the parameters these parameters instead of
+having it as a dictionary we are estimating we are creating separate objects for the parameters then pass them into the random forest classifier so these valleys are going directly inside
+all right then we are computing the score and since we want to minimize it it's always going to be minimize here
+we are e getting this core and adding a negative to it so now it's going to be even though this is an accuracy
+we are going to minimise here because it's having a negative sign
+so that was done we set the bounds for the various various hyper parameters we are defining the bounds
+and call gpiopt dot methods beijing optimization we pass the objective function bounce
+an acquisition function type equal two ei expected improvement he could also try the other options especially the ucb option
+which could also work well now once that is done we run the optimization and get the best parameters
+convert two integer values and then you can get the best parameter values once the best parameters values are estimated
+we need to sort of rebuild the model again that is the random forest classifier but the best parameters that we have found out
+after building that you can do the train test split with the model and get the best predictions so this is the code quite straightforward
+use the link in the description to tie this out on your wall

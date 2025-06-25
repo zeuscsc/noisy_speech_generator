@@ -1,1 +1,0 @@
-These are the main part where you define what the hyperparameters are so you are passing it in.

@@ -1,0 +1,2590 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "點解同一張信用卡有人用得好有人用到離晒譜呢",
+                    "confidence": 0.8708740472793579,
+                    "startTime": "0.100s",
+                    "endTime": "5.250s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04524648189544678,
+                    "speechRate": 4.077670097351074
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係",
+                    "confidence": 0.8768627047538757,
+                    "startTime": "15.430s",
+                    "endTime": "15.640s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07809049636125565,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "你使用都好信用卡嘅誕生唔可以話係逼你任何個喎我哋日常生活呀碌卡消費其實都預期嘅時間",
+                    "confidence": 0.6084539890289307,
+                    "startTime": "23.780s",
+                    "endTime": "31.610s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.040908437222242355,
+                    "speechRate": 5.236270904541016
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "一個首先會取消其他公司閣下支援嘅地方即係我哋個人方法可以唔可以解商家攞入啲誒",
+                    "confidence": 0.35062074661254883,
+                    "startTime": "31.810s",
+                    "endTime": "39.690s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.044425997883081436,
+                    "speechRate": 4.822335243225098
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "相信大家都會有人客嘅人手無論你投資者咁出色初五使用信用卡",
+                    "confidence": 0.7288037538528442,
+                    "startTime": "40.450s",
+                    "endTime": "47.050s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03464542701840401,
+                    "speechRate": 4.242424011230469
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "可予人直頭毀咗新增嘅故建立頒令嘅財富啦咁集就成立咗嗰刻",
+                    "confidence": 0.432898610830307,
+                    "startTime": "47.490s",
+                    "endTime": "53.170s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07337991148233414,
+                    "speechRate": 4.753520965576172
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "信用卡嘅方面背後藏住乜嘢假呢",
+                    "confidence": 0.6590790748596191,
+                    "startTime": "53.540s",
+                    "endTime": "57.100s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03358767181634903,
+                    "speechRate": 3.932584285736084
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "優惠曾足不同嘅信用卡工資到底點樣喺佢哋身上嘅就其實呢同我哋又可以點樣喺信用卡身上其實",
+                    "confidence": 0.7128978967666626,
+                    "startTime": "57.990s",
+                    "endTime": "65.700s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03712400048971176,
+                    "speechRate": 5.447470664978027
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "調番轉頭呢",
+                    "confidence": 0.6738377213478088,
+                    "startTime": "65.830s",
+                    "endTime": "66.490s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03520191088318825,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "你都唔嚟緊師傅教育係點㗎都會有啲傳聞新面貌亦都會見到多啲皇后層次嘅新嘅擁家其實務求都係",
+                    "confidence": 0.6402343511581421,
+                    "startTime": "72.300s",
+                    "endTime": "79.670s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03542294353246689,
+                    "speechRate": 5.834464073181152
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "更加貼嘅方式繼續將理財投資嘅知識情嘅嚴格面前啫業務大家多多支持啦",
+                    "confidence": 0.6562284231185913,
+                    "startTime": "79.860s",
+                    "endTime": "86.950s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.028202908113598824,
+                    "speechRate": 4.513399124145508
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "輕觸嘅演笑法呢主要同埋玩鍾意我哋同佢用嘅朋友記得要撳定要撳埋啲鐘仔隨時先睇",
+                    "confidence": 0.47735899686813354,
+                    "startTime": "87.500s",
+                    "endTime": "94.730s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03193221241235733,
+                    "speechRate": 5.117565631866455
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "like同埋訓練嘅朋友會就會錯過呢輕鬆學地要創投資嘅機會啦",
+                    "confidence": 0.5585678815841675,
+                    "startTime": "95s",
+                    "endTime": "99.570s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03196334093809128,
+                    "speechRate": 5.6892781257629395
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "一張方便畀個信用卡對主個人嚟講",
+                    "confidence": 0.554761528968811,
+                    "startTime": "102.010s",
+                    "endTime": "105.350s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.041111789643764496,
+                    "speechRate": 4.491017818450928
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "十個美國人裡面呀仍然有四個人呢都要出行㗎當中有一成嘅人",
+                    "confidence": 0.7123052477836609,
+                    "startTime": "107.300s",
+                    "endTime": "113.670s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03651541471481323,
+                    "speechRate": 4.23861837387085
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "一成都人稱自香港有六成嘅人只只有三張信用卡二零二三年",
+                    "confidence": 0.6682078838348389,
+                    "startTime": "114.090s",
+                    "endTime": "121.060s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03383580595254898,
+                    "speechRate": 3.7302725315093994
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "第四季港元一共郁咗一千六百億元卡數呀",
+                    "confidence": 0.6988832950592041,
+                    "startTime": "121.330s",
+                    "endTime": "126.050s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04006699100136757,
+                    "speechRate": 3.8135592937469482
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "到底信用卡表面上畀我哋嘅資格背後呢有幾大嘅問題呢嗱其實呢原來好多人",
+                    "confidence": 0.6508350968360901,
+                    "startTime": "126.340s",
+                    "endTime": "133.760s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.037732865661382675,
+                    "speechRate": 4.447439193725586
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "對於將擺出嚟包警審結他背後運作嘅原理仍然係一條份活躍",
+                    "confidence": 0.5604654550552368,
+                    "startTime": "134.020s",
+                    "endTime": "140.200s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03667526692152023,
+                    "speechRate": 4.207119941711426
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁於是呢都唔會同我問咗有關同事呢睇吓佢哋呢到底對信用卡嘅了解情況會點先",
+                    "confidence": 0.6978232264518738,
+                    "startTime": "140.740s",
+                    "endTime": "147.360s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.038494911044836044,
+                    "speechRate": 5.287009239196777
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "平時用信用卡投保啦佢哋又知唔知信用卡點樣截",
+                    "confidence": 0.6646974682807922,
+                    "startTime": "147.960s",
+                    "endTime": "153.230s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.032527390867471695,
+                    "speechRate": 3.9848196506500244
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "睇你平時對信用卡呢都唔係一支平衡嘅",
+                    "confidence": 0.7174769639968872,
+                    "startTime": "162.970s",
+                    "endTime": "166.980s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03790488839149475,
+                    "speechRate": 4.239401340484619
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "",
+                    "confidence": 0.17050684988498688,
+                    "startTime": "167.940s",
+                    "endTime": "168.120s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05304712429642677,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "其實喇要搞清楚信用卡嘅工作機制係好飛蛾",
+                    "confidence": 0.6021450757980347,
+                    "startTime": "168.890s",
+                    "endTime": "173.370s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03899385780096054,
+                    "speechRate": 4.2410712242126465
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "十",
+                    "confidence": 0.8484364151954651,
+                    "startTime": "174.160s",
+                    "endTime": "174.360s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06703236699104309,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁即係英文同埋fred",
+                    "confidence": 0.47363004088401794,
+                    "startTime": "175.380s",
+                    "endTime": "177.700s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.038962263613939285,
+                    "speechRate": 3.4482758045196533
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "喺金融世界裡面大致上",
+                    "confidence": 0.9386891722679138,
+                    "startTime": "178.740s",
+                    "endTime": "180.640s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03614630177617073,
+                    "speechRate": 5.263157844543457
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "或者一組債主有錢平直嘅人這一種平寨仔想要錢以事者囉",
+                    "confidence": 0.48356249928474426,
+                    "startTime": "181.440s",
+                    "endTime": "189.250s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.032345496118068695,
+                    "speechRate": 3.201024293899536
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "兩班人來來回咁去無限恢復經濟嘅運作但係要決定借唔借",
+                    "confidence": 0.6991080641746521,
+                    "startTime": "189.500s",
+                    "endTime": "195.310s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03515951707959175,
+                    "speechRate": 4.302926063537598
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "借幾多呢係咪就唔好靠到哩一樣嘢㗎係咪哩一個",
+                    "confidence": 0.34361788630485535,
+                    "startTime": "195.520s",
+                    "endTime": "199.720s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.0385744646191597,
+                    "speechRate": 5
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "喂其實任何人你好醜都會根據信貸紀錄㗎",
+                    "confidence": 0.4303562045097351,
+                    "startTime": "200.990s",
+                    "endTime": "205.170s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03844497725367546,
+                    "speechRate": 4.306220054626465
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "一般嘅選舉嘅準則未打上哩一邊嘅投訴呢",
+                    "confidence": 0.30318087339401245,
+                    "startTime": "205.470s",
+                    "endTime": "209.080s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.0679984986782074,
+                    "speechRate": 4.986149787902832
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "銀行信用卡公司係就係提供一個數字化唔夠數而平本借錢畀你嘅風險",
+                    "confidence": 0.5675159692764282,
+                    "startTime": "209.380s",
+                    "endTime": "216.500s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03788721188902855,
+                    "speechRate": 4.2134833335876465
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗱香港嘅信貸評分呢分為十級呢",
+                    "confidence": 0.7608103156089783,
+                    "startTime": "217.350s",
+                    "endTime": "220.730s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03385598585009575,
+                    "speechRate": 4.142011642456055
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "a同四㗎當中呢以a同埋最高每年日後仲按揭買樓又好啦",
+                    "confidence": 0.5818512439727783,
+                    "startTime": "221.570s",
+                    "endTime": "228.140s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.034042686223983765,
+                    "speechRate": 3.8051750659942627
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "借錢周轉又好啦仲要生意咁樣都要靠晒你哋嘅出價嗱",
+                    "confidence": 0.5435276627540588,
+                    "startTime": "228.440s",
+                    "endTime": "233.890s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03595942258834839,
+                    "speechRate": 4.220183372497559
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "最快可以獲得哩個信貸紀律嘅方法冇錯喇就係申請一張稅",
+                    "confidence": 0.7607616782188416,
+                    "startTime": "234.270s",
+                    "endTime": "241.480s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.034778084605932236,
+                    "speechRate": 3.4674062728881836
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "lesson",
+                    "confidence": 0.5237455368041992,
+                    "startTime": "244.050s",
+                    "endTime": "244.510s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03151260316371918,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "第一張有循環性嘅貸款方面嘅信用卡唔同嘅用法亦即係呢visa卡",
+                    "confidence": 0.38460981845855713,
+                    "startTime": "245.440s",
+                    "endTime": "253.200s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03411607816815376,
+                    "speechRate": 3.479381561279297
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嘅精神哩張卡表面上為現代方面",
+                    "confidence": 0.7785414457321167,
+                    "startTime": "253.390s",
+                    "endTime": "257.830s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.02617155946791172,
+                    "speechRate": 3.15315318107605
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "簡單啲一掃就可以呢先買後面喎但係當你拆開個包裝",
+                    "confidence": 0.7725404500961304,
+                    "startTime": "258.260s",
+                    "endTime": "263.810s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03467905893921852,
+                    "speechRate": 4.144144058227539
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "裡面其實呢係面部陷阱嘅金融產品當然啦大大間信用卡公司副政策咁呢",
+                    "confidence": 0.6510475277900696,
+                    "startTime": "264.110s",
+                    "endTime": "271.250s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.033279601484537125,
+                    "speechRate": 4.341736793518066
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "一張成立卡嘅為咗呀德國我哋嘅中心去進行新計劃呀現金編輯嗰種優惠質素",
+                    "confidence": 0.3388289511203766,
+                    "startTime": "271.640s",
+                    "endTime": "279.620s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04649565741419792,
+                    "speechRate": 4.135338306427002
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "點樣消遣同原來賺到我哋錢呀",
+                    "confidence": 0.695689857006073,
+                    "startTime": "280.040s",
+                    "endTime": "282.780s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03563748300075531,
+                    "speechRate": 4.74452543258667
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "對信用卡公司嚟講哩個世界唔同種人㗎月尾爭卡數會煙相係借青人",
+                    "confidence": 0.6713767051696777,
+                    "startTime": "283.640s",
+                    "endTime": "290.520s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03485683724284172,
+                    "speechRate": 4.215116500854492
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "同埋啦用完美全額還清卡數嘅人呢喺外國呢仲有個專有名詞嘅保險單而家",
+                    "confidence": 0.559942364692688,
+                    "startTime": "291.160s",
+                    "endTime": "298.080s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.0353243388235569,
+                    "speechRate": 4.624277591705322
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "不過即使哩班gap detail如果做住做數有時會唔會添呀嗰度㗎啦係咪先會公司",
+                    "confidence": 0.3211226165294647,
+                    "startTime": "305.820s",
+                    "endTime": "313.580s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03861694782972336,
+                    "speechRate": 3.994845390319824
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "一樣有我懷疑賺到錢嘅",
+                    "confidence": 0.4957696199417114,
+                    "startTime": "314.100s",
+                    "endTime": "316.080s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.036723170429468155,
+                    "speechRate": 5.0505051612854
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "哩一個係喺商家身上收取十年費呀一般係一點五至三個percent不大",
+                    "confidence": 0.7059498429298401,
+                    "startTime": "316.790s",
+                    "endTime": "323.460s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.033301837742328644,
+                    "speechRate": 4.047976016998291
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "以一間餐廳嘅額外一百萬五二啦收到renew percent charge即係呢就越爛五千蚊左右㗎啦",
+                    "confidence": 0.5549842715263367,
+                    "startTime": "323.910s",
+                    "endTime": "331.530s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03402286395430565,
+                    "speechRate": 4.199475288391113
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "所以啦你嘅每一筆大額消費都係多嘅叫做時間如果你係拎住黑卡嘅gv乘客",
+                    "confidence": 0.6120744943618774,
+                    "startTime": "332.010s",
+                    "endTime": "339.980s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.038408394902944565,
+                    "speechRate": 4.015056610107422
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "擺得都還美國嘅話有十點八億擺咗個個揸索嘅帶手圈的女人",
+                    "confidence": 0.5064565539360046,
+                    "startTime": "340.360s",
+                    "endTime": "346.580s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04274265840649605,
+                    "speechRate": 4.1800642013549805
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "剩係五點五percent手續費嘅都令信用卡公司大賺到二千七百萬㗎啦",
+                    "confidence": 0.7798822522163391,
+                    "startTime": "346.980s",
+                    "endTime": "352.550s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.035343848168849945,
+                    "speechRate": 4.8473968505859375
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "第二個方法就完成啦而會轉一單低收入只係環保圈披",
+                    "confidence": 0.6691527962684631,
+                    "startTime": "352.880s",
+                    "endTime": "359.120s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.035184938460588455,
+                    "speechRate": 3.6858973503112793
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "長期維持欠款狀態人涉及到依班人佔成個社會比例絕對負責",
+                    "confidence": 0.6356313824653625,
+                    "startTime": "359.330s",
+                    "endTime": "366.150s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03341154381632805,
+                    "speechRate": 3.812316656112671
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "一定睇到會答你哩個mode囉喎銀行嘅收入呀可以恐怖地形式建議",
+                    "confidence": 0.5534422993659973,
+                    "startTime": "366.880s",
+                    "endTime": "373.270s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.034397102892398834,
+                    "speechRate": 4.2253522872924805
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "到底有幾遠地呢吓可以做到唔買設施假設唔買入一半價值",
+                    "confidence": 0.4581553637981415,
+                    "startTime": "373.980s",
+                    "endTime": "380.700s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03376214578747749,
+                    "speechRate": 3.720238208770752
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "萬七千蚊嘅headphone去傳統有啲消費嗰一日曾經聞緊㗎啦",
+                    "confidence": 0.46319779753685,
+                    "startTime": "381.070s",
+                    "endTime": "386.640s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.038631636649370193,
+                    "speechRate": 3.949730634689331
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "只要喎你條款或者主嗰個月只係劃線ok嘅話",
+                    "confidence": 0.5844514966011047,
+                    "startTime": "387.380s",
+                    "endTime": "392.360s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03743884339928627,
+                    "speechRate": 3.815261125564575
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "話呢由簽帳日起要開始企釘計息",
+                    "confidence": 0.5648206472396851,
+                    "startTime": "393.420s",
+                    "endTime": "397.710s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.028740013018250465,
+                    "speechRate": 3.2634031772613525
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "一幅力咁幅息滾落去就話仲要計埋利息嘅利息呀",
+                    "confidence": 0.7469345927238464,
+                    "startTime": "397.970s",
+                    "endTime": "403.170s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.036005619913339615,
+                    "speechRate": 4.038461685180664
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "不設幾年呢你還嘅息會做好多會本身嗰個",
+                    "confidence": 0.39438655972480774,
+                    "startTime": "403.700s",
+                    "endTime": "408.490s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03762419521808624,
+                    "speechRate": 3.757828712463379
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "喺匯豐哩張信用卡嘅計數機入清楚喇數二萬七排一條會全部只係畫min pay",
+                    "confidence": 0.5890317559242249,
+                    "startTime": "408.950s",
+                    "endTime": "416.870s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03983470797538757,
+                    "speechRate": 3.9141414165496826
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "八十四年時間先至能夠話得先完全喇而總利息呢係無縫計現金成為",
+                    "confidence": 0.5921514630317688,
+                    "startTime": "417.140s",
+                    "endTime": "424.930s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03204299509525299,
+                    "speechRate": 3.7227213382720947
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "五萬五千蚊即係呢再幫兩部嘅婦媽媽咁就真係恭喜晒你啦所以嗱哩批",
+                    "confidence": 0.5454219579696655,
+                    "startTime": "425.290s",
+                    "endTime": "432.270s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03728723153471947,
+                    "speechRate": 4.297994136810303
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "只係能夠短暫帶嚟實現實際代價係咩呢被利息推利落嚟甚遠",
+                    "confidence": 0.6847272515296936,
+                    "startTime": "432.450s",
+                    "endTime": "439.110s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.036015745252370834,
+                    "speechRate": 3.9039039611816406
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "個行家所以千年千二個準成本呀嗱",
+                    "confidence": 0.32406193017959595,
+                    "startTime": "439.760s",
+                    "endTime": "446.400s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03521125018596649,
+                    "speechRate": 2.259036064147949
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "如果你冇嘅爭卡數呢係你嘅即係card公司嘅先最大收穫與蒙受",
+                    "confidence": 0.34615105390548706,
+                    "startTime": "446.850s",
+                    "endTime": "454.490s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.036377545446157455,
+                    "speechRate": 3.4031412601470947
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "佔二十個percent㗎其他仲有唔係lage charge等等有三份資源嘅收入呢",
+                    "confidence": 0.6775595545768738,
+                    "startTime": "454.850s",
+                    "endTime": "461.930s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03411167860031128,
+                    "speechRate": 3.5310733318328857
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "都係來自消費者本身即係信用卡持有人會唔會呀吓小部份收入",
+                    "confidence": 0.700103759765625,
+                    "startTime": "462.260s",
+                    "endTime": "468.900s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03192586451768875,
+                    "speechRate": 4.066265106201172
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "先至係就只需要增加除咗咁之外信用卡仲利用咗一點",
+                    "confidence": 0.6931154727935791,
+                    "startTime": "469.130s",
+                    "endTime": "475.840s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.0351841077208519,
+                    "speechRate": 3.427719831466675
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "按此唔止無關嘅波八五五賺嘅錢呢就係心寒冧咗",
+                    "confidence": 0.3907255530357361,
+                    "startTime": "476.010s",
+                    "endTime": "482.810s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.032604821026325226,
+                    "speechRate": 3.088235378265381
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "點解將條件單嘅設計點解右上角成為咗講總結會",
+                    "confidence": 0.5845043063163757,
+                    "startTime": "483.100s",
+                    "endTime": "489.980s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.043299492448568344,
+                    "speechRate": 3.052325487136841
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "仲要寫埋信用額最低限額先一開始呀批畀你嘅信用額",
+                    "confidence": 0.7044937014579773,
+                    "startTime": "490.450s",
+                    "endTime": "497.680s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03411056846380234,
+                    "speechRate": 3.18118953704834
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "點解會高過自己越新㗎宣傳網頁設計嗰啲呢一靚咁樣但係喎",
+                    "confidence": 0.7962170839309692,
+                    "startTime": "497.910s",
+                    "endTime": "503.960s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.032066818326711655,
+                    "speechRate": 4.297520637512207
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "去到打聲位睇條款同埋細則呢就三個體驗嘅電話哩啲都係經過無數實驗",
+                    "confidence": 0.6556591987609863,
+                    "startTime": "504.350s",
+                    "endTime": "511.060s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03462519124150276,
+                    "speechRate": 4.619970321655273
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "ab testing前提出嚟啦",
+                    "confidence": 0.5670719742774963,
+                    "startTime": "511.330s",
+                    "endTime": "513.660s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.030938221141695976,
+                    "speechRate": 3.0042917728424072
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係以至最鍾意嘅呢就係我哋哩啲環邊聯哩啲嘅狀態我哋集體嘅理財習慣漏習",
+                    "confidence": 0.628126323223114,
+                    "startTime": "522.210s",
+                    "endTime": "529.580s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.0355374738574028,
+                    "speechRate": 4.477612018585205
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "就令佢賺還錢喇咁所以喇點會精心打造國用嘅優惠冇意外發展",
+                    "confidence": 0.5333048105239868,
+                    "startTime": "529.760s",
+                    "endTime": "536.600s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.031838659197092056,
+                    "speechRate": 3.9473683834075928
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "真係未用到佢盡而準時懷疑錢嘅人唔幾多百分比呢嚟計過無果咁樣好在啦",
+                    "confidence": 0.5875083804130554,
+                    "startTime": "536.840s",
+                    "endTime": "544.460s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03221803531050682,
+                    "speechRate": 4.199475288391113
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我哋同事呢用信用卡嘅執法都上市健康嘅",
+                    "confidence": 0.7126249074935913,
+                    "startTime": "544.650s",
+                    "endTime": "548.730s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03127365931868553,
+                    "speechRate": 4.411764621734619
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "如果大家想知道嚴重過咩部門我對佢哋嘅碌卡習慣有咩唔同但係個話記得即刻上集司同埋答回你啦",
+                    "confidence": 0.5744990706443787,
+                    "startTime": "549.220s",
+                    "endTime": "556.280s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.039448630064725876,
+                    "speechRate": 6.090651512145996
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "有啲位呢情景有伴但係有啲位好搞笑㗎佢自己都可以",
+                    "confidence": 0.6193906664848328,
+                    "startTime": "556.570s",
+                    "endTime": "561.150s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.035969994962215424,
+                    "speechRate": 5.021833896636963
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "講到信用卡係馬索之義",
+                    "confidence": 0.5125329494476318,
+                    "startTime": "562.040s",
+                    "endTime": "564.170s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.0364975780248642,
+                    "speechRate": 4.694835662841797
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "但係對好多人嚟講呀依然同鬼大法院銀包呀至少放番去兩三張呢就行㗎啦",
+                    "confidence": 0.5839953422546387,
+                    "startTime": "564.900s",
+                    "endTime": "571.920s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03647986054420471,
+                    "speechRate": 4.558404445648193
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "因為嗱哩張卡依然呢帶畀我哋一定用唔切咁到底史先為之善用",
+                    "confidence": 0.6167532801628113,
+                    "startTime": "572.320s",
+                    "endTime": "579.550s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.035336147993803024,
+                    "speechRate": 3.7344398498535156
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "alex",
+                    "confidence": 0.24323730170726776,
+                    "startTime": "579.840s",
+                    "endTime": "580.930s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.028696198016405106,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "小編同埋二時講嘅係不同字嚟嘅正正係講出咗你嘅線面匹嘅",
+                    "confidence": 0.4061078429222107,
+                    "startTime": "589.610s",
+                    "endTime": "595.850s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.037746258080005646,
+                    "speechRate": 4.166666507720947
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "好大老細可以為善用信用卡可以分為兩個level level one係要去加數先嘅",
+                    "confidence": 0.733562707901001,
+                    "startTime": "596.360s",
+                    "endTime": "603.470s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03600454702973366,
+                    "speechRate": 3.938115358352661
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "最簡單直接呢就係適眾嘅優惠識得利用信用卡獎勵計劃呀",
+                    "confidence": 0.7816541790962219,
+                    "startTime": "603.770s",
+                    "endTime": "609.710s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03364111855626106,
+                    "speechRate": 4.208754062652588
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "迎新優惠呀回贈等等最好係行私人服務器機去決呢",
+                    "confidence": 0.47905439138412476,
+                    "startTime": "610.150s",
+                    "endTime": "615.650s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03794847056269646,
+                    "speechRate": 4
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "全額還款而且錢係咪主動揀食環者嘅信用卡囉而唔係等於信用卡嘅簡利呀",
+                    "confidence": 0.7506206035614014,
+                    "startTime": "615.790s",
+                    "endTime": "623.600s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.034591756761074066,
+                    "speechRate": 4.097311019897461
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係唔係都亂咁申請反過嚟只會增加咗唔同嘅債券㗎咋level two係城市措施位",
+                    "confidence": 0.6745606064796448,
+                    "startTime": "624.210s",
+                    "endTime": "631.850s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.035826705396175385,
+                    "speechRate": 4.057591438293457
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "借助信貸好處發揮更大嘅結果好多人聽到借錢政府同事下收穫",
+                    "confidence": 0.6846178770065308,
+                    "startTime": "632.360s",
+                    "endTime": "638.600s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03324984759092331,
+                    "speechRate": 4.32692289352417
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "譬如上一代都九釐你如果人哋爭我錢好過唔好賺人錢㗎",
+                    "confidence": 0.6960557699203491,
+                    "startTime": "639.140s",
+                    "endTime": "644.100s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03645016998052597,
+                    "speechRate": 4.838709831237793
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "你",
+                    "confidence": 0.2619866728782654,
+                    "startTime": "644.890s",
+                    "endTime": "645.140s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05580646172165871,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "雖然話信用卡唔係一個借貸嚟嘅唔係唔記得喎借錢本身",
+                    "confidence": 0.557597279548645,
+                    "startTime": "646.410s",
+                    "endTime": "653.100s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04338420182466507,
+                    "speechRate": 3.5874438285827637
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "關鍵呢嚟做啲誒借錢嗰好值呢誒你買邊一樣嘢唔準直接咁決定嗰個分債係唔係好賺",
+                    "confidence": 0.5007323026657104,
+                    "startTime": "653.610s",
+                    "endTime": "661.580s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03902845084667206,
+                    "speechRate": 4.51693868637085
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "就係一個好好嘅有錢人都係會定義就係而家佢哋會借錢去做一啲會增值",
+                    "confidence": 0.5436116456985474,
+                    "startTime": "662.130s",
+                    "endTime": "668.360s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.035835687071084976,
+                    "speechRate": 4.97592306137085
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "買一啲會升值嘅嘢或者會帶嚟正數變金融嘅資產咁如果你還錢為一蚊",
+                    "confidence": 0.8258784413337708,
+                    "startTime": "669.270s",
+                    "endTime": "675.970s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.033992838114500046,
+                    "speechRate": 4.477612018585205
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "但係你收入可以唱到一樣呢你話最多無限觀光只要慢慢慢慢咁幫你累積籌住慢慢咁用流水",
+                    "confidence": 0.4351673424243927,
+                    "startTime": "676.210s",
+                    "endTime": "683.660s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.039753250777721405,
+                    "speechRate": 5.234899520874023
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "例如喇係你要信用卡良好嘅環境記錄係提供first score大家首先要係",
+                    "confidence": 0.6134725213050842,
+                    "startTime": "684.030s",
+                    "endTime": "690.370s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.038980767130851746,
+                    "speechRate": 4.2586750984191895
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "一個健康嘅信貸記錄係唔好用超過信貸額嘅三成吓",
+                    "confidence": 0.748127281665802,
+                    "startTime": "690.650s",
+                    "endTime": "696.330s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03817269206047058,
+                    "speechRate": 3.873239517211914
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "越越呢亦都準時成本信貸評分今日氣味嚟講可能仲咁大",
+                    "confidence": 0.6185894012451172,
+                    "startTime": "697.080s",
+                    "endTime": "702.980s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03313466161489487,
+                    "speechRate": 4.06779670715332
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "但係對你人後呀打算做外父做生意如果突然因乜嘢事急需要錢周轉個話",
+                    "confidence": 0.781945526599884,
+                    "startTime": "703.500s",
+                    "endTime": "711.390s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03220009803771973,
+                    "speechRate": 3.9290239810943604
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "到時借到幾多成口幾多甚至即係行借到呢嗰啲score唔接納佢係關鍵性",
+                    "confidence": 0.5957033634185791,
+                    "startTime": "711.570s",
+                    "endTime": "718.030s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.033003948628902435,
+                    "speechRate": 4.489163875579834
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "證明唔到啲機構值得借錢畀你呢又唔係得一個方法而但係主一張信用卡period都冇個話",
+                    "confidence": 0.6648051142692566,
+                    "startTime": "718.340s",
+                    "endTime": "725.850s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.035145144909620285,
+                    "speechRate": 4.793608665466309
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "酒樓呀所以用credit call哩個制度嚟起碼相應變為資料嚟嘅啫關於好窄同埋債呢",
+                    "confidence": 0.46568453311920166,
+                    "startTime": "726.100s",
+                    "endTime": "733.050s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.039462629705667496,
+                    "speechRate": 4.604316711425781
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "每一集借錢一分別其實已經完成好局㗎啦有需要呢快啲去睇番哩集溫習啦",
+                    "confidence": 0.5466127395629883,
+                    "startTime": "733.230s",
+                    "endTime": "739.450s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03390679880976677,
+                    "speechRate": 5.1446943283081055
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "睇到哩度證明你哋自己嘅前才係好著重嘅即係但係如果你覺得投資世界",
+                    "confidence": 0.761410117149353,
+                    "startTime": "740.030s",
+                    "endTime": "746.530s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.032323528081178665,
+                    "speechRate": 4.769230842590332
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "似乎係一個充滿迷布嘅門宮個書本睇書議員睇好多好多本呢先去到十點八秒睇嗰啲",
+                    "confidence": 0.5245667695999146,
+                    "startTime": "746.730s",
+                    "endTime": "754.560s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03399115055799484,
+                    "speechRate": 4.597701072692871
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "誒講得出嚟搵食二十次命力輸嘅金錢嘅整個呢很高調解嘅話",
+                    "confidence": 0.4449266195297241,
+                    "startTime": "754.890s",
+                    "endTime": "760.270s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03848991170525551,
+                    "speechRate": 4.832713603973389
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "唔洗擔心啫為咗幫大家投資哩個投資嚟講我哋啱唔啱",
+                    "confidence": 0.6252917051315308,
+                    "startTime": "760.980s",
+                    "endTime": "765.430s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04400017112493515,
+                    "speechRate": 5.168539524078369
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "即係特別精心轉變咗一系列語語課半年嘅全新學習人先",
+                    "confidence": 0.6054279208183289,
+                    "startTime": "765.630s",
+                    "endTime": "770.750s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03255828842520714,
+                    "speechRate": 4.6875
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "如果你係想喺投資理財部上面走得更長更短快啲去完成埋回結或者scan吓哩個價局",
+                    "confidence": 0.7258700728416443,
+                    "startTime": "771.210s",
+                    "endTime": "779.080s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.031716786324977875,
+                    "speechRate": 4.447268009185791
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "都係顧慮喇咁得信用卡就有難工程期嚟嘅優惠著數嘅背後唔同嘅業務",
+                    "confidence": 0.5273246765136719,
+                    "startTime": "780.440s",
+                    "endTime": "787.150s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03529352694749832,
+                    "speechRate": 4.470938682556152
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "不過有啲好多有大小意見喎我哋一定只係被信用卡㗎",
+                    "confidence": 0.6960887908935547,
+                    "startTime": "787.780s",
+                    "endTime": "794.350s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03551369905471802,
+                    "speechRate": 3.500761032104492
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我哋都會主動視乎哩part無疑關面呢在於點樣試用想大家呢睇完點識眾個方面",
+                    "confidence": 0.4234168231487274,
+                    "startTime": "794.780s",
+                    "endTime": "802.500s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03887144848704338,
+                    "speechRate": 4.274611473083496
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "過年嘅事發生過嘅所以誒特登想畀大家三個steps大家萬寧好重要嘅第一",
+                    "confidence": 0.6209897398948669,
+                    "startTime": "802.670s",
+                    "endTime": "809.790s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.033260561525821686,
+                    "speechRate": 4.2134833335876465
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "數吓自己有幾多張信用卡知唔知總共嘅信貸額",
+                    "confidence": 0.8749629855155945,
+                    "startTime": "810.210s",
+                    "endTime": "815.330s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03495020046830177,
+                    "speechRate": 3.90625
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "但係睇晒最近一個月嘅信念客戶但你嘅消費層面嘅呢由原本呢我相信",
+                    "confidence": 0.6240183711051941,
+                    "startTime": "816.600s",
+                    "endTime": "823.930s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03086480312049389,
+                    "speechRate": 4.092769622802734
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "哩個定義surprise",
+                    "confidence": 0.675697386264801,
+                    "startTime": "824.260s",
+                    "endTime": "825.520s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.030475379899144173,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "三當初申請完成哩條信用卡嘅原因其實哩個原因",
+                    "confidence": 0.6131383776664734,
+                    "startTime": "826.440s",
+                    "endTime": "833.530s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03638129308819771,
+                    "speechRate": 2.9619181156158447
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "中成唔成立先會有冇需要符合呢",
+                    "confidence": 0.5486989617347717,
+                    "startTime": "833.750s",
+                    "endTime": "836.850s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03544020652770996,
+                    "speechRate": 4.516129016876221
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "做完公告個話歡迎大家下面流去解釋吓分享吓你嘅答案或者都可以寫低想我講啲咩",
+                    "confidence": 0.7185391187667847,
+                    "startTime": "837.720s",
+                    "endTime": "845.410s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.036656416952610016,
+                    "speechRate": 4.6814045906066895
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "而家預固定先下個星期有一個啟咗成四五年嘅神秘嘉賓上嚟見人睇㗎",
+                    "confidence": 0.6394175887107849,
+                    "startTime": "845.540s",
+                    "endTime": "852.310s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03090662509202957,
+                    "speechRate": 4.431314468383789
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "原來大家用信用卡都有事嘅同誒現代人冇咗信用卡會唔會自己出唔到呢",
+                    "confidence": 0.6075647473335266,
+                    "startTime": "852.830s",
+                    "endTime": "860.370s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.030667699873447418,
+                    "speechRate": 4.111405849456787
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "內容呢我得非常得意唔記得今集哩度啦鍾意點嘅我記得",
+                    "confidence": 0.5251914262771606,
+                    "startTime": "861s",
+                    "endTime": "868.160s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03731878474354744,
+                    "speechRate": 3.3519554138183594
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "其業務like a share明顯其實更多人知道哩類嘅理財甚至減免㗎啦記住投資",
+                    "confidence": 0.5804068446159363,
+                    "startTime": "868.340s",
+                    "endTime": "875.290s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.033359844237565994,
+                    "speechRate": 4.31654691696167
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "唔係大好知你吓知大家拜拜",
+                    "confidence": 0.4892217814922333,
+                    "startTime": "875.840s",
+                    "endTime": "878.780s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03356220945715904,
+                    "speechRate": 4.081632614135742
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "喺佢哩度show就好忙喺佢哩度所以話覺得呢我啦",
+                    "confidence": 0.37098515033721924,
+                    "startTime": "880.150s",
+                    "endTime": "883.780s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04378628358244896,
+                    "speechRate": 5.509641647338867
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "yes",
+                    "confidence": 0.9226030111312866,
+                    "startTime": "885.020s",
+                    "endTime": "885.410s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04333054646849632,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "估佢哋應該係賺嗰啲環保損贏嘅錢喎另外就係賺嗰啲商戶嗰啲合作費囉",
+                    "confidence": 0.8089012503623962,
+                    "startTime": "156.390s",
+                    "endTime": "162.760s",
+                    "speakerTag": "002",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.044053949415683746,
+                    "speechRate": 4.8665618896484375
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁樣呢個商戶嗰度有charge過",
+                    "confidence": 0.8588771224021912,
+                    "startTime": "153.770s",
+                    "endTime": "156s",
+                    "speakerTag": "003",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04300229623913765,
+                    "speechRate": 4.932735443115234
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "即係我哋八百後多咗啲呀即係係咪呀誒多咗少少",
+                    "confidence": 0.22906246781349182,
+                    "startTime": "6.880s",
+                    "endTime": "14.650s",
+                    "speakerTag": "004",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03806586563587189,
+                    "speechRate": 2.702702760696411
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "但係",
+                    "confidence": 0.3750278949737549,
+                    "startTime": "15.340s",
+                    "endTime": "15.810s",
+                    "speakerTag": "004",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06752920150756836,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嘅",
+                    "confidence": 0.15329861640930176,
+                    "startTime": "17.390s",
+                    "endTime": "17.860s",
+                    "speakerTag": "004",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.051204778254032135,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "好呀signal好呀",
+                    "confidence": 0.2320607751607895,
+                    "startTime": "20.880s",
+                    "endTime": "23.320s",
+                    "speakerTag": "004",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04633517935872078,
+                    "speechRate": 2.049180269241333
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嗯",
+                    "confidence": 0.03597612679004669,
+                    "startTime": "886.640s",
+                    "endTime": "886.850s",
+                    "speakerTag": "004",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.052630163729190826,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "都唔洗啦",
+                    "confidence": 0.2490939199924469,
+                    "startTime": "15.890s",
+                    "endTime": "16.630s",
+                    "speakerTag": "005",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05323055759072304,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "好多特務處",
+                    "confidence": 0.25205036997795105,
+                    "startTime": "581.030s",
+                    "endTime": "582.410s",
+                    "speakerTag": "006",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.027008535340428352,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "但係話可以即係做再發生本席嘅中間係唔好畀公開我身上我都",
+                    "confidence": 0.35505056381225586,
+                    "startTime": "582.640s",
+                    "endTime": "589.230s",
+                    "speakerTag": "006",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03778825327754021,
+                    "speechRate": 4.097116947174072
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "yeah what you need to the nevery his than to interest that i all the benefits in a pretty",
+                    "confidence": 0.3316558003425598,
+                    "startTime": "298.640s",
+                    "endTime": "305.590s",
+                    "speakerTag": "007",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04719192907214165,
+                    "speechRate": 2.7338130474090576
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-cantonese"
+        ]
+    }
+}

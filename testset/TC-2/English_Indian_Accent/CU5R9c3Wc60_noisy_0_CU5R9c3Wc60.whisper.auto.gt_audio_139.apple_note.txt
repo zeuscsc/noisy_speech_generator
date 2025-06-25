@@ -1,1 +1,0 @@
-You get an accuracy of 0.9649. Okay, so this is the best performance. So once the modelists, once the. 

@@ -1,0 +1,2248 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "i am selva pravacaran in this one let's understand clearly the bayesian optimization method for hyperparameter tuning now you know hyperparameter tuning is a key step in machine learning model building but it can be quite time taking so we will understand everything about by asian optimization specifically okay but to be clear let's quickly revise what is hyper parameter tuning in the first place or that everything will make sense and fallen past this is how a machine learning model building happens say you have the features and the variable that you want to predict x and y respectively this you have in your data the data his split into training data set on which the model will be actually trained then you will do the prediction on validation data set which has not been shown to the model during training right so you will do the prediction ",
+                    "confidence": 0.807118833065033,
+                    "startTime": "0.020s",
+                    "endTime": "45.340s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08417264372110367,
+                    "speechRate": 3.331862211227417
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "x and y from the train is passed to the ml model this is the training process",
+                    "confidence": 0.8771064281463623,
+                    "startTime": "45.450s",
+                    "endTime": "51s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.07493499666452408,
+                    "speechRate": 3.063063144683838
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "okay you get the predictions on the validation data set the y hat then you compare the y hat against the actual y from the validation data set",
+                    "confidence": 0.8428886532783508,
+                    "startTime": "51.110s",
+                    "endTime": "59.500s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08115419745445251,
+                    "speechRate": 3.337306261062622
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": ">that you compute the error which is called the variation error right we want this error to be as low as possible in order to achieve that one of the techniques is we",
+                    "confidence": 0.8614054322242737,
+                    "startTime": "59.610s",
+                    "endTime": "68.850s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08094921708106995,
+                    "speechRate": 3.6796536445617676
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "try to see how the model is performing that is the error performance is lower the error better the performance is now we",
+                    "confidence": 0.9221604466438293,
+                    "startTime": "68.900s",
+                    "endTime": "76.810s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08523136377334595,
+                    "speechRate": 2.9077117443084717
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "try to are just various combinations",
+                    "confidence": 0.9260720610618591,
+                    "startTime": "76.970s",
+                    "endTime": "80.280s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08655082434415817,
+                    "speechRate": 1.8126888275146484
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "of the hyper parameters of whichever emerald model that we are dealing with for example if we are dealing with say a random forestal garden the hyper parameter would be something like the number of estimators",
+                    "confidence": 0.7272963523864746,
+                    "startTime": "80.810s",
+                    "endTime": "91.480s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08304581046104431,
+                    "speechRate": 3.373945713043213
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "and say we match depth",
+                    "confidence": 0.909492552280426,
+                    "startTime": "92.290s",
+                    "endTime": "93.840s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.10098715871572495,
+                    "speechRate": 3.225806474685669
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "right and could be other parameters also",
+                    "confidence": 0.9097827672958374,
+                    "startTime": "94.610s",
+                    "endTime": "96.800s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.09691157191991806,
+                    "speechRate": 3.1963469982147217
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "likewise if you use say support vetamissions it could be what kernel you are using what kernel",
+                    "confidence": 0.7735982537269592,
+                    "startTime": "97.550s",
+                    "endTime": "104.410s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08201295137405396,
+                    "speechRate": 2.4781341552734375
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "you are using what the value of the c parameters things like that right so for a specific value of these hyper parameters",
+                    "confidence": 0.8853018879890442,
+                    "startTime": "104.540s",
+                    "endTime": "111.250s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08512374013662338,
+                    "speechRate": 3.427719831466675
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "the error might be lowest this is what hyperparameter tuning is all about now the process of hyperparameter tuning itself is done using the most common method is using what is called the grid search for example you have two hyperparameters hyper parameter one and two and these are the possible values of hyperbarabit as one and two on the y axis right now we want to see for various combinations of these hyperparameters what does the model error risk either the error can be the lowest or you compute the accuracy of the ",
+                    "confidence": 0.8231516480445862,
+                    "startTime": "111.300s",
+                    "endTime": "141s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08514801412820816,
+                    "speechRate": 3.1649832725524902
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "and try to reach the maximum accuracy whichever way whichever way that you want to do it so we train the models for all these combinations of both of these parameters and see which is the lowest error let's say ok this is grid source ",
+                    "confidence": 0.8234289288520813,
+                    "startTime": "141.160s",
+                    "endTime": "155s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08368249982595444,
+                    "speechRate": 3.323699474334717
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "whereas random search approaches slightly better than what grid search approaches that is",
+                    "confidence": 0.7662034630775452,
+                    "startTime": "155.190s",
+                    "endTime": "160.950s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08105507493019104,
+                    "speechRate": 2.256944417953491
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "we take random values of hyper parameters both one and two randomly we pick here they are equally spaced usually typicalld equally space ore a discrete value of hyperparameters we choose specific values of hyperparameter two also so it is always a combination of this and this whereas here since we are randomly picking ",
+                    "confidence": 0.7968970537185669,
+                    "startTime": "161s",
+                    "endTime": "179.200s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.0862739309668541,
+                    "speechRate": 2.9670329093933105
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "these points can be anywhere",
+                    "confidence": 0.935565173625946,
+                    "startTime": "179.300s",
+                    "endTime": "181.150s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.0919732078909874,
+                    "speechRate": 2.702702760696411
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "this may not be negrit because these points are is ra is randomly chosen between hyper parameters one and two",
+                    "confidence": 0.6408049464225769,
+                    "startTime": "181.860s",
+                    "endTime": "188.840s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.0864032432436943,
+                    "speechRate": 2.8653295040130615
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "we get the model here gets to see various different values of the hyper parameters right so here let's say the model got to see the hyperparameter value two only four different unique values but see here you can see the model has seen this value here",
+                    "confidence": 0.830336332321167,
+                    "startTime": "189.500s",
+                    "endTime": "204.170s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08610996603965759,
+                    "speechRate": 3.2719836235046387
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "this value here for this parameter this value here for this parameter this value",
+                    "confidence": 0.7862856388092041,
+                    "startTime": "204.630s",
+                    "endTime": "208.900s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08925708383321762,
+                    "speechRate": 3.278688430786133
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "so on and so forth right so the model gets to see multiple different values of fiber parameter both one and two both two and one here right",
+                    "confidence": 0.8568716645240784,
+                    "startTime": "209.190s",
+                    "endTime": "216.390s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08545529842376709,
+                    "speechRate": 3.8888888359069824
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "so that is the advantage of random search okay the searches",
+                    "confidence": 0.8509219288825989,
+                    "startTime": "216.690s",
+                    "endTime": "220.620s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08569396287202835,
+                    "speechRate": 2.7989821434020996
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "more more variety will be there however the problem is both of these approaches are time consuming in random search we will never ever get to probably know the lowest value of",
+                    "confidence": 0.9332386255264282,
+                    "startTime": "220.990s",
+                    "endTime": "231.480s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08677634596824646,
+                    "speechRate": 3.0505242347717285
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "your hyperparameters",
+                    "confidence": 0.6397570967674255,
+                    "startTime": "231.890s",
+                    "endTime": "233.200s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.09216607362031937,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "i mean the the combination of hyper parameters that is going to give you the lowest value of the errors also the search space when we deal especially with grid search might be limited for example we are searching for",
+                    "confidence": 0.8834404349327087,
+                    "startTime": "233.690s",
+                    "endTime": "243.700s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08411571383476257,
+                    "speechRate": 3.996004104614258
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "these three values of hyperparameter one what of the optimal value lies outside these values right that is also a limitation when we deal with",
+                    "confidence": 0.8930802345275879,
+                    "startTime": "243.940s",
+                    "endTime": "250.670s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08843039721250534,
+                    "speechRate": 3.714710235595703
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "both of these approaches so these are drawbacks but the biggest drawback with both of these approaches is this now let's say here the red points and the green points are the points that you have hyper parameter one and hyper parameter yp two hyper parameter two",
+                    "confidence": 0.8543702960014343,
+                    "startTime": "250.780s",
+                    "endTime": "266.310s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08481375128030777,
+                    "speechRate": 3.090791940689087
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "of these points these reds and these greens",
+                    "confidence": 0.9147993326187134,
+                    "startTime": "266.470s",
+                    "endTime": "270.330s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.0789199098944664,
+                    "speechRate": 2.0725388526916504
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "are the points that the model has already trained on the whites are yet to be trained ah we know that the model is performing good in this region and it starts so good in this region now with this information this information is not used both of in both of grid search as well as random search but if this is the information given to you what would be the value or what would be the value that you would try for your next titration they are more likely to try around this area i sent it because this is green this is doing well right because this area is doing well we will",
+                    "confidence": 0.8821888566017151,
+                    "startTime": "270.850s",
+                    "endTime": "300.210s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08756732940673828,
+                    "speechRate": 3.916893720626831
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "try and find out for this particular region for the best",
+                    "confidence": 0.9201409220695496,
+                    "startTime": "300.520s",
+                    "endTime": "303.200s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08274900168180466,
+                    "speechRate": 4.104477405548096
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "possible parameter combination but we don't take that information account when into account when we are using grid search as well as random search so this is exactly what",
+                    "confidence": 0.9071589708328247,
+                    "startTime": "303.450s",
+                    "endTime": "311.990s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08883735537528992,
+                    "speechRate": 3.512880563735962
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "bayesian bayesian optimization is all about it also make use of the prior information",
+                    "confidence": 0.8120496869087219,
+                    "startTime": "312.390s",
+                    "endTime": "318.900s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08024999499320984,
+                    "speechRate": 2.1505377292633057
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "to make the subsequent searches so that we will be able to find the optimal point quite fast",
+                    "confidence": 0.9401924014091492,
+                    "startTime": "319s",
+                    "endTime": "324.700s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08224956691265106,
+                    "speechRate": 3.1578948497772217
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "so this is the fundamental idea behind by asian optimisation but how does this work so what we are concerned is about finding the",
+                    "confidence": 0.9328001141548157,
+                    "startTime": "325.230s",
+                    "endTime": "332.840s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.09394527226686478,
+                    "speechRate": 3.153745174407959
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "probability of",
+                    "confidence": 0.9206119179725647,
+                    "startTime": "333.360s",
+                    "endTime": "335.180s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08289925754070282,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "getting a specific model score getting a specific model score this could be model score this could be a",
+                    "confidence": 0.8753761053085327,
+                    "startTime": "335.470s",
+                    "endTime": "341.870s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08563151210546494,
+                    "speechRate": 2.96875
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "cost function cost function or sorry the loss function loss function like error some type of an error or it could be accuracy",
+                    "confidence": 0.9330825805664062,
+                    "startTime": "341.890s",
+                    "endTime": "349.810s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08613891899585724,
+                    "speechRate": 2.9040403366088867
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "by accuracy means we want to maximize it loss function means we want to minimize it error means we want to minimize it right so what's the problem they're getting a particular model score",
+                    "confidence": 0.8700356483459473,
+                    "startTime": "350.040s",
+                    "endTime": "358.500s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08588805794715881,
+                    "speechRate": 4.255319118499756
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "given a particular configuration of the hyper parameters so this is ultimately what we want to find out but",
+                    "confidence": 0.8484690189361572,
+                    "startTime": "358.890s",
+                    "endTime": "365.680s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08425620198249817,
+                    "speechRate": 2.7982327938079834
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "we want to find this we want to find the configuration that gives the maximum or minimum",
+                    "confidence": 0.9351011514663696,
+                    "startTime": "366.100s",
+                    "endTime": "372.530s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08564729988574982,
+                    "speechRate": 2.643857002258301
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "depending on the objector",
+                    "confidence": 0.6002596616744995,
+                    "startTime": "373.070s",
+                    "endTime": "374.210s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08646227419376373,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "giving them what is the configuration that gives the maximum model scope but at the same time we don't have the liberty of trying out",
+                    "confidence": 0.8897234201431274,
+                    "startTime": "374.610s",
+                    "endTime": "381.400s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08938591182231903,
+                    "speechRate": 3.829160451889038
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "all of these iterations all of these configurations possible right",
+                    "confidence": 0.86259925365448,
+                    "startTime": "382.250s",
+                    "endTime": "386.080s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.09498164057731628,
+                    "speechRate": 2.6109659671783447
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "the number of iterations or the number of itrations means training here each training process is what we therefore do as itration",
+                    "confidence": 0.6793248057365417,
+                    "startTime": "386.640s",
+                    "endTime": "392.800s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08760794997215271,
+                    "speechRate": 3.5714285373687744
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "the number of iterations is something that we want to reduce so we want to achieve this objective with minimum number of",
+                    "confidence": 0.922551691532135,
+                    "startTime": "393s",
+                    "endTime": "400.530s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08430445939302444,
+                    "speechRate": 2.9216468334198
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "iterations how do we do this",
+                    "confidence": 0.8892401456832886,
+                    "startTime": "401.320s",
+                    "endTime": "403.590s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.07205355167388916,
+                    "speechRate": 2.643171787261963
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "this essentially boils down into four steps first we need a serrogate model serrogate model starting but the model where we predict the model score or the objective function whatever we want to call it so practically objective function given",
+                    "confidence": 0.7683581113815308,
+                    "startTime": "404.290s",
+                    "endTime": "417.500s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08864518254995346,
+                    "speechRate": 3.0280091762542725
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "a particular configuration of hyper parameters right so we will have a surrogate model at the same time we cannot",
+                    "confidence": 0.8352869153022766,
+                    "startTime": "417.850s",
+                    "endTime": "424.860s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08834175020456314,
+                    "speechRate": 2.85306715965271
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "estimate this for all possible combinations or all possible configurations right we want to minimise the number of iterations so we need an acquisition function also",
+                    "confidence": 0.9389752745628357,
+                    "startTime": "425.140s",
+                    "endTime": "434.610s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.09498091787099838,
+                    "speechRate": 2.7455122470855713
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "so this acquisition function will guide the search guide the search means if you are familiar with the concept of reinforcement learning",
+                    "confidence": 0.9244092106819153,
+                    "startTime": "434.920s",
+                    "endTime": "441.900s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08466348052024841,
+                    "speechRate": 3.151862382888794
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "if you are familiar with reinforcement",
+                    "confidence": 0.8217470645904541,
+                    "startTime": "442.190s",
+                    "endTime": "443.800s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.0864449292421341,
+                    "speechRate": 3.726708173751831
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "learning with the idea behind say multiam bandits on all this is quite similar to that where this acquisition function",
+                    "confidence": 0.8190661668777466,
+                    "startTime": "444.550s",
+                    "endTime": "451.120s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08366929739713669,
+                    "speechRate": 3.044140100479126
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "will have the opportunity to explore either explore or explore explore means what it means is basically we know that these regions are doing well",
+                    "confidence": 0.8575947880744934,
+                    "startTime": "451.540s",
+                    "endTime": "459.360s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08573836833238602,
+                    "speechRate": 3.1969308853149414
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "if we know that these readers are doing well we will try to for the next citration",
+                    "confidence": 0.7605496644973755,
+                    "startTime": "459.500s",
+                    "endTime": "463.050s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.09058200567960739,
+                    "speechRate": 4.788732528686523
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "when it goes for an extra exploit option it will try to choose data points around this region okay so it will go for data points in this in this particular zone",
+                    "confidence": 0.885327935218811,
+                    "startTime": "463.450s",
+                    "endTime": "470.860s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08373742550611496,
+                    "speechRate": 4.318488597869873
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "that would be explored explorer would be it will try to find out or try to test our data points that is farther away",
+                    "confidence": 0.842345654964447,
+                    "startTime": "471.570s",
+                    "endTime": "477.830s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08854940533638,
+                    "speechRate": 3.8338658809661865
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "i randomly told you some other point somewhere in the boat and i'll try to explore how the",
+                    "confidence": 0.7591603398323059,
+                    "startTime": "478.050s",
+                    "endTime": "482.360s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08057742565870285,
+                    "speechRate": 4.408352851867676
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "models code turns out to be for a different configuration so that's what explorers so to do this there are various techniques such as the expected improvement method or the upper confidence bound method",
+                    "confidence": 0.8645501732826233,
+                    "startTime": "482.970s",
+                    "endTime": "494.500s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08376900106668472,
+                    "speechRate": 3.0355594158172607
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "you can use to use as the acquisition function so this will essentially guide",
+                    "confidence": 0.9307891130447388,
+                    "startTime": "495.360s",
+                    "endTime": "500.580s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.07778988033533096,
+                    "speechRate": 2.681992292404175
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "how the model or how the algorithm is searching for the next itrate",
+                    "confidence": 0.7759777903556824,
+                    "startTime": "501.080s",
+                    "endTime": "505.700s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.0866428092122078,
+                    "speechRate": 2.8138527870178223
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "next configuration of the hyperparameter so once the next itration or configuration is chosen we will use again the surrogate model in this step",
+                    "confidence": 0.8824522495269775,
+                    "startTime": "506.170s",
+                    "endTime": "514.310s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08411120623350143,
+                    "speechRate": 2.9484028816223145
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "to evaluate the newly chosen configuration right so we will evaluate it",
+                    "confidence": 0.9269013404846191,
+                    "startTime": "514.940s",
+                    "endTime": "519.710s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08950850367546082,
+                    "speechRate": 2.51572322845459
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "find the score again score out the objective function again and then use that newly found information and store it back",
+                    "confidence": 0.90925133228302,
+                    "startTime": "520.150s",
+                    "endTime": "527.980s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.09152396023273468,
+                    "speechRate": 2.681992292404175
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "into the sarogate model again so this process that is steps two and three",
+                    "confidence": 0.8188542723655701,
+                    "startTime": "528.270s",
+                    "endTime": "533.640s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08434110879898071,
+                    "speechRate": 2.607076406478882
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "these will go on until the optimization of objective function does not improve anymore or the number of iterations that the user has set",
+                    "confidence": 0.8168243765830994,
+                    "startTime": "533.920s",
+                    "endTime": "541.600s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08940111100673676,
+                    "speechRate": 3.125
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "has been achieved so this is the whole idea behind it ah if you want to understand simply right if you want to understand simply what ah",
+                    "confidence": 0.8857386112213135,
+                    "startTime": "542.090s",
+                    "endTime": "548.550s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08509358763694763,
+                    "speechRate": 4.179566383361816
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "sublegate function versus surrogate function was as an acquisition function does it simply say this is your grade",
+                    "confidence": 0.6465462446212769,
+                    "startTime": "548.860s",
+                    "endTime": "556.040s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.07865002006292343,
+                    "speechRate": 2.5069637298583984
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "this is your hyper parameter",
+                    "confidence": 0.7703269124031067,
+                    "startTime": "556.510s",
+                    "endTime": "557.810s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.0961456447839737,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "hyper parameter grid say you have the hyperparameter one on hyper parameter two on the way axis okay now you have this grid",
+                    "confidence": 0.7261655926704407,
+                    "startTime": "558.540s",
+                    "endTime": "566.220s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08853158354759216,
+                    "speechRate": 2.9947917461395264
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "think of this grid as a map okay this think of this grid as a map where only few data points we have sampled",
+                    "confidence": 0.9252498745918274,
+                    "startTime": "566.780s",
+                    "endTime": "573.500s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08598824590444565,
+                    "speechRate": 3.5714285373687744
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": ">we want to trace the lines in this map say you you have a particular country and you want to trace the lines and the lines where",
+                    "confidence": 0.8711029291152954,
+                    "startTime": "574.030s",
+                    "endTime": "581.160s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08354966342449188,
+                    "speechRate": 3.9270687103271484
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "the lines are the lines are the points where your objective function",
+                    "confidence": 0.9395740628242493,
+                    "startTime": "581.700s",
+                    "endTime": "586.140s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08788704872131348,
+                    "speechRate": 2.702702760696411
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "the objective function is higher so higher the objective function supposed it was accuracy we want maximize that right suppose your objective is increasing that accuracy",
+                    "confidence": 0.8024072051048279,
+                    "startTime": "586.530s",
+                    "endTime": "594.290s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08267875760793686,
+                    "speechRate": 3.350515365600586
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "we want to go in a in a particular route",
+                    "confidence": 0.9193322062492371,
+                    "startTime": "594.760s",
+                    "endTime": "598.680s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08917700499296188,
+                    "speechRate": 2.551020383834839
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "that will reach us to the maximum suppose this is the point where it has the maximum highest accuracy starting somewhere randomly we want to reach this point",
+                    "confidence": 0.9028342962265015,
+                    "startTime": "599.270s",
+                    "endTime": "607.220s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08657152950763702,
+                    "speechRate": 3.52201247215271
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "at the fastest rate right the acquisition function the acquisition function is something that will that will estimate the height of these points okay think of this as a contour",
+                    "confidence": 0.9179543852806091,
+                    "startTime": "607.590s",
+                    "endTime": "617.290s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08405815064907074,
+                    "speechRate": 3.0927834510803223
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "that you might have seen contour graphs and all",
+                    "confidence": 0.8671334385871887,
+                    "startTime": "617.340s",
+                    "endTime": "619.720s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.07834672182798386,
+                    "speechRate": 3.781512498855591
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": ">where you have say red colors dark red colors wherever the point is very high the value is very high heat maps kind of thing",
+                    "confidence": 0.8610982894897461,
+                    "startTime": "620.170s",
+                    "endTime": "626.750s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08934743702411652,
+                    "speechRate": 3.9513678550720215
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "right and the milder the colour becomes the they lower the values up",
+                    "confidence": 0.9030560851097107,
+                    "startTime": "627.090s",
+                    "endTime": "631.030s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08738656342029572,
+                    "speechRate": 3.299492359161377
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "can think of it like this so the acquisition point acquisition function will help you estimate the value of the objective function",
+                    "confidence": 0.9423683285713196,
+                    "startTime": "631.150s",
+                    "endTime": "638.540s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08346529304981232,
+                    "speechRate": 2.9769959449768066
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "at any given point right likewise the serag okay sorry the sarogate function i'm talking about sarogate function here",
+                    "confidence": 0.761626660823822,
+                    "startTime": "639.020s",
+                    "endTime": "646s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08870519697666168,
+                    "speechRate": 2.8653295040130615
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "surrogate function will estimate the subject to value and the and the acquisition function",
+                    "confidence": 0.8572856187820435,
+                    "startTime": "646.170s",
+                    "endTime": "651.790s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08540943264961243,
+                    "speechRate": 2.491103172302246
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "acquisition function will decide what route to take",
+                    "confidence": 0.9217803478240967,
+                    "startTime": "652.200s",
+                    "endTime": "655.490s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08599072694778442,
+                    "speechRate": 2.4316110610961914
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "in order to reach the optimal point so this is the fundamental idea behind by asian optimisation let's implement this in quote okay so we will see a couple of implementations of",
+                    "confidence": 0.8760590553283691,
+                    "startTime": "655.840s",
+                    "endTime": "664.980s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08122901618480682,
+                    "speechRate": 3.6105031967163086
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "hyperparameter optimization one is using the optina package the other is using gpy",
+                    "confidence": 0.7333999276161194,
+                    "startTime": "665.250s",
+                    "endTime": "672.660s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.0832677036523819,
+                    "speechRate": 1.7543859481811523
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "opt so both are good we will see both in this one so for optina you need to first install pill store optuna and psychic learn",
+                    "confidence": 0.6561331748962402,
+                    "startTime": "673.250s",
+                    "endTime": "680.580s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.0837748721241951,
+                    "speechRate": 3.5470669269561768
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "all right so once that is done i'll give you the link to the this this particular data set",
+                    "confidence": 0.8665392398834229,
+                    "startTime": "681.330s",
+                    "endTime": "686.160s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08209335803985596,
+                    "speechRate": 4.140786647796631
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "ah this particular notebook in the description please use that link to try to get this and try it out",
+                    "confidence": 0.9127960205078125,
+                    "startTime": "686.340s",
+                    "endTime": "692.200s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.07774920016527176,
+                    "speechRate": 3.4129693508148193
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "first we will import the packages opt in a number by pandas and from cyclone we are going to be using the breast cancer data set",
+                    "confidence": 0.7225768566131592,
+                    "startTime": "692.450s",
+                    "endTime": "699.280s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08446458727121353,
+                    "speechRate": 3.806735038757324
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "and we will also use these so basic steps",
+                    "confidence": 0.6871554255485535,
+                    "startTime": "699.840s",
+                    "endTime": "703.300s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.07976705580949783,
+                    "speechRate": 2.601155996322632
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "first we will download the data load the data set which is the breast cancer data set we get the x the features and the y",
+                    "confidence": 0.9215368628501892,
+                    "startTime": "703.440s",
+                    "endTime": "710.100s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.0800873413681984,
+                    "speechRate": 3.9039039611816406
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "form the use train test split to form your x train x validation wide train and y validation",
+                    "confidence": 0.6916155815124512,
+                    "startTime": "710.580s",
+                    "endTime": "715.670s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08524476736783981,
+                    "speechRate": 3.5363457202911377
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "basic steps now in order to do the hyperparameter optimisation we define the objective function this is the key this is the main part",
+                    "confidence": 0.8693405985832214,
+                    "startTime": "715.970s",
+                    "endTime": "723.280s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08292319625616074,
+                    "speechRate": 3.2831737995147705
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "where you define what the hyper parameters are so you are passing it into a dictionary okay hyper parameters",
+                    "confidence": 0.6493460536003113,
+                    "startTime": "723.660s",
+                    "endTime": "729.040s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08640572428703308,
+                    "speechRate": 3.5315985679626465
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "and what could be the potential values each of these parameters could take okay depending on what the nature of the values are",
+                    "confidence": 0.8256003260612488,
+                    "startTime": "729.340s",
+                    "endTime": "735.730s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08661296218633652,
+                    "speechRate": 3.5993740558624268
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "here these are integious so trial suggestion ok this trial is the object that we are passing to the objective itself then we will train the train the random forest classifier",
+                    "confidence": 0.7329321503639221,
+                    "startTime": "735.900s",
+                    "endTime": "744.840s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.0818312019109726,
+                    "speechRate": 3.4675614833831787
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "fit it that is this is the training part itself then get the predicted values",
+                    "confidence": 0.8492820262908936,
+                    "startTime": "744.970s",
+                    "endTime": "749.490s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.0883132740855217,
+                    "speechRate": 3.3185839653015137
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "and compute the accuracy score and we are returning the accuracy score this is the objective function now once that is done we are ready to",
+                    "confidence": 0.9463981986045837,
+                    "startTime": "750.030s",
+                    "endTime": "756.750s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08436708152294159,
+                    "speechRate": 3.8690476417541504
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "create a study that we are using",
+                    "confidence": 0.9376623034477234,
+                    "startTime": "757.130s",
+                    "endTime": "760.200s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08829550445079803,
+                    "speechRate": 2.280130386352539
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "the optunal this is person has a method inside optunal object itself and since we are using accuracy we are setting the direction as maximise",
+                    "confidence": 0.7116056084632874,
+                    "startTime": "760.540s",
+                    "endTime": "767.500s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.07990749925374985,
+                    "speechRate": 3.591953992843628
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "ok so so the study is created they have got studied or to optimize",
+                    "confidence": 0.6458919644355774,
+                    "startTime": "767.730s",
+                    "endTime": "771.290s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08756520599126816,
+                    "speechRate": 3.932584285736084
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "the number of threats we are setting as hundred you can increase this number if you have more ah computation power and patience alright so this is the",
+                    "confidence": 0.8025115728378296,
+                    "startTime": "771.600s",
+                    "endTime": "778.660s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.0888824462890625,
+                    "speechRate": 3.966005563735962
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "we are printing out the the number of trials it took the best parameters and the trial value itself so i have already run this code",
+                    "confidence": 0.9136896133422852,
+                    "startTime": "778.750s",
+                    "endTime": "786.410s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08441554009914398,
+                    "speechRate": 3.3942558765411377
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": ">and you can see it has run for about a hundred different titrations",
+                    "confidence": 0.81594318151474,
+                    "startTime": "786.820s",
+                    "endTime": "792.100s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.0811544731259346,
+                    "speechRate": 2.651515245437622
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "and at the end you get an accuracy of point nine six four nine",
+                    "confidence": 0.8109413385391235,
+                    "startTime": "792.230s",
+                    "endTime": "796.020s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08831347525119781,
+                    "speechRate": 3.6939313411712646
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "ok so this is the best performance so once the model is once the training is done the search is done we use the best parameters so from study get the best trial and the parameters from that trail and rebuild this model",
+                    "confidence": 0.8927178978919983,
+                    "startTime": "796.150s",
+                    "endTime": "807.810s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08597692847251892,
+                    "speechRate": 3.687821626663208
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "okay we have to retrain this model using the best parameters and then you can do the prediction also so this is based on the optina package and",
+                    "confidence": 0.7882081270217896,
+                    "startTime": "808.360s",
+                    "endTime": "815.180s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08332803845405579,
+                    "speechRate": 4.105571746826172
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "now similarly if you slightly go down in this notebook we have the grid search cv as well as the random search",
+                    "confidence": 0.9248685836791992,
+                    "startTime": "815.450s",
+                    "endTime": "821.490s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08784905076026917,
+                    "speechRate": 3.6423840522766113
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "after this we will implement using",
+                    "confidence": 0.9207607507705688,
+                    "startTime": "822.070s",
+                    "endTime": "824.500s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08735385537147522,
+                    "speechRate": 2.4691357612609863
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "gpi opt so this is another package where you can use implement bation optimization we're first installing this now",
+                    "confidence": 0.7523608207702637,
+                    "startTime": "825.020s",
+                    "endTime": "832.400s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08051576465368271,
+                    "speechRate": 2.7100272178649902
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "import gpa opd and this is in",
+                    "confidence": 0.7109948992729187,
+                    "startTime": "832.660s",
+                    "endTime": "834.990s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08546862006187439,
+                    "speechRate": 3.0042917728424072
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "implemented on the iris data set same random forest classifier now we load the same steps we load the iris the x and the y",
+                    "confidence": 0.8222231864929199,
+                    "startTime": "835.160s",
+                    "endTime": "843.090s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08610740303993225,
+                    "speechRate": 3.152585029602051
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "then define the objective function again again same same stuff so we are defining the parameters these parameters instead of",
+                    "confidence": 0.8951584696769714,
+                    "startTime": "843.640s",
+                    "endTime": "850.580s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08578776568174362,
+                    "speechRate": 2.8818442821502686
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "having it as a dictionary we are estimating we are creating separate objects for the parameters then pass them into the random forest classifier so these valleys are going directly inside",
+                    "confidence": 0.9156098365783691,
+                    "startTime": "850.650s",
+                    "endTime": "859.650s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.0886642336845398,
+                    "speechRate": 3.444444417953491
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "all right then we are computing the score and since we want to minimize it it's always going to be minimize here",
+                    "confidence": 0.8732945919036865,
+                    "startTime": "859.940s",
+                    "endTime": "865.430s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08471116423606873,
+                    "speechRate": 4.1894354820251465
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "we are e getting this core and adding a negative to it so now it's going to be even though this is an accuracy",
+                    "confidence": 0.8775544762611389,
+                    "startTime": "865.860s",
+                    "endTime": "871.270s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.0832688957452774,
+                    "speechRate": 4.621072292327881
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "we are going to minimise here because it's having a negative sign",
+                    "confidence": 0.7994856834411621,
+                    "startTime": "872.150s",
+                    "endTime": "874.830s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.0957086980342865,
+                    "speechRate": 4.850746154785156
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "so that was done we set the bounds for the various various hyper parameters we are defining the bounds",
+                    "confidence": 0.7489100694656372,
+                    "startTime": "875.050s",
+                    "endTime": "880.600s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08588980883359909,
+                    "speechRate": 3.4234235286712646
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "and call gpiopt dot methods beijing optimization we pass the objective function bounce",
+                    "confidence": 0.8040580749511719,
+                    "startTime": "881.020s",
+                    "endTime": "888.090s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.07783381640911102,
+                    "speechRate": 1.8387552499771118
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "an acquisition function type equal two ei expected improvement he could also try the other options especially the ucb option",
+                    "confidence": 0.7856543064117432,
+                    "startTime": "888.420s",
+                    "endTime": "895.850s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08054205030202866,
+                    "speechRate": 2.6917901039123535
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "which could also work well now once that is done we run the optimization and get the best parameters",
+                    "confidence": 0.9014877080917358,
+                    "startTime": "895.900s",
+                    "endTime": "901.480s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08492476493120193,
+                    "speechRate": 3.405017852783203
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "convert two integer values and then you can get the best parameter values once the best parameters values are estimated",
+                    "confidence": 0.7901431918144226,
+                    "startTime": "901.970s",
+                    "endTime": "908.350s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.09100700169801712,
+                    "speechRate": 3.134796142578125
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "we need to sort of rebuild the model again that is the random forest classifier but the best parameters that we have found out",
+                    "confidence": 0.8246487975120544,
+                    "startTime": "909.040s",
+                    "endTime": "915.810s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.09958885610103607,
+                    "speechRate": 3.5450518131256104
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "after building that you can do the train test split with the model and get the best predictions so this is the code quite straightforward",
+                    "confidence": 0.8808645009994507,
+                    "startTime": "916.040s",
+                    "endTime": "923.480s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.07907827943563461,
+                    "speechRate": 3.360214948654175
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "use the link in the description to tie this out on your wall",
+                    "confidence": 0.8824519515037537,
+                    "startTime": "923.840s",
+                    "endTime": "926.650s",
+                    "speakerTag": "001",
+                    "languageCode": "en-HK",
+                    "rmsAmplitude": 0.08887699246406555,
+                    "speechRate": 4.6263346672058105
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-english"
+        ]
+    }
+}

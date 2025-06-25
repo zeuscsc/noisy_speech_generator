@@ -1,0 +1,826 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "大家好我是机密同学",
+                    "confidence": 0.8284667730331421,
+                    "startTime": "0.410s",
+                    "endTime": "2.110s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.043914150446653366,
+                    "speechRate": 5.294117450714111
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "有个伙伴跟我说他的汇丰是之前在香港用港澳通行证线上开户的现在想在汇丰交易美股",
+                    "confidence": 0.9411713480949402,
+                    "startTime": "2.840s",
+                    "endTime": "9.820s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06557463854551315,
+                    "speechRate": 5.444126129150391
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "发现需要提交护照才行比较麻烦",
+                    "confidence": 0.944259762763977,
+                    "startTime": "10.060s",
+                    "endTime": "12.480s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06560233235359192,
+                    "speechRate": 5.785123825073242
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "至于为什幺想在汇丰交易美股主要是考虑到汇丰有个叫trade二十五的优惠",
+                    "confidence": 0.903982937335968,
+                    "startTime": "13.350s",
+                    "endTime": "18.460s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06976138800382614,
+                    "speechRate": 6.0665364265441895
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "每个月二十五港币就能享受零股票佣金和零平台费满足一定条件还会有最高一千港元的apple store礼品卡",
+                    "confidence": 0.9116990566253662,
+                    "startTime": "18.710s",
+                    "endTime": "26.700s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.0548044890165329,
+                    "speechRate": 5.38172721862793
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我的香港汇丰也是用港澳通行证线上开户的前不久去香港就顺便去银行提交护照开通美股到了银行现场",
+                    "confidence": 0.921246349811554,
+                    "startTime": "27.560s",
+                    "endTime": "35.230s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06223389878869057,
+                    "speechRate": 5.867014408111572
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "柜员说修改开户证件开通美股是没那幺快的需要两个星期后再来一次香港才能完成",
+                    "confidence": 0.9273665547370911,
+                    "startTime": "35.430s",
+                    "endTime": "41.710s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.061360426247119904,
+                    "speechRate": 5.732483863830566
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "建议可以把现在的账户注销直接用护照重新开一次账户那会我没多想因为懒得再跑一趟香港",
+                    "confidence": 0.9017927050590515,
+                    "startTime": "42.110s",
+                    "endTime": "49.100s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.060395289212465286,
+                    "speechRate": 5.722460746765137
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "所以同意了人家的建议后面才发现挺无语的重新开户后柜员给了我新的银行卡和密码信",
+                    "confidence": 0.9244089722633362,
+                    "startTime": "49.290s",
+                    "endTime": "56.370s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05736512318253517,
+                    "speechRate": 5.367231845855713
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "并且把我的旧卡减掉了我跟柜员确认今天能否交易美股柜员跟我说投资账户需要重新申请",
+                    "confidence": 0.8768443465232849,
+                    "startTime": "56.560s",
+                    "endTime": "63.190s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06435059010982513,
+                    "speechRate": 5.882352828979492
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "于是当场帮我在app申请投资账户还说会有一封平邮信件寄给我需要我收到后拍照在app提交",
+                    "confidence": 0.9332879781723022,
+                    "startTime": "63.560s",
+                    "endTime": "71.520s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.053029414266347885,
+                    "speechRate": 4.8994975090026855
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "投资账户才会启动我突然反映过来以平邮的效率恐怕我一个月都收不到",
+                    "confidence": 0.8958016633987427,
+                    "startTime": "71.760s",
+                    "endTime": "77.030s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06063174828886986,
+                    "speechRate": 5.882352828979492
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "早知道不相互两个星期后再来一次香港无语了现在只能慢慢等",
+                    "confidence": 0.92172771692276,
+                    "startTime": "77.300s",
+                    "endTime": "81.590s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05386295169591904,
+                    "speechRate": 6.29370641708374
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "旧账户注销后最近日常使用中发现有些注意事项和大家分享一下第一",
+                    "confidence": 0.9449843764305115,
+                    "startTime": "82.750s",
+                    "endTime": "87.850s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.061334192752838135,
+                    "speechRate": 5.882352828979492
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我之前在香港券上用edda绑定的汇丰银行需要删除了得绑定新的汇丰银行卡",
+                    "confidence": 0.9257384538650513,
+                    "startTime": "88.090s",
+                    "endTime": "94.420s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.051871683448553085,
+                    "speechRate": 5.055292129516602
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "第二我需要在新的银行账户重新注册fps但是我发现现在不能注册",
+                    "confidence": 0.9382895827293396,
+                    "startTime": "95.450s",
+                    "endTime": "101.410s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.059115633368492126,
+                    "speechRate": 4.697986602783203
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "提示注册信息被另一账户占用联系银行客服后说是七个工作日会解决于是我就继续等",
+                    "confidence": 0.9386253952980042,
+                    "startTime": "101.620s",
+                    "endTime": "108.450s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05451253801584244,
+                    "speechRate": 5.417276859283447
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "等了两个星期了还没解决今天最新进度就是客服说旧账户状态依然有效",
+                    "confidence": 0.932858943939209,
+                    "startTime": "108.830s",
+                    "endTime": "113.910s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06233983114361763,
+                    "speechRate": 6.102362155914307
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "已通知有关工作人员在两个工作日内和我电话联系了解情况",
+                    "confidence": 0.9347903728485107,
+                    "startTime": "114.080s",
+                    "endTime": "118.590s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.051972970366477966,
+                    "speechRate": 5.76496696472168
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "第三旧账户的蓝狮子银行卡不能使用了需要重新申请",
+                    "confidence": 0.9441894292831421,
+                    "startTime": "119.860s",
+                    "endTime": "123.750s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05124080926179886,
+                    "speechRate": 5.912596225738525
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "第四我之前用内地银行往汇丰银行汇款保留了汇款模板需要更新模板中汇丰银行的收款信息",
+                    "confidence": 0.894559383392334,
+                    "startTime": "123.970s",
+                    "endTime": "130.840s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.0575871467590332,
+                    "speechRate": 5.822416305541992
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "否则汇款信息出错可能会浪费手续费还有个问题提交护照开通美股一定要本人到香港才能办吗",
+                    "confidence": 0.9329138398170471,
+                    "startTime": "131.080s",
+                    "endTime": "137.920s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.0602719746530056,
+                    "speechRate": 5.994152069091797
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "银行柜员当时明确跟我表示必须来香港因为要本人签字我后来在网上做了一些了解跟大家分享一下",
+                    "confidence": 0.930427074432373,
+                    "startTime": "138.360s",
+                    "endTime": "145.430s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.061390798538923264,
+                    "speechRate": 6.082036972045898
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "网友a说最香港汇丰现场提交护照柜员也是让他销户但是要求他下个星期再来用户照开户",
+                    "confidence": 0.8782321214675903,
+                    "startTime": "145.750s",
+                    "endTime": "152.370s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06186825782060623,
+                    "speechRate": 5.891238689422607
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "网友逼说柜员让他两个星期后再来现场提交w八表格才可以交易美股觉得太麻烦了换个分行咨询",
+                    "confidence": 0.9078419804573059,
+                    "startTime": "152.830s",
+                    "endTime": "160.060s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.0514046736061573,
+                    "speechRate": 5.809128761291504
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "柜员说可以护照和w八表格同时提交于是就一起办了不用两周后再来香港",
+                    "confidence": 0.9187589287757874,
+                    "startTime": "160.360s",
+                    "endTime": "166.090s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06406653672456741,
+                    "speechRate": 5.58464241027832
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "这幺看来我感觉好像是被坑了至少从结果来看我当初还不如不相互两个星期后再去趟香港",
+                    "confidence": 0.922264039516449,
+                    "startTime": "166.610s",
+                    "endTime": "173.060s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06257764995098114,
+                    "speechRate": 6.046511650085449
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "搞得我现在fps不能注册劝上edda要重新授权邮寄给我的平邮信件也还没收到确实费劲",
+                    "confidence": 0.8839430212974548,
+                    "startTime": "173.350s",
+                    "endTime": "180.390s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05143631994724274,
+                    "speechRate": 5.113636493682861
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "如果不方便去香港有网友表示在线客服答复可以在官网下载表格填写资料然后附上护照扫描件",
+                    "confidence": 0.9302137494087219,
+                    "startTime": "180.580s",
+                    "endTime": "188.250s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06703273206949234,
+                    "speechRate": 5.345501899719238
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "邮寄到指定的香港地址不过我也看到有人说如果是线上开户的",
+                    "confidence": 0.9425650238990784,
+                    "startTime": "188.500s",
+                    "endTime": "192.890s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.07235249131917953,
+                    "speechRate": 6.150341510772705
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "没有在分行现场留过签字是不允许使用邮寄表格的方式提交护照的",
+                    "confidence": 0.9226698875427246,
+                    "startTime": "193.080s",
+                    "endTime": "197.560s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06496097147464752,
+                    "speechRate": 6.473214149475098
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "或许这些是柜员跟我说一定要本人到香港才能办理的原因吧如果真是这样",
+                    "confidence": 0.9087933897972107,
+                    "startTime": "197.860s",
+                    "endTime": "202.610s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05718965828418732,
+                    "speechRate": 6.736842155456543
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "之前线上开户的伙伴应该无可避免需要至少去一次香港要幺跟我一样重新用护照开户然后重开投资账户",
+                    "confidence": 0.9296091198921204,
+                    "startTime": "202.880s",
+                    "endTime": "210.260s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.059646040201187134,
+                    "speechRate": 6.097560882568359
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "要幺看能否护照和w八表格同时提交不要两周后再去一趟香港啦建议去香港之前跟客服再确认清楚",
+                    "confidence": 0.9099510908126831,
+                    "startTime": "210.630s",
+                    "endTime": "218.180s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.059154193848371506,
+                    "speechRate": 5.695364475250244
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "从网友提供的客服聊天截图来看内地部分汇丰分行可能可以代办香港汇丰的资料修改业务",
+                    "confidence": 0.9337360262870789,
+                    "startTime": "218.520s",
+                    "endTime": "225.280s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05898277461528778,
+                    "speechRate": 5.769230842590332
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "可以电话咨询了解有哪些分行不过呢热情网友提醒如果让内地汇丰知道是和投资港美股有关",
+                    "confidence": 0.929628849029541,
+                    "startTime": "225.660s",
+                    "endTime": "232.360s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.0641615018248558,
+                    "speechRate": 5.970149040222168
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "会拒绝给你服务最后总结一下香港的银行股票交易费率通常比较高而且交易平台也不太好用",
+                    "confidence": 0.9456259608268738,
+                    "startTime": "232.630s",
+                    "endTime": "239.590s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.053469762206077576,
+                    "speechRate": 5.747126579284668
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "因为香港汇丰有trade二十五这个活动所以不少伙伴还是会考虑在汇丰交易美股",
+                    "confidence": 0.9082781076431274,
+                    "startTime": "239.940s",
+                    "endTime": "245.120s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05484277382493019,
+                    "speechRate": 6.370656490325928
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "关于trade二十五的具体规则可以到官网了解需要注意股票交易佣金平台费",
+                    "confidence": 0.6418473124504089,
+                    "startTime": "245.490s",
+                    "endTime": "251.830s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.056817829608917236,
+                    "speechRate": 4.889589786529541
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "还有印花税交收费等相关部门收取的费用",
+                    "confidence": 0.9477287530899048,
+                    "startTime": "252.080s",
+                    "endTime": "254.860s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06734129041433334,
+                    "speechRate": 6.474820137023926
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "因为汇丰的到港线上申请只能用港澳通行证所以内地居民如果想在汇丰交易美股还是要带护照去银行现场开户",
+                    "confidence": 0.9209944009780884,
+                    "startTime": "255.670s",
+                    "endTime": "263.560s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.061614956706762314,
+                    "speechRate": 6.0836501121521
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "对于之前已经用港澳通行证线上开户的伙伴联系客服咨询最新的解决方案吧可能需要至少再去一趟香港",
+                    "confidence": 0.9260298609733582,
+                    "startTime": "264.010s",
+                    "endTime": "271.360s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06978168338537216,
+                    "speechRate": 6.122448921203613
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "再不然就直接找券商开户版把银行的资金转到券商再交易美股",
+                    "confidence": 0.8940666317939758,
+                    "startTime": "271.730s",
+                    "endTime": "276.090s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.05717639997601509,
+                    "speechRate": 6.192660331726074
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "好了本期内容文字版已在同名公号发布",
+                    "confidence": 0.8330494165420532,
+                    "startTime": "276.940s",
+                    "endTime": "279.530s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.06096971035003662,
+                    "speechRate": 6.563706398010254
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我是精密同学如果你喜欢我的内容请点赞关注我会持续做出更多的优质内容",
+                    "confidence": 0.8913785815238953,
+                    "startTime": "282.550s",
+                    "endTime": "288.680s",
+                    "speakerTag": "001",
+                    "languageCode": "cmn-Hans-HK",
+                    "rmsAmplitude": 0.04905121773481369,
+                    "speechRate": 5.383360385894775
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-mandarin"
+        ]
+    }
+}

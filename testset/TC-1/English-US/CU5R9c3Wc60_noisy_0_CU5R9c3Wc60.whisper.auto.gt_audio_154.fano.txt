@@ -1,1 +1,0 @@
-parameters we are defining the bounds and call gpiopt methods beijing optimization we pass the

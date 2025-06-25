@@ -1,1 +1,0 @@
-What is called the grid search? For example, you have 2 hyperparameters, hyperparameter, 1 and

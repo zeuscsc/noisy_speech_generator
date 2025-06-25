@@ -1,0 +1,1384 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "hello大家同大家講講呢匯豐或者匯豐啦因為今日呢喺我哋食飯時間呢佢公佈咗業績嘅咁我成日都話啦",
+                    "confidence": 0.8753842115402222,
+                    "startTime": "0.250s",
+                    "endTime": "7.500s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.062640480697155,
+                    "speechRate": 5.931034564971924
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我係識最少股票嘅股票人但係希望呢我識嗰啲呢係認真嘅誒深入嘅研究",
+                    "confidence": 0.8993976712226868,
+                    "startTime": "7.840s",
+                    "endTime": "13.540s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.031953804194927216,
+                    "speechRate": 5.438596725463867
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁相對個跟匯控呢跟得比較足呢都想同大家分享番呢整體嘅一個嘅業務前景啦同埋個業績嘅好啦",
+                    "confidence": 0.8957818746566772,
+                    "startTime": "13.840s",
+                    "endTime": "21.100s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03845150023698807,
+                    "speechRate": 5.785123825073242
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "表面上睇呢佢哋嘅盈利呢就好似按年跌咗二十五個percent咁咪即係好差但係你又會見到呢",
+                    "confidence": 0.8817311525344849,
+                    "startTime": "21.340s",
+                    "endTime": "27.870s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.049083441495895386,
+                    "speechRate": 5.66615629196167
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係比市場預期為好喎咁點解市場會預期咁差呢其實好簡單舊年即係二零二四年嘅第一季呢",
+                    "confidence": 0.8593529462814331,
+                    "startTime": "28.060s",
+                    "endTime": "35.800s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04228592664003372,
+                    "speechRate": 5.038759708404541
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "有兩單大嘅錶嘅一單呢就係賣出哩個意大利啦另一單呢就係誒",
+                    "confidence": 0.8942158222198486,
+                    "startTime": "36.090s",
+                    "endTime": "41.750s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04403166100382805,
+                    "speechRate": 4.770318031311035
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "將會準備賣出哩個嘅阿根廷咁哩兩單標嘅一個影響性呢就係賣出加拿大呢",
+                    "confidence": 0.9192144870758057,
+                    "startTime": "41.930s",
+                    "endTime": "48.440s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04778241366147995,
+                    "speechRate": 4.9155144691467285
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "其實係有哩一個四十幾億嘅美金嘅盈利嘅而潛在賣出阿根廷呢就要做十一億嘅",
+                    "confidence": 0.833983838558197,
+                    "startTime": "48.720s",
+                    "endTime": "55.710s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04630571976304054,
+                    "speechRate": 4.864091396331787
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "一個嘅撥備所以net net計數個話呢係唔關平時嘅營運呢因為哩兩單deal呢",
+                    "confidence": 0.9154729247093201,
+                    "startTime": "55.950s",
+                    "endTime": "62.250s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05773921310901642,
+                    "speechRate": 4.761904716491699
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係多咗三十幾億美金咁好簡單啦因為舊年第一季誒哩啲嘅錶呢",
+                    "confidence": 0.8664398789405823,
+                    "startTime": "62.560s",
+                    "endTime": "68.390s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06783517450094223,
+                    "speechRate": 4.631217956542969
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "令到個呀叫做盈利其實收入啦多咗卅廿幾億今年第一季冇哩啲deal㗎嘛咁比較之下呢",
+                    "confidence": 0.8932856321334839,
+                    "startTime": "68.630s",
+                    "endTime": "75.570s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06975700706243515,
+                    "speechRate": 5.187319755554199
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "就自自然呢少咗卅廿幾億呢咁少咗卅廿幾億呢咪好明顯會有一個即係三成幾呀四成嘅一個嘅跌幅囉",
+                    "confidence": 0.6205821633338928,
+                    "startTime": "75.800s",
+                    "endTime": "82.730s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.051741618663072586,
+                    "speechRate": 6.204905986785889
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "而最後即係跌廿五percent個話呢咁好明顯就係好過預期啦再直接啲去講個話就係我哋唔計哩兩單deal",
+                    "confidence": 0.9034603834152222,
+                    "startTime": "83.050s",
+                    "endTime": "90.590s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05700605362653732,
+                    "speechRate": 5.437665939331055
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "扣番哩卅廿幾億嘅話呢其實收入同埋盈利呢都係喺今年嘅第一季呢係有增長嘅係喇咁所以就",
+                    "confidence": 0.9086333513259888,
+                    "startTime": "90.860s",
+                    "endTime": "98.350s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06399700790643692,
+                    "speechRate": 5.3404541015625
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "唔存在因為大家嘅誒預期好低所以倒退二十五percent呢都叫做好過預期係實質上",
+                    "confidence": 0.9207389950752258,
+                    "startTime": "98.580s",
+                    "endTime": "106.120s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06835779547691345,
+                    "speechRate": 4.376657962799072
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "以營運角度嚟講呢真係比舊年第一季呢做得好咗少少嘅",
+                    "confidence": 0.9242501258850098,
+                    "startTime": "106.330s",
+                    "endTime": "111.420s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04686097800731659,
+                    "speechRate": 4.715127468109131
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "好啦第二部份啦你明白咗哩部份之後呢我哋做番一個比較誒叫做誒detail啲嘅分析去分析匯控嘅業績呢",
+                    "confidence": 0.9049538373947144,
+                    "startTime": "112.370s",
+                    "endTime": "119.730s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.060421448200941086,
+                    "speechRate": 5.842391490936279
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "其實好簡單四樣嘢嘅啫我自己寫文章同埋做一啲嘅呀講座都係咁講㗎第一係收入",
+                    "confidence": 0.8949401378631592,
+                    "startTime": "120s",
+                    "endTime": "126.620s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06137237697839737,
+                    "speechRate": 5.287009239196777
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "當然啦收入個話呢分成利息收入同埋呀佣金收入啦或者非利息收入",
+                    "confidence": 0.9189720749855042,
+                    "startTime": "126.980s",
+                    "endTime": "132.500s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06298454105854034,
+                    "speechRate": 5.253623008728027
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁你息收入嚟講就係睇信貸嘅情況啦即係有幾多貸款啦好多人借錢嘅好啦第二就係息差",
+                    "confidence": 0.8718682527542114,
+                    "startTime": "132.960s",
+                    "endTime": "138.950s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05816184729337692,
+                    "speechRate": 6.343906402587891
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "另外啦佣金收入呢通常就係同個市場嘅呀投資氣氛相關誒喺今日嚟講呢我哋簡單啲剩係睇收入",
+                    "confidence": 0.923191487789154,
+                    "startTime": "139.360s",
+                    "endTime": "146.420s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.059806134551763535,
+                    "speechRate": 5.807365417480469
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係第一樣嘢第二樣嘢就係成本啦當然咁呀收入成本第三樣嘢呢",
+                    "confidence": 0.9099771976470947,
+                    "startTime": "146.710s",
+                    "endTime": "152.480s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06618215888738632,
+                    "speechRate": 4.679376125335693
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係最難去預計就叫ecl係expected credit lost喺過去哩幾年裡面呢新嘅會計制度就話啦",
+                    "confidence": 0.9116880297660828,
+                    "startTime": "152.710s",
+                    "endTime": "159.890s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04748309403657913,
+                    "speechRate": 4.317548751831055
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "你要前瞻未來嘅營運情況預計有幾多撥備就率先喺哩個profit and loss嘅帳目裡面呢",
+                    "confidence": 0.8531777262687683,
+                    "startTime": "160.190s",
+                    "endTime": "167.700s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05519867688417435,
+                    "speechRate": 4.39414119720459
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "入帳係啦咁所以哩個呢都係一個減數嚟嘅第四就係我哋叫ppb pbp就係profit before tex",
+                    "confidence": 0.7989875674247742,
+                    "startTime": "167.910s",
+                    "endTime": "175.640s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06239679083228111,
+                    "speechRate": 4.139715194702148
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "就係講緊稅前嘅利潤所以四個部份收入支出expected credit loss嘅部備同埋哩個盈利",
+                    "confidence": 0.8093253374099731,
+                    "startTime": "175.970s",
+                    "endTime": "183.390s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07084302604198456,
+                    "speechRate": 4.1778974533081055
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "誒稅前吓就可能好容易了解啦呀咁今年第一季嘅情況係點呢收入係比預期為好嘅",
+                    "confidence": 0.8636851906776428,
+                    "startTime": "183.670s",
+                    "endTime": "190.840s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07171081006526947,
+                    "speechRate": 4.881450653076172
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁哩樣嘢呢就會呀令到整體條數靚咗好多啦所以縱使成本方面呢",
+                    "confidence": 0.922456681728363,
+                    "startTime": "191.220s",
+                    "endTime": "196.180s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06409141421318054,
+                    "speechRate": 5.645161151885986
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "誒根據管理層之前嘅guiders啦預咗係升㗎啦咁符合預期啦expected loss呢報備嗰度呢大家都知㗎啦",
+                    "confidence": 0.7246554493904114,
+                    "startTime": "196.470s",
+                    "endTime": "203.340s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04855695366859436,
+                    "speechRate": 5.385735034942627
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "其實誒好多嘅經營環境轉差啦誒包括係誒香港呀內地呀等等啦咁所以個撥備呢都增加咗",
+                    "confidence": 0.8601877093315125,
+                    "startTime": "203.550s",
+                    "endTime": "210.780s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.0487632229924202,
+                    "speechRate": 5.255878448486328
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "誒有所增加而我哋講緊比預期呢都係高咗少少但係唔緊要喇因為個收入嘅",
+                    "confidence": 0.8995373249053955,
+                    "startTime": "211.300s",
+                    "endTime": "218.670s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.058469172567129135,
+                    "speechRate": 4.341926574707031
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "誒上升係比較多所以以當個成本係控制得同預期相近而ecl只係多咗少少個話呢",
+                    "confidence": 0.9126988053321838,
+                    "startTime": "218.990s",
+                    "endTime": "226.330s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05992558225989342,
+                    "speechRate": 4.632152557373047
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "最後個profit report test呢咪高過預期囉咁所以今次嚟計個話呢我諗應該係已經涉及第三個季度呢",
+                    "confidence": 0.8552325367927551,
+                    "startTime": "226.630s",
+                    "endTime": "234.180s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.08182347565889359,
+                    "speechRate": 5.033112525939941
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "連續誒匯控嘅盈利呢係或者叫業績啦係好過市場預期咁呀應該畀個叻佢嘅第二啦",
+                    "confidence": 0.8370341062545776,
+                    "startTime": "234.390s",
+                    "endTime": "241.060s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05519411340355873,
+                    "speechRate": 5.247376441955566
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "關乎派息哩部份呀咁誒以一年嘅角度計呢誒匯控嘅管理層都講咗",
+                    "confidence": 0.8213101625442505,
+                    "startTime": "242.050s",
+                    "endTime": "248.370s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05339905992150307,
+                    "speechRate": 4.430379867553711
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係會根據佢哋盈利嘅五成咁但係要留意頭三季呢都係各派零點一美金嘅郁呢",
+                    "confidence": 0.9381477236747742,
+                    "startTime": "248.580s",
+                    "endTime": "255.370s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05239461734890938,
+                    "speechRate": 4.860088348388672
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "就正常係郁第四季變相你見到市場預期呀係零點一咁最後就係零點一哩個其實唔洗預期",
+                    "confidence": 0.9279598593711853,
+                    "startTime": "255.530s",
+                    "endTime": "263.080s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05038195475935936,
+                    "speechRate": 5.033112525939941
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "基本上就知㗎啦如果你見到有啲人同你講零點零九呀零點一一呀嗰啲呢就真係唔洗再聽佢講㗎啦",
+                    "confidence": 0.9224169254302979,
+                    "startTime": "263.300s",
+                    "endTime": "270.080s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.061363235116004944,
+                    "speechRate": 6.194690227508545
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁另外當然啦按年去睇個話呢你會見到舊年第一季呢係零點三一因為賣嘢呢有特別息咁我之前見管理層呢佢哋都透露咗",
+                    "confidence": 0.8772380948066711,
+                    "startTime": "270.320s",
+                    "endTime": "278.270s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.055620696395635605,
+                    "speechRate": 6.5408806800842285
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "今年呢就冇特別息㗎啦所以你預咗啦零點一零點一零點一咁第四季呢就睇吓全年嘅業績",
+                    "confidence": 0.9306917786598206,
+                    "startTime": "278.540s",
+                    "endTime": "285.930s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05483447387814522,
+                    "speechRate": 5.142084121704102
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "究竟嗰個情況會係點啦咁理論上如果今年嘅業績同舊年比較冇倒退個話呢咁都係派五成嘅利潤",
+                    "confidence": 0.9285051822662354,
+                    "startTime": "286.200s",
+                    "endTime": "293.900s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.0589231438934803,
+                    "speechRate": 5.324675559997559
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "就換句話說嗰個派息就唔會少過舊年嘅咁亦都代表住呢個息率相對上嚟講呢係吸引嘅",
+                    "confidence": 0.9401761889457703,
+                    "startTime": "294.170s",
+                    "endTime": "301.830s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.052456509321928024,
+                    "speechRate": 4.830286979675293
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "好啦第三樣嘢啦喺個回扣嗰度有啲人就話呀上次呢就叫做縮咗馬",
+                    "confidence": 0.8671872615814209,
+                    "startTime": "302.100s",
+                    "endTime": "307.360s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.060222648084163666,
+                    "speechRate": 5.3231940269470215
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "今次呢就加碼回扣去到三十億美金誒我又覺得好搞笑啦因為呢同樣地就係我見管理層嘅時候呢",
+                    "confidence": 0.9012587666511536,
+                    "startTime": "307.600s",
+                    "endTime": "315.270s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.053329214453697205,
+                    "speechRate": 5.345501899719238
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "得到一個信息誒你唔好畀二十億三十億係去迷惑咗你簡單上嚟講呀簡單上嚟講",
+                    "confidence": 0.8419599533081055,
+                    "startTime": "315.510s",
+                    "endTime": "321.860s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05004130303859711,
+                    "speechRate": 5.354330539703369
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "就係每個月大概十億咁喇上次公佈業績呢咁公務第四季呀嘛就係二月廿幾號嘅",
+                    "confidence": 0.8714779019355774,
+                    "startTime": "322.790s",
+                    "endTime": "329.430s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.0581829659640789,
+                    "speechRate": 5.120481967926025
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁公佈第一季嘅季績就係今日啦就係四月廿幾號啦二月同四月中間呢就相距兩個月咁所以上一次",
+                    "confidence": 0.9020310044288635,
+                    "startTime": "329.920s",
+                    "endTime": "337.400s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.0614277683198452,
+                    "speechRate": 5.614973068237305
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "二月廿幾嗰部業績呢就係兩個月呀嘛每個月十億呀嘛咪二十億嘅回扣囉今次係四月廿幾號",
+                    "confidence": 0.91908860206604,
+                    "startTime": "337.640s",
+                    "endTime": "343.830s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06726827472448349,
+                    "speechRate": 6.300484657287598
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "幾時要公佈第二季季績呀咪七月廿幾號囉咁所以四月去到七月五六七",
+                    "confidence": 0.8660200834274292,
+                    "startTime": "344.140s",
+                    "endTime": "350.330s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05851059406995773,
+                    "speechRate": 4.846526622772217
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係三個月所以今次呢咪就係三十億囉其實冇改變過㗎唔係二十億三十億二十億跳嚟跳去",
+                    "confidence": 0.8986849784851074,
+                    "startTime": "351.290s",
+                    "endTime": "358.240s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06416372209787369,
+                    "speechRate": 5.467626094818115
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "你以為係咁樣因為你唔了解啫其實就大概係每個月嘅十億嘅好啦",
+                    "confidence": 0.9309266209602356,
+                    "startTime": "358.480s",
+                    "endTime": "363.240s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05818033963441849,
+                    "speechRate": 5.882352828979492
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "誒簡單地同大家分析過個業嗰個所謂嘅盈利數據喇誒唔係因為大家預期低係因為舊年第一季",
+                    "confidence": 0.8178167939186096,
+                    "startTime": "363.580s",
+                    "endTime": "370.990s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07088188081979752,
+                    "speechRate": 5.398110866546631
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "有啲非經常性一次性嘅撥備或者係誒要做誒收入扯高咗條數",
+                    "confidence": 0.890908420085907,
+                    "startTime": "371.250s",
+                    "endTime": "378.520s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05768681317567825,
+                    "speechRate": 3.576341152191162
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "第二啦就教表咗大家呢喺匯控嘅業績同埋其他銀行業績呢就睇四樣嘢第三啦就講咗派息你都唔洗諗㗎啦",
+                    "confidence": 0.8874347805976868,
+                    "startTime": "378.910s",
+                    "endTime": "386.580s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06180085986852646,
+                    "speechRate": 5.867014408111572
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "第一二三季呢就係零點一美金㗎啦咁第四樣嘢呢就拆解埋呢哩一個嘅叫做回扣",
+                    "confidence": 0.9281883239746094,
+                    "startTime": "386.950s",
+                    "endTime": "393.360s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.056174613535404205,
+                    "speechRate": 5.3042120933532715
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "其實呢就係十億一個月嘅咁只不過視乎兩次公務業績嘅時間係長係短",
+                    "confidence": 0.9395180940628052,
+                    "startTime": "393.640s",
+                    "endTime": "400.240s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03944852575659752,
+                    "speechRate": 4.545454502105713
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "就斷定到係二十億定三十億好啦最後啦買賣投資策略啦咁我都講過啦",
+                    "confidence": 0.9239901900291443,
+                    "startTime": "400.510s",
+                    "endTime": "405.740s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07014251500368118,
+                    "speechRate": 5.736137866973877
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "誒短期可以受到市場氣氛或者其他因素影響啦中長期呢我計數嘅今年嘅匯豐或者匯控啦",
+                    "confidence": 0.8616448044776917,
+                    "startTime": "406.080s",
+                    "endTime": "413.810s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05907271429896355,
+                    "speechRate": 4.91591215133667
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "佢嘅book value呢就係十個一毫九咁你乘以七點七半或者七點八啦大概係八十蚊倒",
+                    "confidence": 0.9313934445381165,
+                    "startTime": "414.110s",
+                    "endTime": "420.170s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.054811179637908936,
+                    "speechRate": 5.445544719696045
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁以一倍p book去計呢就係誒哩個就係八十蚊囉因為佢p book係八十呀嘛一倍咪八十囉嗱所以我覺得",
+                    "confidence": 0.8398123979568481,
+                    "startTime": "420.540s",
+                    "endTime": "428.110s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07173915952444077,
+                    "speechRate": 5.548216819763184
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "八十蚊係一個相對合理嘅嘅價錢八十蚊以下呢大家係可以係誒選誒可以分注投投資啦",
+                    "confidence": 0.8445430994033813,
+                    "startTime": "428.360s",
+                    "endTime": "436.050s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05977946147322655,
+                    "speechRate": 4.811443328857422
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "如果誒given佢而家講緊個rote面對關稅都會做到十五percent嘅話呢理論上市場往呢真係可以",
+                    "confidence": 0.8777021169662476,
+                    "startTime": "436.670s",
+                    "endTime": "444.490s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07336297631263733,
+                    "speechRate": 4.603580474853516
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "誒交易價格呢可以上到一點二呀一點三倍嘅p book嘅如果係咁個話呢咁其實都去到九廿幾廿百嘅",
+                    "confidence": 0.826280951499939,
+                    "startTime": "444.670s",
+                    "endTime": "451.490s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05485055595636368,
+                    "speechRate": 6.011730194091797
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "一百蚊鬆啲咁但係下面嚟計嘅話呢咁你會知啦零點八p book呢就係相當之低嘅",
+                    "confidence": 0.8333956599235535,
+                    "startTime": "451.730s",
+                    "endTime": "458.460s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06331460922956467,
+                    "speechRate": 4.903417587280273
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "除非你話美國經濟衰退啦否則我覺得匯豐跌穿零點八嘅機會唔係太大咁即係大概六十零蚊倒啦",
+                    "confidence": 0.9403941631317139,
+                    "startTime": "458.770s",
+                    "endTime": "465.710s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05399860069155693,
+                    "speechRate": 5.90778112411499
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "好喇咁所以你見到之前誒當關稅戰打響嘅時間匯豐曾經單日跌十五percent但係到七十零蚊呢",
+                    "confidence": 0.8810374140739441,
+                    "startTime": "465.920s",
+                    "endTime": "473.700s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06445632129907608,
+                    "speechRate": 4.884318828582764
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "就已經見到大量嘅投資者吸納並且好快反彈因為七十零蚊嘅時間你上網係二十幾蚊三十蚊",
+                    "confidence": 0.8889408111572266,
+                    "startTime": "473.950s",
+                    "endTime": "481.360s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05021074041724205,
+                    "speechRate": 5.263157844543457
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "下面嘅空跌嘅空間呢可能係八至十蚊直播率高呀咁所以呢見到投好多機構投資者呢都會睇住",
+                    "confidence": 0.8931213021278381,
+                    "startTime": "481.790s",
+                    "endTime": "489.240s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07375948131084442,
+                    "speechRate": 5.3691277503967285
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "誒四五六釐嘅息啦一個直播率高嘅水平呢去買入好啦返番嚟啦所以我會覺得呢",
+                    "confidence": 0.8382006883621216,
+                    "startTime": "489.520s",
+                    "endTime": "494.450s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06903597712516785,
+                    "speechRate": 6.896551609039307
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "現價嚟講誒就未必係太過吸引但係如果落番八十蚊個話以一個中長期嘅投資",
+                    "confidence": 0.9121926426887512,
+                    "startTime": "494.720s",
+                    "endTime": "501.230s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.050902821123600006,
+                    "speechRate": 5.069124221801758
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係有機會賺息賺價咁呀大家呢可以繼續留意住啦咁呀誒以往嚟計呢我都好榮幸係",
+                    "confidence": 0.8549008965492249,
+                    "startTime": "501.420s",
+                    "endTime": "507.900s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05750936269760132,
+                    "speechRate": 5.4012346267700195
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "誒被邀請去參加誒匯控每次業績嘅一個誒誒個股評人嘅發佈會嘅因為任我哋問嘅",
+                    "confidence": 0.8456228375434875,
+                    "startTime": "508.230s",
+                    "endTime": "515.950s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.050748080015182495,
+                    "speechRate": 4.5336785316467285
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "但係可能今次因為我離職咗咁呀誒access唔到以前嘅工作email咁我估計佢send畀我呢就打回頭",
+                    "confidence": 0.9193609356880188,
+                    "startTime": "516.170s",
+                    "endTime": "523.410s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05590864270925522,
+                    "speechRate": 5.11049747467041
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "所以今次呢我就冇參加到嘅咁但係都會盡快搵番你啦希望下次呢係可以繼續參加哩個發佈會咁其實",
+                    "confidence": 0.8969240784645081,
+                    "startTime": "523.650s",
+                    "endTime": "531.240s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06342532485723495,
+                    "speechRate": 5.665349006652832
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "誒香港都係幾位股權嘅係獲邀嘅啫咁希望可以喺未來之間繼續係跟進住匯控嘅發展",
+                    "confidence": 0.7294459939002991,
+                    "startTime": "531.520s",
+                    "endTime": "537.960s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05618896707892418,
+                    "speechRate": 5.590062141418457
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "同大家呢息時跟進好講咗咁多先咁我就唔係證監會持牌人啦亦都冇持有匯控嘅拜拜",
+                    "confidence": 0.8374300003051758,
+                    "startTime": "538.210s",
+                    "endTime": "544.750s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07798075675964355,
+                    "speechRate": 5.504587173461914
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-cantonese"
+        ]
+    }
+}

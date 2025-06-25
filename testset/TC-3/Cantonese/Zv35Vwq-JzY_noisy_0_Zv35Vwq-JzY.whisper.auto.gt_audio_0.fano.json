@@ -1,0 +1,1762 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "各位網友大家好呀咁今段片呢就想同大家比較吓匯豐銀行嘅信用卡啦",
+                    "confidence": 0.8218153715133667,
+                    "startTime": "0s",
+                    "endTime": "5.490s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07546088099479675,
+                    "speechRate": 5.464480876922607
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁匯豐銀行嘅信用卡呢出咗名就係優惠多啦",
+                    "confidence": 0.9330073595046997,
+                    "startTime": "5.880s",
+                    "endTime": "9.240s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04913286864757538,
+                    "speechRate": 5.654761791229248
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "例如你會見到依家做緊apple store簽帳會額外多六個percent獎賞錢嘅回贈啦",
+                    "confidence": 0.9254111051559448,
+                    "startTime": "9.550s",
+                    "endTime": "15.370s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03387449309229851,
+                    "speechRate": 4.8109965324401855
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "喺中國內地簽帳會有高達五個percent嘅回贈啦咁同埋有專有簽帳獎賞啦會高達",
+                    "confidence": 0.9158023595809937,
+                    "startTime": "15.770s",
+                    "endTime": "22.790s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.027281906455755234,
+                    "speechRate": 4.558404445648193
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "額外一千蚊嘅獎賞錢啦咁仲有最紅自主獎賞錢嘅加碼咁最高可以額外多三千蚊獎賞",
+                    "confidence": 0.9406224489212036,
+                    "startTime": "23.020s",
+                    "endTime": "30.710s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.026789985597133636,
+                    "speechRate": 4.6814045906066895
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "係優惠十分之多嘅咁匯豐有好多張信用卡啦咁相信對新客嚟講可能唔知揀邊張好",
+                    "confidence": 0.8610607385635376,
+                    "startTime": "30.940s",
+                    "endTime": "38.160s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.033784739673137665,
+                    "speechRate": 4.847645282745361
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁今日哩段片呢就想同大家比較吓哩幾張信用卡咁方便大家去做選擇",
+                    "confidence": 0.9412975907325745,
+                    "startTime": "38.470s",
+                    "endTime": "43.840s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.024474287405610085,
+                    "speechRate": 5.586592197418213
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "補充一下呢hsbc嘅信用卡呢係用獎賞錢去回贈嘅可以用一蚊一蚊",
+                    "confidence": 0.39074715971946716,
+                    "startTime": "44.360s",
+                    "endTime": "51.690s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05878516659140587,
+                    "speechRate": 3.683492422103882
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "攞嚟勾信用卡卡數咁都可以換asia miles嘅里數咁第一張首先講就係hsbc嘅red card啦",
+                    "confidence": 0.8833328485488892,
+                    "startTime": "51.910s",
+                    "endTime": "59.230s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05283207446336746,
+                    "speechRate": 4.371584892272949
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁哩張卡有咩特別嘅地方呢咁首先就係網上簽帳會有四個percent嘅回贈啦",
+                    "confidence": 0.9252098798751831,
+                    "startTime": "59.430s",
+                    "endTime": "64.740s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05185247212648392,
+                    "speechRate": 5.649717330932617
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "指定類別會有一個percent回贈啦其他本地或者海外簽帳就得番零點四個percent回贈",
+                    "confidence": 0.9229104518890381,
+                    "startTime": "65.080s",
+                    "endTime": "71.420s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.029435716569423676,
+                    "speechRate": 5.047318458557129
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "除咗現金回贈之外呢仲可以揀里數回贈啦",
+                    "confidence": 0.9344375133514404,
+                    "startTime": "71.630s",
+                    "endTime": "74.560s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.045765042304992676,
+                    "speechRate": 6.143344879150391
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁網上簽帳呢每消費二點五蚊呢就會有一里咁都幾抵嘅",
+                    "confidence": 0.9026855826377869,
+                    "startTime": "75.580s",
+                    "endTime": "80.920s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.0410660095512867,
+                    "speechRate": 4.494381904602051
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "指定類別呢每消費十蚊就會有一里咁其他類別呢就每消費廿五蚊就會有一里",
+                    "confidence": 0.8992030620574951,
+                    "startTime": "81.230s",
+                    "endTime": "87.840s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03795311599969864,
+                    "speechRate": 4.992435932159424
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "指定類別嘅簽帳呢就會包括五個類別嘅第一個就係餐飲啦第二個就係海外及中國內地嘅消費",
+                    "confidence": 0.9267255663871765,
+                    "startTime": "88.590s",
+                    "endTime": "95.320s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05340852960944176,
+                    "speechRate": 5.943536281585693
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "第三個呢就係休閒娛樂第四個就係居家日常",
+                    "confidence": 0.8853716254234314,
+                    "startTime": "95.550s",
+                    "endTime": "98.920s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.044426508247852325,
+                    "speechRate": 5.637982368469238
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "第五個就係生活品味咁我自己鍾意regard地方就係第一佢網上簽帳會有四個percent回贈啦",
+                    "confidence": 0.8597597479820251,
+                    "startTime": "99.090s",
+                    "endTime": "104.670s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.034670986235141754,
+                    "speechRate": 6.272401332855225
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "即係你買一百蚊嘢就回番四蚊畀你非常之好啦咁第二就係佢可以換現金",
+                    "confidence": 0.9111880660057068,
+                    "startTime": "105.010s",
+                    "endTime": "110.770s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.02414282038807869,
+                    "speechRate": 5.38194465637207
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "佢都可以換里數啦十分之彈性咁第二產就係佢永久變年費啦都唔需要擔心任何年費收費嗰啲",
+                    "confidence": 0.8591924905776978,
+                    "startTime": "111.050s",
+                    "endTime": "117.870s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.028574703261256218,
+                    "speechRate": 5.865102767944336
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁同埋佢申請門檻都好抵嘅只要寧願年薪有十二萬",
+                    "confidence": 0.7509009838104248,
+                    "startTime": "118.220s",
+                    "endTime": "121.810s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.034691549837589264,
+                    "speechRate": 6.128133773803711
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "即係每個月一萬就申請到啦然後呢即係冇一啲最低簽帳要求啦好多網上簽帳嘅信用卡呢佢有最低簽帳要求嘅",
+                    "confidence": 0.8597941398620605,
+                    "startTime": "122.020s",
+                    "endTime": "129.620s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03881985694169998,
+                    "speechRate": 6.184210300445557
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "但係red card呢就完全冇簽帳要求嘅咁所以都係非常之好嘅咁之後呢就講吓個缺點啦",
+                    "confidence": 0.8604726791381836,
+                    "startTime": "129.830s",
+                    "endTime": "136.040s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05136056989431381,
+                    "speechRate": 5.636070728302002
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁如果佢唔係網上簽帳呢佢嘅回贈就會比較低啲嘅",
+                    "confidence": 0.9201428890228271,
+                    "startTime": "136.350s",
+                    "endTime": "140.250s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04283444955945015,
+                    "speechRate": 5.641025543212891
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁另一樣嘢就唔可以同時參與匯豐嘅最紅自主獎賞啦",
+                    "confidence": 0.9330543279647827,
+                    "startTime": "140.520s",
+                    "endTime": "144.480s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05242875590920448,
+                    "speechRate": 5.808080673217773
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "接住呢就講吓hsbc嘅visa signature呀哩張卡顏色係全黑色啦咁睇落就好高級嘅信用卡",
+                    "confidence": 0.8633762001991272,
+                    "startTime": "144.780s",
+                    "endTime": "151.680s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07077264785766602,
+                    "speechRate": 4.637681007385254
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁係咪真係咁高級呢",
+                    "confidence": 0.924312174320221,
+                    "startTime": "152.020s",
+                    "endTime": "153.530s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.0882016196846962,
+                    "speechRate": 5.960264682769775
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "我哋首先睇吓佢嘅回贈方面啦visa signature呢基本回贈就有零點四個percent嘅最紅自主獎賞呢就有五個類別嘅",
+                    "confidence": 0.9377167224884033,
+                    "startTime": "153.750s",
+                    "endTime": "161.330s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.0617385096848011,
+                    "speechRate": 5.540896892547607
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁你需要喺匯豐個網站去登記喺入邊揀其中一個類別就會有額外多兩個percent",
+                    "confidence": 0.9142523407936096,
+                    "startTime": "161.520s",
+                    "endTime": "167.650s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04199138283729553,
+                    "speechRate": 5.22022819519043
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁visa signature嘅專享獎賞錢回贈呢喺五大類別呢額外都一點二percent嘅回贈嘅",
+                    "confidence": 0.8823270201683044,
+                    "startTime": "168.160s",
+                    "endTime": "174.420s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04422967508435249,
+                    "speechRate": 4.632587909698486
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁我舉個例子啦如果你係揀咗想知味嘅最紅自主獎賞",
+                    "confidence": 0.8432093858718872,
+                    "startTime": "174.550s",
+                    "endTime": "178.670s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07086481899023056,
+                    "speechRate": 5.582524299621582
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁你係想指明要商戶簽帳咁你就會有三點六個percent回贈囉咁如果你喺想世界嘅商戶去簽帳",
+                    "confidence": 0.8724146485328674,
+                    "startTime": "178.970s",
+                    "endTime": "186.220s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04880259558558464,
+                    "speechRate": 5.241379261016846
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁就唔中罪同自主上場啦咁剩係得零點四再加一點二就一點六個percent",
+                    "confidence": 0.8468741774559021,
+                    "startTime": "186.440s",
+                    "endTime": "191.840s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03401433676481247,
+                    "speechRate": 5.370370388031006
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁如果唔係喺五大類別嘅簽帳呢",
+                    "confidence": 0.9157646298408508,
+                    "startTime": "192.240s",
+                    "endTime": "195.280s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05930076166987419,
+                    "speechRate": 4.6052632331848145
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁你就唔中帳自主獎賞都唔會中visa signature專享獎賞錢就得基本回贈零點四percent咁樣",
+                    "confidence": 0.8078271746635437,
+                    "startTime": "195.570s",
+                    "endTime": "202.620s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04169297218322754,
+                    "speechRate": 4.680850982666016
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁之後就講吓最紅自主獎賞應該揀邊個類別啦咁想知味同想世界呢嘅應用性就比較廣啲嘅",
+                    "confidence": 0.8806493878364563,
+                    "startTime": "203.240s",
+                    "endTime": "210.950s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03484589606523514,
+                    "speechRate": 5.058365821838379
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "因為想知味就係包括咗香港極大部份嘅餐廳同食肆啦咁有啲係唔計嘅就係包括咗一啲",
+                    "confidence": 0.8780269026756287,
+                    "startTime": "211.220s",
+                    "endTime": "218.090s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.02254696749150753,
+                    "speechRate": 5.385735034942627
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "酒店呀私人宴會呀派對呀等等嘅雙倍錢帳啦響世界呢",
+                    "confidence": 0.7460184097290039,
+                    "startTime": "218.500s",
+                    "endTime": "224.060s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.02248990908265114,
+                    "speechRate": 4.136690616607666
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "角色用性都好廣嘅只要你係海外中國內地或者澳門嘅外幣簽帳都會計嘅",
+                    "confidence": 0.8678451180458069,
+                    "startTime": "224.350s",
+                    "endTime": "230.360s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.02673758566379547,
+                    "speechRate": 5.158070087432861
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "留意番吓如果係香港嘅外幣簽帳呢係唔會計嘅",
+                    "confidence": 0.8993052840232849,
+                    "startTime": "230.710s",
+                    "endTime": "235.200s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.021554721519351006,
+                    "speechRate": 4.454342842102051
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "想生活上家居呢想品味呢都要係一啲指定嘅商戶先會計嘅咁適用性呢就會",
+                    "confidence": 0.8481575846672058,
+                    "startTime": "235.570s",
+                    "endTime": "242.060s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.0206619780510664,
+                    "speechRate": 4.930662631988525
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "比較窄少少啦",
+                    "confidence": 0.9292629361152649,
+                    "startTime": "242.330s",
+                    "endTime": "243.670s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.013667415827512741,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁所以我自己就建議會可以揀哩兩個類別嘅其中一個類別囉",
+                    "confidence": 0.9388490915298462,
+                    "startTime": "244.850s",
+                    "endTime": "250.200s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.012659676373004913,
+                    "speechRate": 4.859813213348389
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "如果你想當住一張食飯嘅卡就可以揀賞子味想當住一張旅行卡就可以揀上世界咁",
+                    "confidence": 0.8467732667922974,
+                    "startTime": "250.500s",
+                    "endTime": "257.480s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.016061676666140556,
+                    "speechRate": 5.014326572418213
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁之後就講吓哩張卡我覺得有咩好嘅地方啦咁第一就係哩張卡係全黑色啦",
+                    "confidence": 0.9239832758903503,
+                    "startTime": "257.760s",
+                    "endTime": "262.400s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05780741944909096,
+                    "speechRate": 6.896551609039307
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁畀人感覺係一個好高級嘅感覺啦第二就係如果你仲聚紅自主獎上係會有高達三點六個percent嘅回贈",
+                    "confidence": 0.8900379538536072,
+                    "startTime": "262.760s",
+                    "endTime": "269.950s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.049000658094882965,
+                    "speechRate": 5.841446399688721
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "或者如果你換里數嘅話就簽滿二點七八蚊就會有一里咁可以換現金啦可以換里數啦好彈性",
+                    "confidence": 0.9230588674545288,
+                    "startTime": "270.260s",
+                    "endTime": "277.340s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03854786232113838,
+                    "speechRate": 5.508474349975586
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁最後呢佢有好多餐飲呀消費嘅優惠去折扣嘅咁之後就講吓我覺得有咩唔好嘅地方啦",
+                    "confidence": 0.912246584892273,
+                    "startTime": "277.510s",
+                    "endTime": "284s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05061688646674156,
+                    "speechRate": 5.701078414916992
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁如果你唔中最紅自主獎賞同埋唔大類別呢你剩係得零點四個percent回贈咁第二啦每年都要預先去登記哩個最紅自主獎賞類別呀",
+                    "confidence": 0.8911018371582031,
+                    "startTime": "284.220s",
+                    "endTime": "293.420s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05196119844913483,
+                    "speechRate": 5.869565010070801
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁第三呢就申請門檻會比較高嘅年薪就要廿四萬即係每個月要有兩萬蚊月薪",
+                    "confidence": 0.9352425336837769,
+                    "startTime": "293.720s",
+                    "endTime": "300.390s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.0410149022936821,
+                    "speechRate": 4.947526454925537
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁就唔係人人都可以申請到",
+                    "confidence": 0.9275686740875244,
+                    "startTime": "300.800s",
+                    "endTime": "302.240s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05309072509407997,
+                    "speechRate": -1
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁之後就講吓hsbc白金卡或者金卡咁哩兩張卡同visa signature有咩唔同嘅地方呢",
+                    "confidence": 0.9423134922981262,
+                    "startTime": "303.140s",
+                    "endTime": "309.830s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05121198669075966,
+                    "speechRate": 4.484304904937744
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁大致都一樣嘅基本回贈有零點四percent最紅自主獎賞有兩percent",
+                    "confidence": 0.8840426802635193,
+                    "startTime": "310.140s",
+                    "endTime": "315.330s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05169977620244026,
+                    "speechRate": 4.81695556640625
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁佢就少咗visa signature嗰額外一點二percent雖然你最高呢都剩係可以攞",
+                    "confidence": 0.9289785623550415,
+                    "startTime": "315.690s",
+                    "endTime": "321.890s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06820595264434814,
+                    "speechRate": 4.193548202514648
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "二點四個percent或者簽滿hk四點一七等於一釐之後就比較吓哩四張卡啦",
+                    "confidence": 0.9359368085861206,
+                    "startTime": "322.100s",
+                    "endTime": "327.960s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04090028256177902,
+                    "speechRate": 4.948805332183838
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "visa signature呢最紅自主獎賞就有三點六percent啦咁白金卡金卡金卡嘅學生卡呢最紅自主獎賞呢",
+                    "confidence": 0.8863163590431213,
+                    "startTime": "328.260s",
+                    "endTime": "336.180s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05064745247364044,
+                    "speechRate": 4.545454502105713
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "都係一樣啫都有二點四percent回贈頭先有講過呀visa signature嘅門檻年薪要求比較高少少嘅",
+                    "confidence": 0.9308047294616699,
+                    "startTime": "336.480s",
+                    "endTime": "343.840s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.048445697873830795,
+                    "speechRate": 4.619565010070801
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "如果你滿足唔到哩個要求啦你可以退而求其次啦去apply白金卡或者金卡",
+                    "confidence": 0.9289443492889404,
+                    "startTime": "344.040s",
+                    "endTime": "349.960s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04608863592147827,
+                    "speechRate": 5.067567348480225
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "如果你依家學生可以申請佢嘅學生卡啦",
+                    "confidence": 0.885282576084137,
+                    "startTime": "350.200s",
+                    "endTime": "353.270s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03636772930622101,
+                    "speechRate": 5.537459373474121
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "之後就係匯豐嘅appy mile啦咁有個miles你又知哩張卡其實一定係主打里數嘅信用卡",
+                    "confidence": 0.8354130983352661,
+                    "startTime": "353.600s",
+                    "endTime": "359.960s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.050999924540519714,
+                    "speechRate": 5.188679218292236
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "首先睇咗佢嘅回贈方面啦喺一啲指定商戶簽滿兩蚊就會有一里",
+                    "confidence": 0.9152089953422546,
+                    "startTime": "360.380s",
+                    "endTime": "365.870s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05554911866784096,
+                    "speechRate": 4.918032646179199
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁喺本地簽帳呢簽滿五蚊就會有一里海外簽帳呢同指定商戶一樣啦簽滿兩蚊就會有一厘",
+                    "confidence": 0.9053215980529785,
+                    "startTime": "366.110s",
+                    "endTime": "373.090s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.044567521661520004,
+                    "speechRate": 5.444126129150391
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁記得啦哩個係要需要登記嘅嗰個季度你需要簽滿八千蚊先會有兩蚊等於一里嘅",
+                    "confidence": 0.8886695504188538,
+                    "startTime": "373.570s",
+                    "endTime": "379.740s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03879418969154358,
+                    "speechRate": 5.672609329223633
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "哩度就講吓我覺得有咩好嘅地方啦咁首先就係指定商戶同海外簽帳高達",
+                    "confidence": 0.8895765542984009,
+                    "startTime": "379.980s",
+                    "endTime": "385.120s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04691987857222557,
+                    "speechRate": 6.031128406524658
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "hk兩蚊定月一里啦第二呢就係佢有免費嘅旅行保險係由assa去",
+                    "confidence": 0.7803735136985779,
+                    "startTime": "385.510s",
+                    "endTime": "390.800s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03205842524766922,
+                    "speechRate": 4.914933681488037
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "提供嘅咁第三呢就係可以免費享用寰亞機場貴賓室",
+                    "confidence": 0.9089422821998596,
+                    "startTime": "391.140s",
+                    "endTime": "395.580s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03220728412270546,
+                    "speechRate": 4.954955101013184
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "不過呢你用咗之後六十日呢就要簽番四千蚊先可以免費用嘅如果唔係就要收費",
+                    "confidence": 0.9382291436195374,
+                    "startTime": "395.980s",
+                    "endTime": "401.900s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.040067464113235474,
+                    "speechRate": 5.743243217468262
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁另外啦如果用appy mile喺agoda app訂訂酒店或者喺國泰買機票呢都會有優惠嘅",
+                    "confidence": 0.7970001697540283,
+                    "startTime": "402.190s",
+                    "endTime": "409.430s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.041442420333623886,
+                    "speechRate": 4.281767845153809
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "之後就講吓我覺得有咩唔好嘅地方啦",
+                    "confidence": 0.7910032868385315,
+                    "startTime": "409.790s",
+                    "endTime": "411.890s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06865117698907852,
+                    "speechRate": 7.61904764175415
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁第一就係申請門檻比較高啦需要年薪去到廿四萬即係每個月兩萬蚊先可以申請到嘅",
+                    "confidence": 0.9391375780105591,
+                    "startTime": "412.220s",
+                    "endTime": "418.230s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03866124898195267,
+                    "speechRate": 6.156405925750732
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁第二呢就係有年費嘅咁其實好多信用卡都有年費嘅不過只要你打去cs通常都可以豁免到嘅",
+                    "confidence": 0.9416376352310181,
+                    "startTime": "418.540s",
+                    "endTime": "425.990s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03863071650266647,
+                    "speechRate": 5.3691277503967285
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "但係哩張卡呢就一定要簽滿八萬蚊先可以豁免年費嘅咁第三呢就係唔可以同時參與",
+                    "confidence": 0.9293056726455688,
+                    "startTime": "426.250s",
+                    "endTime": "433.180s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.034692760556936264,
+                    "speechRate": 5.194805145263672
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "最紅自主獎賞嘅計劃咁最後就講吓匯豐post銀聯雙幣鑽石信用卡呀",
+                    "confidence": 0.8107495307922363,
+                    "startTime": "433.390s",
+                    "endTime": "438.990s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03645797073841095,
+                    "speechRate": 5
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁講到銀聯卡啦你一定都知道喺大陸簽帳一定有優惠嘅咁哩張post銀聯雙幣信用卡呢",
+                    "confidence": 0.8754590153694153,
+                    "startTime": "439.410s",
+                    "endTime": "446.650s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.053024135529994965,
+                    "speechRate": 4.972375869750977
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "最抵嘅地方呢就係佢喺大陸或者澳門用二維碼即係雲閃付啦或者用apple pay去簽帳呢",
+                    "confidence": 0.9181656837463379,
+                    "startTime": "447.110s",
+                    "endTime": "453.460s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03334517776966095,
+                    "speechRate": 5.511811256408691
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "就會有額外多兩個percent嘅回贈嘅咁如果你最紅自主獎賞呢揀咗想世界啦連同埋基本回贈呢",
+                    "confidence": 0.9292653203010559,
+                    "startTime": "453.660s",
+                    "endTime": "460.270s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03704646974802017,
+                    "speechRate": 5.748865127563477
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "最高呢總共就會有四點四percent嘅回贈咁之後就講吓我覺得有咩好嘅地方啦",
+                    "confidence": 0.9361683130264282,
+                    "startTime": "460.570s",
+                    "endTime": "465.520s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04516398906707764,
+                    "speechRate": 6.2626261711120605
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁第一如果你最紅至於獎賞揀咗上世界呀人民幣或者澳門簽帳會有高達四點四個percent啦另外",
+                    "confidence": 0.8930020332336426,
+                    "startTime": "465.790s",
+                    "endTime": "472.750s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03704110160470009,
+                    "speechRate": 5.603448390960693
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁最紅子獎賞嗰個類別呢都會有高達二點四個percent嘅",
+                    "confidence": 0.885312020778656,
+                    "startTime": "472.950s",
+                    "endTime": "477.050s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05639946088194847,
+                    "speechRate": 5.365853786468506
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁第三啦就係人民幣同澳門幣呢簽帳係冇任何手續費嘅",
+                    "confidence": 0.9140222072601318,
+                    "startTime": "477.420s",
+                    "endTime": "481.950s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.0367361381649971,
+                    "speechRate": 5.298013210296631
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "因為有好多visa mastercard呢如果海外簽帳會收一點九五percent嘅手續費嘅第四啦就申請門檻都係比較低啲嘅年薪要求呢只係需要十二萬啫即係每個月只係需要月薪一萬蚊",
+                    "confidence": 0.8855720162391663,
+                    "startTime": "482.160s",
+                    "endTime": "493.680s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03994342312216759,
+                    "speechRate": 5.902777671813965
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁最後呢就講吓我覺得有咩唔好嘅地方啦咁第一就係如果你唔中最紅自主獎賞或者中國內地澳門",
+                    "confidence": 0.8826982975006104,
+                    "startTime": "493.980s",
+                    "endTime": "501.050s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05029842257499695,
+                    "speechRate": 5.94059419631958
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "嘅簽帳啦基本回贈只係得零點四個percent嘅",
+                    "confidence": 0.9358709454536438,
+                    "startTime": "501.250s",
+                    "endTime": "504.650s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03512120991945267,
+                    "speechRate": 5
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁第二啦就唔係所有商戶都接受銀聯信用卡嘅ok喺海外地方啦歐洲嘅地方visa master係",
+                    "confidence": 0.9092113375663757,
+                    "startTime": "505.040s",
+                    "endTime": "512.040s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.045084498822689056,
+                    "speechRate": 5
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "普遍接受嘅信用卡嘅咁第三啦就係大陸同埋澳門以外嘅外幣簽帳呢係有手續費嘅",
+                    "confidence": 0.9189733862876892,
+                    "startTime": "512.260s",
+                    "endTime": "519.020s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.028890611603856087,
+                    "speechRate": 5.177515029907227
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "最後呢就比較吓唔同嘅匯豐嘅信用卡啦",
+                    "confidence": 0.9358345866203308,
+                    "startTime": "519.220s",
+                    "endTime": "522.290s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05143621191382408,
+                    "speechRate": 5.537459373474121
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁匯豐嘅red card最適合就攞嚟網上簽帳啦visa signature呢depart on你",
+                    "confidence": 0.8819302320480347,
+                    "startTime": "522.630s",
+                    "endTime": "528.350s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03945191949605942,
+                    "speechRate": 4.020978927612305
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "誒最紅自選商揀咗咩啦譬如你揀咗想知未咁咪會係作為一啲食飯卡囉如果你揀咗想世界",
+                    "confidence": 0.7652632594108582,
+                    "startTime": "528.650s",
+                    "endTime": "535.730s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.02602948248386383,
+                    "speechRate": 5.367231845855713
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "就會係作為一張旅行卡囉咁如果你年薪有廿四萬呢就直接申請visa signature啦",
+                    "confidence": 0.9163208603858948,
+                    "startTime": "536.090s",
+                    "endTime": "541.720s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06041529029607773,
+                    "speechRate": 5.328596591949463
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "如果低過哩個數呢就可以考慮辦金卡金卡嘅學生卡啦咁匯豐嘅everymark呢就最適合攞嚟儲里數啦",
+                    "confidence": 0.8259170651435852,
+                    "startTime": "541.960s",
+                    "endTime": "548.890s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.03493061289191246,
+                    "speechRate": 5.6277055740356445
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁匯豐嘅paul銀聯雙幣鑽石信用卡呢咁當然就係最適合用去大陸或者澳門玩嘅一張信用卡囉",
+                    "confidence": 0.8725917935371399,
+                    "startTime": "549.340s",
+                    "endTime": "556.200s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04875226691365242,
+                    "speechRate": 5.685131072998047
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "最後就提吓大家啦匯豐visa信用卡呢依家有做緊啲網上下線迎新呀",
+                    "confidence": 0.895889937877655,
+                    "startTime": "556.440s",
+                    "endTime": "561.140s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05237136781215668,
+                    "speechRate": 5.957446575164795
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "出卡呢會有高達千六蚊嘅獎賞錢迎新優惠呀指定嘅信用卡呢就會包括app mile啦visa signature啦白金visa卡",
+                    "confidence": 0.853123664855957,
+                    "startTime": "561.360s",
+                    "endTime": "569.140s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.048478055745363235,
+                    "speechRate": 5.141387939453125
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "匯豐金卡啦匯豐金卡嘅學生卡咁記得呢就要先去做登記先嘅咁哩度就填番你啲個人資料啦",
+                    "confidence": 0.8892593383789062,
+                    "startTime": "569.500s",
+                    "endTime": "576.410s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.0515652634203434,
+                    "speechRate": 5.643994331359863
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "咁優惠碼呢就記得入番pand一六零零咁先會有千六蚊嘅",
+                    "confidence": 0.898250937461853,
+                    "startTime": "576.590s",
+                    "endTime": "581.790s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.04293246939778328,
+                    "speechRate": 4.42307710647583
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "如果大家有興趣呢就可以click番我youtube內文嘅link去申請咁哩段片就去到咁多啦",
+                    "confidence": 0.9358810782432556,
+                    "startTime": "581.960s",
+                    "endTime": "587.340s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.07523134350776672,
+                    "speechRate": 5.94795560836792
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "最後如果大家覺得哩段片有用嘅話記得cls comment life share",
+                    "confidence": 0.914138674736023,
+                    "startTime": "587.600s",
+                    "endTime": "592.120s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.06242837756872177,
+                    "speechRate": 4.646017551422119
+                }
+            ],
+            "channelTag": 1
+        },
+        {
+            "alternatives": [
+                {
+                    "words": [],
+                    "tokenConfidence": [],
+                    "jargons": [],
+                    "transcript": "或者你哋有咩想我講都可以留言話畀我知啦我哋下條片再見啦拜拜",
+                    "confidence": 0.9226635694503784,
+                    "startTime": "592.720s",
+                    "endTime": "597.580s",
+                    "speakerTag": "001",
+                    "languageCode": "yue-Hant-HK",
+                    "rmsAmplitude": 0.05672554671764374,
+                    "speechRate": 5.96707820892334
+                }
+            ],
+            "channelTag": 1
+        }
+    ],
+    "speakerVoiceprints": [],
+    "averageTokenConfidences": [],
+    "extension": null,
+    "metadata": {
+        "vadModels": [],
+        "diarizationModels": [
+            "v3.0.0.0-baseline"
+        ],
+        "asrModels": [
+            "fano-mdl-offline-asr-v3.8.5.0-conformerxl-baseline-cantonese"
+        ]
+    }
+}

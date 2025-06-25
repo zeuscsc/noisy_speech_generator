@@ -1,1 +1,0 @@
-Is randomly chosen between hyperparameters, 1 and 2. We get the model here, gets to see where

@@ -1,1 +1,0 @@
-Configurations right we want to minimize the number of iterations so we need an acquisition

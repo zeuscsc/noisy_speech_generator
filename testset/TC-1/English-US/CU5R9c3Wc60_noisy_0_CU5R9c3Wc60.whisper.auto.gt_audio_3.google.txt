@@ -1,1 +1,0 @@
-Everything about Bayesian optimization specifically, okay? But to be clear, let's quickly revise

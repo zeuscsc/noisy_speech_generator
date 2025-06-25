@@ -1,1 +1,0 @@
-These reds and these greens are the points that the model has already trained on. The whites. 
